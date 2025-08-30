@@ -1,7 +1,8 @@
 -Module:
 Blades of the Zone [MiK]
 
-DOWNLOAD FROM THE GITHUB REPO: https://github.com/MazConelly/An-Uncalled-for-Patch-Collection/blob/main/05%20Textures/_DX8-9%20textures/Blades%20of%20the%20Zone.7z
+DOWNLOAD FROM THE GITHUB REPO:
+https://github.com/MazConelly/Uncle-Yar-s-Workshop/blob/main/03%20Weapons%2C%20mods/Blades%20of%20the%20Zone%20%5BMiK%5D/Blades%20of%20the%20Zone.7z
 
 ----------------------------------------------------------
 -Compatibility:

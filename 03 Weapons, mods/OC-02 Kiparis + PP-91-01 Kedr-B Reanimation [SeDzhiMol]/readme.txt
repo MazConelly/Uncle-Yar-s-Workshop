@@ -1,8 +1,9 @@
 -Module:
-Blades of the Zone [MiK]
+OC-02 Kiparis + PP-91-01 Kedr-B Reanimation [SeDzhiMol]
 By Sniperhellscream's petition
 
-DOWNLOAD FROM THE GITHUB REPO: https://github.com/MazConelly/An-Uncalled-for-Patch-Collection/blob/main/05%20Textures/_DX8-9%20textures/OC-02%20Kiparis%20+%20PP-91-01%20Kedr-B.7z
+DOWNLOAD FROM THE GITHUB REPO:
+https://github.com/MazConelly/Uncle-Yar-s-Workshop/blob/main/03%20Weapons%2C%20mods/OC-02%20Kiparis%20%2B%20PP-91-01%20Kedr-B%20Reanimation%20%5BSeDzhiMol%5D/OC-02%20Kiparis%20%2B%20PP-91-01%20Kedr-B.7z
 
 ----------------------------------------------------------
 -Compatibility:
