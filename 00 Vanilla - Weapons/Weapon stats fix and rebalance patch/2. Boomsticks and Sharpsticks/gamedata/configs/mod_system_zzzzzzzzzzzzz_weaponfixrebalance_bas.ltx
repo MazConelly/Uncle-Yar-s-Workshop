@@ -1,0 +1,760 @@
+; Modding Book on weapon parameters, for quick reference:
+; https://igigog.github.io/anomaly-modding-book/reference/configs/items/weapons/weapon-world.html
+
+;;; BAS
+
+;Rebalancing ammo prices is also practical balance!
+
+;9x21 could stand to cost a bit less. It costs twice the 5.7mm, coming from a closer country, and serves about the same number of guns, though its a bit rarer and it's an AP round, so let's make it in between the 9x39 FMJ and AP
+![ammo_9x21_sp10]
+cost			= 2825 ; 3196
+inv_weight		= 0.103 ; .24
+;in case some uses CXV's 9x21 mod, then the FMJ round is cheaper than the 9x39 FMJ, ad the HP in between these two
+![ammo_9x21_sp11]
+cost			= 2250 ; 1000
+inv_weight		= 0.122 ; .19
+![ammo_9x21_sp12]
+cost			= 2600 ; 1800
+;couldn't find the weight of the 9x21 sp12, made it a middle point between the 10 and 11
+inv_weight		= 0.114 ; .12
+
+;can't nerf the ks23 too much, but we can make the ammo 2x more expensive
+![ammo_23x75_shrapnel]
+cost			= 4200 ; 2100
+![ammo_23x75_barrikada]
+cost			= 7000 ; 3500
+
+;Federal reduced just a tiny bit
+![ammo_338_federal]
+cost			= 4000 ; 4100
+inv_weight		= 0.12 ; .420
+
+;vog-30 is *cheaper* than the 25, so now it goes double than it
+![ammo_vog-30]
+cost			= 4460 ; 1850
+
+
+; Standardized some guns to the rpm used in AN-94 Fire Rate Fix and More and Hellblau's fix, or just real life. The upgrades get some increased rates tho. (should they tho)
+;tacticool variants become:
+;Hand gun: base variant cost + 5k
+;main gun: base variant cost + 10k
+;heavy gun: base variant cost + 15k
+;zone produced tax: +2500
+;rarity or expensive tax: +5k
+;If total is lower than the most expensive non special vanilla variant of the gun (ie: custom or modern), add another +5k.
+;upgrade kits sum their price to the upgraded gun, in case you want to sell it to recover costs
+
+;Saigas in particular:
+;vanilla -> 20x70 -5k
+;vanilla -> m1 +5k -> m2 +10k
+;vanilla -> tactical +20k -> ISG +10k
+;drums +7500
+
+![wpn_abakan_n]
+fire_distance	= 800
+rpm				= 660
+cycle_down		= 1
+
+![wpn_adar2_15]
+$spawn			= "weapons\adar2_15"
+inv_weight		= 2.8 ; 2.880
+fire_distance	= 400
+
+![wpn_ak5c_bas]
+fire_distance	= 400
+bullet_speed	= 870
+rpm				= 675 ;750
+![wpn_ak5c_bas_5c_tik]
+;cost: upgraded gun cost + upgrade kit cost (5c_tik: 33150)
+cost			= 88710
+fire_distance	= 400
+bullet_speed	= 870
+rpm				= 700 ;800
+
+![wpn_ak5c_isg]
+;cost: base gun + 10k for main gun + 5k for rarity + 10k for ISG
+cost			= 80560 ; 85560
+fire_distance	= 400
+bullet_speed	= 870
+rpm				= 700 ;800
+
+![wpn_ak104_alfa]
+;cost: base gun + 10k for main gun
+cost			= 36550; 66550
+rpm				= 650 ;600
+
+![wpn_ak105_bas]
+fire_distance	= 300
+bullet_speed	= 840
+rpm				= 675 ;650
+;Swamp Thing and Shakal already get 850
+![wpn_ak105_bas_swamp]
+;cost: base gun + upgrade kit cost (swamp: 88150)
+cost			= 112630
+![wpn_ak105_bas_shakal]
+;cost: base gun + upgrade kit cost (shakal: 88150)
+cost			= 112630
+
+![wpn_ak105_sp]
+;cost: base gun + 10k for main gun
+cost			= 34480 ; 39480
+fire_distance	= 300
+bullet_speed	= 840
+rpm				= 675
+
+![wpn_ak12_bas]
+fire_distance	= 440
+rpm				= 700
+![wpn_ak12_m1]
+;wpn_ak12_bas price + 5k
+cost			= 41880 ; 46880
+fire_distance	= 440
+rpm				= 700
+
+![wpn_ak12_custom]
+;cost: base gun + 10k for main gun
+cost			= 46880 ; 70000
+fire_distance	= 440
+rpm				= 700 ;650
+![wpn_ak12_custom_mono_kit]
+;cost: base gun + upgrade kit cost (mono_kit: 21950)
+cost			= 68730
+rpm				= 750 ;700
+![wpn_ak12_mono_com]
+;cost: base gun + 10k for main gun + 5k for rarity
+cost			= 51880 ; 122000
+fire_distance	= 440
+rpm				= 700 ;650
+
+![wpn_ak74m_n]
+fire_distance	= 650
+rpm				= 675
+![wpn_ak74m_beard]
+;cost: base gun + 10k for main gun + 2500 as zone produced
+cost			= 43480 ; 30980
+fire_distance	= 650
+rpm				= 675
+
+![wpn_ak74u_n1]
+fire_distance	= 350
+bullet_speed	= 735
+rpm				= 700
+![wpn_ak74u_tac]
+;cost: base gun + 10k for main gun
+cost			= 35860 ; 25860
+fire_distance	= 350
+bullet_speed	= 735
+rpm				= 700
+
+![wpn_ak74_n]
+fire_distance	= 650
+rpm				= 660
+![wpn_ak74_pmc]
+;cost: base gun + 10k for main gun
+cost			= 36950 ; 26950
+fire_distance	= 650
+rpm				= 660 ;650
+
+![wpn_ak74_isg]
+fire_distance	= 650
+rpm				= 660 ;650
+
+![wpn_akm_isg]
+rpm				= 680 ;700
+
+![wpn_ak74u_isg]
+fire_distance	= 350
+bullet_speed	= 735
+rpm				= 660 ;650
+![wpn_ak74u_m1_isg]
+;cost: base gun + 10k for main gun
+cost			= 86880 ; 76880
+fire_distance	= 350
+bullet_speed	= 735
+rpm				= 760 ;850
+
+![wpn_aps_bas]
+inv_weight		= 1.22
+fire_distance	= 75
+bullet_speed	= 340
+rpm				= 750
+![wpn_aps_bas_apsabigo]
+;cost: base gun + upgrade kit cost (apsabigo: 500)
+cost			= 9880
+
+![wpn_ar15_freedom]
+;making it 30k+ than the M4 Butcher, still cheaper than og BaS
+cost			= 79560 ; 140820
+fire_distance	= 500
+
+![[wpn_aug_a1_bas]
+fire_distance	= 400
+bullet_speed	= 970
+rpm				= 690
+![wpn_aug_a1_custom_bas]
+$spawn			= "weapons\aug_a1_custom_bas"
+;cost: base gun + 10k for main gun
+cost			= 50680 ; 40680
+fire_distance	= 400
+bullet_speed	= 970
+rpm				= 725
+
+![wpn_aug_a3_bas]
+fire_distance	= 400
+bullet_speed	= 970
+rpm				= 690
+![wpn_aug_a3_custom_bas]
+$spawn			= "weapons\aug_a3_custom_bas"
+;cost: base gun + 10k for main gun
+cost			= 53600 ; 43600
+fire_distance	= 400
+bullet_speed	= 970
+rpm				= 725
+
+![wpn_colt1911_n]
+inv_weight		= 1.075
+fire_distance	= 100
+bullet_speed	= 253
+
+;A bit pricey. Let's shave a bit off. -15k each.
+![wpn_dvl10]
+$spawn			= "weapons\dvl10"
+cost			= 80580 ; 95580
+![wpn_dvl10_m1]
+$spawn			= "weapons\dvl10_m1"
+cost			= 84580 ; 99580
+
+![wpn_fal_aus_kit_aus_tri]
+;cost: base gun + upgrade kit cost (kit_aus_tri: 28950)
+cost			= 60250
+![wpn_fal_aus_kit_sa5x_spec]
+;cost: base gun + upgrade kit cost (kit_sa5x_spec: 26950)
+cost			= 58250
+![wpn_fal_aus_kit_fal_leup]
+;cost: base gun + upgrade kit cost (kit_fal_leup: 24950)
+cost			= 56250
+
+![wpn_fal_sa58_osw]
+;it's just a cut down FAL. +5k
+cost			= 36300
+
+![wpn_fn57_bas]
+;to fit better with BaS Lite making it a better FN57
+;cost: base gun + 5k for handgun
+cost			= 20280 ; 15280
+bullet_speed	= 650
+fire_distance	= 100
+
+![wpn_g28]
+;for a sidegrade between sr25 and Scar, let's price it in between them
+cost			= 53330 ; 80200
+inv_weight		= 5.80 ; 4.00
+fire_distance	= 800 ; 1000
+bullet_speed	= 762 ; 840
+rpm				= 600 ; 700
+
+![wpn_glock17]
+$spawn			= "weapons\glock17"
+fire_distance	= 100
+bullet_speed	= 375
+![wpn_glock17_m1]
+$spawn			= "weapons\glock17_m1"
+;cost: base gun + 5k for handgun
+cost			= 15960 ; 16960
+fire_distance	= 100
+bullet_speed	= 375
+
+![wpn_karabiner98k_silen98]
+;cost: base gun + upgrade kit cost (silen98: 7150)
+cost			= 29740
+![wpn_k98_mod_silen98]
+;cost: base gun + upgrade kit cost (silen98: 7150)
+cost			= 39740
+
+![wpn_kiparis_m1]
+;same as vanilla kiparis
+cost			= 16880 ; 12880
+![wpn_kiparis_m2]
+;cheap addons, +5k
+cost			= 21880 ; 15880
+![wpn_kiparis_m3]
+;decent addons, +7500
+cost			= 29380 ; 25880
+
+![wpn_korth]
+$spawn			= "weapons\korth"
+fire_distance	= 100
+![wpn_korth_custom]
+$spawn			= "weapons\korth_custom"
+;cost: eh, actually Korths are supposed to be extra moolah so fuck it
+fire_distance	= 120
+
+![wpn_ks23]
+$spawn			= "weapons\ks23"
+cost			= 42960
+hit_power		= 0.45, 0.45, 0.45, 0.45
+fire_distance	= 150
+bullet_speed	= 190
+rpm				= 50
+![wpn_ks23_23_up]
+;cost: base gun + upgrade kit cost (23_up: 8950)
+cost			= 41910
+fire_distance	= 100
+
+![wpn_ks23_kaban]
+$spawn			= "weapons\ks23_kaban"
+cost			= 48950
+;it's a shortened barrel, no reason to be buffed, so we keep the og range
+fire_distance	= 50
+![wpn_ks23_kaban_kab_up]
+;cost: base gun + upgrade kit cost (kab_up: 33999)
+cost			= 72949
+
+![wpn_howa20]
+$spawn			= "weapons\howa20"
+; 135.680 holi
+cost			= 85680 ; 135680
+fire_distance	= 500
+bullet_speed	= 850
+rpm				= 750 ;900
+;wikipedia stated 650-850 RPM. 900 seems too much then
+
+![wpn_l85_m1]
+fire_distance	= 400
+bullet_speed	= 940
+rpm				= 700
+![wpn_l85_m2]
+;modern variant, not tacticool, but too big a jump price give it the vanilla one
+cost			= 38580 ; 53860
+fire_distance	= 400
+bullet_speed	= 940
+rpm				= 700
+![wpn_l85_m3]
+;cost: base gun + 10k for main gun
+cost			= 43860 ; 78330
+fire_distance	= 400
+bullet_speed	= 940
+rpm				= 700
+
+![wpn_m4a1_siber]
+; It already has better scope selection than the vanilla M4A1, why more buffs
+inv_weight		= 2.52 ; 2.600
+cost			= 29560 ; 35230
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.498, 0.498, 0.498, 0.498
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+![wpn_m4_butcher]
+;cost: base gun + 10k for main gun + 10k extra I'm pulling outta my ass
+cost			= 49560 ; 91640
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.498, 0.498, 0.498, 0.498
+fire_distance	= 400
+![wpn_m4_skryaga]
+;cost: base gun + 10k for main gun + 2500 zone produced
+cost			= 42060 ; 44150
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.498, 0.498, 0.498, 0.498
+fire_distance	= 500
+bullet_speed	= 915
+![wpn_m4_tac]
+;cost: base gun + 10k for main gun
+cost			= 39560 ; 61230
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.498, 0.498, 0.498, 0.498
+fire_distance	= 500
+bullet_speed	= 915
+
+![wpn_m4_ru556]
+$spawn			= "weapons\m4_ru556"
+inv_weight		= 3.60
+fire_distance	= 600
+bullet_speed	= 945
+rpm				= 800
+
+![wpn_mp153_bas]
+rpm				= 300
+
+![wpn_mp153_m1]
+rpm				= 300
+
+![wpn_m4_ru556]
+; -10k than the Howa20
+cost			= 65680 ; 89580
+rpm				= 800 ;850
+; Well, Wikipedia gives me this:
+; Cyclic rate of fire: 800 rounds/min
+; Practical rate of fire:
+; *Semi-automatic: 100 rounds/min
+; *Full-automatic: 250 rounds/min
+; obviously "practical" isn't necesarily what we want here, we got recoil stats for that
+
+![wpn_pb_bas]
+fire_distance	= 75
+
+![wpn_pk_siber]
+rpm				= 700 ;650
+
+![wpn_pkm_siber]
+rpm				= 700 ;650
+![wpn_pkm_zenit_siber]
+;cost: base gun + 15k for heavy
+cost			= 68850 ; 83850
+rpm				= 800 ;750
+![wpn_pkm_zenit_shorty]
+;cost: base gun + 15k for heavy + 5k as it's obviously a further modification
+cost			= 73850 ; 102850
+rpm				= 800 ;750
+
+![wpn_pkp_siber]
+rpm				= 700 ;650
+![wpn_pkp_tac_siber]
+;cost: base gun + 15k for heavy
+cost			= 78850 ; 165120
+rpm				= 700 ;650
+
+![wpn_pl15]
+fire_distance	= 100
+![wpn_pl15_lazup_pl15]
+;cost: base gun + upgrade kit cost (lazup_pl15: 12300)
+cost			= 39260
+![wpn_pl15_pl15_scolaz]
+;cost: base gun + upgrade kit cost (pl15_scolaz: 42300)
+cost			= 79260
+
+![wpn_pl15_tan]
+fire_distance	= 100
+![wpn_pl15_tan_lazup_pl15]
+;cost: base gun + upgrade kit cost (lazup_pl15: 12300)
+cost			= 39260
+![wpn_pl15_tan_pl15_scolaz]
+;cost: base gun + upgrade kit cost (pl15_scolaz: 42300)
+cost			= 79260
+
+![wpn_pm_bas]
+$spawn			= "weapons\pm_bas"
+fire_distance	= 75
+
+![wpn_ppsh_bas]
+kind			= w_smg
+rpm				= 950 ;880
+![wpn_ppsh_bas_uptacppsh]
+;cost: base gun + upgrade kit cost (uptacppsh: 12350)
+cost			= 28190
+kind			= w_smg
+rpm				= 1200 ;920
+
+![wpn_remington700_bas_archangel]
+;cost: base gun + upgrade kit cost (archangel: 28000)
+cost			= 61000
+![wpn_remington700_bas_magpul_pro]
+;cost: base gun + upgrade kit cost (magpul_pro: 38000)
+cost			= 71000
+![wpn_remington700_bas_mod_x_gen3]
+;cost: base gun + upgrade kit cost (mod_x_gen3: 48000)
+cost			= 81000
+![wpn_remington700_bas_lapua700]
+;cost: base gun + upgrade kit cost (lapua700: 55350)
+cost			= 88350
+
+;Let's raise the standalone Lapua R700s to similar prices to the upgraded one, +10k each
+![wpn_rem700_aics]
+cost			= 83880 ; 73880
+![wpn_rem700_mcmillan]
+cost			= 75880 ; 65880
+
+![wpn_rpk74_16]
+;cost: base gun + 15k for heavy
+cost			= 53980 ; 65860
+fire_distance	= 750
+bullet_speed	= 960
+rpm				= 700
+
+![wpn_saiga12s_m1]
+cost			= 36680 ; 48680
+inv_weight		= 3.65
+hit_power		= 0.70, 0.70, 0.70, 0.70
+fire_distance	= 110; 300
+bullet_speed	= 340
+rpm				= 200; 250
+![wpn_saiga12s_m2]
+cost			= 46680 ; 58680
+inv_weight		= 3.7
+hit_power		= 0.72, 0.72, 0.72, 0.72
+fire_distance	= 120; 300
+bullet_speed	= 340
+rpm				= 220; 250
+![wpn_saiga12s_isg]
+cost			= 61680 ; 88680
+inv_weight		= 3.6
+hit_power		= 0.76, 0.76, 0.76, 0.76
+fire_distance	= 95; 200
+bullet_speed	= 340
+rpm				= 320; 400
+
+![wpn_scar_l_tac]
+$spawn			= "weapons\scar_l_tac"
+; costs almost the same as the SCAR-H, let's shave a bit
+cost			= 50423 ; 54230
+inv_weight		= 3.29
+fire_distance	= 500
+bullet_speed	= 710
+
+![wpn_scar_siber]
+$spawn			= "weapons\scar_siber"
+fire_distance	= 600
+bullet_speed	= 870
+rpm				= 550 ;650
+![wpn_scar_siber_black]
+$spawn			= "weapons\scar_siber_black"
+;it's just fucking painted black ಠ_ಠ
+cost			= 55880 ; 75880
+fire_distance	= 600
+bullet_speed	= 870
+rpm				= 550 ;650
+
+![wpn_scar_siber_m1]
+$spawn			= "weapons\scar_siber_m1"
+;cost: base gun + 10k for main gun
+cost			= 65880 ; 85880
+fire_distance	= 600
+bullet_speed	= 870
+rpm				= 550 ;650
+![wpn_scar_siber_m1_black]
+$spawn			= "weapons\scar_siber_m1_black"
+;ASDSADGSAFDGDSFAHFADGSFHSDFHAFDSGASFDSAFADFSGADFG
+cost			= 65880 ; 95880
+fire_distance	= 600
+bullet_speed	= 870
+rpm				= 550 ;650
+
+![wpn_scar_siber_m2]
+$spawn			= "weapons\scar_siber_m2"
+; wpn_scar_siber_m1 price + 5k for laser pointer
+cost			= 70880 ; 167430
+fire_distance	= 600
+bullet_speed	= 870
+rpm				= 550 ;650
+![wpn_scar_siber_m2_custom]
+$spawn			= "weapons\scar_siber_m2_custom"
+;let's give it the same as wpn_scar_siber_m1
+cost			= 65880 ; 55880
+fire_distance	= 600
+bullet_speed	= 870
+rpm				= 550 ;650
+
+![wpn_sig220_n]
+fire_distance	= 100
+![wpn_sig220_n_upg220]
+;cost: base gun + upgrade kit cost (upg220: 5950)
+cost			= 18930
+![wpn_sig220_n_u2p2g0r]
+;cost: base gun + upgrade kit cost (u2p2g0r: 17600)
+cost			= 30580
+
+![wpn_sig226]
+fire_distance	= 100
+![wpn_sig226_226sig_kit]
+;cost: base gun + upgrade kit cost (226sig_kit: 19950)
+cost			= 34930
+
+![wpn_sig550_siber]
+fire_distance	= 400
+bullet_speed	= 911
+![wpn_sig550_tac_siber]
+$spawn			= "weapons\sig550_tac_siber"
+;cost: base gun + 10k for main gun
+cost			= 53580 ; 68200
+fire_distance	= 400
+bullet_speed	= 911
+
+
+![wpn_sig552_siber]
+fire_distance	= 350
+bullet_speed	= 725
+![wpn_sig552_isg_siber]
+;cost: base gun + 10k for main gun + 5k for rarity
+cost			= 47580 ; 87400
+fire_distance	= 350
+bullet_speed	= 725
+![wpn_sig552_tac_siber]
+$spawn			= "weapons\sig552_tac_siber"
+;cost: base gun + 10k for main gun
+cost			= 42580 ; 65780
+fire_distance	= 350
+bullet_speed	= 725
+
+![wpn_sks_b]
+; make it a bit cheaper (vanilla version done the same)
+cost			= 14580
+;![wpn_sks_molot]
+;modernization, +5k oh wait, it stays the same :_D
+;cost			= 19580 ; 19580
+![wpn_sks_tac]
+;cost: base gun + 10k for main gun
+cost			= 24580 ; 25580
+
+![wpn_sr1m]
+$spawn			= "weapons\sr1m"
+fire_distance	= 100
+![wpn_sr1m_sr1upgr1]
+;cost: base gun + upgrade kit cost (sr1upgr1: 7150)
+cost			= 34110
+![wpn_sr1m_gurza_up]
+;cost: base gun + upgrade kit cost (gurza_u: 42300)
+cost			= 69260
+
+![wpn_sr2_veresk]
+cost			= 50300
+![wpn_sr2_veresk_kp_sr2]
+;cost: base gun + upgrade kit cost (kp_sr2: 9500)
+cost			= 59800
+![wpn_sr2_veresk_sr2_upkit]
+;cost: base gun + upgrade kit cost (sr2_upkit: 28500)
+cost			= 78800
+
+![wpn_sr2_m1]
+;modernized, +5k
+cost			= 55300 ; 73300
+![wpn_sr2_m1_kp_sr2]
+;cost: base gun + upgrade kit cost (kp_sr2: 9500)
+cost			= 64800
+![wpn_sr2_m2]
+;cost: base gun + 10k for main gun + 2500 zone produced
+cost			= 67800
+
+![wpn_svd_m1]
+rpm				= 300
+![wpn_svds]
+;it's just a SVD with folding stock. +5k
+cost			= 45550 ; 56164
+![wpn_svds_pmc]
+;cost: base gun + 10k for main gun
+cost			= 55550 ; 140850
+
+![wpn_usp_tac]
+$spawn			= "weapons\usp_tac"
+;cost: base gun + 5k for hand gun + 15k for alledged scientist work and artefact materials + 5k for rarity (Match 9mm was discontinued)
+cost			= 40360 ; 54600
+fire_distance	= 100
+bullet_speed	= 300
+rpm				= 500
+
+![wpn_val_tac]
+;cost: base gun + 10k for main gun... wait, it already costs that. Nevermind
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+
+![wpn_vintorez_n1]
+hit_impulse		= 33
+hit_power		= 0.62, 0.62, 0.62, 0.62
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+![wpn_vintorez_m1]
+;"early prototype of VSS Savant. This build is more popular between pro-stalkers because of lower price than final version". Mmotherfucker, you assigned it almost twice the price!!!
+;Ok, -5k to base gun cost then
+cost			= 35580 ; 70580
+hit_impulse		= 32
+hit_power		= 0.61, 0.61, 0.61, 0.61
+fire_distance	= 390
+bullet_speed	= 280
+rpm				= 800
+![wpn_vintorez_m2]
+;cost: base gun + 10k for main gun
+cost			= 50580 ; 90580
+hit_impulse		= 33
+hit_power		= 0.62, 0.62, 0.62, 0.62
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+![wpn_vintorez_isg]
+; 230 dot 175 fucking bucks!?!? PFFFT-
+;cost: base gun + 10k for main gun + 5k for rarity, plus +20k for special manufacturer attention. AND IT'S STILL CHEAPER.
+cost			= 75580 ; 230175
+hit_impulse		= 33
+hit_power		= 0.62, 0.62, 0.62, 0.62
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+
+![wpn_vz61_scorpion]
+;same as vanilla Skorpion
+cost			= 15680 ; 13680
+![wpn_vz61_scorpion_m1]
+;cost: base gun + 10k for main gun, a practical jump compared to OG BaS
+cost			= 25680
+![wpn_vz61_scorpion_m2]
+;10k, just 1k more than og BAS
+cost			= 35680
+
+![wpn_walther_p99]
+$spawn			= "weapons\walther_p99"
+fire_distance	= 100
+![wpn_walther_p99_mod9]
+$spawn			= "weapons\walther_p99_mod9"
+;cost: base gun + upgrade kit cost (mod9: 6950)
+cost			= 11840
+
+
+
+;BaS Plus Saiga tactical
+![wpn_saiga12s_tactical]
+$spawn			= "weapons\saiga12s_tactical"
+cost			= 51680 ; 88680
+inv_weight		= 3.65
+hit_power		= 0.74, 0.74, 0.74, 0.74
+fire_distance	= 90; 200
+bullet_speed	= 340
+rpm				= 300; 400
+
+
+;;; Demonized's Extra weapons
+![wpn_bizon_2_07]
+$spawn			= "weapons\bizon_2_07"
+fire_distance	= 200
+
+![wpn_saiga20s]
+$spawn			= "weapons\saiga20s"
+cost			= 24680
+inv_weight		= 3.5
+silencer_name	= wpn_sil_pbs1
+ammo_elapsed	= 8
+ammo_mag_size	= 8
+hit_power		= 0.68, 0.68, 0.68, 0.68
+fire_distance	= 75
+bullet_speed	= 335
+rpm				= 195
+
+![wpn_toz134_20]
+$spawn			= "weapons\toz134_20"
+fire_distance	= 75
+
+![wpn_toz134_20_obrez]
+$spawn			= "weapons\toz134_20_obrez"
+fire_distance	= 35
+
+
+;BaS Saiga Drum kits
+![wpn_saiga12s_saiga_drum_kit]
+cost			= 39180
+inv_weight		= 3.5
+hit_power		= 0.72, 0.72, 0.72, 0.72
+fire_distance	= 120
+bullet_speed	= 340
+rpm				= 220
+![wpn_saiga12s_m1_saiga_drum_kit]
+cost			= 44180
+inv_weight		= 3.65
+hit_power		= 0.74, 0.74, 0.74, 0.74
+fire_distance	= 130
+bullet_speed	= 345
+rpm				= 240
+![wpn_saiga12s_isg_saiga_drum_kit]
+cost			= 69180
+inv_weight		= 3.6
+hit_power		= 0.80, 0.80, 0.80, 0.80
+fire_distance	= 135
+bullet_speed	= 345
+rpm				= 360
