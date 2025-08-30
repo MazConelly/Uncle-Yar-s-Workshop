@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>	
+	<string id="ammo-12x70-bird">
+		<text>12x70 birdshot</text>
+	</string>
+	<string id="ammo-12x70-bird_descr">
+		<text>Standard 12 gauge #4 birdshot cheap and abundant. Good for hunting ducks or mutants shot blank.\n
+		%c[ui_gray_2] - %c[ui_gray_2] Armor penetration power (AP): %c[ui_gray_1]None (0.015 x 100)\n
+		%c[ui_gray_2] - %c[ui_gray_2] Nominal stopping power (DMG): %c[ui_gray_1]116 (1.16 x 100)\n
+		%c[ui_gray_1]SPECIAL:\n \n%c[ui_gray_2] - %c[ui_gray_2] Expanding cloud of pellets, short eff. range</text>
+	</string>
+	<string id="ammo-12x70-bird_s">
+		<text>12x70 birdshot</text>
+	</string>
+
+	<string id="ammo-12x76-bird_slug">
+		<text>12x70 birdshot slugs</text>
+	</string>
+	<string id="ammo-12x70-bird_slug_descr">
+		<text>Standard 12 gauge #4 birdshot cut to be a slug. The 'Poor Man Slug' is not the best, but better that nothing in the Zone.\n
+		%c[ui_gray_2] - %c[ui_gray_2] Armor penetration power (AP): %c[ui_gray_1]BR1 (15)\n
+		%c[ui_gray_2] - %c[ui_gray_2] Nominal stopping power (DMG): %c[ui_gray_1]79\n
+		%c[ui_gray_1]SPECIAL:\n \n%c[ui_gray_2] - %c[ui_gray_2] A fused cluster of birdshot, medium eff. range</text>
+	</string>
+	<string id="ammo-12x76-bird_slug_s">
+		<text>12x70 birdshot slugs</text>
+	</string>
+</string_table>

@@ -18,9 +18,10 @@ cost			= 2600 ; 1800
 ;couldn't find the weight of the 9x21 sp12, made it a middle point between the 10 and 11
 inv_weight		= 0.114 ; .12
 
-;can't nerf the ks23 too much, but we can make the ammo 2x more expensive
+;can't nerf the ks23 too much, but we can make the ammo 2x more expensive and reduce the Shrapnel's spread to something more rational.
 ![ammo_23x75_shrapnel]
 cost			= 4200 ; 2100
+k_disp			= 4.6
 ![ammo_23x75_barrikada]
 cost			= 7000 ; 3500
 
@@ -293,9 +294,12 @@ fire_distance	= 120
 $spawn			= "weapons\ks23"
 cost			= 42960
 hit_power		= 0.45, 0.45, 0.45, 0.45
-fire_distance	= 150
+fire_distance	= 100
 bullet_speed	= 190
 rpm				= 50
+;Helps with buckshot dispersion not being wacko
+fire_dispersion_base			= 0.35
+fire_dispersion_condition_factor= 0.001
 ![wpn_ks23_23_up]
 ;cost: base gun + upgrade kit cost (23_up: 8950)
 cost			= 41910
@@ -305,7 +309,7 @@ fire_distance	= 100
 $spawn			= "weapons\ks23_kaban"
 cost			= 48950
 ;it's a shortened barrel, no reason to be buffed, so we keep the og range
-fire_distance	= 50
+fire_distance	= 75
 ![wpn_ks23_kaban_kab_up]
 ;cost: base gun + upgrade kit cost (kab_up: 33999)
 cost			= 72949
@@ -372,10 +376,15 @@ fire_distance	= 600
 bullet_speed	= 945
 rpm				= 800
 
+![wpn_mp133_bas]
+fire_distance	= 100
+
 ![wpn_mp153_bas]
+fire_distance	= 100
 rpm				= 300
 
 ![wpn_mp153_m1]
+fire_distance	= 95
 rpm				= 300
 
 ![wpn_m4_ru556]
@@ -723,17 +732,17 @@ silencer_name	= wpn_sil_pbs1
 ammo_elapsed	= 8
 ammo_mag_size	= 8
 hit_power		= 0.68, 0.68, 0.68, 0.68
-fire_distance	= 75
+fire_distance	= 85
 bullet_speed	= 335
 rpm				= 195
 
 ![wpn_toz134_20]
 $spawn			= "weapons\toz134_20"
-fire_distance	= 75
+fire_distance	= 95
 
 ![wpn_toz134_20_obrez]
 $spawn			= "weapons\toz134_20_obrez"
-fire_distance	= 35
+fire_distance	= 45
 
 
 ;BaS Saiga Drum kits

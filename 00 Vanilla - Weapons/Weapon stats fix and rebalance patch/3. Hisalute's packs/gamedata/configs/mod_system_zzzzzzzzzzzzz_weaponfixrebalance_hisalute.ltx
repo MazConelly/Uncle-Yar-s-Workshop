@@ -14,11 +14,9 @@ fire_distance	= 70
 fire_distance	= 175
 bullet_speed	= 350
 rpm				= 120
-
 ![wpn_m712]
 $spawn			= "weapons\m712"
 fire_distance	= 100
-
 ![wpn_type80]
 $spawn			= "weapons\type80"
 inv_weight		= 1.16
@@ -26,6 +24,9 @@ inv_weight		= 1.16
 ![wpn_dp28]
 fire_distance	= 800
 bullet_speed	= 840
+
+![wpn_duplet]
+fire_distance	= 45 ; 200
 
 ![wpn_garand]
 $spawn			= "weapons\garand"
@@ -35,7 +36,7 @@ fire_distance	= 457
 rpm				= 50
 
 ![wpn_m1a1]
-$spawn			= "weapons\m1carbine"
+$spawn			= "weapons\m1a1"
 parent_section	= wpn_m1a1
 hit_impulse		= 45
 hit_power		= 0.6, 0.6, 0.6, 0.6
@@ -43,7 +44,6 @@ inv_weight		= 2.4
 fire_distance	= 200
 bullet_speed	= 440
 rpm				= 70
-
 ![wpn_m1carbine]
 $spawn			= "weapons\m1carbine"
 parent_section	= wpn_m1carbine
@@ -67,7 +67,6 @@ rpm				= 725
 inv_weight		= 4.9
 fire_distance	= 200
 bullet_speed	= 285
-
 ![wpn_m1a1_tommy]
 $spawn			= "weapons\m1a1_tommy"
 inv_weight		= 4.5
@@ -86,22 +85,32 @@ fire_distance	= 700
 
 ![wpn_gp100]
 $spawn			= "weapons\gp100"
-
+fire_distance	= 100 ; 400
 ![wpn_gp100_sniper]
 $spawn			= "weapons\gp100_sniper"
-
+fire_distance	= 150 ; 400
 ![wpn_w500]
 $spawn			= "weapons\w500"
+fire_distance	= 200 ; 400
+;in case you use my revolver addon
+![wpn_w500_12]
+fire_distance	= 125
+![wpn_gp100_44]
+fire_distance	= 200
+![wpn_gp100_44_sniper]
+fire_distance	= 250
+
+![wpn_shorty]
+fire_distance	= 65 ; 300
+rpm				= 100 ; 85
 
 ![wpn_sten]
 $spawn			= "weapons\sten"
 inv_weight		= 3.2
 fire_distance	= 100
 bullet_speed	= 365
-
 ![wpn_sten_mkv]
 $spawn			= "weapons\sten_mkv"
-
 ![wpn_sten_762]
 $spawn			= "weapons\sten_762"
 fire_distance	= 200
@@ -125,8 +134,12 @@ bullet_speed	= 678
 ;;;MWP ============ ============ ============ ============
 
 ![wpn_aa12]
+$spawn			= "weapons\aa12"
 inv_weight		= 5.2
+fire_distance	= 100 ; 300
 bullet_speed	= 350
+![wpn_aa12_cust]
+$spawn			= "weapons\aa12_cust"
 
 ![wpn_aek919k]
 inv_weight		= 1.6
@@ -243,14 +256,17 @@ fire_distance	= 100
 bullet_speed	= 380
 rpm				= 700
 
-; ![wpn_remington870_slug]
+![wpn_remington870_slug]
+fire_distance	= 175 ; 500
 
 ![wpn_rpk_drum]
 fire_distance	= 750
 bullet_speed	= 960
 rpm				= 650
 
-; ![wpn_rspartan]
+![wpn_rspartan]
+$spawn			= "weapons\rspartan"
+fire_distance	= 100 ; 300
 
 ![wpn_saiga_bp]
 $spawn			= "weapons\saiga_bp"
@@ -270,6 +286,9 @@ fire_distance	= 500
 inv_weight		= 3.29
 fire_distance	= 500
 bullet_speed	= 710
+
+![wpn_spas12_slug]
+fire_distance	= 175 ; 500
 
 ![wpn_spectre]
 $spawn			= "weapons\spectre"
@@ -293,6 +312,12 @@ fire_distance	= 500
 ; ![wpn_vepr_ar]
 ; fire_distance           = 1000
 ; bullet_speed            = 715
+
+![wpn_vepr12_drum]
+;mostly the same as the vanilla vpr12, except in weight and rpm
+inv_weight		= 5.28 ; 5.38
+fire_distance	= 100 ; 300
+; rpm				= ; 400
 
 ![wpn_vbr]
 $spawn			= "weapons\vbr"

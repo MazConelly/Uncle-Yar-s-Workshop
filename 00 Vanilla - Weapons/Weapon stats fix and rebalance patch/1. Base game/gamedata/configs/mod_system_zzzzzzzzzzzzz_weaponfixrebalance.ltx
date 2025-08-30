@@ -562,16 +562,52 @@ fire_distance	= 200
 
 
 ;;== SHOTGUNS
+;tweaking the range is hard. It's the same for buckshot and slugs.
+; Sawn offs breech loaders: 50 meters
+; Full length breech loaders: 125 meters
+; The rest (magazine, pump, etc): 100 meters
+; Slug only (ie TOZ Bull): breach 175 and others 150
+
+![wpn_bm16]
+;It's a sawn off
+fire_distance	= 50 ; 200
+![wpn_bm16_full]
+;full breach loader, so 125
+fire_distance	= 125
+
+![wpn_fort500]
+fire_distance	= 100 ; 300
 
 ![wpn_mossberg590]
 ;this will also affect Soulcrystal's Mossberg 590A1
 $spawn			= "weapons\mossberg590"
 ammo_elapsed	= 9
 ammo_mag_size	= 9
-fire_distance	= 100
+fire_distance	= 100 ; 300
+
+![wpn_mp133]
+$spawn			= "weapons\mp133"
+fire_distance	= 100 ; 300
 
 ![wpn_mp153]
+$spawn			= "weapons\mp153"
+fire_distance	= 100 ; 300
 rpm				= 300
+
+![wpn_protecta]
+fire_distance	= 100 ; 300
+![wpn_protecta_aim]
+$spawn			= "weapons\protecta_aim"
+![wpn_protecta_camo]
+$spawn			= "weapons\protecta_camo"
+![wpn_protecta_custom]
+$spawn			= "weapons\protecta_custom"
+![wpn_protecta_nimble]
+$spawn			= "weapons\protecta_nimble"
+
+![wpn_remington870]
+inv_weight		= 3.2 ; 3.4
+fire_distance	= 100 ; 300
 
 ![wpn_saiga12s]
 $spawn			= "weapons\saiga12s"
@@ -587,6 +623,8 @@ PDM_disp_accel_factor	= 1.40 ; 2.4
 PDM_disp_vel_factor		= 1.8 ; 2.4
 
 ![wpn_spas12]
+inv_weight		= 44 ; 4.13
+fire_distance	= 100 ; 300
 rpm				= 200
 ; fire_modes		= 1
 ![wpn_spas12_custom]
@@ -594,6 +632,33 @@ rpm				= 205
 ![wpn_spas12_nimble]
 rpm				= 210
 
+![wpn_toz34
+fire_distance	= 125 ; 400
+![wpn_toz34_bull]
+fire_distance	= 175
+![wpn_toz34_mark4]
+fire_distance	= 175
+![wpn_toz34_obrez]
+fire_distance	= 50
+
+![wpn_usas12]
+$spawn			= "weapons\usas12"
+inv_weight		= 5.45 ; 6.2
+fire_distance	= 100 ; 300
+bullet_speed	= 400 ; 325
+rpm				= 425 ; 360
+
+![wpn_vepr]
+$spawn			= "weapons\vepr"
+inv_weight		= 4.2 ; 4.3
+fire_distance	= 100 ; 300
+;can't fire anything about fire rate and muzzle velocity, looking at other shotguns for reference
+bullet_speed	= 400 ; 325
+; rpm				= ; 240
+
+![wpn_wincheaster1300]
+;Remember it's actually the TOZ 194
+fire_distance	= 100 ; 300
 
 
 ;;== RIFLES

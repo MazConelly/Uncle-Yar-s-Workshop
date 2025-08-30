@@ -25,24 +25,38 @@ Highlights are:
 -Pistols: fire distance down to an average-ish of 75-150 meters, caliber depending.
 Pistols are strictly close range, not for sniping, but big calibers will reach the furthest out of sheer force. 9x18 are squirt guns.
 
+
 -SMGs: fire distance down to an average-ish of 150-250 meters, caliber depending.
 The heavier the caliber, the sooner they drop. Should still be fine for close range and mutant hunting.
 PP-SH reclassified as SMG, not assault rifle.
 
+
 -5.7mm weapons: reduced range and muzzle velocity of the P90 and FN57 in favor of fire rate. The P90 will reach about 400 meters.
+
 
 -5.56mm weapons: fire distance down to average of 500 meters, weapon type and family depending.
 M249 and RPK can still reach 800, but hopefully we won't see any silly sniping.
 
+
 -9x39 weapons: fire distance down to average of 400 meters.
 These are intended for clandestine close quarters assault. Sniping a dude up a tower is one thing, across a football field another.
+
 
 -12.7mm weapons:
 Ash-12 and VSSK fire distance down to 300 and 800 meters, respectively. Ash-12 gets a heavy damage buff to compensate.
 12.7 ammo is sort of an .50 analogue, with the Ash-12 being used as 9x39 cranked up to eleven, and the VSSK an anti materiel rifle. You usually use those on armor, not on a fleshy target across kilometers.
 
--Shotguns: PENDING
-Mossberg 590A1. Reduced range to 100, and increased load by 1. The range nerf will also affect Soulcrystal's Mossberg 590A1 (a range of 1000!?).
+
+-Shotguns:
+Range reduced, compensated in some cases by lower weight or higher fire rate (most are pump or breech loaders anyway).
+Given both buckshot and slugs follow the same range per gun, we will follow these rules. Hopefully those ranges are enough for your slugs. Do tell your impressions.:
+	Sawn offs breech loaders: 50 meters
+	Full length breech loaders: 125 meters
+	The rest (magazine, pump, etc): 100 meters
+	Slug only (ie TOZ Bull, Bizon): breach 175, others 150
+	Some justified exceptions, mostly from mods and depending on barrel extensions or shortenings, can get more or less, but they're few.
+
+Mossberg 590A1. Increased load by 1.
 
 All Saigas, included from other mods in their patches below, nerfed across the board, with all available ones offering a progression of sorts. The BaS ISG and Tactical's models look like a Komrad, a shorter barreled Saiga variant, so I keep that in mind.
 On a first tier, Saiga 12 and 20 work as caliber alternatives.
@@ -52,13 +66,17 @@ MWP's bullpup Saiga stays in a 2.5 tier, with very good performance compared to 
 Applying the drum kits is also nerfed; smaller improvements, but over more aspects and weight won't be increased (the extra ammo already does that), to allow a given Saiga to catch up with the next ones, but at a far more moderate pace.
 With these tweaks, a drummed vanilla Saiga will be like a untweaked BaS Merc, and a drummed Saiga ISG would reach close to the untweaked Saiga ISG.
 
--Snipers: PENDING
+
+-Snipers:
 Karabiner 98 Kurz: Reduced range from 1100 meters to 1000.
 Mosin Nagant: Raised weight a bit and reduced firing range from 1100 meters to 1000, while raising muzzle velocity from 845 m/s to 865.
 
--LMGs: PENDING
+
+-LMGs:
 PKM: fire rate raised to 700.
 
+
+PENDING: 7.xmm weapons, snipers, and LMGs in general, .
 
 
 ----------------------------------------------------------

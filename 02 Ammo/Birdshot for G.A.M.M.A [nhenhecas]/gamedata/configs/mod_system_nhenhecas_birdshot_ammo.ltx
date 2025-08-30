@@ -1,0 +1,80 @@
+[ammo_12x70_bird]:ammo_base ; #4 Birdshot
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn				= "weapons\ammo\ammo_12x70_bird"
+class				= AMMO_S
+cform				= skeleton
+visual				= dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
+description			= ammo-12x70-bird_descr
+$prefetch			= 64
+
+cost				= 500
+
+box_size			= 10
+
+icons_texture		= ui\icons\nhenhecas_birdshot_icons
+inv_name			= ammo-12x70-bird
+inv_name_short		= ammo-12x70-bird_s
+inv_weight			= .45
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 0
+inv_grid_y			= 0
+
+k_dist				= 0.9
+k_disp				= 20
+k_hit				= 0.022 
+k_impulse			= 0.01
+k_ap				= 0.00015
+buck_shot			= 100
+tracer				= off
+4to1_tracer			= false
+wm_size				= 0.01
+k_air_resistance	= 2.0
+k_cam_dispersion	= 0.5
+k_bullet_speed		= 1.425
+
+tier				= 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_12x70_bird_slug]:ammo_base ; Birdshot Slug also Known as "Poor's Man Slug"
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn				= "weapons\ammo\ammo_12x70_bird"
+class				= AMMO_S
+cform				= skeleton
+visual				= dynamics\weapons\wpn_ammo\ammo_12x76_zhekan.ogf
+description			= ammo-12x70-bird_slug_descr
+$prefetch			= 64
+
+cost				= 0
+
+box_size			= 10
+
+icons_texture		= ui\icons\nhenhecas_birdshot_icons
+inv_name			= ammo-12x76-bird_slug
+inv_name_short		= ammo-12x76-bird_slug_s
+inv_weight			= .45
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 0
+inv_grid_y			= 1
+
+k_dist				= 0.9
+k_disp				= 1.5
+k_hit				= 1.5
+k_impulse			= 0.5
+k_ap				= 0.015
+impair				= 1.05
+tracer_color_ID		= 0
+
+wm_size				= 0.12
+k_air_resistance	= 2.0
+k_bullet_speed		= 1.2
+k_cam_dispersion	= 0.8
+
+tier				= 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

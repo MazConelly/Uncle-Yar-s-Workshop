@@ -9,7 +9,7 @@
 ;AK101 SP
 ![wpn_ak101_sp]
 $spawn			= "weapons\ak101_sp"
-silencer_name	= wpn_sil_nato
+silencer_name	= wpn_sil_atg
 fire_distance	= 500
 
 ;AK103 BP
@@ -56,6 +56,28 @@ fire_distance	= 200
 $spawn			= "weapons\spectre_tac"
 fire_distance	= 220
 
+;TWCP
+![wpn_mk47]
+inv_weight		= 3.17 ; 3.26
+; hit_impulse				= 25
+; hit_power				= 0.49, 0.49, 0.49, 0.49
+fire_distance	= 800 ; 1000
+; bullet_speed			= 880
+; rpm						= 650
+
+![wpn_mp155]
+fire_distance	= 100 ; 300
+
+![wpn_rpk74_16_drum]
+;changes based on those for BaS' RPK 16
+$spawn			= "weapons\rpk74_16_drum
+cost			= 60980
+fire_distance	= 800 ; 1000
+; bullet_speed		= 960
+; rpm					= 700
+fire_distance	= 750
+bullet_speed	= 960
+rpm				= 700
 
 ;BERT  ============ ============ ============ ============
 
@@ -97,7 +119,7 @@ rpm				= 750
 ![wpn_izh18]
 $spawn			= "weapons\izh18"
 hit_power		= 0.83, 0.83, 0.83, 0.83
-fire_distance	= 300
+fire_distance	= 175
 bullet_speed	= 330
 fire_dispersion_base		= 0.28
 condition_queue_shot_dec	= 0.0004
@@ -343,6 +365,17 @@ misfire_end_prob		= 0.21
 
 ;NICKOLASNIKOVA  ============ ============ ============ ============
 
+;Armsel Protecta
+;already tweaked in the main file, but this mod gives some of the Protectas longer barrels
+![wpn_protecta_aim]
+fire_distance	= 150
+
+![wpn_protecta_camo]
+fire_distance	= 150
+
+![wpn_protecta_nimble]
+fire_distance	= 150
+
 ;Type 89
 ![wpn_type89]
 $spawn			= "weapons\type89"
@@ -370,6 +403,7 @@ fire_distance	= 400
 ![wpn_udp9]
 $spawn			= "weapons\udp9"
 fire_distance	= 200
+
 
 ;;POPOTTARA  ============ ============ ============ ============
 
@@ -411,7 +445,7 @@ rpm				= 30
 
 ;Benelli M4
 ![wpn_benelli_m4]
-silencer_name	= wpn_sil_nato
+silencer_name	= wpn_sil_atg
 fire_distance	= 100
 
 ;FB Vis
