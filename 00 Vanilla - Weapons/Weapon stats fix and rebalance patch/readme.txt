@@ -116,17 +116,15 @@ It covers Simple Weapon Pack, Misc Weapon Pack, and MG42 + MG3
 -Ammo packs.
 It covers other mods that add new ammo, currently 10mm Auto Ecosystem and Arsenal Overhaul 3 Late Comers.
 
-
 -Other Mods.
 It covers individual mods.
 Currently the list is as follows, listed by authors:
 Athis: AK101 SP, AK103 BP, Groza custom, KAC Freak PDW, PSG1, M4 Spectre
 Bert: Mauser C96, Sten
 Billwa: FG42, IZH18 and MP18, M240, M3A1 Grease Gun, Milkor MGL, Type 56 Pack
-Blackgrowl: Ashey'n Shaky, The AEK Kit
-Firebreath: AUGmented, Tommy gun drop
+Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca, The AEK Kit
+Firebreath: Tommy gun drop
 Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, MP9, QBZ 95
-JukeCappatalist: AKM pack
 Lewdnatic: FAMAS Replacer
 Maid: Agram 2000
 NickolasNikova: Type 89
@@ -135,6 +133,7 @@ Popottara: Sturmgewehr 57
 Sibercat: AR Pack Complete
 Soulcrystal: Arisaka quality control, Benelli M4
 Teivaz: Gunslinger P90 Tactical
+TheParazit's PL14
 
 Some further notes:
 Billwa's Izh-18 & MP18: adapted changes made by Meylin in the Anomaly Discord. Izh-18 more accurate than double barrel shotguns. Both guns slightly more damaging, further reaching, and harder to break.
@@ -142,6 +141,20 @@ JMerc's Arbiter Pack: range nerfed for all guns (a silenced revolver capping tar
 Pillii's Honeybadger: range reduced to 400 meters, similar to 9x39 guns.
 Soulcrystal's Arisaka Quality Control. Touched the muzzle velocity down a bit, and firerate up another bit. Very small bits, mind you. I was going to nerf the range but then I've read about being able to reach 1500~ in real life and [HESITATION].
 Soulcrystal's Benelli M4: range nerfed from 1000 (!) to 100, now uses NATO silencer for vanilla compatibility.
+
+
+-Weapon Swaps module.
+This is meant for mods that swap X gun for Y gun, to make sure changes are applied on top of whatever else is done in the vanilla patch.
+Currently the list is as follows, listed by authors:
+Blackgrowl: AEK Kit, G36 Pack, and Pretty Pistols Pack
+Firebreath: AUGmented
+JukeCappatalist: AKM Pack.
+
+Blackgrowl's K-50M, MAT-49, and Sassy Ithaca
+TheParazit's PL14
+
+-New Weapon Swaps module. This is meant for mods that make X-to-Y gun changes, and goes last to make sure changes are applied on top of whatever else is done in the vanilla patch.
+For now this will cover Blackgrowl's AEK Kit, G36 Pack, and PPP, Firebreath's AUGmented, and JukeCappatalist's AKM Pack (already patched ones are moved here from the Other Mods module).
 
 
 ----------------------------------------------------------

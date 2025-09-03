@@ -443,10 +443,8 @@ fire_distance	= 100
 bullet_speed	= 500
 
 ![wpn_cz75]
-fire_modes		= 1, -1
 fire_distance	= 100
 bullet_speed	= 360
-rpm				= 1000 ; 258
 
 ![wpn_desert_eagle]
 fire_distance	= 150
@@ -462,8 +460,10 @@ rpm				= 550 ; 245
 fire_distance	= 100
 
 ![wpn_fort]
-bullet_speed	= 320 ; 290
 fire_distance	= 75
+bullet_speed	= 320 ; 290
+;I'm seeing that the vanilla Fort pistols have a rpm fire rate of 240. Several sources state a fire rate of 40, but sometimes it mentions its a "practical" fire rate. Your choice to enable this.
+; rpm				= 40
 
 ![wpn_glock]
 fire_distance	= 100
@@ -499,10 +499,12 @@ fire_distance	= 75
 fire_distance	= 100
 
 ![wpn_tt33]
+$spawn			= "weapons\tt33"
 fire_distance	= 100
 
 ![wpn_usp]
 fire_distance	= 100
+bullet_speed	= 252 ; 260
 
 ![wpn_walther]
 bullet_speed	= 408
@@ -762,11 +764,15 @@ bullet_speed	= 550 ; 750
 rpm				= 600
 
 ![wpn_aug]
-fire_distance	= 400
-bullet_speed	= 970
-rpm				= 690
+$spawn			= "weapons\aug"
+inv_weight		= 3.6
+fire_distance	= 350 ; 1000
+bullet_speed	= 970 ; 930
+rpm				= 650 ; 680
+
+;tecnically unavailable, so ehhh...
 ![wpn_aug_a3]
-fire_distance	= 400
+fire_distance	= 500
 bullet_speed	= 970
 rpm				= 690
 
@@ -792,7 +798,7 @@ fire_distance	= 600
 bullet_speed	= 920
 ![wpn_g36k]
 fire_distance	= 500
-bullet_speed	= 920
+bullet_speed	= 850
 
 ![wpn_g43]
 inv_weight		= 4.4 ;4.33

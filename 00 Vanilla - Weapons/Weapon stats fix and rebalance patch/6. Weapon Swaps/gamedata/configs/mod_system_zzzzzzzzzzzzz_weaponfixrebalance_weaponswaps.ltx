@@ -1,0 +1,343 @@
+; Modding Book on weapon parameters, for quick reference:
+; https://igigog.github.io/anomaly-modding-book/reference/configs/items/weapons/weapon-world.html
+
+;;;;;;; GUN SWAPS
+
+;Quotes indicate the author's intention as stated in summaries.
+;Some guns are already tweaked in the patch for vanilla and receive minimal/no changes
+
+
+;;BLACKGROWL  ============ ============ ============ ============
+
+;AEK Kit
+
+;AEK-971
+![wpn_aek]
+$spawn			= "weapons\aek_971"
+
+;AEK-972
+; "Uses 5.56x45 with its appropriate balance, such as damage. Has slightly worse recoil than the AEK-971. Slightly slower firing rate."
+![wpn_aek_camo]
+$spawn			= "weapons\aek_972"
+bullet_speed	= 850
+; rpm				= 900
+
+;AEK-973
+; "Uses 7.62x39 with its appropriate balance, such as damage. Worst recoil of the AEK variants. Slower firing rate."
+![wpn_aek_duty]
+$spawn			= "weapons\aek_973"
+bullet_speed	= 700
+; rpm				= 900
+
+;A-545
+![wpn_a545]
+; "A newer, improved variant of the AEK-971 itself (...) Uses 5.45x39, the better ergonomic design of the weapon improves its accuracy and handling while keeping the recoil similar to the AEK-971, which by itself it's already very low. (...) Has a unique upgrade that adds "3-Round Hyperburst" on full-auto (Just like an AN-94 at 2-rounds) and 3-round burst firemode, at 1600 RPM going back to 900."
+$spawn			= "weapons\a_545"
+
+
+
+; G36 Pack
+
+; ![wpn_g36]
+; "The G36 has been changed a bit to act like a faux-sniper rifle, due to the presence of the 3x scope and the long barrel."
+
+;G36K
+; "The "G36 (Camo)" is now a G36K instead (...) It has slightly worse accuracy overall and recoil on first shot, but slightly better handling."
+![wpn_g36_camo]
+$spawn			= "weapons\G36K"
+inv_weight		= 3.3 ; 3.42
+fire_distance	= 500
+bullet_speed	= 850
+
+;G36C
+; "The "G36k" is now a G36C instead (...) This one can be considered the AKSU of the NATO if you'd like. It has the worst accuracy and recoil of all the other variants, but compensates for amazing handling and better full-auto fire control, great weapon in Close-Quarters Urban warfare."
+![wpn_g36k]
+$spawn			= "weapons\G36C"
+inv_weight		= 2.82 ; 2.89
+fire_distance	= 450
+bullet_speed	= 722
+
+;G36L
+; "Nimble's unique variant of the G36 is a G36L, nicknamed "F34R". Lithuanian-made G36 with the functionality of a G36K and the practicality (weight and handling) of a G36C, as well as having the ability to mount a M203 due to the picatinny rails that it has."
+; ![wpn_g36_nimble]
+$spawn			= "weapons\G36L"
+inv_weight		= 2.94 ; 3.0
+fire_distance	= 500
+bullet_speed	= 850
+
+
+
+;Pretty Pistols Pack
+
+;--- Beretta 92FS ---
+
+;Beretta M9
+![wpn_beretta_modern]
+; "has balance changes, but minor, simply making it a bit better than the first two variants except for reliability, unable to change to 9x18 and inherent ability to use a silencer."
+$spawn			= "weapons\beretta_m9"
+inv_weight		= 0.97
+
+;Beretta PX4 STORM
+; "have better recoil, RPM and weight but worse accuracy. Also, it can be upgraded to use .45 ACP caliber instead with further balance changes."
+![wpn_beretta_camo]
+$spawn			= "weapons\beretta_px4"
+bullet_speed	= 360
+
+
+;--- 1911 ---
+
+;Smith & Wesson 659
+; "9mm, can be turned into a Smith & Wesson 645 through the .45 ACP caliber change. It is pretty much a "compact" 1911 that uses .45 ACP or 9mm, so has less weight and better handling for slightly less accuracy and recoil. All credits go to "tigg"."
+![wpn_colt1911_alt]
+$spawn			= "weapons\sw659"
+inv_weight		= 0.8 ; 0.78
+fire_distance	= 100
+bullet_speed	= 350 ; 362
+
+;Coonan
+; "1911-lookalike pistol that uses .357 Magnum, comes with proper balance changes; it is pretty much a much faster-firing Desert Eagle but with lower accuracy and much higher recoil, especially on consecutive shots"
+![wpn_colt1911_camo]
+$spawn			= "weapons\coonan357"
+inv_weight		= 1.190 ; 1.114
+fire_distance	= 150
+bullet_speed	= 392 ; 440
+
+;Strayer Voigt Infinity
+; "unique trademark clip that holds 15-rounds and has zone-made fast-firing 3-round burst and blue tritium, but its recoil on fast-fire is strong and reliability is rather low in comparison to the classic 1911."
+![wpn_colt1911_custom]
+$spawn			= "weapons\svi"
+fire_distance	= 100
+
+;M45A1
+![wpn_colt1911_merc]
+$spawn			= "weapons\m45a1"
+inv_weight		= 1.105 ; 1.133
+bullet_speed	= 244
+
+;M45
+![wpn_colt1911_modern]
+$spawn			= "weapons\m45"
+bullet_speed	= 244
+
+;1911A1
+;"closer to the civilian version of the "Colt Government". Instead of being a direct improvement, it's now a "choice", either because of better ironsight or just the looks, although it does have some mechanical improvements such as faster firerate."
+; ![wpn_colt1911_new]
+
+
+;--- Desert Eagle ---
+
+;Desert Eagle Mark XIX
+;Nimble's Variant is now the current modern variant of the Desert Eagle Mark XIX
+; ![wpn_desert_eagle_nimble]
+
+;--- FN57 ---
+;"balance changes were made to make it act like in real life; accurate, ergonomic, lowest recoil possible. To compensate, the fire-rate and range is lower."
+;Enable this if you want to ensure the PPP fire rate of 220
+; ![wpn_fn57]
+; rpm				= 220
+
+
+; --- FNX-45 Tactical ---
+
+;FN 509
+; Balance changes include changing the caliber to 9x19, which also means it has a magazine capacity of 17. It's pretty much a slow-firing but very accurate and recoiless 9x19 pistol.
+![wpn_fnx45_custom]
+$spawn			= "weapons\fn509"
+inv_weight		= 0.760 ; 0.8
+
+
+; --- Fort-17 ---
+
+;The RPM stats changes are disabled. Only enable them if you enabled the 40 rpm in the vanilla patch file. 
+
+;Fort-12
+; "just like in the original trilogy. (...) Includes some balance changes, Fort-12 is a direct upgrade of the Makarov but with lower reliability, handling and fire-rate."
+![wpn_fort]
+$spawn			= "weapons\fort_12"
+
+;Fort-17
+;"lighter, faster firing more reliable than the Fort-12, but also has slightly worse accuracy and recoil."
+![wpn_fort17]
+bullet_speed	= 325 ; 290
+; rpm				= 50 ; 350
+
+;Fort-21.01
+;"a copy of the Jericho 941. (...) uses the 9x19 and it can upgrade to .45 ACP. It is the fastest firing 9x19 (and possibly .45 ACP) pistol one can get, as well as having fantastic stats similar to the CZ-75. It also has a peculiarly made tritium.
+![wpn_fort_snag]
+$spawn			= "weapons\fort_2101"
+;can't find the muzzle velocity for this one, so this is reiterating the one already in place in PPP just in case.
+bullet_speed	= 362
+; rpm				= 60 ; 370
+
+
+;--- Glock 19 ---
+;"For general balance changes, Glocks have low accuracy and terrible reliability, but great continuous recoil, firerate and handling, making them perfect for close-quarters combat."
+
+;Glock 17
+![wpn_glock]
+$spawn			= "weapons\glock17"
+
+;Glock 19
+;"a bit lighter, has 15 clip instead of 17, better handling, slightly better accuracy and worse recoil."
+![wpn_glock_custom]
+$spawn			= "weapons\glock19"
+
+;HS2000
+;the heaviest (still lower than others non-Glock-type pistol you can get), has 16 rounds, lowest recoil of all "Glocks" and best accuracy (except when rapid-firing). (...) Its only negative is worse reliability.
+![wpn_glock_modern]
+$spawn			= "weapons\hs2000"
+inv_weight		= 0.65 ; 0.7
+
+
+; --- Browning HP ---
+
+;Browning P-35
+;"proper Belgian-made Browning P-35"
+![wpn_hpsa]
+$spawn			= "weapons\browning_p35"
+
+;Browning HP Mark III
+;"now a "Browning HP Mark III", made in the same style as the Browning HP in "Clear Sky/Call of Pripyat". To make it a bit more balanced, it has much more firerate, much better reliability and slightly lower recoil but much worse handling compared to the P-35."
+![wpn_hpsa_alt]
+$spawn			= "weapons\browning_mk3"
+inv_weight		= 992
+
+
+; --- PM ---
+
+;Walther PPK
+;"chambered in 9x18 Makarov. The idea is that it's a "Western Makarov" type better fit for "Sharpshooters" due to its high accuracy but low handling and magazine size."
+;can't really change that given the 9x18 wouldn't mirror 1:1 the standard .32
+![wpn_pm_custom]
+$spawn			= "weapons\ppk"
+inv_weight		= 0.564 ; 0.54
+
+
+; --- Sig Sauer P220 ---
+
+; P229
+;"more compact and metallic variant of the P220, also has subtle tritium sights. Since this pistol can only be chambered in 9x19 Parabellum, it uses said ammunition, this includes balance changes to it such as lower damage, more accuracy and less recoil."
+![wpn_sig220_custom]
+$spawn			= "weapons\p229"
+inv_weight		= 0.882
+
+;P320
+;"chambered in 9x19 Parabellum by default, but can be changed to .45 ACP. Said change also changes the magazine, damage and recoil."
+![wpn_sig220_nimble]
+$spawn			= "weapons\p320"
+inv_weight		= 0.731
+
+
+; --- Takarov TT-33 ---
+
+; ![wpn_tt33]
+
+;Zastava M57
+; "Yugoslavian variant of the TT-33 that is a semi-direct upgrade of the TT-33, having 9 rounds instead of 8 and some other improvements. One major change is the fact it can have the caliber changed to 9x19, which comes with balance changes."
+![wpn_tt33_modern]
+$spawn			= "weapons\m57"
+inv_weight		= 0.854
+bullet_speed	= 480 ; 420
+
+
+; --- USP ---
+
+;USP45
+; ![wpn_usp]
+
+;USP45 Compact
+;"alternative to the USP that shoots faster and has less weight, but slightly worse recoil and accuracy"
+![wpn_usp_custom]
+$spawn			= "weapons\usp45_compact"
+inv_weight		= 0.796
+bullet_speed	= 242
+
+;USP45 Tactical
+;"direct upgrade of the USP except for the weight, handling and fire-rate"
+![wpn_usp_match]
+$spawn			= "weapons\usp45_tactical"
+inv_weight		= 0.918
+bullet_speed	= 259
+
+;Mark 23
+;"This one combines the best of all the USPs, but has worst handling, firerate and weight."
+![wpn_usp_nimble]
+$spawn			= "weapons\usp_mk23"
+inv_weight		= 1.2
+fire_distance	= 150
+bullet_speed	= 260 ; 360
+
+
+; Dragunov Family
+
+;SVD Tiger
+;"better handling, slightly faster firerate, less weight, slightly lower initial recoil, slightly better reliability but also reduced accuracy, increased continuous recoil and decreased muzzle velocity (due to the short barrel). Also, due to the shorter barrel, it is easier to draw and holster it so its animation is 20% faster."
+![wpn_svd_custom]
+$spawn			= "weapons\svd_tiger"
+;let's reduce the range by... 150 meters.
+;This may change further later as I rebalance this caliber weapons
+fire_distance	= 950 ; 1100
+
+;SVDM
+;"best handling and is extremely accurate, with upgrades it will be an almost perfect 94% accuracy. However, it has a LOT more recoil and poor reliability, thankfully these can be fixed with upgrades to an extent. Fire-rate has been increased substantially. (45 to 125) Now uses a 20-rounds magazine, with a proper model to fit."
+$spawn			= "weapons\svdm"
+
+
+
+;;FIREBREATH  ============ ============ ============ ============
+
+;AUGmented
+
+; AUG A1 (F88)
+![wpn_aug]
+$spawn			= "weapons\aug1"
+
+;AUG A2
+![wpn_aug_custom]
+$spawn			= "weapons\aug2"
+inv_weight		= 3.6
+bullet_speed	= 940
+;Most numbers I see are 650. Given it's an upgrade over the A1, let's give it the difference
+rpm				= 670 ; 700
+
+;AUG A3
+![wpn_aug_modern]
+$spawn			= "weapons\aug3"
+fire_distance	= 400
+bullet_speed	= 970
+rpm				= 690 ; 700
+
+;EF88/Thales F90
+; "The Australian version of the aug, which is an improvement upon the F88 and has quite a different, somewhat-futuristic look. This is the rarest and best AUG available (...) is a "direct upgrade" to any AUG, but it doesn't offer the (...) amazing reliability."
+![wpn_aug_merc]
+$spawn			= "weapons\aug_thales"
+inv_weight		= 3.25 ; 3.
+ammo_elapsed	= 32
+ammo_mag_size	= 32
+fire_distance	= 500
+bullet_speed	= 972
+rpm				= 740 ; 720
+
+;AUG A3 9mm XS
+; "SMG version of the AUG chambered in 9x19 Parabellum. Proper balance changes to make it act like an SMG: Very low vertical recoil but very high horizontal recoil, especially during continuous fire, high fire-rate, low accuracy and best handling."
+![wpn_aug_freedom]
+$spawn			= "weapons\aug3_9mm"
+inv_weight		= 2.97
+fire_distance	= 275 ; 400
+rpm				= 680
+
+
+
+;JukeCappatalist  ============ ============ ============ ============
+
+;AKM pack
+
+;AMD65
+![wpn_akms_alt]
+$spawn			= "weapons\akms_alt"
+inv_weight		= 3.2
+fire_distance	= 500
+bullet_speed	= 731
+rpm				= 650
+
+

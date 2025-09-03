@@ -18,9 +18,8 @@ fire_distance	= 500
 $spawn			= "weapons\ak103_bp"
 ; hit_impulse						= 34
 ; hit_power						= 0.62, 0.62, 0.62, 0.62
-fire_distance	= 400
-; bullet_speed					= 715
-; rpm								= 600
+fire_distance	= 550
+bullet_speed	= 750 ; 715
 
 ;Groza custom
 ![wpn_groza_custom]
@@ -66,16 +65,14 @@ fire_distance	= 800 ; 1000
 ; rpm						= 650
 
 ![wpn_mp155]
+$spawn		= "weapons\mp155"
 fire_distance	= 100 ; 300
 
 ![wpn_rpk74_16_drum]
 ;changes based on those for BaS' RPK 16
 $spawn			= "weapons\rpk74_16_drum"
 cost			= 60980
-fire_distance	= 800 ; 1000
-; bullet_speed		= 960
-; rpm					= 700
-fire_distance	= 750
+fire_distance	= 750 ; 1000
 bullet_speed	= 960
 rpm				= 700
 
@@ -96,13 +93,11 @@ bullet_speed	= 365
 
 ;;BILLWA  ============ ============ ============ ============
 
-;M3A1 Grease Gun
-![wpn_m3a1]
-fire_distance	= 200
-bullet_speed	= 274
-![wpn_greasegun]
-fire_distance	= 200
-bullet_speed	= 274
+;DP27
+![wpn_dp27]
+fire_distance	= 800 ; 900
+rpm				= 550 ; 500
+bullet_speed	= 840 ; 940
 
 ;FG42
 ![wpn_fg42]
@@ -137,6 +132,14 @@ fire_dispersion_condition_factor= 0.001
 $spawn			= "weapons\m240"
 inv_weight		= 12.5 ; 7.68
 bullet_speed	= 853 ; 855
+
+;M3A1 Grease Gun
+![wpn_m3a1]
+fire_distance	= 200
+bullet_speed	= 274
+![wpn_greasegun]
+fire_distance	= 200
+bullet_speed	= 274
 
 ;Milkor
 ![wpn_m32_mgl]
@@ -175,13 +178,33 @@ rpm				= 650 ; 720
 
 ;;BLACKGROWL  ============ ============ ============ ============
 
-;AEK Kit
-![wpn_aek_camo]
-bullet_speed	= 850
-; rpm				= 900
-![wpn_aek_duty]
-bullet_speed	= 700
-; rpm				= 900
+;Ithaca
+![wpn_ithacam37]
+fire_distance	= 100 ; 300
+rpm				= 12 ; 60
+![wpn_ithacam37_trench]
+$spawn			= "weapons\ithacam37_stakeout"
+fire_distance	= 150 ; 320
+![wpn_ithacam37_mag]
+$spawn			= "weapons\ithacam37_mag"
+fire_distance	= 100 ; 300
+![wpn_ithacam37_stakeout]
+$spawn			= "weapons\ithacam37_stakeout"
+inv_weight		= 3 ; 2.6
+fire_distance	= 75 ; 220
+![wpn_ithacam37_sawnoff]
+$spawn			= "weapons\ithacam37_sawnoff"
+
+;K-50M
+![wpn_k50m]
+fire_distance	= 243 ; 500
+bullet_speed	= 488 ; 480
+
+;MAT-49
+![wpn_mat49]
+$spawn			= "weapons\mat49"
+fire_distance	= 200 ; 400
+bullet_speed	= 366 ; 402
 
 ;Ashey shakey
 ;just making sure the Shak retains its rpm
@@ -190,12 +213,6 @@ rpm				= 600
 
 
 ;;FIREBREATH  ============ ============ ============ ============
-
-;AUGmented
-;Aug 9mm
-![wpn_aug_freedom]
-fire_distance	= 300
-rpm				= 680
 
 ;Tommy gun drop
 ![wpn_thompson_m1a1]
@@ -308,17 +325,6 @@ fire_distance	= 120
 ; bullet_speed			= 362
 ; rpm						= 325
 
-
-;JukeCappatalist  ============ ============ ============ ============
-
-;AKM pack
-![wpn_akms_alt]
-;it's an AMD65, needs different stats
-$spawn			= "weapons\akms_alt"
-inv_weight		= 3.2
-fire_distance	= 500
-bullet_speed	= 731
-rpm				= 650
 
 
 ;;LEWD  ============ ============ ============ ============
@@ -450,7 +456,9 @@ fire_distance	= 100
 
 ;FB Vis
 ![wpn_vis35]
-
+bullet_speed	= 351 ; 345
+;I see numbers of 24 rounds per minute, but that seems too low?
+;fire_distance	= 24 ; 400
 
 ;;Teivaz  ============ ============ ============ ============
 
@@ -459,3 +467,12 @@ fire_distance	= 100
 fire_distance	= 400
 bullet_speed	= 715
 rpm				= 975
+
+
+
+;;TheParazit  ============ ============ ============ ============
+
+;PL14
+![wpn_pl14]
+$spawn			= "weapons\pl14"
+fire_distance	= 100
