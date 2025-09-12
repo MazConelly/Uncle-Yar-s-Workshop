@@ -1,5 +1,5 @@
 -Module:
-.50 Beowulf Weapon Pack [PurpleSkyGuy, GhostArmory, JMERC] 
+.50 Beowulf Weapon Pack [PurpleSkyGuy, GhostArmory, JMERC]
 
 ----------------------------------------------------------
 -Compatibility:
@@ -19,9 +19,10 @@ Integration into Grok's Stash Overhaul and PDA Interactive.
 
 ----------------------------------------------------------
 -Patches:
-Revolver Parts. Grants the gun the appropiate parts, as available.
 
-Vanilla silencers. Weapons will use vanilla silencers instead of BaS ones.
+Vanilla silencers.
+Weapons will use vanilla silencers instead of BaS ones.
+Not neccesary with the patch in AO3 Late Comers, as that will make the rifles use the .50 suppresor included there.
 
 ----------------------------------------------------------
 -Known issues:

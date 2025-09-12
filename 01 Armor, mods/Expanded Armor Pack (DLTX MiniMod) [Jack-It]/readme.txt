@@ -23,6 +23,12 @@ Icons grouped up for a more compact texture file. A couple icons also were large
 
 Integration for 1st Person View and Grok's Stash Overhaul.
 
+Grok's Stash Overhaul integration.
+Some outfits will be rarer than their standard vanilla counterparts.
+
+Mags Redux integration.
+Not as simple as other patches. Some outfits get worse or better carrying capacities than the standard suit, depending on description, for example if it mentions being modified for lightness, capacities, or being designed instead of improvised.
+
 If you want extra functionality for this, my addons for Outfit Attachment Overhaul and Armor Modkits include patches for them.
 
 ----------------------------------------------------------

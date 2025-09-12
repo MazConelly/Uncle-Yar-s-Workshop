@@ -14,6 +14,12 @@ In addition, added NPC spawns that can wear and drop the outfits (two NPCs per o
 
 Includes integration to 1st Person View and Grok's Stash Overhaul.
 
+Grok's Stash Overhaul integration.
+The SKATs are rare as a SKAT, and the Ancient suit will also be very rare, given it's a great Sunrise outfit.
+
+Mags Redux integration.
+Outfits will have the corresponding carry capacity of SKATs and Sunrises.
+
 ----------------------------------------------------------
 -Patches:
 
