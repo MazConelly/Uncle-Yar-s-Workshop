@@ -33,11 +33,16 @@ BaS Lite includes its own patch.
 Misc. Weapon Pack
 
 Other loose mods. This includes:
-AR Pack
-Alex's AK107
-ATHI's Sig Spear
-Billwa's Milkor M32
-Lewdnatic's FAD, Groza Duty
+	AR Pack
+	Alex's AK107
+	ATHI's Sig Spear
+	Billwa's Milkor M32
+	Lewdnatic's FAD, Groza Duty
+
+
+STALKER 2 HoC Grenade Animation
+Its animations will be used.
+NOTE: You still need the original mod.
 
 ----------------------------------------------------------
 -Known issues:

@@ -1,9 +1,9 @@
-<!-- <?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-	<string id="st_addon_ipi_supressor">
+<!-- 	<string id="st_addon_ipi_supressor">
 		<text>IPI Vulcan-M supressor</text>
 	</string>
 	<string id="st_addon_ipi_supressor_descr">
 		<text>Supressor developed specifically for the Vulcan-M assault rifle.</text>
-	</string>
-</string_table> -->
+	</string> -->
+</string_table>
