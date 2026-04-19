@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="bandit_novice_thief_outfit_name">
+		<text>Thief's jacket</text>
+	</string>
+	<string id="bandit_novice_thief_outfit_description">
+		<text>%c[ui_gray_1]A leather jacket designed by Bandit “engineers” for the sole purpose of scavenging the Zone. The jacket has gotten widespread use by a multitude of different factions since its cheap, easy to maintain, and has plenty of extra slots to carry stolen loot. Most non-bandit users of the suit however have come to refer to it as the scavenger suit as not to confuse others with their bandit counterparts crocked ways. Regardless, most people know exactly why you would be wearing such a jacket so it doesn’t help that issue.\n \n
+		</text>
+	</string>
+
+	<string id="trenchcoat_scar_outfit_name">
+		<text>Scar's Trenchcoat</text>
+	</string>
+	<string id="trenchcoat_scar_outfit_description">
+		<text>%c[ui_gray_1]This armor appears like a regular trenchcoat on the outside, but underneath is a well armored suit with advanced workings. Its origins are unknown but likely it is a recreation of the same sort of coat that the legendary Stalker Scar wore. Well known for his time as a mercenary he served no one true master and followed his own path. He was eventually led to seek out Strelok whom the members of Clear Sky believed was the cause of the recent emissions in the Zone. He fought his way to the CNPP where he and Clear Sky conducted an ill-fated operation and was since never seen or heard from again. Whether Scar survived or not is still debated, but what is clear is that his legacy has undoubtably left a mark on the Zone. Some love him, others hate him but regardless of the feelings toward him most knew him as a great stalker and one not soon to be forgotten.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_trenchcoat_zealot_outfit_name">
+		<text>Zealot's Robe</text>
+	</string>
+	<string id="monolith_trenchcoat_zealot_outfit_description">
+		<text>%c[ui_gray_1]A seemingly normal Monolith trench coat with greater protection against anomalies as well as bullet fire. The strange trench coat also seems to have a strong psychic protection giving its user amazing defense against such attacks. A light weight, effective suit for any Monolith soldier looking to travel long into the Zone.\n \n
+		</text>
+	</string>
+
+	<string id="wastelander_artifact_outfit_name">
+		<text>Artifact Hunter Suit</text>
+	</string>
+	<string id="wastelander_artifact_outfit_description">
+		<text>%c[ui_gray_1]A suit of armor made specifically for the purpose of hunting for artifacts. In most regards it is similar to the Wastelander suit that it shares a striking image with. It provides the same level of bullet and laceration protection with roughly the same level of durability. However, where it does very is its anomaly protection. It is considerably higher than the Wastelander suit and more durable to anomaly damage as well. Through not a common suit due to its expense, it is a highly sought-after suit for those who spend much of their time gathering artifacts. It’s protection might not be as good as the most advanced of the Ecologist suits, but that doesn’t stop this armor from be an amazing suit for traversing the Zone for artifacts.\n \n
+		</text>
+	</string>
+
+	<string id="light_loner_mutant_outfit_name">
+		<text>Mutant Hunter Suit</text>
+	</string>
+	<string id="light_loner_mutant_outfit_description">
+		<text>%c[ui_gray_1]A light suit of armor designed for the sole purpose of hunting mutants. It has increased platting against lacerations and cuts giving it an advantage over close range attacks. In addition, it is more durable than Sunrise suits and has plenty of room for carrying heavy mutant pelts. Furthermore, it is quite flexible allowing for its wearer to easily dodge attacks when needed. It’s only real downside is that it is ineffective in anomaly ridden areas making it a more specialized suit. Regardless, there are few better suits for hunting mutants within the Zone.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_hawaiian_outfit_name">
+		<text>Hawaiian's Sunrise suit</text>
+	</string>
+	<string id="stalker_hawaiian_outfit_description">
+		<text>%c[ui_gray_1]A basic sunrise suit with a few adjustments made by Hawaiian himself to help with longer travels through the Zone. The armor is slightly lighter than its normal variant as well as more flexible. In addition, this armor has increased anomaly protection and extra armor plating against sharp weapons. However, its greatest advantage is its significant increase in storage space as well as its 2 artifact containers. For the price it’s a fantastic armor to invest in on a budget.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_ghost_outfit_name">
+		<text>Ghost's Sunrise Suit"</text>
+	</string>
+	<string id="stalker_ghost_outfit_description">
+		<text>%c[ui_gray_1]A similar suit to the one warn by the formal stalker called Ghost. In most ways (including appearance) it is like the Tigerstripe suit. However, it has increased anomaly protection and better durability. In addition, it has ironically decent psychic protection. Whether this was an added feature as a cruel joke or simply an “adjustment” to the original is uncertain. Regardless it functions as a very effective stealth suit none the less and a perfect suit for those entering any area with high psy activity.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_phoenix_outfit_name">
+		<text>Phoenix's Sunrise suit</text>
+	</string>
+	<string id="stalker_phoenix_outfit_description">
+		<text>%c[ui_gray_1]A seemingly normal sunrise suit worn by the legendary stalker named Phoenix. He slowly built up his reputation in the Zone as an honest and kind stalker willing to give a hand when needed. This didn’t stop him from helping bandits or the military if the occasion arose. Regardless, he was a very trustworthy individual whom came to be known for his ability to convince others to aid him with little convincing needed. For a while he traveled with Doctor eventually leading him to the CNPP where the two parted ways. Through still active in the Zone, he has pursued a near fulltime job of training other young stalkers on surviving in the harsh landscape of the Zone. He often stays out by the Bar and acts more as an informant these days seeing less action than he used to. He is also known to be good friends with the stalker Poet and apparently still keeps contact with Doctor regularly.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_poet_outfit_name">
+		<text>Poet's Sunrise suit</text>
+	</string>
+	<string id="stalker_poet_outfit_description">
+		<text>%c[ui_gray_1]A seemingly basic sunrise suit similar to what the legendary stalker Poet wears. His exploits in the Zone were well known making a name of himself as an honest Stalker who would get the job done. However, what stood out most about him was his uncanny ability with a pistol; a gunslinger and master of small firearms. Other exploits included his crafty nature. One such moment came when he was tricked and led to a Bandit base. He and another captured stalker were placed into a makeshift arena to fight hand to hand. He managed to obtain his gun before the fight and as it began drew his gun and killed the other stalker. Other exploits included him escaping Monolith capture numerous times and fight multiple deadly mutants at once with nothing more than a pistol and a few grenades. To summarize his many feats would be a daunting task to say the least. It stands to say that these feats stand as a clear testament to just how talented he is as a stalker.\n \n
+		</text>
+	</string>
+
+	<string id="military_hellhound_outfit_name">
+		<text>Hellhound's Coat</text>
+	</string>
+	<string id="military_hellhound_outfit_description">
+		<text>%c[ui_gray_1]A seemingly regular Skat suit like the one that the Military Stalker Hellhound wore. Not much is known about Hellhound or even his whereabouts but what is known is that he was an extremely feared military stalker. He often worked as a bounty hunter taking out high value targets who antagonized the military a little too much. On the side he wandered the Zone often by himself seemingly searching for something, what who knows? This suit is not likely his, but It seems to have all the same features except for his insignia: a hound’s head flanked by flames. The symbol was warning enough to other stalkers to avoid him. There were even legends that humanoid mutants feared the symbol as well. This likely a side effect of a time when he killed three bloodsuckers with nothing more than a knife. Whether this is true or not is not known but considering his history most wouldn’t doubt such. For this very reason there is no better suit of armor in the Zone, so you better come with the funds to afford it.\n \n
+		</text>
+	</string>
+
+	<!-- <string id="scientific_helmetless_outfit_name"> -->
+		<!-- <text>Helmetless SEVA Suit</text> -->
+	<!-- </string> -->
+	<!-- <string id="scientific_helmetless_outfit_description"> -->
+		<!-- <text>%c[ui_gray_1]A SEVA suit in almost all regards expect that it does not have the helmet as part of the suit. A famous suit used by the Stalker Strelok and a popular choice among stalkers who are looking for a more customizable suit for the Zone that still offers great anomaly protection.\n \n -->
+		<!-- </text> -->
+	<!-- </string> -->
+
+	<string id="exo_fang_outfit_name">
+		<text>Fang's Exoskeleton</text>
+	</string>
+	<string id="exo_fang_outfit_description">
+		<text>%c[ui_gray_1]A special exoskeleton designed with the same specifications as the one that the legendary Stalker Fang wore. It comes with extra anomaly and bullet protection as well as better durability. Furthermore, it has 3 attachment slots, a built-in sprinting system and extra weight capacity. Its only downside is how expensive the armor is and its general rarity in the Zone.\n \n
+		</text>
+	</string>
+
+</string_table>

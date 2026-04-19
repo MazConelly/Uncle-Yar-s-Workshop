@@ -1,0 +1,20 @@
+base_is_planted_explosive = xr_gather_items.is_planted_explosive
+
+function xr_gather_items.is_planted_explosive()
+	if (obj:section() == 'mine_new_blow' or obj:section() == 'rpg_new_blow' or obj:section() == 'ied_new_blow') or obj:section() == 'ied_electro_blow' or obj:section() == 'ied_gravy_blow' or obj:section() == 'ied_burn_blow' or obj:section() == 'ied_acid_blow' then return true
+		else return false
+	end
+end
+
+function on_game_start()
+    local ex_type	= txr_mines.EXPLOSIVE_TYPE
+	
+	if ex_type then
+		ex_type["ied_electro"]	= game.translate_string("st_plant_explosive_remote_ied_electro")
+		ex_type["ied_gravy"]	= game.translate_string("st_plant_explosive_remote_ied_gravy")
+		ex_type["ied_burn"]		= game.translate_string("st_plant_explosive_remote_ied_burn")
+		ex_type["ied_acid"]		= game.translate_string("st_plant_explosive_remote_ied_acid")
+	end 
+	-- printf("ze ex_type table\n%s", utils_data.print_table(txr_mines.EXPLOSIVE_TYPE, false, true))
+	
+end

@@ -17,6 +17,11 @@ The default vanilla models are used by default instead. If you want new models, 
 ----------------------------------------------------------
 -Patches:
 
+Throw IEDs
+This is a standalone trimming of the mod. It will do nothing else than letting you throw the vanilla IEDs, no more and no less.
+Use this if you're not interested in either the Gunslinger grenade animations or the remote function, or you already have some other mod for either of those, such as Lassie's Stalker 2 animations, SoulCrystal's RGD-5 animations, Remote Controlled Explosives or Placeable Explosives.
+
+
 Various mods will act as per BOO's rules, and grenades mods in general will use left click for long throw, right click for underhand pass.
 Compatible with all BOO versions. That being the original BOO, and both the DLTXd conversion the merge with Remote Controlled Explosives, included in this patch pack.
 

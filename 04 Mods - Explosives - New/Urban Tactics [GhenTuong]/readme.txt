@@ -44,6 +44,8 @@ STALKER 2 HoC Grenade Animation
 Its animations will be used.
 NOTE: You still need the original mod.
 
+EFT Grenade Collision Sounds
+
 ----------------------------------------------------------
 -Known issues:
 

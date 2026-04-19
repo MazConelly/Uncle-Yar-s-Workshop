@@ -1,0 +1,71 @@
+
+
+![supplies_1]
+
+wpn_garand_j				= 	1, 0.88
+wpn_m1903					=	1, 0.88
+wpn_bar						=	1, 0.88
+wpn_hcar					=	1, 0.75
+
+ammo_3006_neko_fmj_m1		=	15, 0.88
+ammo_3006_neko_fmj_m2		=	10, 0.75
+ammo_3006_neko_ap			=	10, 0.66
+ammo_3006_neko_ap_m1917		=	5, 	0.33
+ammo_3006_neko_sp			=	10, 0.88
+ammo_3006_neko_hp			=	7, 	0.75
+ammo_3006_neko_match		=	5, 	0.33
+
+
+
+![supplies_1]:common_stock
+
+wpn_m1903					=	1, 0.88
+
+ammo_3006_neko_fmj_m1		=	50, 0.88
+ammo_3006_neko_sp			=	50, 0.88
+
+![supplies_2]:supplies_1
+
+wpn_garand_j				= 	1, 0.88
+wpn_m1903					=	1, 0.88
+
+ammo_3006_neko_fmj_m1		=	50, 0.88
+ammo_3006_neko_fmj_m2		=	50, 0.75
+ammo_3006_neko_sp			=	50, 0.88
+
+![supplies_3]:supplies_2
+
+wpn_garand_j				= 	1, 0.88
+wpn_m1903					=	1, 0.88
+
+ammo_3006_neko_fmj_m1		=	15, 0.88
+ammo_3006_neko_fmj_m2		=	50, 0.75
+ammo_3006_neko_sp			=	50, 0.88
+ammo_3006_neko_hp			=	50, 0.75
+
+![supplies_4]:supplies_3
+
+wpn_garand_j				= 	1, 0.88
+wpn_m1903					=	1, 0.88
+wpn_bar						=	1, 0.88
+
+ammo_3006_neko_fmj_m1		=	50, 0.88
+ammo_3006_neko_fmj_m2		=	50, 0.75
+ammo_3006_neko_ap			=	50, 0.66
+ammo_3006_neko_sp			=	50, 0.88
+ammo_3006_neko_hp			=	50, 0.75
+
+![supplies_5]:supplies_4
+
+wpn_garand_j				= 	1, 0.88
+wpn_m1903					=	1, 0.88
+wpn_bar						=	1, 0.88
+wpn_hcar					=	1, 0.75
+
+ammo_3006_neko_fmj_m1		=	50, 0.88
+ammo_3006_neko_fmj_m2		=	50, 0.75
+ammo_3006_neko_ap			=	50, 0.66
+ammo_3006_neko_ap_m1917		=	50, 0.33
+ammo_3006_neko_sp			=	50, 0.88
+ammo_3006_neko_hp			=	50, 0.75
+ammo_3006_neko_match		=	50, 0.33
