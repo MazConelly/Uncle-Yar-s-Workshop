@@ -1,0 +1,12 @@
+<string_table>
+	<string id="st_wpn_mp412_new">
+		<text>Basilisk .357 Magnum</text>
+	</string>
+	<string id="st_wpn_mp412_new_descr">
+		<text>This gun is a unique kind of model. It was manufactured by a nerd that decided to join the Zone a few years ago. He rapidly started melting and casting alloy in order to create homemade guns as it was his hobby in the outter world. They say a few stalkers from different factions were aware of that. Eventually he was approached by a mercenaries group that hired him. Stories says they needed a guy to replace their dead gunsmith. One day, he got a request to reuse a broken revolver frame that he upgraded. He machined it to recreate a gun from a famous video game and called it "The Basilisk". As revolver calibers are rather scarce, like .44 Magnum or .500 SW, he scaled the barrel down to shoot .357 Magnum, much more spread for its moderate recoil and use in hunting. A few models were crafted and seized from clashes between these groups and other stalkers.
+		\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: None.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: None. \n</text>
+	</string>
+</string_table>

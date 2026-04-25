@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_beretta_92_g1">
+		<text>Beretta 92 "Renetti"</text>
+	</string>
+	<string id="st_wpn_beretta_92_g1_s">
+		<text>Renetti</text>
+	</string>
+	<string id="st_wpn_beretta_92_g1_descr">
+		<text>The Beretta 92 Renetti is a special designation of the classic 92s, capable of full automatic fire due to it&#39;s selector switch and high magazine capacity, it&#39;s compensator helps mantaining stability both while wielding it and firing it.</text>
+	</string>
+
+</string_table>

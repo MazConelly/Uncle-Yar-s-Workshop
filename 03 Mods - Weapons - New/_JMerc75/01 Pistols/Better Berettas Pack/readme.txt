@@ -10,6 +10,9 @@ Renamed internal IDs for better debug and inventory organization. Will require a
 
 ----------------------------------------------------------
 -Explanation:
+
+Choose between all pistols together, or choose them separately for better compatibility.
+
 Consolidated files and trimmed icon file.
 Assigned correct shell effects.
 Cutlass chambered to 9x19 as indicated by text.

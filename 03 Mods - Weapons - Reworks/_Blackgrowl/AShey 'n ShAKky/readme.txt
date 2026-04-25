@@ -33,5 +33,9 @@ Disables AShey's Shak-12 for whoever prefers LEWD's Tactical alone.
 Also disables the Ash specialized silencer and makes it use a vanilla silencer.
 Obviously, this is incompatible with the rest of files in this module. Choose one thing or the other.
 
+JSRS patch
+Patch by GhstKng.
+Don't install the mod's Dark Signal patch.
+
 ----------------------------------------------------------
 -Known issues:

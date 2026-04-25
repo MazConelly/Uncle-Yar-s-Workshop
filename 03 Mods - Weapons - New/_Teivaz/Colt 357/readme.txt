@@ -37,5 +37,10 @@ Allows the gun to shoot .38 Special ammo.
 Sound performance patch
 This will reduce the number of sound layers if shooting the gun affects your game's performance.
 
+Replace MP412, by GhstKng
+Replaces MP412 with Teivaz's Colt 357. If you don't want duplicate weapon, disable the original configs INCLUDING all patches above.
+Optional file for SoulCrystal's Colt 357 Retexture
+Incompatible with all files and patches above.
+
 ----------------------------------------------------------
 -Known issues:
