@@ -7,6 +7,9 @@ Arti's Ballistics [Ahuyn]
 ----------------------------------------------------------
 -Explanation:
 
+Integration into:
+Lootboxes
+
 ----------------------------------------------------------
 -Patches:
 

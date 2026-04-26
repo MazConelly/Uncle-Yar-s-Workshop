@@ -16,6 +16,8 @@ Some text editing for better flow. In particular, the Sangur-V is treated as a f
 
 The Sphere-23M now acts as an inferior Sphere-08, with its ballistic protection instead of that of the ACH-7EX headgear.
 
+The IP-4M now uses a new actor_helm_gashat ballistic protection scheme, basically a simple helmet for the head and a M40 for the face and neck.
+
 Integration into:
 Headgear Restrictions
 Utjan's Item UI Improvements

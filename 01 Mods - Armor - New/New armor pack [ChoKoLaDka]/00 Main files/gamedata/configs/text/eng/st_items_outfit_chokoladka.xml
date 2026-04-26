@@ -16,7 +16,7 @@
 	</string>
 
 	<string id="novice_army_afganka_outfit_name">
-		<text>"Afghan"</text>
+		<text>Afghan</text>
 	</string>
 	<string id="novice_army_afganka_outfit_description">
 		<text>%c[ui_gray_1]A warm leather anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among military privates, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
@@ -32,6 +32,9 @@
 	<string id="army_2_outfit_name">
 		<text>PSZ-7 battle armour</text>
 	</string>
+	<string id="army_2_outfit_name_s">
+		<text>PSZ-7</text>
+	</string>
 	<string id="army_2_outfit_description">
 		<text>The Army bulletproof vest (PSZ-7 series) is the standard equipment of soldiers from the regular army. The bulletproof vest is designed to provide a basic level of protection against bullets and blows that may occur during combat operations against lightly armed opponents, in general, the protective characteristics are low and the bulletproof vest does not provide protection from abnormal phenomena that are common in the Zone.\n \n
 		</text>
@@ -39,6 +42,9 @@
 
 	<string id="army_3_outfit_name">
 		<text>Berill-4S armoured suit</text>
+	</string>
+	<string id="army_3_outfit_name_s">
+		<text>Berill-4S</text>
 	</string>
 	<string id="army_3_outfit_description">
 		<text>According to the developers, this bulletproof vest was supposed to become special forces equipment. For the full name of the equipment: "Berill-4 Special Forces Modification". But after the Berill-5M armored suit entered service, all these overalls began to be used by ordinary troops. It is used only on the territory of the South, because it does not sufficiently protect against abnormal effects. Protects in a better way than a simple army bulletproof vest. The main trump card of this equipment is lightness. You can run great in it. Thanks to this, the special forces celebrated the victory over stalkers more than once.\n \n
@@ -48,13 +54,16 @@
 	<string id="army_general_outfit_name">
 		<text>Berill-4O armoured suit</text>
 	</string>
+	<string id="army_general_outfit_name_s">
+		<text>Berill-4O</text>
+	</string>
 	<string id="army_general_outfit_description">
 		<text>An everyday officer uniform. For actual combat, officers are issue different equipment, but this is stil decent for the South of the Zone. Good bulletproof vest, comfortable pockets, built-in walkie-talkie... But the protection against anomalies is lacking.\n \n
 		</text>
 	</string>
 
 	<string id="specops_bandit_raider_outfit_name">
-		<text>Raider armoured suit"</text>
+		<text>Raider armoured suit</text>
 	</string>
 	<string id="specops_bandit_raider_outfit_description">
 		<text>%c[ui_gray_1]A set of PS5 series body armour with beryllium sputter, acquired through shady means by the Zone's Bandits. Although the suit shows visible signs of irreparable wear and tear, it's still an excellent choice for battle when both protection and mobility is needed. Not really recommended for use near anomalies, however.\n \n
@@ -96,6 +105,9 @@
 	<string id="dolg_beta_outfit_name">
 		<text>PS5-M "Beta" universal protection</text>
 	</string>
+	<string id="dolg_beta_outfit_name_s">
+		<text>PS5-M Beta</text>
+	</string>
 	<string id="dolg_beta_outfit_description">
 		<text>%c[ui_gray_1]An outdated model of the Duty PS5-M outfit, and no longer produced due to too much weight and worse mobility, although it provides better protection.\n \n
 		</text>
@@ -112,13 +124,19 @@
 	<string id="stalker_veteran1_outfit_name">
 		<text>"Veteran-1" stalker suit</text>
 	</string>
+	<string id="stalker_veteran1_outfit_name_s">
+		<text>Veteran-1</text>
+	</string>
 	<string id="stalker_veteran1_outfit_description">
-		<text>%c[ui_gray_1]A Zone-assembled suit that has been handmade by local craftsmen as a matter of survival.  With an effective combination of a lightweight army bulletproof vest and a jumpsuit made of rubberized fabric, and reinforced with built-in Kevlar plates, it provides better protection against weak small arms than standard Sunrise stalker suits, if insufficient for deep raids and dangerous operations.\n \n
+		<text>%c[ui_gray_1]A Zone-assembled suit that has been handmade by local craftsmen as a matter of survival. With an effective combination of a lightweight army bulletproof vest and a jumpsuit made of rubberized fabric, and reinforced with built-in Kevlar plates, it provides better protection against weak small arms than standard Sunrise stalker suits, if insufficient for deep raids and dangerous operations.\n \n
 		</text>
 	</string>
 
 	<string id="specops_gray_outfit_name">
 		<text>Berill-5M "Grayness" armoured suit</text>
+	</string>
+	<string id="specops_gray_outfit_name_s">
+		<text>Berill-5M Grayness</text>
 	</string>
 	<string id="specops_gray_outfit_description">
 		<text>%c[ui_gray_1]This item comprises military PS5 series body armour with beryllium sputter modified for use in the Zone. Designed for intense rapid-insertion assault operations, this outfit is standard issue for most Spetsnaz operators in the Zone, but requires a high quality respirator to counteract its weaknesses against radiation and anomalies. Occasionally, this suit will be sold to ordinary stalkers in exchange for various "favours".\n
@@ -127,7 +145,7 @@
 	</string>
 
 	<string id="cs_scientific_outfit_good_2_name">
-		<text>CS-4a "Vys" pathfinder</text>
+		<text>CS-4a "Vys" Pathfinder</text>
 	</string>
 	<string id="cs_scientific_outfit_good_2_description">
 		<text>%c[ui_gray_1]An unofficial version of the SEVA scientific suit that has been extensively improved by Novikov, Clear Sky's resident technician. While a little more flammable than the typical SEVA, and thus a poor choice for thermal anomalies, it provides beyond excellent anomaly protection in all other cases on top of being extremely comfortable to move around in, and as such is in great demand among Clear Sky's more serious researchers.\n
@@ -148,6 +166,9 @@
 
 	<string id="dolg_exolight_debtor_outfit_name">
 		<text>PSZ-10d Debtor battlesuit</text>
+	</string>
+	<string id="dolg_exolight_debtor_outfit_name_s">
+		<text>PSZ-10d Debtor</text>
 	</string>
 	<string id="dolg_exolight_debtor_outfit_description">
 		<text>The "underwear" of an exoskeleton, sometimes mistakenly known as the "Radsuit". This outfit provides almost all the protection one can expect from a full exoskeleton, but due to being stripped of its servos and batteries, it provides none of the strength enhancement. On the positive side, this means the suit is now easier to maintain and, unlike a full exoskeleton, does not prevent the wearer from sprinting. This suit is typically found in the hands of elite Duty warriors, especially those assigned to guard VIPs or launch exceedingly dangerous raids.\n \n
@@ -212,6 +233,9 @@
 
 	<string id="military_spektr_outfit_name">
 		<text>Skat-9 "Spectrum" armoured suit</text>
+	</string>
+	<string id="military_spektr_outfit_name_s">
+		<text>Skat-9 Spectrum</text>
 	</string>
 	<string id="military_spektr_outfit_description">
 		<text>%c[ui_gray_1]A modified Skat-9 outfit intended for conducting combat operations in anomalous areas.\n \n

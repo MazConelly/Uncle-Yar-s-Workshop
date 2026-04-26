@@ -7,6 +7,10 @@ VSSK Reanimation [BarryBogs]
 ----------------------------------------------------------
 -Explanation:
 
+Integration into:
+Lootboxes
+PDA Interactive
+
 ----------------------------------------------------------
 -Patches:
 

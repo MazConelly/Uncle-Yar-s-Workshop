@@ -14,6 +14,7 @@ Let this overwrite it.
 Mechanics may now sell the basic parts.
 
 Integration into:
+Lootboxes
 PDA Interactive
 
 ----------------------------------------------------------

@@ -14,6 +14,10 @@ NOTE: You still need the original mod. Let this overwrite it.
 Icon file trimmed and made DX8-9 compliant.
 Icons have been reorganized, take that into account if you have a file using these icons (not the parts themselves.).
 
+Integration into:
+Lootboxes
+PDA Interactive
+
 ----------------------------------------------------------
 -Patches:
 
