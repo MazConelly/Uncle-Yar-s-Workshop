@@ -1,5 +1,6 @@
 -Module:
 [SASSY] Ithaca M37 [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/sassy-ithaca-m37
 
 ----------------------------------------------------------
 -Compatibility:

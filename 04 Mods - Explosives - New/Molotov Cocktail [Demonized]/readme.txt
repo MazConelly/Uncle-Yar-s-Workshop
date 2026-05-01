@@ -1,5 +1,6 @@
 -Module:
 Molotov Cocktail [TheMrDemonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/152-molotov-cocktails
 
 ----------------------------------------------------------
 -Compatibility:

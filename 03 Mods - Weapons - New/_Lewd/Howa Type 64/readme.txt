@@ -1,5 +1,6 @@
 -Module:
 Howa Type 64 [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-howa-type64
 
 ----------------------------------------------------------
 -Compatibility:

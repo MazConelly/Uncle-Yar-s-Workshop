@@ -1,5 +1,6 @@
 -Module:
 Winchester 1886 and Marlin Dark Tracker Lever Action Rifles [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/winchester-1886-and-marlin-dark-tracker-lever-action-rifles
 
 ----------------------------------------------------------
 -Compatibility:

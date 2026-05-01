@@ -1,5 +1,6 @@
 -Module:
 Anomalous Grenades [hellcolonel]
+https://www.moddb.com/mods/stalker-anomaly/addons/anomalious-grenades1
 
 ----------------------------------------------------------
 -Compatibility:

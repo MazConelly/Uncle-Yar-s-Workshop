@@ -1,5 +1,6 @@
 -Module:
 StG44 [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-stg44
 
 ----------------------------------------------------------
 -Compatibility:

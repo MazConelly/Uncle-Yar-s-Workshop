@@ -1,5 +1,6 @@
 -Module:
 Laugo Alien Pistol [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/laugo-alien-pistol
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Better Armed Zombies REDUX [ilrathCXV]
+https://www.moddb.com/mods/stalker-anomaly/addons/better-armed-zombies-redux
 
 ----------------------------------------------------------
 -Compatibility:

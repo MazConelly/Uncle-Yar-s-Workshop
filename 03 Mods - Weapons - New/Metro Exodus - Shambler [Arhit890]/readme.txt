@@ -1,5 +1,6 @@
 -Module:
 Metro Exodus - Shambler [Arhit890]
+https://www.moddb.com/mods/stalker-anomaly/addons/metro-exodus-shambler
 
 ----------------------------------------------------------
 -Compatibility:

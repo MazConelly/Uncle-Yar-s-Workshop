@@ -1,5 +1,6 @@
 -Module:
 Arisaka Quality Control [SoulCrystal]
+https://www.moddb.com/mods/stalker-anomaly/addons/arisaka-quality-control
 
 ----------------------------------------------------------
 -Compatibility:

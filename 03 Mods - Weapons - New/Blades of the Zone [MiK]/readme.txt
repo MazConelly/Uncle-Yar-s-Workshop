@@ -1,5 +1,6 @@
 -Module:
 Blades of the Zone [MiK]
+https://www.moddb.com/mods/stalker-anomaly/addons/blades-of-the-zone
 
 ----------------------------------------------------------
 -Compatibility:

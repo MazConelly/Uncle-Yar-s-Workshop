@@ -1,5 +1,6 @@
 -Module:
 RPG26 [AnthonyIrwin]
+https://www.moddb.com/mods/stalker-anomaly/addons/rpg26-2-21
 
 ----------------------------------------------------------
 -Compatibility:

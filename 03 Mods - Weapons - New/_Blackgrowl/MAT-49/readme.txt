@@ -1,5 +1,6 @@
 -Module:
 MAT-49 [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/mat49frenchsubmachinegun
 
 ----------------------------------------------------------
 -Compatibility:

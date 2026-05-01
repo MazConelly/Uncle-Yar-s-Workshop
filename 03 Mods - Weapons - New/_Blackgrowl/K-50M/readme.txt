@@ -1,5 +1,6 @@
 -Module:
 K-50M [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/k50m
 
 ----------------------------------------------------------
 -Compatibility:

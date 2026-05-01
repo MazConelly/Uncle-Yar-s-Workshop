@@ -1,5 +1,6 @@
 -Module:
 SSK .950 JDJ Rifle [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/ssk-950-jdj-rifle
 
 ----------------------------------------------------------
 -Compatibility:

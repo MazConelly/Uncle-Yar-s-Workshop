@@ -1,5 +1,6 @@
 -Module:
 Magazines Redux [RavenAscendant, Wuut]
+https://github.com/RAX-Anomaly/MagsRedux
 
 ----------------------------------------------------------
 -Compatibility:
@@ -12,8 +13,10 @@ Main icon file compressed.
 ----------------------------------------------------------
 -Patches:
 
-This github fork makes a few tweaks: https://github.com/MazConelly/MagsRedux/tree/BaS-mags-movement
-A pull request is still awaiting review for merge with the main mod, but you may use it meanwhile. DO NOT expect support from Raven until then, so don't bother him. Or I'll stick sugar spoons under your eyelids while your dog watches and laughs.
+This github fork makes a few tweaks:
+https://github.com/MazConelly/MagsRedux/tree/BaS-mags-movement
+A pull request is still awaiting review for merge with the main mod, but you may use it meanwhile.
+DO NOT expect support from Raven until then, don't bother him. If you do, I'll stick sugar spoons under your eyelids while your dog watches and laughs. I am NOT kidding.
 
 Includes the following:
 - Completed full sets of mags for AUG, FAMAS, G36, and SIG rifles, with fast, extended, and casket magazines for each. The load_delay from standard mags is passed to the fast mags and assigned them as the rifles improved magazines.

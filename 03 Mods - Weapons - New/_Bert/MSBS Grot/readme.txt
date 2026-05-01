@@ -1,5 +1,6 @@
 -Module:
 MSBS Grot [bert]
+https://www.moddb.com/mods/stalker-anomaly/addons/msbs-grot
 
 ----------------------------------------------------------
 -Compatibility:

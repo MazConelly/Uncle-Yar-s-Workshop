@@ -1,5 +1,6 @@
 -Module:
 Dark Signal Weapon Audio Pack [Shr¡ke]
+https://www.moddb.com/mods/stalker-anomaly/addons/dark-signal-stand-alone-weapon-audio
 
 ----------------------------------------------------------
 -Compatibility:

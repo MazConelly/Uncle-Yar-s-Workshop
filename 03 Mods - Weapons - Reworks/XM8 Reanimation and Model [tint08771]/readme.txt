@@ -1,5 +1,6 @@
 -Module:
 XM8 Reanimation and Model [tint08771]
+https://www.moddb.com/mods/stalker-anomaly/addons/xm8-reanimation-and-model
 
 ----------------------------------------------------------
 -Compatibility:

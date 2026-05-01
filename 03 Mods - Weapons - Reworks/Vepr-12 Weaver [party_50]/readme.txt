@@ -1,6 +1,7 @@
 -Module:
 Vepr-12 Weaver [party_50]
 by V4l14nc3
+https://www.moddb.com/mods/stalker-anomaly/addons/vepr-12-weaver
 
 ----------------------------------------------------------
 -Compatibility:

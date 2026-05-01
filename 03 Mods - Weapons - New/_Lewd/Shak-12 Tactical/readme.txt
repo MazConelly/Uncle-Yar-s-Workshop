@@ -1,5 +1,6 @@
 -Module:
 Shak-12 Tactical [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-shak-12-tactical
 
 ----------------------------------------------------------
 -Compatibility:

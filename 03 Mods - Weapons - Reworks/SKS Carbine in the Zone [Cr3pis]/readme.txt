@@ -1,5 +1,6 @@
 -Module:
 SKS Carbine in The Zone [Cr3pis]
+https://www.moddb.com/mods/stalker-anomaly/addons/sks-carbine-in-the-zone
 
 ----------------------------------------------------------
 -Compatibility:

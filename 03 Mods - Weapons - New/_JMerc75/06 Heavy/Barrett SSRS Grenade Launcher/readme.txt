@@ -1,5 +1,6 @@
 -Module:
 Barrett SSRS Grenade Launcher [JMerc] 
+https://www.moddb.com/mods/stalker-anomaly/addons/barrett-ssrs-grenade-launcher
 
 ----------------------------------------------------------
 -Compatibility:

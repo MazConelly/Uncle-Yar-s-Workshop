@@ -1,5 +1,6 @@
 -Module:
 Bullet Shell Sounds [Gabriel MacClay]
+https://www.moddb.com/mods/stalker-anomaly/addons/bullet-shell-casing-sounds
 
 ----------------------------------------------------------
 -Compatibility:

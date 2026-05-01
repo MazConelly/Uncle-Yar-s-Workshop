@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- Collimators -->
+	<string id="st_sight_compm4_laser">
+		<text>Aimpoint COMPM4 Collimator/Laser Sight</text>
+	</string>
+	<string id="st_sight_compm4_laser_descr">
+		<text>The COMPM4 is an optical collimator with integrated laser pointer which provides a visual reference point to better target acquisition. For short to medium range engagements.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Sweden\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Aimpoint AB\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_belomo_pkas">
+		<text>BelOMO PK-AS</text>
+	</string>
+	<string id="st_sight_belomo_pkas_descr">
+		<text>The PK-AS is a holographic collimator sight for mounting on Picatinny rail manufactured by the Belarussian company BelOMO. Originally descended from the PKS-07 magnified scope used on the SV98 and sometimes SVD Dragunov rifles, the PK-AS is the non-magnified version inspired from the original PKS-01. Due to it's construction and with its thin scope body, the edges almost completely disappear with both eyes open, leaving the user with an excellent field of view.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Belarus\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Belarusian Optical and Mechanical Organization (BelOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_belomo_pk23">
+		<text>BelOMO PK-23</text>
+	</string>
+	<string id="st_sight_belomo_pk23_descr">
+		<text>The PK-23 is a red dot collimator sight manufactured by the Belarussian company BelOMO.  By itself it doesn't have a built in mount and is intended to be paired with the side rail or top cover mount of the user choice. Its sturdy construction make it very durable and resistant in field use.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Belarus\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Belarusian Optical and Mechanical Organization (BelOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_belomo_pkapctny">
+		<text>BelOMO PK-A (Picatinny)</text>
+	</string>
+	<string id="st_sight_belomo_pkapctny_descr">
+		<text>The PK-A is a sturdy and robust red dot tube optic. Originally appearing to be an adaptation of the original PSO SVD optic, the PK-A has a similar construction and the same style of hammer grey finish. The newer versions use different style turrets for windage and elevation and appear to be POSP turrets, vs the original which are much smaller and not marked with numbers. Some models have been adapted to be mounted on Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Belarus\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Belarusian Optical and Mechanical Organization (BelOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_belomo_rsm">
+		<text>BelOMO RS-M</text>
+	</string>
+	<string id="st_sight_belomo_rsm_descr">
+		<text>The RS-M is a red dot reflex sight manufactured by the Belarussian company BelOMO for mounting on Picatinny rail. Although heavier than other micro red dots, its sturdy construction make it very durable and resistant in field use.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Belarus\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Belarusian Optical and Mechanical Organization (BelOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_dedal_dk9">
+		<text>Dedal DK-9</text>
+	</string>
+	<string id="st_sight_dedal_dk9_descr">
+		<text>The DK-9 is a lightweight and durable red dot sight with wide field of view, designed for Picatinny rails. It facilitates rapidity and accuracy of shooting, especially from uncomfortable positions, thanks to fast aiming with both eyes using the bright dot.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Dedal-NV\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_eotech_eolad">
+		<text>EOTECH EOLAD-1I</text>
+	</string>
+	<string id="st_sight_eotech_eolad_descr">
+		<text>The impressive EOLAD-1I combines the power and precision of a laser pointer with the versatility, ruggedness and proven effectiveness of the EOTech 552 HWS combat optic. This single, cutting-edge device pro¬vides fast target acquisition and delivers impeccable shooting accuracy in ever-changing battlefield conditions.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]EOTECH\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex/Laser Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_elbit_falcon2">
+		<text>Elbit Falcon II</text>
+	</string>
+	<string id="st_sight_elbit_falcon2_descr">
+		<text>The next generation of this renowned series of holosights, the Falcon II becomes a worthy heir to the reputation of her predecessor. Many user reports asserts that first round hit probability is tremendously increased with the proper use of this reflex sight, especially on moving targets. Built like a tank to last indefinitely in the harshest conditions, many examples in The Zone show signs of intense abuse in service but remain fully functional. The downside are its considerable size and weight compared to other similar devices, which has meant that its military use has not been as widespread as that of its predecessor. But in The Zone these inconveniences are considered trivialities compared to the advantages of having a durable and effective device in an environment where it is never easy to get spare parts or replacements, which is why they are in high demand whenever one goes on sale.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Israel\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Elbit Systems\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_rsl18">
+		<text>Feyachi RSL-18 Reflex/Laser Sight</text>
+	</string>
+	<string id="st_sight_rsl18_descr">
+		<text>The RSL-18 is an optical sight with integrated laser pointer which provides a visual reference point to better target acquisition in short to medium range engagements.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Italy\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Feyachi\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_hartman_mh1">
+		<text>Hartman MH1</text>
+	</string>
+	<string id="st_sight_hartman_mh1_descr">
+		<text>The MH1 is a reflex sight with one of the largest field of view in the market. Conceived from the battle experience of its designer, a former Israeli army officer, it is a precise, robust, reliable device designed for prolonged combat, although also significantly more expensive than its competition.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Israel\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Hartman\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_holosun_hs401">
+		<text>Holosun Infiniti HS401R5</text>
+	</string>
+	<string id="st_sight_holosun_hs401_descr">
+		<text>The Infiniti is one of the red dot sight series made by Holosun. These full tube sights come with an integrated red laser pointer, quick-detachable mount for the Picatinny platform and flip-up covers for the lenses. The illumination and the laser are powered by a CR123A battery. These durable and rugged red dot sights feature a single-piece housing made out of aluminum.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Holosun\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_jsc_krechet">
+		<text>JSC Krechet</text>
+	</string>
+	<string id="st_sight_jsc_krechet_descr">
+		<text>The Krechet is a follow on the 1P87 sight, conceived for the civilian market. Compared with its military counterpart, its design has been simplified and is bulkier and heavier, but also considerably cheaper. Like the 1P87, it is designed for precision shooting at day and at night when used in combination with a night vision device.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]JSC Jupiter\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_komz_rusak">
+		<text>KOMZ PRU-452 Rusak</text>
+	</string>
+	<string id="st_sight_komz_rusak_descr">
+		<text>The Rusak is an holographic collimator optic for mounting on Picatinny rail produced by the Kazan Optical-Mechanical Plant (KOMZ) during the late 80s/early 90s. Like other similar designs, it is a unmagnified fast acquisition sight for field use.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Soviet Union\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Kazan Optical-Mechanical Factory (KOMZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_meprolight_rds">
+		<text>MEPRO RDS</text>
+	</string>
+	<string id="st_sight_meprolight_rds_descr">
+		<text>The MEPRO RDS is a aluminum-bodied Reflex Sight designed for extreme durability, efficiency and reliability in any tactical scenario, providing thousands of operating hours from a single “AA” battery. The large display window and clearly-defined reticle, ensures rapid target acquisition with both eyes open and unlimited, parallax free, field of view.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Israel\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Meprolight\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_npz_pku2">
+		<text>NPZ PKU-2</text>
+	</string>
+	<string id="st_sight_npz_pku2_descr">
+		<text>The PKU-2 is an AimPoint micro style design with a 2 MOA dot and 12 brightness settings. It is NV compatible and fills the same role as the many other micro red dots on the market.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Novosibirsk Instrument-Making Plant (NPZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_sightmark_wolverine">
+		<text>Sightmark Wolverine Collimator/Laser Sight</text>
+	</string>
+	<string id="st_sight_sightmark_wolverine_descr">
+		<text>The Wolverine is an optical collimator with integrated laser pointer which provides a visual reference point to better target acquisition. For short to medium range engagements.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Sightmark\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_sigsauer_msr">
+		<text>Sig Sauer Romeo-RSM</text>
+	</string>
+	<string id="st_sight_sigsauer_msr_descr">
+		<text>The ROMEO-MSR is a sealed compact red dot or green dot sight intended for MSR, carbine, shotgun and air rifle. Brightness is adjusted with a top-mounted rotary dial, featuring 10 daytime and 2 night vision settings for quick target engagement in any condition.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Sig Sauer\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_romeo7">
+		<text>Sig Sauer Romeo-7 Collimator/Laser Sight</text>
+	</string>
+	<string id="st_sight_romeo7_descr">
+		<text>The Romeo-7 is an optical collimator with integrated laser pointer which provides a visual reference point to better target acquisition. For short to medium range engagements.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Sig Sauer\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_steiner_r1x">
+		<text>Steiner R1X</text>
+	</string>
+	<string id="st_sight_steiner_r1x_descr">
+		<text>The R1X is a reflex sight designed and engineered for use on patrol rifles and AR platforms. The R1X reduces the “tunnel vision” of hard-focus iron sights enhanced accuracy and greater situational awareness. Lightweight and compact, it is easy to mount, simple to use and very versatile in the field. It allows faster targeting, wider field of view, and better tactical picture than standard iron sights, letting the user to engage a threat while staying aware of everyone and everything around him.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Germany\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Steiner Optics\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex Sight\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_utg_scprd40">
+		<text>Leapers SCP-RD40</text>
+	</string>
+	<string id="st_sight_utg_scprd40_descr">
+		<text>The UTG reflex sight with a Red/Green circle dot, manufactured by Leapers Inc. This model is a compact, small-size reflex sight, which mounts on Weaver/Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Leapers Inc.\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_vortex_strikefire2">
+		<text>Vortex Strikefire II Reflex/Laser Sight</text>
+	</string>
+	<string id="st_sight_vortex_strikefire2_descr">
+		<text>The Vortex Strikefire II is an optical sight with integrated laser pointer which provides a visual reference point to better target acquisition in short to medium range engagements.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Vortex Optics\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Red dot collimator\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+
+<!-- Scopes -->
+
+	<string id="st_sight_belomo_posp1450w">
+		<text>BelOMO POSP-14x50W</text>
+	</string>
+	<string id="st_sight_belomo_posp1450w_descr">
+		<text>The POSP-14x50W is an optical sight with variable magnification, designed for aimed shooting from hunting and sniper rifles. Its reticle is equipped with a stadiametric rangefinder, which allows to estimate approximate distance to an object and have internal illumination for aiming in low light. It is hermetically sealed and filled with nitrogen, wich prevents condensation inside the scope in low temperatures conditions. The W model is designed for installation on guns with Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Belarus\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Belarusian Optical and Mechanical Organization (BelOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]14x\n
+		</text>
+	</string>
+
+	<string id="st_sight_kmz_1p69">
+		<text>KMZ 1P69</text>
+	</string>
+	<string id="st_sight_kmz_1p69_descr">
+		<text>The 1P69 is an adaptation of the previous 1P59 Giperon to be mounted on Picatinny rails. The sight has a flexible adjustment of the multiples, as well as a fairly accurate range finder, facilitating the operation of combining, measuring the distance to the target and entering the aiming angles.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Krasnogorsk Mechanical Works (KMZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]10x\n
+		</text>
+	</string>
+
+	<string id="st_sight_leupold_hamr">
+		<text>Leupold HAMR Mk4</text>
+	</string>
+	<string id="st_sight_leupold_hamr_descr">
+		<text>The HAMR Mk4 is a dual optic 4x magnification scope with a 24mm objective lens and an integrated Deltapoint optic on top of the scope body to better target acquisition at short ranges.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Leupold & Stevens\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4x\n
+		</text>
+	</string>
+
+	<string id="st_sight_leupold_mk4cqt">
+		<text>Mark 4 CQ/T</text>
+	</string>
+	<string id="st_sight_leupold_mk4cqt_descr">
+		<text>The Mark 4 CQ/T is a variable 1-3x of power magnification scope developed and sold starting in the early 2000s. The scope attempted to combine the features of a red dot and low power scope in one package. While in the 2020s the idea of the LPVO is widespread, at the time few scopes intended for military use existed in this catagory. The scope has an eleven position illumination dial that is powered by a single AA battery. With a battery life was 600+ hours on a medium setting or 7 hours on the highest setting. Eye relief was designed with the M16/M4 length of pull in mind. While it did achieve some sales seeing use by multiple US military branchs and with police forces in multiple countries during the mid to late 2000s, the the Mark 4 CQ/T never achieved the success of other sights of its era like the ACOG, Eotech and Aimpoint.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Leupold & Stevens\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]Variable 1-3x\n
+		</text>
+	</string>
+
+	<string id="st_sight_lomo_pks07pcty">
+		<text>LOMO PKS-07 (Picatinny)</text>
+	</string>
+	<string id="st_sight_lomo_pks07pcty_descr">
+		<text>The PKS-07 Tactical Sniper Sight is a unique sniper scope based on collimator technology. The scope was created in LOMO (Saint-Petersburg, Russia) especially for the VSK-94 sniper platform. As it was technologically more advanced as well as lighter, the Russian military has chosen it over the PSO-3 as the standard optic for the SV-98. It's fully coated prismatic lens system provides a remarkable, high contrast, wide angle field of view and lower eyepiece location for comfortable aiming. The scope has an illuminated rangefinding reticle. The scope has POSP-style windage and elevation adjustments (every elevation turret' click moves POI by 4.5 cm at 100 m, every windage turret' click moves POI by 2.5 cm at 100 m). The special protective lens coatings protect the scope from scratching and fouling in the extreme battlefield conditions where it was designed to operate. This version has been adaptad to be mounted in Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Leningrad Optical Mechanical Association (LOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]7x\n
+		</text>
+	</string>
+
+	<string id="st_sight_lomo_pos1360w">
+		<text>LOMO POS-13x60W</text>
+	</string>
+	<string id="st_sight_lomo_pos1360w_descr">
+		<text>The POS-13x60W is an optical sight with variable magnification, designed for aimed shooting from hunting and sniper rifles. Its reticle is equipped with a stadiametric rangefinder, which allows to estimate approximate distance to an object and have internal illumination for aiming in low light. It is hermetically sealed and filled with nitrogen, wich prevents condensation inside the scope in low temperatures conditions. Originaly designed for the anti-materiel rifle OSV-96; the W model has been adapted for installation on guns with Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Leningrad Optical Mechanical Association (LOMO)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]Variable 1-13x\n
+		</text>
+	</string>
+
+	<string id="st_sight_ncstar_vadotp3942g">
+		<text>NcSTAR VADOTP3942G</text>
+	</string>
+	<string id="st_sight_ncstar_vadotp3942g_descr">
+		<text>The VADOTP3942G is a dual optic 4x magnification scope with a 42mm objective lens and an integrated Red dot reflex optic on top of the scope body to better target acquisition at short ranges.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]NcSTAR\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4x\n
+		</text>
+	</string>
+
+	<string id="st_sight_npz_po156">
+		<text>NPZ PO-156</text>
+	</string>
+	<string id="st_sight_npz_po156_descr">
+		<text>The PO-156 is is a relatively new optic from NPZ, with variable magnifiying power between 1x and 6x and designed for terrain observation, target detection, recognition and quick aiming with a variety of rifled weapons. Compatible with Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Novosibirsk Instrument-Making Plant (NPZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]6x\n
+		</text>
+	</string>
+
+	<string id="st_sight_npz_psopctny">
+		<text>PSO-1M (Picatinny)</text>
+	</string>
+	<string id="st_sight_npz_psopctny_descr">
+		<text>A modernized variant of the classic soviet PSO scope, adapted to be compatible with Picatinny rails.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Novosibirsk Instrument-Making Plant (NPZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4x\n
+		</text>
+	</string>
+
+	<string id="st_sight_npz_psu">
+		<text>NPZ PSU</text>
+	</string>
+	<string id="st_sight_npz_psu_descr">
+		<text>The PSU is is a relatively new optic from NPZ very similar to the Elcan DR optic and clearly intended to perform the same role for marksman shooters. It is designed with variable magnifiying power between 1x and 4x which gives it more versatility but also makes it heavier and more expensive than similar optics.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Novosibirsk Instrument-Making Plant (NPZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4x\n
+		</text>
+	</string>
+
+	<string id="st_sight_osprey_734">
+		<text>Osprey Global 734</text>
+	</string>
+	<string id="st_sight_osprey_734_descr">
+		<text>The 734 is a dual optic 4x magnification scope with a 32mm objective lens and an integrated iron sight on top of the scope body, with naturally illuminated fiber optic to better target acquisition at short ranges.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Osprey Global\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4x\n
+		</text>
+	</string>
+
+	<string id="st_sight_pa_sl25">
+		<text>Primary Arms SLX 2.5X</text>
+	</string>
+	<string id="st_sight_pa_sl25_descr">
+		<text>The SLX is a lightweight, fixed 2.5x of power magnification scope intended to be a versatile and do-everything scope for multiple tactical scenarios. The low magnification and bright illuminated reticle allow for fast, both-eyes-open target adquisition at close range, while the ACSS CQB-M1 reticle allows for easy hits on human sized targets up to 600 meters. The etched reticle requires no illumination, but 12 brightness settings are powered by a CR2032 battery with very long life. The device is waterproof and fog resistant and its rugged construction makes it also shock-proof and very durable.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Primary Arms\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]Fixed 2.5x\n
+		</text>
+	</string>
+
+	<string id="st_sight_pilad_brevis">
+		<text>VOMZ Pilad Brevis</text>
+	</string>
+	<string id="st_sight_pilad_brevis_descr">
+		<text>The Pilad Brevis is a fixed 2,5x of power magnification scope designed for medium range engaments. Its wide field of view and compact size, combined with a Picatinny mount, make it a versatile choice to equip any firearm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Vologda Optical and Mechanical Plant (VOMZ)\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]2.5x\n
+		</text>
+	</string>
+
+	<string id="st_sight_sb_32050pm2">
+		<text>Schmidt und Bender 3-20x50 PM II Ultra Short (with RX1)</text>
+	</string>
+	<string id="st_sight_sb_32050pm2_descr">
+		<text>The 3-20x50 PM II Ultra Short is riflescope designed with excellent optical performance and a large field-of-view on low power for fast target acquisition at medium and long-range combat scenarios. Although extremely compact, it features a powerful 20x zoom and it is very rugged and lightweight and therefore ideal for compact weapon systems. The low-profile elevation turret with a large 35 MRAD adjustment range can easily be combined with a red dot sight for close distances, which makes it versatile and adaptable to any tactical situation that the user encounters.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Germany\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Schmidt und Bender\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Sniper scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]Variable 1-20x\n
+		</text>
+	</string>
+
+	<string id="st_sight_sigsauer_bravo4">
+		<text>Sig Sauer Bravo 4 + Laser Sight</text>
+	</string>
+	<string id="st_sight_sigsauer_bravo4_descr">
+		<text>The Sig Sauer Bravo 4 is an optical sight short to medium range engagements. Many examples in the zone mount laser pointers in their upper rails, providing a visual reference point to better target acquisition.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Sig Sauer\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4x\n
+		</text>
+	</string>
+
+	<string id="st_sight_vortex_spitfire">
+		<text>Vortex Spitfire 3X</text>
+	</string>
+	<string id="st_sight_vortex_spitfire_descr">
+		<text>The Spitfire 3X combines an impressive array of high-performance features into a rugged, ultra-compact package that withstands recoil and impact while nitrogen purging and o-ring seals ensure fogproof and waterproof performance. Desigual use for Shooting Tactical / Hunting, this device excels when fast target acquisition in close- to medium-range shooting applications is a priority. Its sophisticated prism-based design allows for a more compact optical system without sacrificing optical quality. The EBR-556B reticle is etched directly on the prism to assure consistent point-of-aim at all times.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Vortex Optics\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Marksman scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]Fixed 3x\n
+		</text>
+	</string>
+
+
+<!-- Night vision -->
+
+	<string id="st_sight_armasight_vulcan">
+		<text>Armasight Vulcan 3 Night scope</text>
+	</string>
+	<string id="st_sight_armasight_vulcan_descr">
+		<text>The Armasight Gen 3 Bravo Vulcan 4.5x Compact Professional Night Vision Rifle Scope is a stand-alone, dedicated night vision riflescope that does not require an existing riflescope and comes with green or ghost white phosphor image intensifier tubes. The set includes a wireless firearm-mounted remote control – a single push of a button wakes the Armasight Vulcan 4x from standby mode, extending battery life, maintaining light discipline, and reducing movement by the shooter. This shockproof and waterproof riflescope incorporates multicoated all-glass lenses for superior IR light transmission and is purged and filled with dry nitrogen to prevent fogging. Complete with tactical rails for attaching IR lasers or illuminators, the Armasight Vulcan 4.5x night vision riflescope doesn’t skimp on value or advanced features.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]USA\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Armasight\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Night Vision scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4.5x\n
+		</text>
+	</string>
+
+	<string id="st_sight_optex_anpsv4">
+		<text>AN/PSV-4 Night Scope</text>
+	</string>
+	<string id="st_sight_optex_anpsv4_descr">
+		<text>The AN/PVS-4 is a second generation passive Night vision device first deployed in 1978 by the US Army. Although passive night vision technology capable of allowing vision under ambient starlight conditions has existed since the 1950s, it was not until the AN/PVS-4 was developed that a practical, high-quality device that met military requirements was first made available. Unlike earlier passive starlight weapon scopes the AN/PVS-4 provided a high quality image without significant distortion, could adjust to changing ambient light conditions, was able to take multiple reticles to operate in many roles and had protective features allowing it to shut down in the event of exposure to bright light, but still recover in time after a muzzle flash for the operator to see the round hit the target. It was widely deployed on a variety of weapons during the Gulf War, which was the first war in which ground combat operations continued both day and night through the use of night vision devices. The AN/PVS-4 became one of the most widely used night vision scopes and has been in active use for more than a quarter of a century. Decommissioned examples from western armies arsenals has found their way into The Zone through weapons smugglers and although it does not offer the same image quality as other more modern devices, it is still highly sought after as it is one of the few of its kind available to the average stalker.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Optic Electronic Corporation of Dallas\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Night Vision scope\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]3.5x\n
+		</text>
+	</string>
+
+
+<!-- Laser pointers -->
+
+	<string id="st_sight_sbalpl">
+		<text>Steiner Optics SBAL-PL Laser module</text>
+	</string>
+	<string id="st_sight_sbalpl_descr">
+		<text>The SBAL-PL is a compact handgun device offering a visible laser beam, which provides a visual reference point to aid target acquisition.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Germany\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Steiner-Optik\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Laser aiming module\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+	<string id="st_sight_votatu_h3lg">
+		<text>Votatu H3L-G Laser module</text>
+	</string>
+	<string id="st_sight_votatu_h3lg_descr">
+		<text>The H3L-G is a compact handgun device offering a visible laser beam, which provides a visual reference point to aid target acquisition.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]United States of America\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Votatu\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Laser aiming module\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]None\n
+		</text>
+	</string>
+
+
+<!-- Combo -->
+
+	<string id="st_sight_jsc_1p87w1p90">
+		<text>JSC 1P87 collimator with 1P90 magnifier</text>
+	</string>
+	<string id="st_sight_jsc_1p87w1p90_descr">
+		<text>A marksman optic for Picatinny rails resulting from combining the 1P87 collimator with the 1P90 magnifier, both produced by JSC Jupiter. It can be described as a Russian equivalent to Western combinations with magnifiers such as the EOTech G33.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]JSC Jupiter\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex sight + magnifier combo\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]3.0x\n
+		</text>
+	</string>
+
+	<string id="st_sight_jsc_krechetw1p90">
+		<text>JSC Krechet collimator with 1P90 magnifier</text>
+	</string>
+	<string id="st_sight_jsc_krechetw1p90_descr">
+		<text>A marksman optic for Picatinny rails resulting from combining the Krechet collimator with the 1P90 magnifier, both produced by JSC Jupiter. It can be described as a Russian equivalent to Western combinations with magnifiers such as the EOTech G33.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Russian Federation\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]JSC Jupiter\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex sight + magnifier combo\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]3.0x\n
+		</text>
+	</string>
+
+	<string id="st_sight_mh1wjuliet4">
+		<text>MH1 reflex sight with Juliet4 magnifier</text>
+	</string>
+	<string id="st_sight_mh1wjuliet4_descr">
+		<text>A marksman optic for Picatinny rails resulting from combining the Hartman MH1 reflex sight with the Sig Sauer Juliet4 magnifier. Similiar to other Western combinations with magnifiers such as the EOTech G33.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] + %c[0,255,255,255] Origin: %c[ui_gray_2]Israel/USA\n
+		%c[d_cyan] + %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Hartman/Sig Sauer\n
+		%c[d_cyan] + %c[0,255,255,255] Type: %c[ui_gray_2]Reflex sight + magnifier combo\n
+		%c[d_cyan] + %c[0,255,255,255] Compatibility: %c[ui_gray_2]Picatinny rails\n
+		%c[d_cyan] + %c[0,255,255,255] Magnification: %c[ui_gray_2]4.0x\n
+		</text>
+	</string>
+
+<!-- Craftable -->
+
+	<string id="st_ui_craft_craftablecollimators">
+		<text>Collimators</text>
+	</string>
+
+	<string id="st_sight_homemade_collimator">
+		<text>Homemade collimator</text>
+	</string>
+	<string id="st_sight_homemade_collimator_descr">
+		<text>An optical sight made of scrap metal and thrown electronic components. It will not help you win a shooting competition, but you can (more or less) aim with its help.\n \n
+		%c[ui_gray_2]Craft recipe: \n
+		%c[d_purple] • Tools: %c[ui_gray_2] Basic tools\n
+		%c[d_purple] • Components: %c[ui_gray_2] \n
+        - Tur glue (x1)\n
+		- Set of capacitors (x1)\n
+		- Copper wire (x1)\n
+		- Set of fasteners (x1)\n
+		- Pieces of glass (x1)\n
+        - Ret of resistors (x1)\n
+		- Set of transistors (x1)\n
+		- Metal (x1)\n
+		- Batteries (x1)\n
+		- And a little faith...\n
+		</text>
+	</string>
+
+	<string id="st_sight_makeshift_collimator">
+		<text>Makeshift collimator</text>
+	</string>
+	<string id="st_sight_makeshift_collimator_descr">
+		<text>An optical sight made of scrap metal and thrown electronic components. It will not help you win shooting competitions, but you can (more or less) aim with its help.\n \n
+		%c[ui_gray_2]Craft recipe:\n
+		%c[d_purple] • Tools: %c[ui_gray_2] Basic tools\n
+		%c[d_purple] • Components: %c[ui_gray_2]\n
+        - Tur glue (x1)\n
+		- Set of capacitors (x1)\n
+		- Copper wire (x1)\n
+		- Set of fasteners (x1)\n
+		- Pieces of glass (x1)\n
+        - Ret of resistors (x1)\n
+		- Set of transistors (x1)\n
+		- Metal (x1)\n
+		- Batteries (x1)\n
+		- And a little faith..\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,5 +1,6 @@
 -Module:
 Gepard Model 6 Lynx [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/gepard-model-6-lynxmwii-port
 
 ----------------------------------------------------------
 -Compatibility:

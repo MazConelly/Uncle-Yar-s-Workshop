@@ -1,5 +1,6 @@
 -Module:
 Winchester Model 1887 [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/winchester-model-1887-shotgun
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 M4s Re-Imagined [kRePiN]
+https://www.moddb.com/mods/stalker-anomaly/addons/m4s-re-imagined
 
 ----------------------------------------------------------
 -Compatibility:

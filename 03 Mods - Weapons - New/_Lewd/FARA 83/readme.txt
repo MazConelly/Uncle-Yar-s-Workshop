@@ -1,5 +1,6 @@
 -Module:
 FARA 83 [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-fara-83
 
 ----------------------------------------------------------
 -Compatibility:

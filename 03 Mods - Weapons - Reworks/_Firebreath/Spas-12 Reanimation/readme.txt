@@ -1,5 +1,6 @@
 -Module:
 Spas-12 Reanimation [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/spas12-reanimation
 
 ----------------------------------------------------------
 -Compatibility:

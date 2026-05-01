@@ -1,5 +1,6 @@
 -Module:
 R.A.K. WP Adaptation AK-107 [Alex]
+https://www.moddb.com/mods/stalker-anomaly/addons/rak-weapon-pack-adaptation-ak-107-update
 
 ----------------------------------------------------------
 -Compatibility:

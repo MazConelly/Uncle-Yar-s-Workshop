@@ -1,5 +1,6 @@
 -Module:
 Arti's Ballistics [Ahuyn]
+https://github.com/ahuyn/anomaly-ballistics
 
 ----------------------------------------------------------
 -Compatibility:

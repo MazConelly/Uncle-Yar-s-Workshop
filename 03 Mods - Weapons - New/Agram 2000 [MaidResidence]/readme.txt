@@ -1,5 +1,6 @@
 -Module:
 Agram 2000 [Maid]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-agram-2000
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 FAMAE SAF [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-saf-addon
 
 ----------------------------------------------------------
 -Compatibility:

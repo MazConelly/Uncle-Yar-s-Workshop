@@ -1,5 +1,6 @@
 -Module:
 Desert Tech MDR [bert]
+https://www.moddb.com/mods/stalker-anomaly/addons/desert-tech-mdr-pack
 
 ----------------------------------------------------------
 -Compatibility:

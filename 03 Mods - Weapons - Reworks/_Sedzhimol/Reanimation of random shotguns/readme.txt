@@ -1,5 +1,6 @@
 -Module:
 Reanimation of random shotguns [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/reanimation-of-random-shotguns-more-to-come
 
 ----------------------------------------------------------
 -Compatibility:

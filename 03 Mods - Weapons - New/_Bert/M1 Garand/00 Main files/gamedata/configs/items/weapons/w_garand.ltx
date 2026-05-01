@@ -1,0 +1,487 @@
+[wpn_garand]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection						= spawn_group
+$npc									= on
+$prefetch								= 8
+$spawn									= "weapons\garand"
+scheduled								= off
+cform									= skeleton
+parent_section							= wpn_garand
+
+class									= WP_AK74
+slot									= 2
+animation_slot							= 2
+ef_main_weapon_type						= 2
+ef_weapon_type							= 8
+hand_dependence							= 1
+single_handed							= 0
+
+default_to_ruck							= false
+sprint_allowed							= true
+
+icons_texture							= ui\garand_icons
+inv_grid_width							= 5
+inv_grid_height							= 2
+inv_grid_x								= 0
+inv_grid_y								= 0
+inv_name								= st_wpn_garand
+inv_name_short							= st_wpn_garand
+description								= st_wpn_garand_descr
+
+use_alt_aim_hud							= true
+
+kind									= w_rifle
+inv_weight								= 4.31
+cost									= 30000
+repair_type								= rifle_5
+weapon_class							= assault_rifle
+
+hud										= wpn_garand_hud
+visual									= anomaly_weapons\wpn_garand\wpn_garand.ogf
+fire_point								= 0.002406, 0.031544, 0.535338
+orientation								= -0.530377, -3.920775, -1.645229
+position								= -0.025124, 0.005164, 0.199736
+fire_point2								= 0, 0, 0
+strap_bone0								= bip01_spine2
+strap_bone1								= bip01_spine1
+strap_position							= 0, 0, 0
+ph_mass									= 4
+
+flame_particles							= weapons\generic_weapon03
+smoke_particles							= weapons\generic_shoot_00
+grenade_flame_particles					= weapons\generic_weapon01
+
+shell_point								= 0, 0, 0
+shell_dir								= 0, 0, 0
+shell_particles							= 
+
+light_disabled							= false
+light_color								= 0.6, 0.5, 0.3
+light_range								= 5
+light_time								= 0.2
+light_var_color							= 0.05
+light_var_range							= 0.5
+
+upgrades								= up_gr_firstab_sks, up_gr_seconab_sks, up_gr_thirdab_sks
+installed_upgrades						=
+upgrade_scheme							= upgrade_scheme_toz34
+upgr_icon_path							= ui\garand_icons
+upgr_icon_x								= 0
+upgr_icon_y								= 100
+upgr_icon_width							= 300
+upgr_icon_height						= 150
+
+fire_modes								= -1
+ammo_class								= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
+ammo_elapsed							= 8
+ammo_mag_size							= 8
+startup_ammo							= 32
+
+scopes									= proto_scope, garand_scope
+scope_status							= 0
+scope_zoom_factor						= 0
+
+silencer_name							= wpn_sil_garand
+silencer_status							= 2
+silencer_x								= 202
+silencer_y								= 8
+silencer_light_color					= 0.6, 0.5, 0.3
+silencer_light_range					= 0.01
+silencer_light_time						= 0.2
+silencer_light_var_color				= 0.05
+silencer_light_var_range				= 0.5
+silencer_smoke_particles				= weapons\generic_shoot_00
+
+grenade_class							= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name					= wpn_addon_grenade_launcher
+grenade_launcher_status					= 0
+grenade_launcher_x						= 126
+grenade_launcher_y						= 24
+launch_speed							= 0
+
+hit_impulse								= 60
+hit_power								= 0.95, 0.95, 0.95, 0.95
+hit_type								= fire_wound
+fire_distance							= 1000
+bullet_speed							= 820
+rpm										= 410
+rpm_empty_click							= 200
+
+use_aim_bullet							= false
+time_to_aim								= 0.0 ;	1.0
+zoom_enabled							= true
+zoom_rotate_time						= 0.25
+reload_dof								= 0.0, 0.5, 5, 2.2
+control_inertion_factor					= 1.0f
+crosshair_inertion						= 8.3
+fire_dispersion_base					= 0.12
+fire_dispersion_condition_factor		= 0.001
+
+misfire_probability						= 0.005
+misfire_start_condition					= 0.7 ;	0.84
+misfire_start_prob						= 0.007
+misfire_end_condition					= 0.12
+misfire_end_prob						= 0.11
+
+condition_queue_shot_dec				= 0.0028
+condition_shot_dec						= 0.0028
+
+cam_return								= 0
+cam_relax_speed							= 4.5
+cam_dispersion							= 1.98
+cam_dispersion_frac						= 1.0
+cam_dispersion_inc						= 1.98
+cam_max_angle							= 50.0
+cam_max_angle_horz						= 50.0
+cam_step_angle_horz						= 1.04
+zoom_cam_relax_speed					= 0.75
+zoom_cam_dispersion						= 0.75
+zoom_cam_dispersion_frac				= 1.0
+zoom_cam_dispersion_inc					= 1.54
+zoom_cam_max_angle						= 50.0
+zoom_cam_max_angle_horz					= 50.0
+zoom_cam_step_angle_horz				= 0.94
+
+PDM_disp_accel_factor					= 2.75
+PDM_disp_base							= 1.45
+PDM_disp_crouch							= 1.0
+PDM_disp_crouch_no_acc					= 1.0
+PDM_disp_vel_factor						= 2.75
+
+cam_relax_speed_ai						= 360
+zoom_cam_relax_speed_ai					= 120.75
+holder_fov_modifier						= 1.0
+holder_range_modifier					= 2.15
+min_radius								= 0
+max_radius								= 500
+hit_probability_gd_novice				= 1.00
+hit_probability_gd_stalker				= 1.00
+hit_probability_gd_veteran				= 1.00
+hit_probability_gd_master				= 1.00
+
+kill_msg_x								= 0
+kill_msg_y								= 0
+kill_msg_width							= 98
+kill_msg_height							= 23
+
+snd_draw								= weapons\garand\garand_draw
+snd_holster								= weapons\garand\garand_hide
+scripted_snd_shot_l						= weapons\garand\fire\garand_ping, 0.5
+scripted_snd_shot_l_aim					= weapons\garand\fire\garand_ping, 0.5
+snd_shoot								= wpn_garand_snd_shoot
+snd_shoot_actor							= wpn_garand_snd_shoot_actor
+snd_silncer_shot						= wpn_garand_snd_silenced
+snd_silncer_shot_actor					= wpn_garand_snd_silenced_actor
+snd_empty								= weapons\garand\fire\garand_empty
+snd_reload								= weapons\garand\garand_reload
+snd_reload_empty						= weapons\garand\garand_reload_empty
+snd_reload_misfire						= $no_sound
+scripted_snd_bore						= weapons\garand\garand_inspect
+scripted_snd_bore_empty					= weapons\garand\garand_inspect
+scripted_snd_reload_misfire				= weapons\garand\garand_unjam
+scripted_snd_ammo_check_ammo1			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo2			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo3			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo4			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo5			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo6			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo7			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_ammo8			= weapons\garand\garand_magcheck
+scripted_snd_ammo_check_empty			= weapons\garand\garand_magcheck_empty
+scripted_snd_ammo_check_jammed			= weapons\garand\garand_magcheck_empty
+scripted_snd_sprint_end					= weapons\garand\garand_sprint2walk
+scripted_snd_sprint_start				= weapons\garand\garand_walk2sprint
+scripted_snd_sprint_end_empty			= weapons\garand\garand_sprint2walk
+scripted_snd_sprint_start_empty			= weapons\garand\garand_walk2sprint
+scripted_snd_sprint_end_jammed			= weapons\garand\garand_sprint2walk
+scripted_snd_sprint_start_jammed		= weapons\garand\garand_walk2sprint
+scripted_snd_sprint_end_jammed_empty	= weapons\garand\garand_sprint2walk
+scripted_snd_sprint_start_jammed_empty	= weapons\garand\garand_walk2sprint
+
+snd_idle_sprint							= rattle\sprint\sprint_rifle
+
+[wpn_garand_hud]:hud_base
+item_visual					= anomaly_weapons\wpn_garand\wpn_garand_hud.ogf
+attach_place_idx			= 0
+zoom_hide_crosshair			= true
+
+item_position				= 0, 0, 0
+item_orientation			= 0, 0, 0
+
+aim_hud_offset_pos			= -0.063054, 0.03696, -0.068265
+aim_hud_offset_pos_16x9		= -0.063054, 0.03696, -0.068265
+aim_hud_offset_rot			= 0.012168, 0.022098, -0.030434
+aim_hud_offset_rot_16x9		= 0.012168, 0.022098, -0.030434
+
+hands_orientation			= 0.622521, 0.177505, -0.893173
+hands_orientation_16x9		= 0.622521, 0.177505, -0.893173
+hands_position				= 0.000626, -0.002769, 0.038613
+hands_position_16x9			= 0.000626, -0.002769, 0.038613
+
+lowered_hud_offset_pos		= 0.052913, 0.005941, -0.034408
+lowered_hud_offset_pos_16x9	= 0.052913, 0.005941, -0.034408
+lowered_hud_offset_rot		= 0.072672, -0.557856, 0.1546
+lowered_hud_offset_rot_16x9	= 0.072672, -0.557856, 0.1546
+
+aim_hud_offset_alt_pos		= -0.119874, -0.077467, -0.061938
+aim_hud_offset_alt_pos_16x9	= -0.119874, -0.077467, -0.061938
+aim_hud_offset_alt_rot		= -0.024036, 0.082484, 0.606803
+aim_hud_offset_alt_rot_16x9	= -0.024036, 0.082484, 0.606803
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ----------------------------------------------------------------------------------
+; ---------------------------------Animations---------------------------------------
+; ----------------------------------------------------------------------------------
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;DRAW
+anm_show							= hand_garand_draw, garand_draw
+anm_show_empty						= hand_garand_draw, garand_draw_empty
+anm_show_jammed						= hand_garand_draw, garand_draw_jammed
+anm_show_jammed_empty				= hand_garand_draw, garand_draw_jammed
+
+;------------------------------------------------------------------------------------
+;HIDE
+anm_hide							= hand_garand_hide, garand_hide
+anm_hide_empty						= hand_garand_hide, garand_hide_empty
+anm_hide_jammed						= hand_garand_hide, garand_hide_jammed
+anm_hide_jammed_empty				= hand_garand_hide, garand_hide_jammed
+
+;------------------------------------------------------------------------------------
+;IDLE
+anm_idle							= hand_garand_idle, idle
+anm_idle_empty						= hand_garand_idle, idle_empty
+anm_idle_jammed						= hand_garand_idle, idle_jammed
+anm_idle_empty_jammed				= hand_garand_idle, idle_jammed
+
+;------------------------------------------------------------------------------------
+;IDLE AIM
+anm_idle_aim						= hand_garand_idle_aim, idle
+anm_idle_aim_empty					= hand_garand_idle_aim, idle_empty
+anm_idle_aim_jammed					= hand_garand_idle_aim, idle_jammed
+anm_idle_aim_empty_jammed			= hand_garand_idle_aim, idle_jammed
+
+;------------------------------------------------------------------------------------
+;WALK
+anm_idle_moving						= hand_garand_walk, garand_walk
+anm_idle_moving_empty				= hand_garand_walk, garand_walk_empty
+anm_idle_moving_jammed				= hand_garand_walk, garand_walk_jammed
+anm_idle_moving_jammed_empty		= hand_garand_walk, garand_walk_jammed
+
+;------------------------------------------------------------------------------------
+;CROUCH
+anm_idle_moving_crouch				= hand_garand_walk, garand_walk, 0.75
+anm_idle_moving_crouch_empty		= hand_garand_walk, garand_walk_empty, 0.75
+anm_idle_moving_crouch_jammed		= hand_garand_walk, garand_walk_jammed, 0.75
+anm_idle_moving_crouch_jammed_empty	= hand_garand_walk, garand_walk_jammed, 0.75
+
+;------------------------------------------------------------------------------------
+;SPRINT
+anm_idle_sprint						= hand_garand_sprint, garand_sprint
+anm_idle_sprint_empty				= hand_garand_sprint, garand_sprint_empty
+anm_idle_sprint_jammed				= hand_garand_sprint, garand_sprint_jammed
+anm_idle_sprint_jammed_empty		= hand_garand_sprint, garand_sprint_jammed
+
+;------------------------------------------------------------------------------------
+;RELOAD
+anm_reload							= hand_garand_reload, garand_reload_ammo8
+anm_reload_ammo1					= hand_garand_reload, garand_reload_ammo1
+anm_reload_ammo2					= hand_garand_reload, garand_reload_ammo2
+anm_reload_ammo3					= hand_garand_reload, garand_reload_ammo3
+anm_reload_ammo4					= hand_garand_reload, garand_reload_ammo4
+anm_reload_ammo5					= hand_garand_reload, garand_reload_ammo5
+anm_reload_ammo6					= hand_garand_reload, garand_reload_ammo6
+anm_reload_ammo7					= hand_garand_reload, garand_reload_ammo7
+anm_reload_ammo8					= hand_garand_reload, garand_reload_ammo8
+anm_reload_empty					= hand_garand_reload_empty, garand_reload_empty
+
+;------------------------------------------------------------------------------------
+;FIRE
+anm_shots							= hand_garand_fire02, garand_fire_ammo8
+anm_shots_ammo2						= hand_garand_fire02, garand_fire_ammo2
+anm_shots_ammo3						= hand_garand_fire03, garand_fire_ammo3
+anm_shots_ammo4						= hand_garand_fire01, garand_fire_ammo4
+anm_shots_ammo5						= hand_garand_fire02, garand_fire_ammo5
+anm_shots_ammo6						= hand_garand_fire03, garand_fire_ammo6
+anm_shots_ammo7						= hand_garand_fire01, garand_fire_ammo7
+anm_shots_ammo8						= hand_garand_fire02, garand_fire_ammo8
+anm_shots_jammed					= hand_garand_fire_jammed, garand_fire_jammed
+anm_shot_l_jammed					= hand_garand_fire_jammed, garand_fire_jammed
+anm_shot_l							= hand_garand_fire01, garand_fire_ammo1
+
+;------------------------------------------------------------------------------------
+;FIRE AIM
+anm_shots_aim						= hand_garand_fire02_aim, garand_fire_ammo8_aim
+anm_shots_aim_ammo2					= hand_garand_fire02_aim, garand_fire_ammo2_aim
+anm_shots_aim_ammo3					= hand_garand_fire03_aim, garand_fire_ammo3_aim
+anm_shots_aim_ammo4					= hand_garand_fire01_aim, garand_fire_ammo4_aim
+anm_shots_aim_ammo5					= hand_garand_fire02_aim, garand_fire_ammo5_aim
+anm_shots_aim_ammo6					= hand_garand_fire03_aim, garand_fire_ammo6_aim
+anm_shots_aim_ammo7					= hand_garand_fire01_aim, garand_fire_ammo7_aim
+anm_shots_aim_ammo8					= hand_garand_fire02_aim, garand_fire_ammo8_aim
+anm_shots_aim_jammed				= hand_garand_fire_jammed, garand_fire_jammed
+anm_shot_l_aim_jammed				= hand_garand_fire_jammed, garand_fire_jammed
+anm_shot_l_aim						= hand_garand_fire01, garand_fire_ammo1_aim
+
+;------------------------------------------------------------------------------------
+;INSPECT
+anm_bore							= hand_garand_inspect, garand_inspect
+anm_bore_empty						= hand_garand_inspect, garand_inspect_empty
+
+;------------------------------------------------------------------------------------
+;UNJAM
+anm_reload_misfire					= hand_garand_unjam, garand_unjam
+anm_reload_misfire_empty			= hand_garand_unjam, garand_unjam_empty
+
+;------------------------------------------------------------------------------------
+;MAGCHECK
+anm_ammo_check						= hand_garand_magcheck, garand_magcheck_ammo8
+anm_ammo_check_ammo1				= hand_garand_magcheck, garand_magcheck_ammo1
+anm_ammo_check_ammo2				= hand_garand_magcheck, garand_magcheck_ammo2
+anm_ammo_check_ammo3				= hand_garand_magcheck, garand_magcheck_ammo3
+anm_ammo_check_ammo4				= hand_garand_magcheck, garand_magcheck_ammo4
+anm_ammo_check_ammo5				= hand_garand_magcheck, garand_magcheck_ammo5
+anm_ammo_check_ammo6				= hand_garand_magcheck, garand_magcheck_ammo6
+anm_ammo_check_ammo7				= hand_garand_magcheck, garand_magcheck_ammo7
+anm_ammo_check_ammo8				= hand_garand_magcheck, garand_magcheck_ammo8
+anm_ammo_check_empty				= hand_garand_magcheck_empty, garand_magcheck_empty
+anm_ammo_check_jammed				= hand_garand_magcheck_empty, garand_magcheck_jammed
+anm_ammo_check_empty_jammed			= hand_garand_magcheck_empty, garand_magcheck_jammed
+
+fire_bone							= muzzle
+fire_bone2							= wpn_body
+fire_point							= 0, 0, 0
+fire_point2							= 0, 0, 0
+
+freelook_z_offset_mul				= 0.3
+
+;---------------------------------------------------------------------------------------------------------------------------
+
+[wpn_garand_snd_shoot]
+snd_1_layer		= weapons\garand\fire\garand_fire_tp
+snd_2_layer		= weapons\_gunfire\mono\m14\Close_Distance
+snd_3_layer		= weapons\_gunfire\mono\m14\Medium_Distance
+snd_4_layer		= weapons\_shared\mono\reflectors\762\Reflector_1, 0.5
+snd_4_layer1	= weapons\_shared\mono\reflectors\762\Reflector_2, 0.5
+snd_4_layer2	= weapons\_shared\mono\reflectors\762\Reflector_3, 0.5
+snd_4_layer3	= weapons\_shared\mono\reflectors\762\Reflector_4, 0.5
+snd_5_layer		= weapons\_cracks\mono\Crack_far\Crack_1
+snd_5_layer1	= weapons\_cracks\mono\Crack_far\Crack_6
+snd_5_layer2	= weapons\_cracks\mono\Crack_far\Crack_9
+snd_6_layer		= weapons\_shared\mono\dmr\Far_1
+snd_6_layer1	= weapons\_shared\mono\dmr\Far_2
+snd_7_layer		= weapons\_shared\mono\dmr\tail_1, 0.5
+snd_7_layer1	= weapons\_shared\mono\dmr\tail_2, 0.5
+snd_8_layer		= weapons\_shared\mono\dmr\mid_dmr
+
+[wpn_garand_snd_shoot_actor]
+snd_1_layer		= weapons\garand\fire\garand_fire
+snd_2_layer		= weapons\_bolt\dmr_1
+snd_3_layer		= weapons\_shared\stereo\reflectors\762\Reflector_1, 0.5
+snd_3_layer1	= weapons\_shared\stereo\reflectors\762\Reflector_2, 0.5
+snd_3_layer2	= weapons\_shared\stereo\reflectors\762\Reflector_3, 0.5
+snd_3_layer3	= weapons\_shared\stereo\reflectors\762\Reflector_4, 0.5
+snd_4_layer		= weapons\_cracks\stereo\mid\crack_1
+snd_5_layer		= weapons\_shared\stereo\echo_1, 0.25
+snd_5_layer1	= weapons\_shared\stereo\echo_2, 0.25
+snd_5_layer2	= weapons\_shared\stereo\echo_3, 0.25
+snd_5_layer3	= weapons\_shared\stereo\echo_4, 0.25
+snd_6_layer		= weapons\_bass\bass_mid
+
+[wpn_garand_snd_silenced]
+snd_1_layer		= weapons\_sd\mono\dmr\SD_Close_1
+snd_1_layer1	= weapons\_sd\mono\dmr\SD_Close_2
+snd_1_layer2	= weapons\_sd\mono\dmr\SD_Close_3
+snd_1_layer3	= weapons\_sd\mono\dmr\SD_Close_4
+snd_2_layer		= weapons\_sd\mono\dmr\Tail_Sd_1
+snd_2_layer1	= weapons\_sd\mono\dmr\Tail_Sd_2
+snd_2_layer2	= weapons\_sd\mono\dmr\Tail_Sd_3
+snd_2_layer3	= weapons\_sd\mono\dmr\Tail_Sd_4
+snd_3_layer		= weapons\_bass\bass_large
+snd_4_layer		= weapons\_sd\mono\Distance\762mm_distance
+snd_5_layer		= weapons\_cracks\mono\crack_far\crack_1
+snd_5_layer1	= weapons\_cracks\mono\crack_far\crack_2
+snd_5_layer2	= weapons\_cracks\mono\crack_far\crack_3
+snd_5_layer3	= weapons\_cracks\mono\crack_far\crack_4
+snd_5_layer4	= weapons\_cracks\mono\crack_far\crack_5
+snd_5_layer5	= weapons\_cracks\mono\crack_far\crack_6
+snd_5_layer6	= weapons\_cracks\mono\crack_far\crack_7
+snd_5_layer7	= weapons\_cracks\mono\crack_far\crack_8
+snd_6_layer		= weapons\garand\fire\garand_cycle
+
+[wpn_garand_snd_silenced_actor]
+snd_1_layer		= weapons\_sd\stereo\dmr\SD_Close_1
+snd_1_layer1	= weapons\_sd\stereo\dmr\SD_Close_2
+snd_1_layer2	= weapons\_sd\stereo\dmr\SD_Close_3
+snd_1_layer3	= weapons\_sd\stereo\dmr\SD_Close_4
+snd_2_layer		= weapons\_bolt\dmr_1
+snd_2_layer1	= weapons\_bolt\dmr_2
+snd_2_layer2	= weapons\_bolt\dmr_3
+snd_2_layer3	= weapons\_bolt\dmr_4
+snd_3_layer		= weapons\_sd\stereo\dmr\Tail_Sd_1
+snd_3_layer1	= weapons\_sd\stereo\dmr\Tail_Sd_2
+snd_3_layer2	= weapons\_sd\stereo\dmr\Tail_Sd_3
+snd_3_layer3	= weapons\_sd\stereo\dmr\Tail_Sd_4
+snd_4_layer		= weapons\_shared\stereo\Echo_1
+snd_4_layer1	= weapons\_shared\stereo\Echo_2
+snd_4_layer2	= weapons\_shared\stereo\Echo_3
+snd_4_layer3	= weapons\_shared\stereo\Echo_4
+snd_4_layer4	= weapons\_shared\stereo\Echo_5
+snd_4_layer5	= weapons\_shared\stereo\Echo_6
+snd_4_layer6	= weapons\_shared\stereo\Echo_7
+snd_4_layer7	= weapons\_shared\stereo\Echo_8
+snd_4_layer8	= weapons\_shared\stereo\Echo_9
+snd_4_layer9	= weapons\_shared\stereo\Echo_10
+snd_4_layer10	= weapons\_shared\stereo\Echo_11
+snd_4_layer11	= weapons\_shared\stereo\Echo_12
+snd_4_layer12	= weapons\_shared\stereo\Echo_13
+snd_4_layer13	= weapons\_shared\stereo\Echo_14
+snd_4_layer14	= weapons\_shared\stereo\Echo_15
+snd_4_layer15	= weapons\_shared\stereo\Echo_16
+snd_4_layer16	= weapons\_shared\stereo\Echo_17
+snd_4_layer17	= weapons\_shared\stereo\Echo_18
+snd_5_layer		= weapons\_cracks\stereo\loud\crack_1
+snd_5_layer1	= weapons\_cracks\stereo\loud\crack_2
+snd_5_layer2	= weapons\_cracks\stereo\loud\crack_3
+snd_5_layer3	= weapons\_cracks\stereo\loud\crack_4
+snd_5_layer4	= weapons\_cracks\stereo\loud\crack_5
+snd_5_layer5	= weapons\_cracks\stereo\loud\crack_6
+snd_6_layer		= weapons\_bass\stereo\bass_4
+snd_7_layer		= weapons\garand\fire\garand_cycle
+
+[wpn_garand_garand_scope]:wpn_garand
+hud							= wpn_garand_scope_hud
+
+1icon_layer					= garand_scope_x
+1icon_layer_x				= 46
+1icon_layer_y				= 2
+
+scope_status				= 1
+scope_texture				= wpn_crosshair_garand_m84
+scope_zoom_factor			= 45
+
+[wpn_garand_scope_hud]:wpn_garand_hud
+item_visual					= anomaly_weapons\wpn_garand\wpn_garand_scope_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.063161, 0.032913, -0.068265
+aim_hud_offset_alt_pos_16x9	= -0.063161, 0.032913, -0.068265
+aim_hud_offset_alt_rot		= 0.007055, 0.022148, -0.030434
+aim_hud_offset_alt_rot_16x9	= 0.007055, 0.022148, -0.030434
+aim_hud_offset_pos			= -0.033359, 0.015378, -0.10503
+aim_hud_offset_pos_16x9		= -0.033359, 0.015378, -0.10503
+
+[wpn_garand_proto_scope]:wpn_garand
+hud							= wpn_garand_proto_scope_hud
+
+1icon_layer					= proto_scope_x
+1icon_layer_x				= 66
+1icon_layer_y				= 3
+
+scope_texture				= wpn_crosshair_garand_proto
+scope_status				= 1
+scope_zoom_factor			= 90
+
+[wpn_garand_proto_scope_hud]:wpn_garand_hud
+item_visual					= anomaly_weapons\wpn_garand\wpn_garand_proto_hud.ogf
+
+aim_hud_offset_pos			= -0.063054, 0.03696, -0.117976
+aim_hud_offset_pos_16x9		= -0.063054, 0.03696, -0.117976

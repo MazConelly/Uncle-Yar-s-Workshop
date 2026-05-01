@@ -1,5 +1,6 @@
 -Module:
 HK-G56 Assault Rifle [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/hk-g56-assault-rifle
 
 ----------------------------------------------------------
 -Compatibility:

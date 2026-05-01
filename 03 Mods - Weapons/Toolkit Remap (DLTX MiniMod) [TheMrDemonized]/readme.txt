@@ -1,5 +1,6 @@
 -Module:
 Toolkit Remap (DLTX MiniMod) [TheMrDemonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 
 ----------------------------------------------------------
 -Compatibility:

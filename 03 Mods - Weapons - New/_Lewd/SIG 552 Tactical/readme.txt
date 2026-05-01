@@ -1,5 +1,6 @@
 -Module:
 SIG 552 Tactical [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/sig-552-tactical-dltx
 
 ----------------------------------------------------------
 -Compatibility:

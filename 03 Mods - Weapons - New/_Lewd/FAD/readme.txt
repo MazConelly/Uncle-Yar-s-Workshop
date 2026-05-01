@@ -1,5 +1,6 @@
 -Module:
 FAD - Fusil Automático Doble [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-fad-addon
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Sturmgewehr 57 [popattara]
+https://www.moddb.com/mods/stalker-anomaly/addons/sturmgewehr-57-stgw-57
 
 ----------------------------------------------------------
 -Compatibility:

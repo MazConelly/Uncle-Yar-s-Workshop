@@ -37,9 +37,7 @@ GRENATA expansion
 Redistribution of vanilla grenades to all factions, as by default almost no one carried them. This will make the game harder, and defensive play against grenades users a more important aspect. If the words "Clear Sky Limansk" sends you into horrified screaming, don't use this. Though of course, you can tweak the file as you like for a reduced effect.
 
 All experienced get RGD5 and all veterans get F1s. Army starts getting each at earlier ranks.
-
 All masters have access to smoke grenades. Military factions start at experienced rank. Clear Sky, Ecologists, Freedom, and Monolith start at veteran.
-
 All masters have access to thermite grenades. Military factions and Monolith start at veteran.
 
 

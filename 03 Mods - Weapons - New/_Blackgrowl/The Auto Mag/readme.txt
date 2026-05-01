@@ -1,5 +1,6 @@
 -Module:
 The Auto Mag [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/the-auto-mag
 
 ----------------------------------------------------------
 -Compatibility:

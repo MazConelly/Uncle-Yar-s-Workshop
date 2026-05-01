@@ -1,5 +1,6 @@
 -Module:
 The Uzi Family [SoulCrystal]
+https://www.moddb.com/mods/stalker-anomaly/addons/the-uzi-family
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,6 +1,6 @@
 THIS IS A WIP. DO NOT USE. THIS ARE JUST MY NOTES.
 
-
+https://www.moddb.com/mods/stalker-anomaly/addons/too-many-outfits
 
 
 A new game is required if you were already using the mod.

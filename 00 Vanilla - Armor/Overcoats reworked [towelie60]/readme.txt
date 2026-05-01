@@ -1,5 +1,6 @@
 -Module:
 Overcoats reworked [towelie60]
+https://www.moddb.com/mods/stalker-anomaly/addons/overcoats-reworked
 
 ----------------------------------------------------------
 -Compatibility:

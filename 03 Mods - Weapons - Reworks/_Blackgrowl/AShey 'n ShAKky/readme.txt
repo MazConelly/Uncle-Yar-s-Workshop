@@ -1,5 +1,6 @@
 -Module:
 AShey 'n ShAKky [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/ashandshak
 
 ----------------------------------------------------------
 -Compatibility:

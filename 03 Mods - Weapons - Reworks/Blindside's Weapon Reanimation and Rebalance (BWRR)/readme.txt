@@ -1,5 +1,6 @@
 -Module:
 Blindside's Weapon Reanimation and Rebalance [Blindxside]
+https://www.moddb.com/mods/stalker-anomaly/addons/blindsides-weapon-reanimation-and-rebalance-military
 
 ----------------------------------------------------------
 -Compatibility:

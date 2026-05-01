@@ -2,6 +2,7 @@
 Armored Ghillie suit
 
 Based on "Strelok's own Ghillie Suit", by Zorben
+https://www.moddb.com/mods/stalker-anomaly/addons/streloks-own-ghillie-suit
 
 ----------------------------------------------------------
 -Compatibility:

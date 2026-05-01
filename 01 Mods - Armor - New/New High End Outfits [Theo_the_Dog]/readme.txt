@@ -1,5 +1,6 @@
 -Module:
 New High End Outfits [Theo_the_Dog] 
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-new-high-end-outfits
 
 ----------------------------------------------------------
 -Compatibility:

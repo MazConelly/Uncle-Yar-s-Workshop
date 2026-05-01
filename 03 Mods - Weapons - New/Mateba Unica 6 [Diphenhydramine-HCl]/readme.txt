@@ -1,5 +1,6 @@
 -Module:
 Mateba Unica 6 [Diphenhydramine-HCl]
+https://www.moddb.com/mods/stalker-anomaly/addons/mateba-from-the-armored-zone-30
 
 Use either this mod or ATHI's edit, not both.
 

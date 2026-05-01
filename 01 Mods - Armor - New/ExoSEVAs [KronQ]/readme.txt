@@ -1,5 +1,6 @@
 -Module:
 ExoSEVAs [KronQ]
+https://www.moddb.com/mods/stalker-anomaly/addons/exoseva-cbse-outfits-12-for-rc22
 
 ----------------------------------------------------------
 -Compatibility:

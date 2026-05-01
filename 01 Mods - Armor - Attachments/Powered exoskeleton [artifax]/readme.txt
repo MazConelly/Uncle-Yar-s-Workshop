@@ -1,10 +1,10 @@
 -Module:
 Powered exoskeleton [artifax]
+https://github.com/ahuyn/anomaly-exo
 
 ----------------------------------------------------------
 -Compatibility:
 Make sure you use the last Github version of PE.
-https://github.com/ahuyn/anomaly-exo
 
 ----------------------------------------------------------
 -Explanation:

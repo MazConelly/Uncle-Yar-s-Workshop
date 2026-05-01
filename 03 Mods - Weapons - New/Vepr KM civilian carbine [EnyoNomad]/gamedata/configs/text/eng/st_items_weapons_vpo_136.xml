@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_vpo_136">
+		<text>Vepr KM/VPO 136 7.62x39 carbine</text>
+	</string>
+	<string id="st_wpn_vpo_136_descr">
+		<text>The Vepr KM is a semi-automatic civilian hunting carbine chambered in 7.62x39mm. Built from a de-militarised Kalashnikov AKM, and with nearly identical appearance, weight and dimensions; it was designed for sporting use, and for hunting medium and big game.\n \nThis civilianised rifle lacks standard military features such as a dovetail mount and barrel threading for suppressors. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[d_red] mounting suppressors is not possible\n
+		%c[d_purple] • %c[d_red] mounting scopes is not possible\n
+		</text>
+	</string>
+</string_table>

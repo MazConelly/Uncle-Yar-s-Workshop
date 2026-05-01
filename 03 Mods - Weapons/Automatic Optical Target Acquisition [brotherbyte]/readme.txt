@@ -1,5 +1,6 @@
 -Module:
 Automatic Optical Target Acquisition [brotherbyte]
+https://www.moddb.com/mods/stalker-anomaly/addons/automatic-optical-target-acquisition
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,10 +1,10 @@
 -Module:
 Outfit Attachment Overhaul [artifax]
+https://github.com/ahuyn/anomaly-armor-attachments
 
 ----------------------------------------------------------
 -Compatibility:
 Make sure you use the last Github version of OAO.
-https://github.com/ahuyn/anomaly-armor-attachments
 
 ----------------------------------------------------------
 -Explanation:

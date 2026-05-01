@@ -1,5 +1,6 @@
 -Module:
 BRN-180 Assault Rifle [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/brn-180-assault-rifle
 
 ----------------------------------------------------------
 -Compatibility:

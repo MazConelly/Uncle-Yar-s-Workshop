@@ -1,5 +1,6 @@
 -Module:
 Tactical Knives Zone [chilichocolate]
+https://www.moddb.com/mods/stalker-anomaly/addons/tactical-knives-zone
 
 ----------------------------------------------------------
 -Compatibility:

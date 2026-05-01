@@ -1,5 +1,6 @@
 -Module:
 MCX Spear [Onerock]
+https://www.moddb.com/mods/stalker-anomaly/addons/mcx-spear-eft
 
 ----------------------------------------------------------
 -Compatibility:

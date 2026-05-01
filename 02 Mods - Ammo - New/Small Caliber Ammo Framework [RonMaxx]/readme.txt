@@ -1,5 +1,6 @@
 -Module:
 Small Caliber Ammo Framework [RonMaxx]
+https://www.moddb.com/mods/stalker-anomaly/addons/small-caliber-ammo-framework
 
 ----------------------------------------------------------
 -Compatibility:

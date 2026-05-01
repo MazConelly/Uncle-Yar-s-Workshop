@@ -1,5 +1,6 @@
 -Module:
 Mosin Trio [Kmack]
+https://www.moddb.com/mods/stalker-anomaly/addons/mosin-trio
 
 ----------------------------------------------------------
 -Compatibility:

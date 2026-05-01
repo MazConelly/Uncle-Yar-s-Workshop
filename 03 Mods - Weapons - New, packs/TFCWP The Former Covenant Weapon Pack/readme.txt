@@ -1,5 +1,6 @@
 -Module:
 TFCWP - The Former Covenant Weapon Pack
+https://www.moddb.com/mods/stalker-anomaly/addons/tfcwp-the-former-covenant-weapon-pack
 
 ----------------------------------------------------------
 -Compatibility:

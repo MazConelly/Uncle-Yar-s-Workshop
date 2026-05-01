@@ -1,5 +1,6 @@
 -Module:
 ACE 52 Weapon Addon [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/ace52-source-file
 
 ----------------------------------------------------------
 -Compatibility:

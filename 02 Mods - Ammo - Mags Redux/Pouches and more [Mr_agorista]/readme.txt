@@ -1,5 +1,6 @@
 -Module:
 Pouches and more [Mr_agorista]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-magazine-pouches-addon-for-mags-redux
 
 ----------------------------------------------------------
 -Compatibility:

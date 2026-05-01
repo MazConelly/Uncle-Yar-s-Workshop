@@ -1,5 +1,6 @@
 -Module:
 Luna's Master Disassembly List and Parts Fix [LunarTM]
+https://www.moddb.com/mods/stalker-anomaly/addons/lunas-master-disassembly-list-parts-fix
 
 ----------------------------------------------------------
 -Compatibility:

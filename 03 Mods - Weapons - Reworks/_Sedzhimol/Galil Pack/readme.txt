@@ -1,5 +1,6 @@
 -Module:
 Galil Pack [Sedzhimol] [Ghstkng reupload]
+https://www.moddb.com/mods/stalker-anomaly/addons/152dltx-galil-pack
 
 ----------------------------------------------------------
 -Compatibility:

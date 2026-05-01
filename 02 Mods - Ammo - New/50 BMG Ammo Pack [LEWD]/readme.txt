@@ -1,5 +1,6 @@
 -Module:
 Ammo Pack .50 BMG [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-ammo-pack-50-bmg
 
 ----------------------------------------------------------
 -Compatibility:

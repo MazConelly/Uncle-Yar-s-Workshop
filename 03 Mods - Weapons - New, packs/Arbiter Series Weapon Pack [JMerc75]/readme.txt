@@ -1,5 +1,6 @@
 -Module:
 Arbiter Series Weapon Pack [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/arbiter-series-weapon-pack
 
 ----------------------------------------------------------
 -Compatibility:

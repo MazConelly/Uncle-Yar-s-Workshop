@@ -1,5 +1,6 @@
 -Module:
 Snipex Alligator [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-snipex-alligator
 
 ----------------------------------------------------------
 -Compatibility:

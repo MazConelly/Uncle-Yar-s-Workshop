@@ -1,5 +1,6 @@
 -Module:
 Canted SV-98 Custom RDS [kaiju00]
+https://www.moddb.com/mods/stalker-anomaly/addons/canted-sv98-rds
 
 ----------------------------------------------------------
 -Compatibility:

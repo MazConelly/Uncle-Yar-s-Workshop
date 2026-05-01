@@ -1,10 +1,10 @@
 -Module:
 Weapon Parts Overhaul [artifax]
+https://github.com/ahuyn/anomaly-wpo
 
 ----------------------------------------------------------
 -Compatibility:
 Make sure you use the last Github version of WPO.
-https://github.com/ahuyn/anomaly-wpo
 
 Let this overwrite it.
 

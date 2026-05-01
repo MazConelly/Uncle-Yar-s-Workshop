@@ -1,5 +1,6 @@
 -Module:
 Mauser C96 [bert]
+https://www.moddb.com/mods/stalker-anomaly/addons/mauser-c96
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Extra Suits [Lonark]
+https://www.moddb.com/mods/stalker-anomaly/addons/extra-suits-10-enru
 
 ----------------------------------------------------------
 -Compatibility:

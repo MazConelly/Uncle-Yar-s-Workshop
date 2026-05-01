@@ -1,5 +1,6 @@
 -Module:
 9x39mm Weapon Family Reanimation [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/9a91-and-vsk94-reanimation
 
 ----------------------------------------------------------
 -Compatibility:

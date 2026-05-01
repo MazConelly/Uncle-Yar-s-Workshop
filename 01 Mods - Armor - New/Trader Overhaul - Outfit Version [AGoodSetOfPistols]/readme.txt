@@ -1,5 +1,6 @@
 -Module:
 Trader Overhaul - Outfit Version [AGoodSetOfPistols]
+https://www.moddb.com/mods/stalker-anomaly/addons/trader-overhaul-complete
 
 ----------------------------------------------------------
 -Compatibility:

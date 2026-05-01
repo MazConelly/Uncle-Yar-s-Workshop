@@ -1,5 +1,6 @@
 -Module:
 CAA AK Alfa Standalone [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/alpha-akm-reanimation
 
 ----------------------------------------------------------
 -Compatibility:

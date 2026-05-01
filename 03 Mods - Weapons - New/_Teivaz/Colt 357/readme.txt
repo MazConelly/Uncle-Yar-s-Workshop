@@ -1,10 +1,12 @@
 -Module:
 Colt 357 [Teivaz]
+https://www.moddb.com/mods/stalker-anomaly/addons/colt-357
 
 ----------------------------------------------------------
 -Compatibility:
 
 If you use SoulCrystal's Colt 357 Retexture, let it overwrite this.
+https://www.moddb.com/mods/stalker-anomaly/addons/colt-357-retexture
 
 ----------------------------------------------------------
 -Explanation:

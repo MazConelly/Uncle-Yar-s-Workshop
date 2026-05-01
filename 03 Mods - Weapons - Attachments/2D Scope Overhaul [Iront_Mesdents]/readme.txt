@@ -1,5 +1,6 @@
 -Module:
 2D Scope Overhaul [Iront_Mesdents]
+https://www.moddb.com/mods/stalker-anomaly/addons/alpha-v0-2d-scope-overhaul
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 M1 Garand Battle Rifle [JMerc] 
+https://www.moddb.com/mods/stalker-anomaly/addons/m1-garand-battle-rifle
 
 ----------------------------------------------------------
 -Compatibility:

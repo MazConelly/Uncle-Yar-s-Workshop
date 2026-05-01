@@ -1,5 +1,6 @@
 -Module:
 Ghost Armory - .50 Beowulf Weapon Pack [PurpleSkyGuy, Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/ghost-armory-50-beowulf-weapon-pack
 
 ----------------------------------------------------------
 -Compatibility:

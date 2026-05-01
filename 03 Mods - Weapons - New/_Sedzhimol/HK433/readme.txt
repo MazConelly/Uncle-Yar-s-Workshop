@@ -1,5 +1,6 @@
 -Module:
 HK433 - Kilo 141 Port (GmodMW) [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/kilo141-hk433-portgmodmw
 
 ----------------------------------------------------------
 -Compatibility:

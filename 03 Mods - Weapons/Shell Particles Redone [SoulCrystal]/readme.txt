@@ -1,5 +1,6 @@
 -Module:
 Shell Particles Redone [SoulCrystal]
+https://www.moddb.com/mods/stalker-anomaly/addons/shell-particles-redone
 
 ----------------------------------------------------------
 -Compatibility:
@@ -17,7 +18,7 @@ Currently, it mostly covers pistols, and weapons chambered in 7.62x25, 5.7x28, .
 -Simple Weapon Pack
 -Misc. Weapon Pack
 -RWAP
--Several loose mods (Jmerc's, Lewdnatic's...)
+-Several authors (Jmerc's, Lewdnatic's...)
 
 Guns using 3D shells or had the particles disabled (which indicate 3D shells, caseless ammo, revolvers...) have been avoided.
 

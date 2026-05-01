@@ -1,0 +1,1683 @@
+[wpn_cz_bren_805]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\cz_bren_805"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_cz_bren_805
+
+class								= WP_AK74
+slot								= 2
+animation_slot						= 2
+ef_main_weapon_type					= 2
+ef_weapon_type						= 8
+hand_dependence						= 1
+single_handed						= 0
+
+default_to_ruck						= false
+sprint_allowed						= true
+
+lewd_lens_hide_enabled				= true
+lewd_lens_hide_bone					= muzzle_gl
+lewd_lens_hide_delays				= 0.1,0
+lewd_lens_hide_aim_mode				= true, false, false
+
+icons_texture						= ui\ui_icon_cz_bren
+inv_grid_width						= 5
+inv_grid_height						= 2
+inv_grid_x							= 0
+inv_grid_y							= 0
+
+inv_name							= st_wpn_cz_bren_805
+inv_name_short						= st_wpn_cz_bren_805_s
+description							= st_wpn_cz_bren_805_descr
+
+kind								= w_rifle
+inv_weight							= 3.600
+cost								= 108500
+repair_type							= rifle_5
+weapon_class						= assault_rifle
+
+hud									= wpn_cz_bren_805_hud
+visual								= dynamics\weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_world.ogf
+position							= -0.026, -0.132, 0.0
+orientation							= 0, -8, 0
+fire_point							= 0.0, 0.21, 0.58
+fire_point2							= 0.0, 0.21, 0.71
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_position						= -0.26, -0.11, 0.25
+strap_orientation					= -15, -9, 110
+ph_mass								= 4
+
+flame_particles						= weapons\generic_weapon05
+grenade_flame_particles				= weapons\generic_weapon01
+
+smoke_particles						= ghost_particles\weapons\flame_eft_ak
+
+shell_point							= -0.02, 0.167, 0.082
+shell_dir							= 0.0, 0.0, 0.4
+shell_particles						= weapons\556x45
+
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgrades							= up_gr_firstab_g36, up_gr_seconab_g36, up_gr_thirdab_g36, up_gr_fourtab_g36, up_gr_fourtcd_g36, up_gr_fourtef_g36
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_g36
+upgr_icon_path						= ui\ui_icon_cz_bren
+upgr_icon_x							= 50
+upgr_icon_y							= 100
+upgr_icon_width						= 250
+upgr_icon_height					= 0
+
+fire_modes							= 1, 2, -1
+ammo_class							= ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_elapsed						= 30
+ammo_mag_size						= 30
+startup_ammo						= 90
+
+scopes								= 0kp2, ac11090,ac10632, acog, triji, aim_low, aimpoint, c-more, compm4s, d0cter, deltapoint, e0t2, e0t2_mag, ekp8_18, eot, gauss_sight, kemper, leupold, lco1, marchf, march_f_shorty, march_f_shorty_alt, mark8_rmr, mepro, pn23, point_aimpro, rakurs, rmr, specter, susat, spec_alt, steiner_sbalpl, uh1, uh1_mag, feyachi_rsl18, sigsauer_romeo7, aimpoint_compm4, votatu_h3lg, vortex_strikefire2, homemade_collimator, sigsauer_bravo4, sightmark_wolverine, ncstar_vadotp3942g, osprey_734, leupold_hamr, lomo_pks07pcty, 1p87, belomo_pkas, belomo_rsm, komz_rusak, romeo4, cortex, he510, pk6, hco, romeo8, ps320, monstrum, trihawk, aim_acro, p4x32, tac30, razorhd, devo, exps3, kp_sr2, npz_pku2, jsc_1p87w1p90, belomo_pk23, npz_psu, npz_po156, kmz_1p69, p1x42, pilad_brevis, dedal_dk9, optex_anpsv4, armasight_vulcan, jsc_krechet, jsc_krechetw1p90, belomo_pkapctny, npz_psopctny, hartman_mh1, mh1wjuliet4, belomo_posp1450w, steiner_r1x, eotech_eolad, sigsauer_msr, utg_scprd40, leupold_mk4cqt, pa_sl25, belomo_pos1360w, sb_32050pm2, elbit_falcon2, holosun_hs401, vortex_spitfire, meprolight_rds
+scope_status						= 0
+scope_zoom_factor					= 0
+scope_dynamic_zoom					= off
+scope_texture						= none
+
+silencer_name						= wpn_sil_nato
+silencer_status						= 2
+silencer_x							= 204
+silencer_y							= 7
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= ghost_particles\weapons\generic_smoke_eft_sil
+
+grenade_class						= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name				= wpn_addon_grenade_launcher_l85
+grenade_launcher_status				= 2
+grenade_launcher_x					= 128
+grenade_launcher_y					= -10
+launch_speed						= 0
+
+hit_impulse							= 32
+hit_power							= 0.53, 0.53, 0.53, 0.53
+hit_type							= fire_wound
+fire_distance						= 1000
+bullet_speed						= 910
+rpm									= 550
+rpm_empty_click						= 1100
+
+use_aim_bullet						= false ; true
+time_to_aim							= 0.0 ;	3.0
+zoom_dof							= 0.5, 1.0, 180
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0, 0.5, 5, 2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 6.45
+fire_dispersion_base				= 0.22
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability					= 0.005
+misfire_start_condition				= 0.7 ;	0.6
+misfire_start_prob					= 0.007
+misfire_end_condition				= 0.1
+misfire_end_prob					= 0.09
+
+condition_queue_shot_dec			= 0.0009
+condition_shot_dec					= 0.0009
+
+cam_return							= 0
+cam_relax_speed						= 10
+cam_dispersion						= 0.556
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.0675
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 0.9
+zoom_cam_relax_speed				= 10
+zoom_cam_dispersion					= 0.466
+zoom_cam_dispersion_frac			= 1.0
+zoom_cam_dispersion_inc				= 0.0525
+zoom_cam_max_angle					= 50.0
+zoom_cam_max_angle_horz				= 50.0
+zoom_cam_step_angle_horz			= 0.85
+
+PDM_disp_accel_factor				= 2.3
+PDM_disp_base						= 0.8
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 2.3
+
+cam_relax_speed_ai					= 360
+zoom_cam_relax_speed_ai				= 360
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
+
+kill_msg_x							= 175
+kill_msg_y							= 0
+kill_msg_width						= 82
+kill_msg_height						= 28
+
+laser_status						= false
+
+scope_zoom_factor_alt				= 0
+
+use_alt_aim_hud						= false
+;-----------------------------------------------------------------------------------------SND----------------------------------------------------------------------------------------------------------------
+;DRAW:
+snd_draw		= weapons\common_misc_sounds\draw\draw_01, 0.25
+snd_draw1		= weapons\common_misc_sounds\draw\draw_02, 0.25
+snd_draw2		= weapons\common_misc_sounds\draw\draw_03, 0.25
+snd_draw3		= weapons\common_misc_sounds\draw\draw_04, 0.25
+snd_draw4		= weapons\common_misc_sounds\draw\draw_05, 0.25
+snd_draw5		= weapons\common_misc_sounds\draw\draw_06, 0.25
+snd_draw6		= weapons\common_misc_sounds\draw\draw_07, 0.25
+
+;HOLSTER
+snd_holster		= weapons\common_misc_sounds\holster\holster_01, 0.25
+snd_holster1	= weapons\common_misc_sounds\holster\holster_02, 0.25
+snd_holster2	= weapons\common_misc_sounds\holster\holster_03, 0.25
+snd_holster3	= weapons\common_misc_sounds\holster\holster_04, 0.25
+snd_holster4	= weapons\common_misc_sounds\holster\holster_05, 0.25
+snd_holster5	= weapons\common_misc_sounds\holster\holster_06, 0.25
+snd_holster6	= weapons\common_misc_sounds\holster\holster_07, 0.25
+
+;MISFIRE
+snd_reload_misfire	= weapons\bren\common\misfire\misfire
+
+;EMPTY
+snd_empty		= weapons\bren\common\empty\empty_01, 0.25
+
+;SWITCH_MODE
+snd_switch_mode	= weapons\bren\common\switch_mode\switch_01, 0.25
+
+;WEAPON INSPECTION
+snd_bore		= weapons\bren\common\inspect\inspect_01
+
+;-------------------------------------------SFX WITH LAYERS-------------------------------------------------------;
+
+;RELOAD
+snd_reload				= wpn_cz_bren_805_snd_reload
+snd_reload_empty		= wpn_cz_bren_805_snd_reload_empty
+
+;SHOT
+snd_shoot				= wpn_cz_bren_805_snd_shoot
+snd_shoot_actor			= wpn_cz_bren_805_snd_shoot_actor
+
+snd_silncer_shot		= wpn_cz_bren_805_snd_sil
+snd_silncer_shot_actor	= wpn_cz_bren_805_snd_sil_actor
+
+;GRENADE LAUNCHER
+snd_shoot_grenade		= wpn_cz_bren_805_snd_m320
+snd_reload_grenade		= wpn_cz_bren_805_snd_gl_reload
+snd_switch				= wpn_cz_bren_805_snd_swpos
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;;
+;																	RELOAD	LAYERS																		;
+;																																						;
+;======================================================================================================================================================;
+
+[wpn_cz_bren_805_snd_reload_empty]
+snd_1_layer		= weapons\bren\common\reload\layer_a\01, 0.5
+snd_1_layer1	= weapons\bren\common\reload\layer_a\02, 0.5
+snd_1_layer2	= weapons\bren\common\reload\layer_a\03, 0.5
+
+snd_2_layer		= weapons\common_misc_sounds\draw\draw_01, 0.2
+snd_2_layer1	= weapons\common_misc_sounds\draw\draw_02, 0.2
+snd_2_layer2	= weapons\common_misc_sounds\draw\draw_03, 0.2
+snd_2_layer3	= weapons\common_misc_sounds\draw\draw_04, 0.2
+snd_2_layer4	= weapons\common_misc_sounds\draw\draw_05, 0.2
+snd_2_layer5	= weapons\common_misc_sounds\draw\draw_06, 0.2
+snd_2_layer6	= weapons\common_misc_sounds\draw\draw_07, 0.2
+
+snd_3_layer		= weapons\bren\common\reload\layer_b\01, 0.5, 0.5
+snd_3_layer1	= weapons\bren\common\reload\layer_b\02, 0.5, 0.5
+snd_3_layer2	= weapons\bren\common\reload\layer_b\03, 0.5, 0.5
+
+snd_4_layer		= weapons\common_misc_sounds\holster\holster_01, 0.35, 1.5
+snd_4_layer1	= weapons\common_misc_sounds\holster\holster_02, 0.35, 1.5
+snd_4_layer2	= weapons\common_misc_sounds\holster\holster_03, 0.35, 1.5
+snd_4_layer3	= weapons\common_misc_sounds\holster\holster_04, 0.35, 1.5
+snd_4_layer4	= weapons\common_misc_sounds\holster\holster_05, 0.35, 1.5
+snd_4_layer5	= weapons\common_misc_sounds\holster\holster_06, 0.35, 1.5
+snd_4_layer6	= weapons\common_misc_sounds\holster\holster_07, 0.35, 1.5
+
+snd_5_layer		= weapons\bren\common\reload\layer_d\01, 0.5, 1.9
+snd_5_layer1	= weapons\bren\common\reload\layer_d\02, 0.5, 1.9
+snd_5_layer2	= weapons\bren\common\reload\layer_d\03, 0.5, 1.9
+snd_5_layer3	= weapons\bren\common\reload\layer_d\04, 0.5, 1.9
+snd_5_layer4	= weapons\bren\common\reload\layer_d\05, 0.5, 1.9
+snd_5_layer5	= weapons\bren\common\reload\layer_d\06, 0.5, 1.9
+
+snd_6_layer		= weapons\bren\common\reload\layer_e\01, 0.95, 2.5
+snd_6_layer1	= weapons\bren\common\reload\layer_e\02, 0.95, 2.5
+snd_6_layer2	= weapons\bren\common\reload\layer_e\03, 0.95, 2.5
+
+snd_7_layer		= weapons\bren\common\reload\layer_f\01, 0.95, 2.95
+snd_7_layer1	= weapons\bren\common\reload\layer_f\02, 0.95, 2.95
+snd_7_layer2	= weapons\bren\common\reload\layer_f\03, 0.95, 2.95
+snd_7_layer3	= weapons\bren\common\reload\layer_f\04, 0.95, 2.95
+snd_7_layer4	= weapons\bren\common\reload\layer_f\05, 0.95, 2.95
+
+[wpn_cz_bren_805_snd_reload]
+snd_1_layer		= weapons\bren\common\reload\layer_a\01, 0.5
+snd_1_layer1	= weapons\bren\common\reload\layer_a\02, 0.5
+snd_1_layer2	= weapons\bren\common\reload\layer_a\03, 0.5
+
+snd_2_layer		= weapons\common_misc_sounds\draw\draw_01, 0.2
+snd_2_layer1	= weapons\common_misc_sounds\draw\draw_02, 0.2
+snd_2_layer2	= weapons\common_misc_sounds\draw\draw_03, 0.2
+snd_2_layer3	= weapons\common_misc_sounds\draw\draw_04, 0.2
+snd_2_layer4	= weapons\common_misc_sounds\draw\draw_05, 0.2
+snd_2_layer5	= weapons\common_misc_sounds\draw\draw_06, 0.2
+snd_2_layer6	= weapons\common_misc_sounds\draw\draw_07, 0.2
+
+snd_3_layer		= weapons\bren\common\reload\layer_b\01, 0.5, 0.5
+snd_3_layer1	= weapons\bren\common\reload\layer_b\02, 0.5, 0.5
+snd_3_layer2	= weapons\bren\common\reload\layer_b\03, 0.5, 0.5
+
+snd_4_layer		= weapons\common_misc_sounds\holster\holster_01, 0.35, 1.5
+snd_4_layer1	= weapons\common_misc_sounds\holster\holster_02, 0.35, 1.5
+snd_4_layer2	= weapons\common_misc_sounds\holster\holster_03, 0.35, 1.5
+snd_4_layer3	= weapons\common_misc_sounds\holster\holster_04, 0.35, 1.5
+snd_4_layer4	= weapons\common_misc_sounds\holster\holster_05, 0.35, 1.5
+snd_4_layer5	= weapons\common_misc_sounds\holster\holster_06, 0.35, 1.5
+snd_4_layer6	= weapons\common_misc_sounds\holster\holster_07, 0.35, 1.5
+
+snd_5_layer		= weapons\bren\common\reload\layer_d\01, 0.5, 1.9
+snd_5_layer1	= weapons\bren\common\reload\layer_d\02, 0.5, 1.9
+snd_5_layer2	= weapons\bren\common\reload\layer_d\03, 0.5, 1.9
+snd_5_layer3	= weapons\bren\common\reload\layer_d\04, 0.5, 1.9
+snd_5_layer4	= weapons\bren\common\reload\layer_d\05, 0.5, 1.9
+snd_5_layer5	= weapons\bren\common\reload\layer_d\06, 0.5, 1.9
+
+[wpn_cz_bren_805_snd_gl_reload]
+snd_1_layer		= weapons\M320\reload\layer_a\01, 0.5
+snd_1_layer1	= weapons\M320\reload\layer_a\02, 0.5
+snd_1_layer2	= weapons\M320\reload\layer_a\03, 0.5
+snd_1_layer3	= weapons\M320\reload\layer_a\04, 0.5
+
+snd_2_layer		= weapons\M320\reload\layer_b\01, 0.5
+snd_2_layer1	= weapons\M320\reload\layer_b\02, 0.5
+snd_2_layer2	= weapons\M320\reload\layer_b\03, 0.5
+snd_2_layer3	= weapons\M320\reload\layer_b\04, 0.5
+snd_2_layer4	= weapons\M320\reload\layer_b\05, 0.5
+snd_2_layer5	= weapons\M320\reload\layer_b\06, 0.5
+
+snd_3_layer		= weapons\M320\reload\layer_c\01, 0.5, 0.85
+snd_3_layer1	= weapons\M320\reload\layer_c\02, 0.5, 0.85
+snd_3_layer2	= weapons\M320\reload\layer_c\03, 0.5, 0.85
+
+snd_4_layer		= weapons\M320\reload\layer_d\01, 0.5, 1.3
+snd_4_layer1	= weapons\M320\reload\layer_d\02, 0.5, 1.3
+snd_4_layer2	= weapons\M320\reload\layer_d\03, 0.5, 1.3
+snd_4_layer3	= weapons\M320\reload\layer_d\04, 0.5, 1.3
+snd_4_layer4	= weapons\M320\reload\layer_d\05, 0.5, 1.3
+snd_4_layer5	= weapons\M320\reload\layer_d\06, 0.5, 1.3
+
+snd_5_layer		= weapons\M320\reload\layer_e\02, 0.5, 1.5
+snd_5_layer1	= weapons\M320\reload\layer_e\02, 0.5, 1.5
+
+snd_6_layer		= weapons\M320\reload\layer_f\01, 0.5, 2.1
+snd_6_layer1	= weapons\M320\reload\layer_f\02, 0.5, 2.1
+snd_6_layer2	= weapons\M320\reload\layer_f\03, 0.5, 2.1
+snd_6_layer3	= weapons\M320\reload\layer_f\04, 0.5, 2.1
+snd_6_layer4	= weapons\M320\reload\layer_f\05, 0.5, 2.1
+snd_6_layer5	= weapons\M320\reload\layer_f\06, 0.5, 2.1
+
+snd_7_layer		= weapons\M320\reload\layer_g\01, 1, 2.6
+snd_7_layer1	= weapons\M320\reload\layer_g\02, 1, 2.6
+snd_7_layer2	= weapons\M320\reload\layer_g\03, 1, 2.6
+
+[wpn_cz_bren_805_snd_swpos]
+snd_1_layer		= weapons\M320\reload\layer_b\01, 0.25
+snd_1_layer1	= weapons\M320\reload\layer_b\02, 0.25
+snd_1_layer2	= weapons\M320\reload\layer_b\03, 0.25
+snd_1_layer3	= weapons\M320\reload\layer_b\04, 0.25
+snd_1_layer4	= weapons\M320\reload\layer_b\05, 0.25
+snd_1_layer5	= weapons\M320\reload\layer_b\06, 0.25
+
+snd_2_layer		= weapons\M320\switch_positions\layer_b\01, 0.5, 0.98
+snd_2_layer1	= weapons\M320\switch_positions\layer_b\02, 0.5, 0.98
+snd_2_layer2	= weapons\M320\switch_positions\layer_b\03, 0.5, 0.98
+snd_2_layer3	= weapons\M320\switch_positions\layer_b\04, 0.5, 0.98
+snd_2_layer4	= weapons\M320\switch_positions\layer_b\05, 0.5, 0.98
+snd_2_layer5	= weapons\M320\switch_positions\layer_b\06, 0.5, 0.98
+
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;
+;																																						;
+;																	SHOOTING LAYERS																		;
+;																																						;
+;======================================================================================================================================================;
+
+[wpn_cz_bren_805_snd_shoot]
+snd_1_layer		= weapons\bren\common\shot_npc\shot_01
+snd_1_layer1	= weapons\bren\common\shot_npc\shot_02
+snd_1_layer2	= weapons\bren\common\shot_npc\shot_03
+snd_1_layer3	= weapons\bren\common\shot_npc\shot_04
+
+snd_2_layer		= weapons\bren\805\fire_npc\bren_805_bang_01
+snd_2_layer1	= weapons\bren\805\fire_npc\bren_805_bang_02
+
+snd_3_layer		= weapons\bren\common\sonic_npc\sonic_01
+snd_3_layer1	= weapons\bren\common\sonic_npc\sonic_02
+
+snd_4_layer		= weapons\bren\805\fire_npc\bren_805_reflection_01
+snd_4_layer1	= weapons\bren\805\fire_npc\bren_805_reflection_02
+snd_4_layer2	= weapons\bren\805\fire_npc\bren_805_reflection_03
+snd_4_layer3	= weapons\bren\805\fire_npc\bren_805_reflection_04
+snd_4_layer4	= weapons\bren\805\fire_npc\bren_805_reflection_05
+
+[wpn_cz_bren_805_snd_shoot_actor]
+snd_1_layer		= weapons\bren\common\shot\shot_01
+snd_1_layer1	= weapons\bren\common\shot\shot_02
+snd_1_layer2	= weapons\bren\common\shot\shot_03
+snd_1_layer3	= weapons\bren\common\shot\shot_04
+
+snd_2_layer		= weapons\bren\805\fire\bren_805_bang_01
+snd_2_layer1	= weapons\bren\805\fire\bren_805_bang_02
+
+snd_3_layer		= weapons\bren\common\sonic\sonic_01
+snd_3_layer1	= weapons\bren\common\sonic\sonic_02
+
+snd_4_layer		= weapons\bren\805\fire\bren_805_reflection_01
+snd_4_layer1	= weapons\bren\805\fire\bren_805_reflection_02
+snd_4_layer2	= weapons\bren\805\fire\bren_805_reflection_03
+snd_4_layer3	= weapons\bren\805\fire\bren_805_reflection_04
+snd_4_layer4	= weapons\bren\805\fire\bren_805_reflection_05
+
+snd_5_layer		= weapons\bren\common\bass\bass
+
+[wpn_cz_bren_805_snd_sil]
+snd_1_layer		= weapons\bren\805\fire_sil_npc\shot_01
+snd_1_layer1	= weapons\bren\805\fire_sil_npc\shot_02
+snd_1_layer2	= weapons\bren\805\fire_sil_npc\shot_03
+snd_1_layer2	= weapons\bren\805\fire_sil_npc\shot_04
+
+snd_2_layer		= weapons\bren\common\sil_echo_npc\01
+snd_2_layer1	= weapons\bren\common\sil_echo_npc\02
+snd_2_layer2	= weapons\bren\common\sil_echo_npc\03
+
+snd_3_layer		= weapons\bren\common\sil_bang_npc\01
+snd_3_layer1	= weapons\bren\common\sil_bang_npc\02
+snd_3_layer2	= weapons\bren\common\sil_bang_npc\03
+snd_3_layer3	= weapons\bren\common\sil_bang_npc\04
+snd_3_layer4	= weapons\bren\common\sil_bang_npc\05
+snd_3_layer5	= weapons\bren\common\sil_bang_npc\06
+
+[wpn_cz_bren_805_snd_sil_actor]
+snd_1_layer		= weapons\bren\805\fire_sil\shot_01
+snd_1_layer1	= weapons\bren\805\fire_sil\shot_02
+snd_1_layer2	= weapons\bren\805\fire_sil\shot_03
+snd_1_layer2	= weapons\bren\805\fire_sil\shot_04
+
+snd_2_layer		= weapons\bren\common\sil_echo\01
+snd_2_layer1	= weapons\bren\common\sil_echo\02
+snd_2_layer2	= weapons\bren\common\sil_echo\03
+
+snd_3_layer		= weapons\bren\common\sil_bang\01
+snd_3_layer1	= weapons\bren\common\sil_bang\02
+snd_3_layer2	= weapons\bren\common\sil_bang\03
+snd_3_layer3	= weapons\bren\common\sil_bang\04
+snd_3_layer4	= weapons\bren\common\sil_bang\05
+snd_3_layer5	= weapons\bren\common\sil_bang\06
+
+snd_4_layer		= weapons\bren\common\bass\bass
+
+[wpn_cz_bren_805_snd_m320]
+snd_1_layer		= weapons\M320\fire\shot
+
+snd_2_layer		= weapons\M320\fire\bang_01
+snd_2_layer1	= weapons\M320\fire\bang_02
+snd_2_layer2	= weapons\M320\fire\bang_03
+snd_2_layer3	= weapons\M320\fire\bang_03
+
+snd_3_layer		= weapons\M320\fire\gas_01
+snd_3_layer1	= weapons\M320\fire\gas_02
+snd_3_layer2	= weapons\M320\fire\gas_03
+
+snd_4_layer		= weapons\M320\fire\reflection_01, 0.5
+snd_4_layer1	= weapons\M320\fire\reflection_02, 0.5
+
+snd_5_layer		= weapons\M320\fire\bass_01
+snd_5_layer1	= weapons\M320\fire\bass_02
+snd_5_layer2	= weapons\M320\fire\bass_03
+
+;----------------------------------------------------------------HUD------------------------------------------------------------------------------------
+[wpn_cz_bren_805_hud]:hud_base
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_hud.ogf
+
+attach_place_idx			= 0
+zoom_hide_crosshair			= true
+
+item_position				= 0, 0, 0
+item_orientation			= 0, 0, 0
+
+; aim_hud_offset_pos			= -0.074736, 0.009285, -0.05
+; aim_hud_offset_pos_16x9		= -0.074736, 0.009285, -0.05
+; aim_hud_offset_rot			= -0.005052, 0.01697, -0.024456
+; aim_hud_offset_rot_16x9		= -0.005052, 0.01697, -0.024456
+        aim_hud_offset_pos               = -0.073797, 0.008571, -0.05
+        aim_hud_offset_pos_16x9          = -0.073797, 0.008571, -0.05
+        aim_hud_offset_rot               = 0.001722, -0.001026, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001722, -0.001026, -0.024456
+
+; aim_hud_offset_alt_pos		= -0.109485, -0.112272, -0.03577
+; aim_hud_offset_alt_pos_16x9	= -0.109485, -0.112272, -0.03577
+; aim_hud_offset_alt_rot		= -0.051044, 0.056953, 0.778869
+; aim_hud_offset_alt_rot_16x9	= -0.051044, 0.056953, 0.778869
+        aim_hud_offset_alt_pos           = -0.110269, -0.11336, -0.03577
+        aim_hud_offset_alt_pos_16x9      = -0.110269, -0.11336, -0.03577
+        aim_hud_offset_alt_rot           = -0.05243, 0.056147, 0.778869
+        aim_hud_offset_alt_rot_16x9      = -0.05243, 0.056147, 0.778869
+
+; hands_orientation			= 0.8924, -1.359201, 0
+; hands_orientation_16x9		= 0.8924, -1.359201, 0
+        hands_orientation                = -0.073288, -1.063384, 0
+        hands_orientation_16x9           = -0.073288, -1.063384, 0
+hands_position				= -0.001087, -0.012333, 0.05
+hands_position_16x9			= -0.001087, -0.012333, 0.05
+
+lowered_hud_offset_pos		= 0.084015, 0.006193, -0.002991
+lowered_hud_offset_pos_16x9	= 0.084015, 0.006193, -0.002991
+lowered_hud_offset_rot		= 0.199704, -0.567036, 0.1
+lowered_hud_offset_rot_16x9	= 0.199704, -0.567036, 0.1
+
+; gl_hud_offset_pos			= -0.054125, 0.011055, 0.1
+; gl_hud_offset_pos_16x9		= -0.054125, 0.011055, 0.1
+        gl_hud_offset_pos                = -0.058819, 0.009482, 0.1
+        gl_hud_offset_pos_16x9           = -0.058819, 0.009482, 0.1
+gl_hud_offset_rot			= -0.032754, 0.036061, 0.061151
+gl_hud_offset_rot_16x9		= -0.032754, 0.036061, 0.061151
+
+lean_hud_offset_pos			= 0, 0, 0
+lean_hud_offset_rot			= 0, 0, 0
+
+;==================================================================
+anm_hide								= bren_h_hide, idle
+anm_idle								= bren_idle, idle
+anm_idle_aim							= bren_idle_aim, idle
+anm_idle_moving							= bren_walk, idle
+anm_idle_sprint							= bren_sprint, idle
+anm_show								= bren_draw, idle
+anm_bore								= bren_bore, g36_g_bore
+
+anm_reload								= bren_reload, g36_g_reload, 1
+anm_reload_empty						= bren_reload_empty, g36_g_reload_empty, 1
+anm_reload_misfire						= bren_misfire, g36_g_misfire, 1
+
+anm_shots								= bren_shot, g36_g_shot
+anm_shot_l								= bren_shot, g36_g_shot_l
+;-------------------------------------------------------------------
+anm_hide_jammed							= bren_h_hide, idle_jammed
+anm_idle_jammed							= bren_idle, idle_jammed
+anm_idle_aim_jammed						= bren_idle_aim, idle_jammed
+anm_idle_moving_jammed					= bren_walk, idle_jammed
+anm_idle_sprint_jammed					= bren_sprint, idle_jammed
+anm_show_jammed							= bren_draw, idle_jammed
+anm_bore_jammed							= bren_bore_empty, idle_jammed
+anm_shots_jammed						= bren_shot, shot_jamm
+;-------------------------------------------------------------------
+anm_hide_empty							= bren_h_hide, idle_empty
+anm_idle_empty							= bren_idle, idle_empty
+anm_idle_aim_empty						= bren_idle_aim, idle_empty
+anm_idle_moving_empty					= bren_walk, idle_empty
+anm_idle_sprint_empty					= bren_sprint, idle_empty
+anm_show_empty							= bren_draw, idle_empty
+anm_bore_empty							= bren_bore_empty, idle_empty
+;==================================================================
+anm_bore_w_gl							= bren_bore_gl_off, g36_g_bore 
+anm_hide_w_gl							= bren_hide_gl_off, idle
+anm_idle_moving_w_gl					= bren_walk_gl_off, idle
+anm_idle_sprint_w_gl					= bren_sprint_gl_off, idle
+anm_idle_w_gl							= bren_idle_gl_off, idle
+anm_idle_w_gl_aim						= bren_idle_aim_gl_off, idle
+anm_show_w_gl							= bren_draw_gl_off, idle
+
+anm_reload_misfire_w_gl					= bren_misfire_gl_off, g36_g_misfire, 1
+anm_reload_empty_w_gl					= bren_reload_empty_gl_off, g36_g_reload_empty_gl_off, 1
+anm_reload_w_gl							= bren_reload_gl_off, g36_g_reload, 1
+
+anm_shots_w_gl							= bren_shot_gl_off, g36_g_shot
+anm_shot_w_gl_l							= bren_shot_gl_off, g36_g_shot_l
+;-------------------------------------------------------------------
+anm_hide_empty_w_gl						= bren_hide_gl_off, idle_empty
+anm_idle_moving_empty_w_gl				= bren_walk_gl_off, idle_empty
+anm_idle_sprint_empty_w_gl				= bren_sprint_gl_off, idle_empty
+anm_idle_empty_w_gl						= bren_idle_gl_off, idle_empty
+anm_idle_empty_w_gl_aim					= bren_idle_aim_gl_off, idle_empty
+anm_show_empty_w_gl						= bren_draw_gl_off, idle_empty
+anm_bore_empty_w_gl						= bren_bore_empty_gl_off, idle_empty 
+;-------------------------------------------------------------------
+anm_hide_w_gl_jammed					= bren_hide_gl_off, idle_jammed
+anm_idle_moving_w_gl_jammed				= bren_walk_gl_off, idle_jammed
+anm_idle_sprint_w_gl_jammed				= bren_sprint_gl_off, idle_jammed
+anm_idle_w_gl_jammed					= bren_idle_gl_off, idle_jammed
+anm_idle_w_gl_aim_jammed				= bren_idle_aim_gl_off, idle_jammed
+anm_show_w_gl_jammed					= bren_draw_gl_off, idle_jammed
+anm_bore_w_gl_jammed					= bren_bore_empty_gl_off, idle_jammed 
+anm_shots_w_gl_jammed					= bren_shot_gl_off, shot_jamm
+;===================================================================
+anm_hide_g								= bren_hide_gl_on, idle_g
+anm_idle_g								= bren_gl_on_idle, idle_g
+anm_idle_g_aim							= bren_idle_aim_g_on, idle_g
+anm_idle_moving_g						= bren_walk_gl_on, idle_g
+anm_idle_sprint_g						= bren_sprint_gl_on, idle_g
+anm_shots_g								= bren_g_on_shot, idle_g, 1.2
+anm_reload_g							= bren_gl_reload, g36_g_gl_reload, 0.8
+anm_show_g								= bren_draw_gl_on, g36_g_g_on_shot
+;===================================================================
+anm_switch								= bren_d_bore_empty_w_gl, g36_g_g_off
+anm_switch_g							= bren_d_bore_empty_w_gl, g36_g_g_on
+;===================================================================
+;===================================================================
+anm_idle_aim_moving						= bren_walk, idle, 0.75
+anm_idle_aim_moving_crouch				= bren_walk, idle, 0.7
+anm_idle_moving_crouch					= bren_walk, idle, 0.7
+anm_idle_aim_moving_empty				= bren_walk, idle_empty, 0.75
+anm_idle_aim_moving_crouch_empty		= bren_walk, idle_empty, 0.7
+anm_idle_moving_crouch_empty			= bren_walk, idle_empty, 0.7
+anm_idle_aim_moving_jammed				= bren_walk, idle_jammed, 0.75
+anm_idle_aim_moving_crouch_jammed		= bren_walk, idle_jammed, 0.7
+anm_idle_moving_crouch_jammed			= bren_walk, idle_jammed, 0.7
+
+anm_idle_moving_crouch_g				= bren_walk_gl_on, idle_g
+anm_idle_moving_crouch_g_aim			= bren_idle_aim_g_on, idle_g, 0.7
+anm_idle_moving_g_aim					= bren_walk_gl_on, idle_g, 0.75
+
+anm_idle_moving_crouch_w_gl				= bren_walk_gl_off, idle
+anm_idle_moving_crouch_w_gl_aim			= bren_walk_gl_off, idle, 0.7
+anm_idle_moving_w_gl_aim				= bren_walk_gl_off, idle, 0.75
+anm_idle_moving_crouch_w_gl_empty		= bren_walk_gl_off, idle_empty
+anm_idle_moving_crouch_w_gl_aim_empty	= bren_walk_gl_off, idle_empty, 0.7
+anm_idle_moving_w_gl_aim_empty			= bren_walk_gl_off, idle_empty, 0.75
+anm_idle_moving_crouch_w_gl_jammed		= bren_walk_gl_off, idle_jammed
+anm_idle_moving_crouch_w_gl_aim_jammed	= bren_walk_gl_off, idle_jammed, 0.7
+anm_idle_moving_w_gl_aim_jammed			= bren_walk_gl_off, idle_jammed, 0.75
+;===================================================================
+
+shell_bone				= gilza
+shell_dir				= 0, 1, 0
+shell_point				= 0, 0, 0
+
+fire_bone				= muzzle
+fire_bone2				= muzzle_gl
+fire_point				= -0.002457, 0.005, 0
+fire_point2				= 0, 0, 0
+
+freelook_z_offset_mul	= 0.6
+
+;======================================================================================================================================================;
+;																																						;
+;					aDDONS		VANILLA											;
+;																																						;
+;======================================================================================================================================================;
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+;======================================================================================================================================================;
+;AC11090
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+[wpn_cz_bren_805_ac11090]:wpn_cz_bren_805
+parent_section		= wpn_cz_bren_805
+
+visual				= dynamics\weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_world.ogf
+hud					= wpn_cz_bren_805_ac11090_hud
+
+inv_weight			= 3.849
+
+1icon_layer			= ac11090
+1icon_layer_x		= 110
+1icon_layer_y		= -19
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_trijicon
+scope_zoom_factor	= 50
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+scope_dynamic_zoom	= off
+
+lewd_lens_hide_enabled	= false
+
+[wpn_cz_bren_805_ac11090_hud]:wpn_cz_bren_805_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_ac11090_hud.ogf
+
+; aim_hud_offset_pos			= -0.0734, -0.008, -0.253
+; aim_hud_offset_pos_16x9		= -0.0734, -0.008, -0.253
+; aim_hud_offset_rot			= 0.0015, 0.0139, -0.024456
+; aim_hud_offset_rot_16x9		= 0.0015, 0.0139, -0.024456
+
+; aim_hud_offset_alt_pos		= -0.094979, -0.078011, -0.03577
+; aim_hud_offset_alt_pos_16x9	= -0.094979, -0.078011, -0.03577
+; aim_hud_offset_alt_rot		= -0.007523, 0.021538, 0.778869
+; aim_hud_offset_alt_rot_16x9	= -0.007523, 0.021538, 0.778869
+
+        aim_hud_offset_alt_pos           = -0.094518, -0.075124, -0.03577
+        aim_hud_offset_alt_pos_16x9      = -0.094518, -0.075124, -0.03577
+        aim_hud_offset_alt_rot           = 0.001402, 0.000444, 0.778869
+        aim_hud_offset_alt_rot_16x9      = 0.001402, 0.000444, 0.778869
+		
+        aim_hud_offset_pos               = -0.073577, -0.008855, -0.107173
+        aim_hud_offset_pos_16x9          = -0.073577, -0.008855, -0.107173
+        aim_hud_offset_rot               = 0.000801, -7.4e-05, -0.024456
+        aim_hud_offset_rot_16x9          = 0.000801, -7.4e-05, -0.024456
+;======================================================================================================================================================;
+;AC10632
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_805_ac10632]:wpn_cz_bren_805
+parent_section		= wpn_cz_bren_805
+
+visual				= dynamics\weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_world.ogf
+hud					= wpn_cz_bren_805_ac10632_hud
+
+inv_weight			= 3.715
+
+1icon_layer			= ac10632
+1icon_layer_x		= 110
+1icon_layer_y		= -18
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_805_ac10632_hud]:wpn_cz_bren_805_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_ac10632_hud.ogf
+
+; aim_hud_offset_pos			= -0.074736, -0.018, -0.15
+; aim_hud_offset_pos_16x9		= -0.074736, -0.018, -0.15
+        aim_hud_offset_pos               = -0.073917, -0.018101, -0.15
+        aim_hud_offset_pos_16x9          = -0.073917, -0.018101, -0.15
+        aim_hud_offset_rot               = 0.001244, 3e-06, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001244, 3e-06, -0.024456
+
+;======================================================================================================================================================;
+;ACOG
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+
+[wpn_cz_bren_805_acog]:wpn_cz_bren_805
+parent_section		= wpn_cz_bren_805
+
+visual				= dynamics\weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_world.ogf
+hud					= wpn_cz_bren_805_acog_hud
+
+inv_weight			= 4.190
+
+1icon_layer			= acog
+1icon_layer_x		= 110
+1icon_layer_y		= -18
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+lewd_lens_hide_enabled	= false
+
+[wpn_cz_bren_805_acog_hud]:wpn_cz_bren_805_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_acog_hud.ogf
+
+; 
+        aim_hud_offset_pos               = -0.073843, -0.015056, -0.15
+        aim_hud_offset_pos_16x9          = -0.073843, -0.015056, -0.15
+
+        aim_hud_offset_alt_pos           = -0.09466, -0.075407, -0.03577
+        aim_hud_offset_alt_pos_16x9      = -0.09466, -0.075407, -0.03577
+        aim_hud_offset_alt_rot           = 0.001169, 0.000542, 0.778869
+        aim_hud_offset_alt_rot_16x9      = 0.001169, 0.000542, 0.778869
+        aim_hud_offset_pos               = -0.073316, -0.021893, -0.14219
+        aim_hud_offset_pos_16x9          = -0.073316, -0.021893, -0.14219
+        aim_hud_offset_rot               = 0.00157, 0.000225, -0.024456
+        aim_hud_offset_rot_16x9          = 0.00157, 0.000225, -0.024456
+;======================================================================================================================================================;
+;C-MORE
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_805_c-more]:wpn_cz_bren_805
+parent_section		= wpn_cz_bren_805
+
+visual				= dynamics\weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_world.ogf
+hud					= wpn_cz_bren_805_c-more_hud
+
+inv_weight			= 3.784
+
+1icon_layer			= c-more
+1icon_layer_x		= 115
+1icon_layer_y		= -12
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_805_c-more_hud]:wpn_cz_bren_805_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_cmore_hud.ogf
+
+; aim_hud_offset_pos			= -0.074736, -0.016, -0.15
+; aim_hud_offset_pos_16x9		= -0.074736, -0.016, -0.15
+
+        aim_hud_offset_pos               = -0.073843, -0.015056, -0.15
+        aim_hud_offset_pos_16x9          = -0.073843, -0.015056, -0.15
+        aim_hud_offset_rot               = 0.002385, 0.000219, -0.024456
+        aim_hud_offset_rot_16x9          = 0.002385, 0.000219, -0.024456
+;======================================================================================================================================================;
+;EOTECH 558
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_805_eot]:wpn_cz_bren_805
+visual				= dynamics\weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_world.ogf
+hud					= wpn_cz_bren_805_eot_hud
+
+inv_weight			= 3.925
+
+1icon_layer			= eot
+1icon_layer_x		= 115
+1icon_layer_y		= -13
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_805_eot_hud]:wpn_cz_bren_805_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_805\wpn_cz_bren_805_eot_hud.ogf
+
+; aim_hud_offset_pos			= -0.074736, 0.007, -0.15
+; aim_hud_offset_pos_16x9		= -0.074736, 0.007, -0.15
+
+        aim_hud_offset_pos               = -0.073524, 0.008417, -0.15
+        aim_hud_offset_pos_16x9          = -0.073524, 0.008417, -0.15
+        aim_hud_offset_rot               = 0.002292, -0.000952, -0.024456
+        aim_hud_offset_rot_16x9          = 0.002292, -0.000952, -0.024456
+
+
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_cz_bren_806]:wpn_cz_bren_805
+$spawn						= "weapons\cz_bren_806"
+parent_section				= wpn_cz_bren_806
+
+ef_weapon_type				= 7
+
+icons_texture				= ui\ui_icon_cz_bren
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 2
+
+inv_name					= st_wpn_cz_bren_806
+inv_name_short				= st_wpn_cz_bren_806_s
+description					= st_wpn_cz_bren_806_descr
+
+inv_weight					= 3.800
+cost						= 157882
+
+hud							= wpn_cz_bren_806_hud
+visual						= dynamics\weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_world.ogf
+
+shell_particles				= weapons\762x51
+
+upgrades					= up_gr_firstab_g3sg1, up_gr_seconab_g3sg1, up_gr_thirdab_g3sg1, up_gr_fourtab_g3sg1, up_gr_fourtcd_g3sg1, up_gr_fourtef_g3sg1
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_fn2000
+upgr_icon_path				= ui\ui_icon_cz_bren
+upgr_icon_x					= 350
+upgr_icon_y					= 100
+upgr_icon_width				= 250
+upgr_icon_height			= 100
+
+fire_modes					= 1, -1
+ammo_class					= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
+ammo_elapsed				= 25
+ammo_mag_size				= 25
+startup_ammo				= 100
+
+silencer_x					= 210
+silencer_y					= 6
+
+hit_impulse					= 35
+hit_power					= 1.05, 1.05, 1.05, 1.05
+fire_distance				= 1000
+bullet_speed				= 802
+rpm							= 850
+rpm_empty_click				= 800
+
+crosshair_inertion			= 6.85
+fire_dispersion_base		= 0.23
+
+misfire_end_condition		= 0.05
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.0020
+condition_shot_dec			= 0.0020
+
+zoom_cam_dispersion			= 0.4
+zoom_cam_dispersion_frac	= 0.8
+zoom_cam_dispersion_inc		= 0.048
+
+PDM_disp_accel_factor		= 2.75
+PDM_disp_base				= 1.15
+PDM_disp_vel_factor			= 2.75
+
+kill_msg_x					= 80
+kill_msg_y					= 59
+kill_msg_width				= 87
+kill_msg_height				= 24
+;-----------------------------------------------------------------------------------------SND----------------------------------------------------------------------------------------------------------------
+;-------------------------------------------SFX WITH LAYERS-------------------------------------------------------;
+
+;RELOAD
+; snd_reload			= wpn_cz_bren_806_snd_reload
+; snd_reload_empty	= wpn_cz_bren_806_snd_reload_empty
+
+;SHOT
+snd_shoot			= wpn_cz_bren_806_snd_shoot
+snd_shoot_actor		= wpn_cz_bren_806_snd_shoot_actor
+
+snd_silncer_shot		= wpn_cz_bren_806_snd_sil
+snd_silncer_shot_actor	= wpn_cz_bren_806_snd_sil_actor
+
+;GRENADE LAUNCHER
+; snd_shoot_grenade	= wpn_cz_bren_806_snd_m320
+; snd_reload_grenade	= wpn_cz_bren_806_snd_gl_reload
+; snd_switch			= wpn_cz_bren_806_snd_swpos
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;
+;																																						;
+;																	RELOAD	LAYERS																		;
+;																																						;
+;======================================================================================================================================================;
+
+; [wpn_cz_bren_806_snd_reload_empty]
+; snd_1_layer		= weapons\bren\common\reload\layer_a\01, 0.5
+; snd_1_layer1	= weapons\bren\common\reload\layer_a\02, 0.5
+; snd_1_layer2	= weapons\bren\common\reload\layer_a\03, 0.5
+
+; snd_2_layer		= weapons\common_misc_sounds\draw\draw_01, 0.2
+; snd_2_layer1	= weapons\common_misc_sounds\draw\draw_02, 0.2
+; snd_2_layer2	= weapons\common_misc_sounds\draw\draw_03, 0.2
+; snd_2_layer3	= weapons\common_misc_sounds\draw\draw_04, 0.2
+; snd_2_layer4	= weapons\common_misc_sounds\draw\draw_05, 0.2
+; snd_2_layer5	= weapons\common_misc_sounds\draw\draw_06, 0.2
+; snd_2_layer6	= weapons\common_misc_sounds\draw\draw_07, 0.2
+
+; snd_3_layer		= weapons\bren\common\reload\layer_b\01, 0.5, 0.5
+; snd_3_layer1	= weapons\bren\common\reload\layer_b\02, 0.5, 0.5
+; snd_3_layer2	= weapons\bren\common\reload\layer_b\03, 0.5, 0.5
+
+; snd_4_layer		= weapons\common_misc_sounds\holster\holster_01, 0.35, 1.5
+; snd_4_layer1	= weapons\common_misc_sounds\holster\holster_02, 0.35, 1.5
+; snd_4_layer2	= weapons\common_misc_sounds\holster\holster_03, 0.35, 1.5
+; snd_4_layer3	= weapons\common_misc_sounds\holster\holster_04, 0.35, 1.5
+; snd_4_layer4	= weapons\common_misc_sounds\holster\holster_05, 0.35, 1.5
+; snd_4_layer5	= weapons\common_misc_sounds\holster\holster_06, 0.35, 1.5
+; snd_4_layer6	= weapons\common_misc_sounds\holster\holster_07, 0.35, 1.5
+
+; snd_5_layer		= weapons\bren\common\reload\layer_d\01, 0.5, 1.9
+; snd_5_layer1	= weapons\bren\common\reload\layer_d\02, 0.5, 1.9
+; snd_5_layer2	= weapons\bren\common\reload\layer_d\03, 0.5, 1.9
+; snd_5_layer3	= weapons\bren\common\reload\layer_d\04, 0.5, 1.9
+; snd_5_layer4	= weapons\bren\common\reload\layer_d\05, 0.5, 1.9
+; snd_5_layer5	= weapons\bren\common\reload\layer_d\06, 0.5, 1.9
+
+; snd_6_layer		= weapons\bren\common\reload\layer_e\01, 0.95, 2.5
+; snd_6_layer1	= weapons\bren\common\reload\layer_e\02, 0.95, 2.5
+; snd_6_layer2	= weapons\bren\common\reload\layer_e\03, 0.95, 2.5
+
+; snd_7_layer		= weapons\bren\common\reload\layer_f\01, 0.95, 2.95
+; snd_7_layer1	= weapons\bren\common\reload\layer_f\02, 0.95, 2.95
+; snd_7_layer2	= weapons\bren\common\reload\layer_f\03, 0.95, 2.95
+; snd_7_layer3	= weapons\bren\common\reload\layer_f\04, 0.95, 2.95
+; snd_7_layer4	= weapons\bren\common\reload\layer_f\05, 0.95, 2.95
+
+; [wpn_cz_bren_806_snd_reload]
+; snd_1_layer		= weapons\bren\common\reload\layer_a\01, 0.5
+; snd_1_layer1	= weapons\bren\common\reload\layer_a\02, 0.5
+; snd_1_layer2	= weapons\bren\common\reload\layer_a\03, 0.5
+
+; snd_2_layer		= weapons\common_misc_sounds\draw\draw_01, 0.2
+; snd_2_layer1	= weapons\common_misc_sounds\draw\draw_02, 0.2
+; snd_2_layer2	= weapons\common_misc_sounds\draw\draw_03, 0.2
+; snd_2_layer3	= weapons\common_misc_sounds\draw\draw_04, 0.2
+; snd_2_layer4	= weapons\common_misc_sounds\draw\draw_05, 0.2
+; snd_2_layer5	= weapons\common_misc_sounds\draw\draw_06, 0.2
+; snd_2_layer6	= weapons\common_misc_sounds\draw\draw_07, 0.2
+
+; snd_3_layer		= weapons\bren\common\reload\layer_b\01, 0.5, 0.5
+; snd_3_layer1	= weapons\bren\common\reload\layer_b\02, 0.5, 0.5
+; snd_3_layer2	= weapons\bren\common\reload\layer_b\03, 0.5, 0.5
+
+; snd_4_layer		= weapons\common_misc_sounds\holster\holster_01, 0.35, 1.5
+; snd_4_layer1	= weapons\common_misc_sounds\holster\holster_02, 0.35, 1.5
+; snd_4_layer2	= weapons\common_misc_sounds\holster\holster_03, 0.35, 1.5
+; snd_4_layer3	= weapons\common_misc_sounds\holster\holster_04, 0.35, 1.5
+; snd_4_layer4	= weapons\common_misc_sounds\holster\holster_05, 0.35, 1.5
+; snd_4_layer5	= weapons\common_misc_sounds\holster\holster_06, 0.35, 1.5
+; snd_4_layer6	= weapons\common_misc_sounds\holster\holster_07, 0.35, 1.5
+
+; snd_5_layer		= weapons\bren\common\reload\layer_d\01, 0.5, 1.9
+; snd_5_layer1	= weapons\bren\common\reload\layer_d\02, 0.5, 1.9
+; snd_5_layer2	= weapons\bren\common\reload\layer_d\03, 0.5, 1.9
+; snd_5_layer3	= weapons\bren\common\reload\layer_d\04, 0.5, 1.9
+; snd_5_layer4	= weapons\bren\common\reload\layer_d\05, 0.5, 1.9
+; snd_5_layer5	= weapons\bren\common\reload\layer_d\06, 0.5, 1.9
+
+; [wpn_cz_bren_806_snd_gl_reload]
+; snd_1_layer		= weapons\M320\reload\layer_a\01, 0.5
+; snd_1_layer1	= weapons\M320\reload\layer_a\02, 0.5
+; snd_1_layer2	= weapons\M320\reload\layer_a\03, 0.5
+; snd_1_layer3	= weapons\M320\reload\layer_a\04, 0.5
+
+; snd_2_layer		= weapons\M320\reload\layer_b\01, 0.5
+; snd_2_layer1	= weapons\M320\reload\layer_b\02, 0.5
+; snd_2_layer2	= weapons\M320\reload\layer_b\03, 0.5
+; snd_2_layer3	= weapons\M320\reload\layer_b\04, 0.5
+; snd_2_layer4	= weapons\M320\reload\layer_b\05, 0.5
+; snd_2_layer5	= weapons\M320\reload\layer_b\06, 0.5
+
+; snd_3_layer		= weapons\M320\reload\layer_c\01, 0.5, 0.85
+; snd_3_layer1	= weapons\M320\reload\layer_c\02, 0.5, 0.85
+; snd_3_layer2	= weapons\M320\reload\layer_c\03, 0.5, 0.85
+
+; snd_4_layer		= weapons\M320\reload\layer_d\01, 0.5, 1.3
+; snd_4_layer1	= weapons\M320\reload\layer_d\02, 0.5, 1.3
+; snd_4_layer2	= weapons\M320\reload\layer_d\03, 0.5, 1.3
+; snd_4_layer3	= weapons\M320\reload\layer_d\04, 0.5, 1.3
+; snd_4_layer4	= weapons\M320\reload\layer_d\05, 0.5, 1.3
+; snd_4_layer5	= weapons\M320\reload\layer_d\06, 0.5, 1.3
+
+; snd_5_layer		= weapons\M320\reload\layer_e\02, 0.5, 1.5
+; snd_5_layer1	= weapons\M320\reload\layer_e\02, 0.5, 1.5
+
+; snd_6_layer		= weapons\M320\reload\layer_f\01, 0.5, 2.1
+; snd_6_layer1	= weapons\M320\reload\layer_f\02, 0.5, 2.1
+; snd_6_layer2	= weapons\M320\reload\layer_f\03, 0.5, 2.1
+; snd_6_layer3	= weapons\M320\reload\layer_f\04, 0.5, 2.1
+; snd_6_layer4	= weapons\M320\reload\layer_f\05, 0.5, 2.1
+; snd_6_layer5	= weapons\M320\reload\layer_f\06, 0.5, 2.1
+
+; snd_7_layer		= weapons\M320\reload\layer_g\01, 1, 2.6
+; snd_7_layer1	= weapons\M320\reload\layer_g\02, 1, 2.6
+; snd_7_layer2	= weapons\M320\reload\layer_g\03, 1, 2.6
+
+; [wpn_cz_bren_806_snd_swpos]
+; snd_1_layer		= weapons\M320\reload\layer_b\01, 0.25
+; snd_1_layer1	= weapons\M320\reload\layer_b\02, 0.25
+; snd_1_layer2	= weapons\M320\reload\layer_b\03, 0.25
+; snd_1_layer3	= weapons\M320\reload\layer_b\04, 0.25
+; snd_1_layer4	= weapons\M320\reload\layer_b\05, 0.25
+; snd_1_layer5	= weapons\M320\reload\layer_b\06, 0.25
+
+; snd_2_layer		= weapons\M320\switch_positions\layer_b\01, 0.5, 0.98
+; snd_2_layer1	= weapons\M320\switch_positions\layer_b\02, 0.5, 0.98
+; snd_2_layer2	= weapons\M320\switch_positions\layer_b\03, 0.5, 0.98
+; snd_2_layer3	= weapons\M320\switch_positions\layer_b\04, 0.5, 0.98
+; snd_2_layer4	= weapons\M320\switch_positions\layer_b\05, 0.5, 0.98
+; snd_2_layer5	= weapons\M320\switch_positions\layer_b\06, 0.5, 0.98
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;
+;																																						;
+;																	SHOOTING	LAYERS																		;
+;																																						;
+;======================================================================================================================================================;
+
+[wpn_cz_bren_806_snd_shoot]:wpn_cz_bren_805_snd_shoot
+snd_2_layer		= weapons\bren\806\fire_npc\bren_806_bang_01
+snd_2_layer1	= weapons\bren\806\fire_npc\bren_806_bang_02
+snd_2_layer2	= weapons\bren\806\fire_npc\bren_806_bang_03
+
+snd_4_layer		= weapons\bren\806\fire_npc\bren_806_reflection_01
+snd_4_layer1	= weapons\bren\806\fire_npc\bren_806_reflection_02
+snd_4_layer2	= weapons\bren\806\fire_npc\bren_806_reflection_03
+snd_4_layer3	= weapons\bren\806\fire_npc\bren_806_reflection_04
+snd_4_layer4	= weapons\bren\806\fire_npc\bren_806_reflection_05
+snd_4_layer5	= weapons\bren\806\fire_npc\bren_806_reflection_06
+snd_4_layer6	= weapons\bren\806\fire_npc\bren_806_reflection_07
+snd_4_layer7	= weapons\bren\806\fire_npc\bren_806_reflection_08
+
+[wpn_cz_bren_806_snd_shoot_actor]:wpn_cz_bren_805_snd_shoot_actor
+snd_2_layer		= weapons\bren\806\fire\bren_806_bang_01
+snd_2_layer1	= weapons\bren\806\fire\bren_806_bang_02
+snd_2_layer2	= weapons\bren\806\fire\bren_806_bang_03
+
+snd_3_layer		= weapons\bren\806\fire\bren_806_sonic_01
+snd_3_layer1	= weapons\bren\806\fire\bren_806_sonic_02
+
+snd_4_layer		= weapons\bren\806\fire\bren_806_reflection_01, 0.5
+snd_4_layer1	= weapons\bren\806\fire\bren_806_reflection_02, 0.5
+snd_4_layer2	= weapons\bren\806\fire\bren_806_reflection_03, 0.5
+snd_4_layer3	= weapons\bren\806\fire\bren_806_reflection_04, 0.5
+snd_4_layer4	= weapons\bren\806\fire\bren_806_reflection_05, 0.5
+snd_4_layer5	= weapons\bren\806\fire\bren_806_reflection_06, 0.5
+snd_4_layer6	= weapons\bren\806\fire\bren_806_reflection_07, 0.5
+snd_4_layer7	= weapons\bren\806\fire\bren_806_reflection_08, 0.5
+
+[wpn_cz_bren_806_snd_sil]:wpn_cz_bren_805_snd_sil
+snd_1_layer		= weapons\bren\806\fire_sil_npc\shot_01
+snd_1_layer1	= weapons\bren\806\fire_sil_npc\shot_02
+snd_1_layer2	= weapons\bren\806\fire_sil_npc\shot_03
+snd_1_layer3	= weapons\bren\806\fire_sil_npc\shot_04
+
+[wpn_cz_bren_806_snd_sil_actor]:wpn_cz_bren_805_snd_sil_actor
+snd_1_layer		= weapons\bren\806\fire_sil\shot_01
+snd_1_layer1	= weapons\bren\806\fire_sil\shot_02
+snd_1_layer2	= weapons\bren\806\fire_sil\shot_03
+snd_1_layer3	= weapons\bren\806\fire_sil\shot_04
+
+[wpn_cz_bren_806_snd_m320]:wpn_cz_bren_805_snd_m320
+
+;----------------------------------------------------------------HUD------------------------------------------------------------------------------------
+[wpn_cz_bren_806_hud]:wpn_cz_bren_805_hud
+item_visual				= anomaly_weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_hud.ogf
+
+; aim_hud_offset_pos		= -0.071804, 0.01099, -0.1
+; aim_hud_offset_pos_16x9	= -0.071804, 0.01099, -0.1
+; aim_hud_offset_rot		= -0.005691, 0.016811, -0.024456
+; aim_hud_offset_rot_16x9	= -0.005691, 0.016811, -0.024456
+        aim_hud_offset_pos               = -0.073831, 0.012602, -0.1
+        aim_hud_offset_pos_16x9          = -0.073831, 0.012602, -0.1
+        aim_hud_offset_rot               = 0.001942, 0.000135, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001942, 0.000135, -0.024456
+
+; hands_position			= -0.004074, -0.011265, 0.06
+; hands_position_16x9		= -0.004074, -0.011265, 0.06
+        hands_orientation                = -0.075282, -1.044035, 0
+        hands_orientation_16x9           = -0.075282, -1.044035, 0
+
+; gl_hud_offset_pos		= -0.051346, 0.012614, 0.1
+; gl_hud_offset_pos_16x9	= -0.051346, 0.012614, 0.1
+        gl_hud_offset_pos                = -0.058528, 0.012519, 0.1
+        gl_hud_offset_pos_16x9           = -0.058528, 0.012519, 0.1
+gl_hud_offset_rot		= -0.026791, 0.035209, 0.061151
+gl_hud_offset_rot_16x9	= -0.026791, 0.035209, 0.061151
+
+freelook_z_offset_mul	= 0.1
+
+;======================================================================================================================================================;
+;======================================================================================================================================================;
+;																																					   ;
+;							ADDONS		VANILLA									       ;
+;																																				       ;
+;======================================================================================================================================================;
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+;======================================================================================================================================================;
+;AC11090
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+[wpn_cz_bren_806_ac11090]:wpn_cz_bren_806
+parent_section		= wpn_cz_bren_806
+
+visual				= dynamics\weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_world.ogf
+
+hud					= wpn_cz_bren_806_ac11090_hud
+
+inv_weight			= 4.049
+
+1icon_layer			= ac11090
+1icon_layer_x		= 110
+1icon_layer_y		= -15
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_trijicon
+scope_zoom_factor	= 50
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+scope_dynamic_zoom	= off
+
+lewd_lens_hide_enabled	= false
+
+[wpn_cz_bren_806_ac11090_hud]:wpn_cz_bren_806_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_ac11090_hud.ogf
+
+; aim_hud_offset_pos			= -0.07037, -0.00899, -0.252
+; aim_hud_offset_pos_16x9		= -0.07037, -0.00899, -0.252
+; aim_hud_offset_rot			= 0.002, 0.013, -0.024456
+; aim_hud_offset_rot_16x9		= 0.002, 0.013, -0.024456
+
+; aim_hud_offset_alt_pos		= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_pos_16x9	= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_rot		= -0.006316, 0.019774, 0.77889
+; aim_hud_offset_alt_rot_16x9	= -0.006316, 0.019774, 0.77889
+
+        aim_hud_offset_alt_pos           = -0.094094, -0.071787, -0.200187
+        aim_hud_offset_alt_pos_16x9      = -0.094094, -0.071787, -0.200187
+        aim_hud_offset_alt_rot           = 0.001398, 0.000676, 0.782636
+        aim_hud_offset_alt_rot_16x9      = 0.001398, 0.000676, 0.782636
+        aim_hud_offset_pos               = -0.073679, -0.008708, -0.207295
+        aim_hud_offset_pos_16x9          = -0.073679, -0.008708, -0.207295
+        aim_hud_offset_rot               = 0.001949, 0.000202, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001949, 0.000202, -0.024456
+;======================================================================================================================================================;
+;AC10632
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_806_ac10632]:wpn_cz_bren_806
+visual				= dynamics\weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_world.ogf
+hud					= wpn_cz_bren_806_ac10632_hud
+
+inv_weight			= 3.915
+
+1icon_layer			= ac10632
+1icon_layer_x		= 110
+1icon_layer_y		= -13
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_806_ac10632_hud]:wpn_cz_bren_806_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_ac10632_hud.ogf
+
+; aim_hud_offset_pos			= -0.071804, -0.02, -0.15
+; aim_hud_offset_pos_16x9		= -0.071804, -0.02, -0.15
+        aim_hud_offset_pos               = -0.074056, -0.017637, -0.15
+        aim_hud_offset_pos_16x9          = -0.074056, -0.017637, -0.15
+
+;======================================================================================================================================================;
+;ACOG
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+
+[wpn_cz_bren_806_acog]:wpn_cz_bren_806
+visual				= dynamics\weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_world.ogf
+hud					= wpn_cz_bren_806_acog_hud
+
+inv_weight			= 4.390
+
+1icon_layer			= acog
+1icon_layer_x		= 90
+1icon_layer_y		= -14
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+lewd_lens_hide_enabled	= false
+
+[wpn_cz_bren_806_acog_hud]:wpn_cz_bren_806_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_acog_hud.ogf
+
+; aim_hud_offset_pos			= -0.07037, -0.0202, -0.2704
+; aim_hud_offset_pos_16x9		= -0.07037, -0.0202, -0.2704
+; aim_hud_offset_rot			= 0.0085, 0.0133, -0.024456
+; aim_hud_offset_rot_16x9		= 0.0085, 0.0133, -0.024456
+
+; aim_hud_offset_alt_pos		= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_pos_16x9	= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_rot		= -0.006316, 0.019774, 0.77889
+; aim_hud_offset_alt_rot_16x9	= -0.006316, 0.019774, 0.77889
+
+        aim_hud_offset_alt_pos           = -0.094395, -0.071175, -0.198626
+        aim_hud_offset_alt_pos_16x9      = -0.094395, -0.071175, -0.198626
+        aim_hud_offset_alt_rot           = 0.002132, 0.000148, 0.77889
+        aim_hud_offset_alt_rot_16x9      = 0.002132, 0.000148, 0.77889
+        aim_hud_offset_pos               = -0.073359, -0.021239, -0.181412
+        aim_hud_offset_pos_16x9          = -0.073359, -0.021239, -0.181412
+        aim_hud_offset_rot               = 0.001871, 0.000386, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001871, 0.000386, -0.024456
+;======================================================================================================================================================;
+;C-MORE
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_806_c-more]:wpn_cz_bren_806
+visual				= dynamics\weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_world.ogf
+hud					= wpn_cz_bren_806_c-more_hud
+
+inv_weight			= 3.984
+
+1icon_layer			= c-more
+1icon_layer_x		= 115
+1icon_layer_y		= -12
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_806_c-more_hud]:wpn_cz_bren_806_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_cmore_hud.ogf
+
+; aim_hud_offset_pos			= -0.071804, -0.017, -0.15
+; aim_hud_offset_pos_16x9		= -0.071804, -0.017, -0.15
+
+        aim_hud_offset_pos               = -0.074159, -0.014492, -0.15
+        aim_hud_offset_pos_16x9          = -0.074159, -0.014492, -0.15
+;======================================================================================================================================================;
+;EOTECH 558
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_806_eot]:wpn_cz_bren_806
+visual				= dynamics\weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_world.ogf
+hud					= wpn_cz_bren_806_eot_hud
+
+inv_weight			= 4.125
+
+1icon_layer			= eot
+1icon_layer_x		= 115
+1icon_layer_y		= -13
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_806_eot_hud]:wpn_cz_bren_806_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_806\wpn_cz_bren_806_eot_hud.ogf
+
+; aim_hud_offset_pos			= -0.071804, 0.006, -0.15
+; aim_hud_offset_pos_16x9		= -0.071804, 0.006, -0.15
+
+        aim_hud_offset_pos               = -0.073413, 0.009033, -0.15
+        aim_hud_offset_pos_16x9          = -0.073413, 0.009033, -0.15
+
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_cz_bren_807]:wpn_cz_bren_805
+$spawn						= "weapons\cz_bren_807"
+parent_section				= wpn_cz_bren_807
+
+class						= WP_LR300
+ef_weapon_type				= 7
+
+icons_texture				= ui\ui_icon_cz_bren
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 4
+
+inv_name					= st_wpn_cz_bren_807
+inv_name_short				= st_wpn_cz_bren_807_s
+description					= st_wpn_cz_bren_807_descr
+
+inv_weight					= 3.400
+cost						= 130900
+
+hud							= wpn_cz_bren_807_hud
+visual						= dynamics\weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_world.ogf
+
+shell_particles				= weapons\762x39
+
+upgrades					= up_gr_firstab_ak12, up_gr_seconab_ak12, up_gr_thirdab_ak12, up_gr_fourtab_ak12, up_gr_fifthab_ak12, up_gr_fifthcd_ak12
+;installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_ak74
+upgr_icon_x					= 200
+upgr_icon_y					= 100
+upgr_icon_width				= 250
+upgr_icon_height			= 200
+
+fire_modes					= 1, -1
+ammo_class					= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+
+silencer_x					= 170
+silencer_y					= 10
+
+grenade_launcher_status		= 0
+
+hit_impulse					= 30
+hit_power					= 0.605, 0.605, 0.605, 0.605
+fire_distance				= 700
+bullet_speed				= 930
+rpm							= 850
+rpm_empty_click				= 850
+
+crosshair_inertion			= 5.9
+fire_dispersion_base		= 0.32
+
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.00095
+condition_shot_dec			= 0.00095
+
+cam_dispersion				= 0.545
+cam_dispersion_frac			= 1.1
+cam_dispersion_inc			= 0.0625
+cam_step_angle_horz			= 1.15
+zoom_cam_dispersion			= 0.515
+zoom_cam_dispersion_frac	= 0.7
+zoom_cam_step_angle_horz	= 1.05
+
+PDM_disp_accel_factor		= 2.75
+PDM_disp_base				= 1.15
+PDM_disp_vel_factor			= 2.75
+
+kill_msg_x					= 80
+kill_msg_y					= 59
+kill_msg_width				= 87
+kill_msg_height				= 24
+;-----------------------------------------------------------------------------------------SND----------------------------------------------------------------------------------------------------------------
+;-------------------------------------------SFX WITH LAYERS-------------------------------------------------------;
+
+;RELOAD
+; snd_reload				= wpn_cz_bren_807_snd_reload
+; snd_reload_empty		= wpn_cz_bren_807_snd_reload_empty
+
+;SHOT
+snd_shoot				= wpn_cz_bren_807_snd_shoot
+snd_shoot_actor			= wpn_cz_bren_807_snd_shoot_actor
+
+snd_silncer_shot		= wpn_cz_bren_807_snd_sil
+snd_silncer_shot_actor	= wpn_cz_bren_807_snd_sil_actor
+
+;GRENADE LAUNCHER
+snd_shoot_grenade		= wpn_cz_bren_806_snd_m320
+snd_reload_grenade		= wpn_cz_bren_806_snd_gl_reload
+snd_switch				= wpn_cz_bren_806_snd_swpos
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;
+;																																						;
+;																	RELOAD	LAYERS																		;
+;																																						;
+;======================================================================================================================================================;
+
+; [wpn_cz_bren_807_snd_reload]
+; snd_1_layer		= weapons\bren\common\reload\layer_a\01, 0.5
+; snd_1_layer1	= weapons\bren\common\reload\layer_a\02, 0.5
+; snd_1_layer2	= weapons\bren\common\reload\layer_a\03, 0.5
+
+; snd_2_layer		= weapons\common_misc_sounds\draw\draw_01, 0.2
+; snd_2_layer1	= weapons\common_misc_sounds\draw\draw_02, 0.2
+; snd_2_layer2	= weapons\common_misc_sounds\draw\draw_03, 0.2
+; snd_2_layer3	= weapons\common_misc_sounds\draw\draw_04, 0.2
+; snd_2_layer4	= weapons\common_misc_sounds\draw\draw_05, 0.2
+; snd_2_layer5	= weapons\common_misc_sounds\draw\draw_06, 0.2
+; snd_2_layer6	= weapons\common_misc_sounds\draw\draw_07, 0.2
+
+; snd_3_layer		= weapons\bren\common\reload\layer_b\01, 0.5, 0.5
+; snd_3_layer1	= weapons\bren\common\reload\layer_b\02, 0.5, 0.5
+; snd_3_layer2	= weapons\bren\common\reload\layer_b\03, 0.5, 0.5
+
+; snd_4_layer		= weapons\common_misc_sounds\holster\holster_01, 0.35, 1.5
+; snd_4_layer1	= weapons\common_misc_sounds\holster\holster_02, 0.35, 1.5
+; snd_4_layer2	= weapons\common_misc_sounds\holster\holster_03, 0.35, 1.5
+; snd_4_layer3	= weapons\common_misc_sounds\holster\holster_04, 0.35, 1.5
+; snd_4_layer4	= weapons\common_misc_sounds\holster\holster_05, 0.35, 1.5
+; snd_4_layer5	= weapons\common_misc_sounds\holster\holster_06, 0.35, 1.5
+; snd_4_layer6	= weapons\common_misc_sounds\holster\holster_07, 0.35, 1.5
+
+; snd_5_layer		= weapons\bren\common\reload\layer_d\01, 0.5, 1.9
+; snd_5_layer1	= weapons\bren\common\reload\layer_d\02, 0.5, 1.9
+; snd_5_layer2	= weapons\bren\common\reload\layer_d\03, 0.5, 1.9
+; snd_5_layer3	= weapons\bren\common\reload\layer_d\04, 0.5, 1.9
+; snd_5_layer4	= weapons\bren\common\reload\layer_d\05, 0.5, 1.9
+; snd_5_layer5	= weapons\bren\common\reload\layer_d\06, 0.5, 1.9
+
+;======================================================================================================================================================;
+;																																						;
+;																	SHOOTING	LAYERS																		;
+;																																						;
+;======================================================================================================================================================;
+
+[wpn_cz_bren_807_snd_shoot]:wpn_cz_bren_805_snd_shoot
+
+snd_2_layer		= weapons\bren\807\fire_npc\bren_807_bang_01
+snd_2_layer1	= weapons\bren\807\fire_npc\bren_807_bang_02
+snd_2_layer2	= weapons\bren\807\fire_npc\bren_807_bang_03
+snd_2_layer3	= weapons\bren\807\fire_npc\bren_807_bang_04
+snd_2_layer4	= weapons\bren\807\fire_npc\bren_807_bang_05
+snd_2_layer5	= weapons\bren\807\fire_npc\bren_807_bang_06
+
+snd_3_layer		= weapons\bren\807\fire_npc\bren_807_sonic_01
+snd_3_layer1	= weapons\bren\807\fire_npc\bren_807_sonic_02
+
+snd_4_layer		= weapons\bren\807\fire_npc\bren_807_reflection_01, 0.5
+snd_4_layer1	= weapons\bren\807\fire_npc\bren_807_reflection_02, 0.5
+snd_4_layer2	= weapons\bren\807\fire_npc\bren_807_reflection_03, 0.5
+snd_4_layer3	= weapons\bren\807\fire_npc\bren_807_reflection_04, 0.5
+snd_4_layer4	= weapons\bren\807\fire_npc\bren_807_reflection_05, 0.5
+snd_4_layer5	= weapons\bren\807\fire_npc\bren_807_reflection_06, 0.5
+
+[wpn_cz_bren_807_snd_shoot_actor]:wpn_cz_bren_805_snd_shoot_actor
+snd_2_layer		= weapons\bren\807\fire\bren_807_bang_01
+snd_2_layer1	= weapons\bren\807\fire\bren_807_bang_02
+snd_2_layer2	= weapons\bren\807\fire\bren_807_bang_03
+snd_2_layer3	= weapons\bren\807\fire\bren_807_bang_04
+snd_2_layer4	= weapons\bren\807\fire\bren_807_bang_05
+snd_2_layer5	= weapons\bren\807\fire\bren_807_bang_06
+
+snd_3_layer		= weapons\bren\807\fire\bren_807_sonic_01
+snd_3_layer1	= weapons\bren\807\fire\bren_807_sonic_02
+
+snd_4_layer		= weapons\bren\807\fire\bren_807_reflection_01, 0.5
+snd_4_layer1	= weapons\bren\807\fire\bren_807_reflection_02, 0.5
+snd_4_layer2	= weapons\bren\807\fire\bren_807_reflection_03, 0.5
+snd_4_layer3	= weapons\bren\807\fire\bren_807_reflection_04, 0.5
+snd_4_layer4	= weapons\bren\807\fire\bren_807_reflection_05, 0.5
+snd_4_layer5	= weapons\bren\807\fire\bren_807_reflection_06, 0.5
+
+[wpn_cz_bren_807_snd_sil]:wpn_cz_bren_805_snd_sil
+snd_1_layer		= weapons\bren\807\fire_sil_npc\shot_01
+snd_1_layer1	= weapons\bren\807\fire_sil_npc\shot_02
+snd_1_layer2	= weapons\bren\807\fire_sil_npc\shot_03
+snd_1_layer3	= weapons\bren\807\fire_sil_npc\shot_04
+
+[wpn_cz_bren_807_snd_sil_actor]:wpn_cz_bren_805_snd_sil_actor
+snd_1_layer		= weapons\bren\807\fire_sil\shot_01
+snd_1_layer1	= weapons\bren\807\fire_sil\shot_02
+snd_1_layer2	= weapons\bren\807\fire_sil\shot_03
+snd_1_layer3	= weapons\bren\807\fire_sil\shot_04
+
+
+;----------------------------------------------------------------HUD------------------------------------------------------------------------------------
+[wpn_cz_bren_807_hud]:wpn_cz_bren_805_hud
+item_visual				= anomaly_weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_hud.ogf
+
+; aim_hud_offset_pos		= -0.071804, 0.01099, -0.1
+; aim_hud_offset_pos_16x9	= -0.071804, 0.01099, -0.1
+; aim_hud_offset_rot		= -0.005691, 0.016811, -0.024456
+; aim_hud_offset_rot_16x9	= -0.005691, 0.016811, -0.024456
+        aim_hud_offset_pos               = -0.073732, 0.012221, -0.107632
+        aim_hud_offset_pos_16x9          = -0.073732, 0.012221, -0.107632
+        aim_hud_offset_rot               = 0.001081, 0.000489, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001081, 0.000489, -0.024456
+
+; hands_position			= -0.004074, -0.011265, 0.06
+; hands_position_16x9		= -0.004074, -0.011265, 0.06
+        hands_orientation                = -0.061912, -1.054275, 0
+        hands_orientation_16x9           = -0.061912, -1.054275, 0
+
+gl_hud_offset_pos		= -0.051346, 0.012614, 0.1
+gl_hud_offset_pos_16x9	= -0.051346, 0.012614, 0.1
+gl_hud_offset_rot		= -0.026791, 0.035209, 0.061151
+gl_hud_offset_rot_16x9	= -0.026791, 0.035209, 0.061151
+
+freelook_z_offset_mul	= 0.1
+
+;======================================================================================================================================================;
+;======================================================================================================================================================;
+;																																						;
+;					aDDONS		VANILLA											;
+;																																						;
+;======================================================================================================================================================;
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+;======================================================================================================================================================;
+;AC11090
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+[wpn_cz_bren_807_ac11090]:wpn_cz_bren_807
+parent_section		= wpn_cz_bren_807
+
+visual				= dynamics\weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_world.ogf
+
+hud					= wpn_cz_bren_807_ac11090_hud
+
+inv_weight			= 3.649
+
+1icon_layer			= ac11090
+1icon_layer_x		= 80
+1icon_layer_y		= -15
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_trijicon
+scope_zoom_factor	= 50
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+scope_dynamic_zoom	= off
+
+lewd_lens_hide_enabled	= false
+
+[wpn_cz_bren_807_ac11090_hud]:wpn_cz_bren_807_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_ac11090_hud.ogf
+
+; aim_hud_offset_pos			= -0.07037, -0.00899, -0.252
+; aim_hud_offset_pos_16x9		= -0.07037, -0.00899, -0.252
+; aim_hud_offset_rot			= 0.002, 0.013, -0.024456
+; aim_hud_offset_rot_16x9		= 0.002, 0.013, -0.024456
+
+; aim_hud_offset_alt_pos		= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_pos_16x9	= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_rot		= -0.006316, 0.019774, 0.77889
+; aim_hud_offset_alt_rot_16x9	= -0.006316, 0.019774, 0.77889
+
+        aim_hud_offset_alt_pos           = -0.094419, -0.070889, -0.145244
+        aim_hud_offset_alt_pos_16x9      = -0.094419, -0.070889, -0.145244
+        aim_hud_offset_alt_rot           = 0.002575, -0.000327, 0.77889
+        aim_hud_offset_alt_rot_16x9      = 0.002575, -0.000327, 0.77889
+        aim_hud_offset_pos               = -0.073995, -0.008849, -0.179989
+        aim_hud_offset_pos_16x9          = -0.073995, -0.008849, -0.179989
+        aim_hud_offset_rot               = 0.001954, -1.3e-05, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001954, -1.3e-05, -0.024456
+;======================================================================================================================================================;
+;AC10632
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_807_ac10632]:wpn_cz_bren_807
+visual				= dynamics\weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_world.ogf
+hud					= wpn_cz_bren_807_ac10632_hud
+
+inv_weight			= 3.515
+
+1icon_layer			= ac10632
+1icon_layer_x		= 80
+1icon_layer_y		= -13
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_807_ac10632_hud]:wpn_cz_bren_807_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_ac10632_hud.ogf
+
+; aim_hud_offset_pos			= -0.071804, -0.02, -0.15
+; aim_hud_offset_pos_16x9		= -0.071804, -0.02, -0.15
+
+        aim_hud_offset_pos               = -0.073624, -0.017396, -0.15
+        aim_hud_offset_pos_16x9          = -0.073624, -0.017396, -0.15
+;======================================================================================================================================================;
+;ACOG
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+
+[wpn_cz_bren_807_acog]:wpn_cz_bren_807
+visual				= dynamics\weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_world.ogf
+hud					= wpn_cz_bren_807_acog_hud
+
+inv_weight			= 3.990
+
+1icon_layer			= acog
+1icon_layer_x		= 60
+1icon_layer_y		= -14
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+lewd_lens_hide_enabled	= false
+
+[wpn_cz_bren_807_acog_hud]:wpn_cz_bren_807_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_acog_hud.ogf
+
+; aim_hud_offset_pos			= -0.07037, -0.0202, -0.2704
+; aim_hud_offset_pos_16x9		= -0.07037, -0.0202, -0.2704
+; aim_hud_offset_rot			= 0.0085, 0.0133, -0.024456
+; aim_hud_offset_rot_16x9		= 0.0085, 0.0133, -0.024456
+
+; aim_hud_offset_alt_pos		= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_pos_16x9	= -0.092001, -0.072117, -0.04
+; aim_hud_offset_alt_rot		= -0.006316, 0.019774, 0.77889
+; aim_hud_offset_alt_rot_16x9	= -0.006316, 0.019774, 0.77889
+
+        aim_hud_offset_alt_pos           = -0.09442, -0.071032, -0.146517
+        aim_hud_offset_alt_pos_16x9      = -0.09442, -0.071032, -0.146517
+        aim_hud_offset_alt_rot           = 0.002004, 0.000579, 0.77889
+        aim_hud_offset_alt_rot_16x9      = 0.002004, 0.000579, 0.77889
+        aim_hud_offset_pos               = -0.073897, -0.021338, -0.159042
+        aim_hud_offset_pos_16x9          = -0.073897, -0.021338, -0.159042
+        aim_hud_offset_rot               = 0.001768, 0.000427, -0.024456
+        aim_hud_offset_rot_16x9          = 0.001768, 0.000427, -0.024456
+;======================================================================================================================================================;
+;C-MORE
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_807_c-more]:wpn_cz_bren_807
+visual				= dynamics\weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_world.ogf
+hud					= wpn_cz_bren_807_c-more_hud
+
+inv_weight			= 3.584
+
+1icon_layer			= c-more
+1icon_layer_x		= 85
+1icon_layer_y		= -12
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_807_c-more_hud]:wpn_cz_bren_807_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_cmore_hud.ogf
+
+; aim_hud_offset_pos			= -0.071804, -0.017, -0.15
+; aim_hud_offset_pos_16x9		= -0.071804, -0.017, -0.15
+
+        aim_hud_offset_pos               = -0.073727, -0.014492, -0.15
+        aim_hud_offset_pos_16x9          = -0.073727, -0.014492, -0.15
+;======================================================================================================================================================;
+;EOTECH 558
+;------------------------------------------------------------------------------------------------------------------------------------------------------;
+
+[wpn_cz_bren_807_eot]:wpn_cz_bren_807
+visual				= dynamics\weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_world.ogf
+hud					= wpn_cz_bren_807_eot_hud
+
+inv_weight			= 3.725
+
+1icon_layer			= eot
+1icon_layer_x		= 85
+1icon_layer_y		= -13
+
+scope_status		= 0
+scope_dynamic_zoom	= off
+
+[wpn_cz_bren_807_eot_hud]:wpn_cz_bren_807_hud
+item_visual					= anomaly_weapons\wpn_cz_bren\bren_807\wpn_cz_bren_807_eot_hud.ogf
+
+; aim_hud_offset_pos			= -0.071804, 0.006, -0.15
+; aim_hud_offset_pos_16x9		= -0.071804, 0.006, -0.15
+
+        aim_hud_offset_pos               = -0.073592, 0.00913, -0.15
+        aim_hud_offset_pos_16x9          = -0.073592, 0.00913, -0.15
+;======================================================================================================================================================;

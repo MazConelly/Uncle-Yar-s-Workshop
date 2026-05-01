@@ -1,5 +1,5 @@
 THIS IS A WIP. DO NOT USE. THIS ARE JUST MY NOTES.
-
+https://www.moddb.com/mods/stalker-anomaly/addons/dltxeft-modular-helmets-and-armors-rework
 
 
 -Module:

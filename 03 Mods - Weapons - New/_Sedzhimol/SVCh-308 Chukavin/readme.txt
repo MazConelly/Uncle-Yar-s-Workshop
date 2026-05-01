@@ -1,5 +1,6 @@
 -Module:
 SVCh-308 Chukavin [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/svch-308-chukavin-sniper-rifle
 
 ----------------------------------------------------------
 -Compatibility:

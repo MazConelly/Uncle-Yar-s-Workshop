@@ -1,5 +1,6 @@
 -Module:
 Duty Groza [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-duty-groza
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Russian Ammo Expansion [No_data]
+https://www.moddb.com/mods/stalker-anomaly/addons/russian-ammo-expansion
 
 ----------------------------------------------------------
 -Compatibility:

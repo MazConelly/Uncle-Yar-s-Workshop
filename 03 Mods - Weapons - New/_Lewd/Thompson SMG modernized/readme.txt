@@ -1,5 +1,6 @@
 -Module:
 Thompson SMG modernized [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-thompson-smg-modernized
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Armalite AR-10 [MarkedFour9027]
+https://www.moddb.com/mods/stalker-anomaly/addons/armalite-ar-10
 
 ----------------------------------------------------------
 -Compatibility:

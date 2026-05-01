@@ -1,5 +1,6 @@
 -Module:
 New gas masks [Shiro Usagi]
+https://www.moddb.com/mods/stalker-anomaly/addons/new-gas-masks
 
 ----------------------------------------------------------
 -Compatibility:

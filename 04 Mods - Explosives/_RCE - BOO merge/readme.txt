@@ -1,5 +1,7 @@
 -Module:
 Remote Controlled Explosives [chool] - Blast-Objects Overhaul (B.O.O.) [dubious-repute] merge
+https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-151-remote-controlled-explosives-and-pocket-bombs-v10
+https://www.moddb.com/mods/stalker-anomaly/addons/blast-objects-overhaul-boo-for-gamma
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Scorpion EVO 3 [Dionisiy9x39]
+https://www.moddb.com/mods/stalker-anomaly/addons/scorpion-evo-3-v1-4
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 FB Radom Vis 35 [SoulCrystal]
+https://www.moddb.com/mods/stalker-anomaly/addons/fb-radom-vis-35
 
 ----------------------------------------------------------
 -Compatibility:

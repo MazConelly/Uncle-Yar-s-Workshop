@@ -1,5 +1,6 @@
 -Module:
 New Military Outfits [Lt.Kirilov]
+https://www.moddb.com/mods/stalker-anomaly/addons/new-military-outfits
 
 ----------------------------------------------------------
 -Compatibility:

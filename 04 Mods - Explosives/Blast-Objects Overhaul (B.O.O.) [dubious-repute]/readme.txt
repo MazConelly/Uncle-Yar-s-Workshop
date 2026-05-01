@@ -1,5 +1,6 @@
 -Module:
 Blast-Objects Overhaul (B.O.O.) [dubious-repute]
+https://www.moddb.com/mods/stalker-anomaly/addons/blast-objects-overhaul-boo-for-gamma
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 .50 BMG Desert Eagle [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lun4t1cs-very-normal-desert-eagle-in-50-bmg
 
 ----------------------------------------------------------
 -Compatibility:

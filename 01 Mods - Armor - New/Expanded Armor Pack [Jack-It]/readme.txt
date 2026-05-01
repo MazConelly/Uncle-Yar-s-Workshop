@@ -1,9 +1,11 @@
 -Module:
 Expanded Armor Pack [Jack-It, Demonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/expanded-armor-pack-loner-edition
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 
 ----------------------------------------------------------
 -Compatibility:
-Original mod not required.
+Original mod not required, either version.
 
 ----------------------------------------------------------
 -Explanation:

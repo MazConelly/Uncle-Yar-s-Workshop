@@ -1,5 +1,6 @@
 -Module:
 Neko's 30-06 Springfield Mod [Inunekochan]
+https://discord.com/channels/456765861953536020/1275905330295083018/1275905330295083018
 
 ----------------------------------------------------------
 -Compatibility:

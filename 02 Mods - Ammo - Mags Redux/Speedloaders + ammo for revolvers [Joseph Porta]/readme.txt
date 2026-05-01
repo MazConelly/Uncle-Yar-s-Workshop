@@ -1,5 +1,6 @@
 -Module:
 Speedloaders and ammo for revolvers [Joseph Porta]
+https://www.moddb.com/mods/stalker-anomaly/addons/speedloaders-for-revolvers
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 FAMAS Replacement [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-replacement-famas
 
 ----------------------------------------------------------
 -Compatibility:

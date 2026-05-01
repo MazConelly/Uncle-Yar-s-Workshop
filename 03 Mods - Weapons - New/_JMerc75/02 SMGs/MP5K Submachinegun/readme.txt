@@ -1,5 +1,6 @@
 -Module:
 MP5K Submachinegun [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltxbasmp5k-submachinegun
 
 ----------------------------------------------------------
 -Compatibility:

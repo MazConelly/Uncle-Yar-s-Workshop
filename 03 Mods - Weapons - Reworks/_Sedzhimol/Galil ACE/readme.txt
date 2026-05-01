@@ -1,5 +1,6 @@
 -Module:
 Galil ACE [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/galil-ace
 
 ----------------------------------------------------------
 -Compatibility:

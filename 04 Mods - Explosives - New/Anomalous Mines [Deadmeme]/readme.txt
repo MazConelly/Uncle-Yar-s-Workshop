@@ -1,6 +1,5 @@
 -Module:
 Anomalous Mines [Deadmeme]
-
 Original only available in the Anomaly Discord channel:
 https://discord.com/channels/456765861953536020/1366094245412343858/1367292504407277720
 

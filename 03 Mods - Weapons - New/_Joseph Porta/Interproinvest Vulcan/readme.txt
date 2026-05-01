@@ -1,5 +1,6 @@
 -Module:
 Interproinvest Vulcan assault rifle [Joseph Porta]
+https://www.moddb.com/mods/stalker-anomaly/addons/interproinvest-vulcan-assault-rifle-v11
 
 ----------------------------------------------------------
 -Compatibility:

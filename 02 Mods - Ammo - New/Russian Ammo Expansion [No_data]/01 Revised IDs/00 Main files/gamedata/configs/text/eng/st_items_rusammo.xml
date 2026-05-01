@@ -234,19 +234,19 @@
 		%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]high</text>
 	</string>
 	
-	<string id="st_ammo_9x39_pab9">
+	<string id="st_ammo_9x39_pab_9">
 		<text>9x39mm PAB-9 rounds</text>
 	</string>
-	<string id="st_ammo_9x39_pab9_desc">
+	<string id="st_ammo_9x39_pab_9_desc">
 		<text>The PAB-9 was an attempt to manufacture a cheaper variant of the SP-6 cartridge. Despite being cheaper to manufacture, the cartridge was deemed a failure because of its tendency to damage the weapon it is fired from. According to various tests with VSS and AS VAL rifles, use of this cartridge reduces barrel life by 3,000 rounds. Despite its relative rarity, it's not in wide demand, therefore it is fairly inexpensive. Requires a suppressor for stealth firing.  \n
 		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: %c[ui_gray_1]III\n
 		%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]medium - high</text>
 	</string>
 	
-	<string id="st_ammo_9x39_pab9_bad">
+	<string id="st_ammo_9x39_pab_9_bad">
 		<text>9x39mm PAB-9 rounds (old)</text>
 	</string>
-	<string id="st_ammo_9x39_pab9_bad_desc">
+	<string id="st_ammo_9x39_pab_9_bad_desc">
 		<text>The PAB-9 was an attempt to manufacture a cheaper variant of the SP-6 cartridge. Despite being cheaper to manufacture, the cartridge was deemed a failure because of its tendency to damage the weapon it is fired from. According to various tests with VSS and AS VAL rifles, use of this cartridge reduces barrel life by 3,000 rounds. Despite its relative rarity, it's not in wide demand, therefore it is fairly inexpensive. Requires a suppressor for stealth firing. This box has been damaged by the elements to the point that use of this cartridge will guarantee weapon failure.  \n
 		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: %c[ui_gray_1]III\n
 		%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]medium - high</text>
@@ -365,10 +365,10 @@
 <string id="st_ammo_9x39_7n12_bad_s">
 	<text>9x39 7N12</text>
 </string>
-<string id="st_ammo_9x39_pab9_s">
+<string id="st_ammo_9x39_pab_9_s">
 	<text>9x39 PAB-9</text>
 </string>
-<string id="st_ammo_9x39_pab9_bad_s">
+<string id="st_ammo_9x39_pab_9_bad_s">
 	<text>9x39 PAB-9</text>
 </string>
 <string id="st_ammo_12x70_buck_1_s">

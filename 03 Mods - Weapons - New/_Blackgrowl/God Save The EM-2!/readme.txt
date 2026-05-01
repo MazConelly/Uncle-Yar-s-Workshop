@@ -1,5 +1,6 @@
 -Module:
 God Save The EM-2! [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/em2
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="st_wpn_garand">
+		<text>M1 Garand</text>
+	</string>
+	<string id="st_wpn_garand_descr">
+		<text>The M1 Garand or M1 rifle is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War. The rifle is chambered for the .30-06 Springfield cartridge, however this model have been converted to use 7.62x51mm NATO. It was the first standard-issue autoloading rifle for the United States. By most accounts, the M1 rifle performed well. General George S. Patton called it "the greatest battle implement ever devised". The M1 replaced the (bolt-action) M1903 Springfield as the U.S. service rifle in 1936, and was itself replaced by the (selective-fire) M14 rifle on 26 March 1958.</text>
+	</string>
+
+	<string id="st_addon_sil_garand">
+		<text>M1 Garand Silencer</text>
+	</string>
+	<string id="st_addon_sil_garand_descr">
+		<text>Silencer for the M1 Garand rifle.</text>
+	</string>
+
+	<string id="st_addon_scope_garand_scope">
+		<text>M1 Garand M84 Scope</text>
+	</string>
+	<string id="st_addon_scope_garand_scope_descr">
+		<text>M84 Scope for the M1 Garand rifle.\n \n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255] Origin: %c[ui_gray_2]United States\n
+		%c[d_cyan] • %c[0,255,255,255] Manufacturer: %c[ui_gray_2]Libby-Owens-Ford\n
+		%c[d_cyan] • %c[0,255,255,255] Magnification: %c[ui_gray_2]2.2x\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_garand_proto">
+		<text>M1 Garand Prototype Optic</text>
+	</string>
+	<string id="st_addon_scope_garand_proto_descr">
+		<text>Prototype Optic for the M1 Garand rifle.\n \n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255] Origin: %c[ui_gray_2]United States\n
+		%c[d_cyan] • %c[0,255,255,255] Manufacturer: %c[ui_gray_2]U.S. Military\n
+		%c[d_cyan] • %c[0,255,255,255] Magnification: %c[ui_gray_2]1x\n \n
+		</text>
+	</string>
+
+</string_table>

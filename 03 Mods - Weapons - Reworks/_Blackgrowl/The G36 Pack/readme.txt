@@ -1,5 +1,6 @@
 -Module:
 The G36 Pack [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/the-g36-pack-g36pack
 
 ----------------------------------------------------------
 -Compatibility:

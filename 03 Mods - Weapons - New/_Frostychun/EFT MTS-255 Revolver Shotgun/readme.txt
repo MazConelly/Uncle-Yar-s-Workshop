@@ -1,5 +1,6 @@
 -Module:
 EFT MTS-255 Revolver Shotgun [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/escape-from-tarkov-mts-255-revolver-shotgun
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 RWAP [Retrogue]
+https://www.moddb.com/mods/stalker-anomaly/addons/rwap
 
 ----------------------------------------------------------
 -Compatibility:

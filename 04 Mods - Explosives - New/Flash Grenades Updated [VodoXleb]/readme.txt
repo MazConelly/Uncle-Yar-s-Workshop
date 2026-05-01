@@ -1,5 +1,6 @@
 -Module:
 Flash Grenades Updated [VodoXleb]
+https://www.moddb.com/mods/stalker-anomaly/addons/flash-grenades-mk2
 
 ----------------------------------------------------------
 -Compatibility:

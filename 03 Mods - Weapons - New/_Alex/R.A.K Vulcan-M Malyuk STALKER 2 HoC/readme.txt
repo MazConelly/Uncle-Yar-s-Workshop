@@ -1,5 +1,6 @@
 -Module:
 R.A.K Vulcan-M Malyuk STALKER 2 HoC [Alex]
+https://www.moddb.com/mods/stalker-anomaly/addons/rak-weapon-pack-retarget-vulcan-m-malyuk-from-stalker-2-hoc
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
-AUGmented [Firebreath, Blackgrowl]
+AUGmented - The AUG Pack [Firebreath, Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/augmented-the-aug-pack
 
 ----------------------------------------------------------
 -Compatibility:

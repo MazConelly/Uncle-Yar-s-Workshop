@@ -1,5 +1,6 @@
 -Module:
 Kriss Vector SMG [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/kriss-vector-smg-dltx
 
 ----------------------------------------------------------
 -Compatibility:

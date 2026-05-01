@@ -1,5 +1,6 @@
 -Module:
 Luger P08 [JMerc] 
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-luger-p08-handgun
 
 ----------------------------------------------------------
 -Compatibility:

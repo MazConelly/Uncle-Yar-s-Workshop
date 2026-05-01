@@ -1,5 +1,6 @@
 -Module:
 Benelli M4 [SoulCrystal]
+https://www.moddb.com/mods/stalker-anomaly/addons/benelli-m4
 
 ----------------------------------------------------------
 -Compatibility:

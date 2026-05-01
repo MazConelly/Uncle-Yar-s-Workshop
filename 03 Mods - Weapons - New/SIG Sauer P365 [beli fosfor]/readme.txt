@@ -1,5 +1,6 @@
 -Module:
 SIG Sauer P365 [beli fosfor]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-sig-sauer-p365
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 MP9 Submachinegun [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/mp9-submachinegun
 
 ----------------------------------------------------------
 -Compatibility:

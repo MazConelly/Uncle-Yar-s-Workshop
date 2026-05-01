@@ -1,5 +1,6 @@
 -Module:
 MP5 Reanimation [NickolasNikova]
+https://www.moddb.com/mods/stalker-anomaly/addons/mp5-reanimation1
 
 ----------------------------------------------------------
 -Compatibility:

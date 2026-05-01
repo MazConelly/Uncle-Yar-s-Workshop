@@ -1,5 +1,6 @@
 -Module:
 Make Clear Sky Great Again [maracia]
+https://www.moddb.com/mods/stalker-anomaly/addons/make-clear-sky-great-again-v2
 
 ----------------------------------------------------------
 -Compatibility:

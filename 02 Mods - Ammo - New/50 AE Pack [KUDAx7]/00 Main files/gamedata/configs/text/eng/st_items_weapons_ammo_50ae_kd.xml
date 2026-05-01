@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	AMMO .50 AE
+-->
+
+<string_table>
+
+	<string id="ammo_50_ae_copper_solid">
+		<text>.50 AE Copper Solid</text>
+	</string>
+	<string id="ammo_50_ae_copper_solid_descr">
+		<text>A .50 Action Express solid copper cartridge (12.7x33mm) with a 300 grain jacketed hollow-point bullet, which provides an enormous stopping power. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.\n \n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple]  %c[ui_gray_2] Tissue Damage: High\n
+		%c[d_purple]  %c[ui_gray_2] Highest pierced armour class: BR6\n
+		%c[d_purple]  %c[ui_gray_2] Type: Jacketed Hollow Point</text>
+	</string>
+
+	<string id="ammo_50_ae_fmj">
+		<text>.50 AE FMJ</text>
+	</string>
+	<string id="ammo_50_ae_fmj_descr">
+		<text>A .50 Action Express FMJ cartridge (12.7x33mm) with a 300 grain flat-nose bullet, which provides an enormous stopping power. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.\n \n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple]  %c[ui_gray_2] Tissue Damage: High\n
+		%c[d_purple]  %c[ui_gray_2] Highest pierced armour class: BR5\n
+		%c[d_purple]  %c[ui_gray_2] Type: Flat Nose</text>
+	</string>
+
+	<string id="ammo_50_ae_hawk_jsp">
+		<text>.50 AE Hawk JSP</text>
+	</string>
+	<string id="ammo_50_ae_hawk_jsp_descr">
+		<text>A .50 Action Express Hawk JSP cartridge (12.7x33mm) with a 400 grain jacketed soft point bullet, designed to penetrate and direct a tremendous amount of energy into the target. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.\n \n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple]  %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple]  %c[ui_gray_2] Highest pierced armour class: BR2\n
+		%c[d_purple]  %c[ui_gray_2] Type: Jacketed Soft Point</text>
+	</string>
+
+	<string id="ammo_50_ae_jhp">
+		<text>.50 AE JHP</text>
+	</string>
+	<string id="ammo_50_ae_jhp_descr">
+		<text>A .50 Action Express JHP cartridge (12.7x33mm) with a 300 grain jacketed hollow-point bullet, which provides an enormous stopping power. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.\n \n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple]  %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple]  %c[ui_gray_2] Highest pierced armour class: BR2\n
+		%c[d_purple]  %c[ui_gray_2] Type: Jacketed Hollow Point</text>
+	</string>
+
+	<string id="ammo_50_ae_exp">
+		<text>.50 AE EXP</text>
+	</string>
+	<string id="ammo_50_ae_exp_descr">
+		<text>A .50 Action Express EXP cartridge (12.7x33mm) with a 400 grain explosive bullet, which provides an enormous stopping power. One of the most powerful unitary pistol cartridges in the world and has a significant lethality.\n \n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple]  %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple]  %c[ui_gray_2] Highest pierced armour class: BR1\n
+		%c[d_purple]  %c[ui_gray_2] Type: Explosive</text>
+	</string>
+
+</string_table>

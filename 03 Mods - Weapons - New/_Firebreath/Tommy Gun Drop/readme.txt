@@ -1,5 +1,6 @@
 -Module:
 Tommy Gun Drop [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/tommy-gun-drop
 
 ----------------------------------------------------------
 -Compatibility:

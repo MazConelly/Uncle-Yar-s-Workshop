@@ -1,5 +1,6 @@
 -Module:
 Nagant 1887 Revolver [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/nagant-1887-revolver
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 OC-02 Kiparis + PP-91-01 Kedr-B Reanimation [SeDzhiMol]
+https://www.moddb.com/mods/stalker-anomaly/addons/kiparis-reanim
 
 ----------------------------------------------------------
 -Compatibility:

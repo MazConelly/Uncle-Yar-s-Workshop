@@ -1,5 +1,6 @@
 -Module:
 HK433 [Mik]
+https://www.moddb.com/mods/stalker-anomaly/addons/hk433
 
 ----------------------------------------------------------
 -Compatibility:

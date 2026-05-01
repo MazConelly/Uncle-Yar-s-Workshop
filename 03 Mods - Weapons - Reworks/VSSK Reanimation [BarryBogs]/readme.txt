@@ -1,5 +1,6 @@
 -Module:
 VSSK Reanimation [BarryBogs]
+https://www.moddb.com/mods/stalker-anomaly/addons/vks-vykhlop-a-vssk-reanimation-and-remodel
 
 ----------------------------------------------------------
 -Compatibility:

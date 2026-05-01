@@ -1,5 +1,6 @@
 -Module:
 BAR Assault Rifle [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/bar-assault-rifle
 
 ----------------------------------------------------------
 -Compatibility:

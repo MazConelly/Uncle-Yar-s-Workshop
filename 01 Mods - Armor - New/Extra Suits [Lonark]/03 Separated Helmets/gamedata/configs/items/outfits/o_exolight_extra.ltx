@@ -1,0 +1,93 @@
+[bandit_extraexolight_outfit]:bandit_exolight_outfit
+$spawn							= "outfit\bandit_extraexolight_outfit"
+visual							= dynamics\outfit\exolight_outfit
+actor_visual					= actors\stalker_bandit\stalker_bandit_extraexolight.ogf
+npc_visual						= actors\stalker_bandit\stalker_bandit_extralexolight.ogf
+
+inv_name						= bandit_extraexolight_outfit_name
+inv_name_short					= bandit_extraexolight_outfit_name
+description						= bandit_extraexolight_outfit_description
+icons_texture					= ui\ui_extrasuit_icons	
+inv_grid_x						= 0
+inv_grid_y						= 0	
+upgr_icon_path					= ui\ui_extrasuit_icons
+upgr_icon_x						= 0
+upgr_icon_y						= 150
+upgr_icon_width					= 300
+upgr_icon_height				= 200
+
+immunities_sect					= sect_bandit_extraexolight_outfit_immunities
+
+[sect_bandit_extraexolight_outfit_immunities]:sect_bandit_exolight_outfit_immunities
+burn_immunity					= 0.04
+chemical_burn_immunity			= 0.016
+explosion_immunity				= 0.07
+fire_wound_immunity				= 0.07
+shock_immunity					= 0.018
+wound_immunity					= 0.005
+
+;--------------------------------------------------------------------------
+
+[greh_extraexolight_outfit]:exolight_outfit
+$spawn							= "outfit\greh_extraexolight_outfit"
+visual							= dynamics\outfit\exolight_outfit
+actor_visual					= actors\stalker_greh\stalker_greh_extraexolight.ogf
+npc_visual						= actors\stalker_greh\stalker_greh_extraexolight.ogf
+player_hud_section				= actor_hud_military_exo
+
+inv_name						= greh_extraexolight_outfit_name
+inv_name_short					= greh_extraexolight_outfit_name
+description						= greh_extraexolight_outfit_description
+icons_texture					= ui\ui_extrasuit_icons	
+inv_grid_x						= 2
+inv_grid_y						= 0
+upgr_icon_path					= ui\ui_extrasuit_icons		
+upgr_icon_x						= 300
+upgr_icon_y						= 150
+upgr_icon_width					= 300
+upgr_icon_height				= 200
+
+community						= greh
+cost							= 52660 ; 83180-30520
+inv_weight						= 14.63	; 20-5.37
+additional_inventory_weight		= 20
+additional_inventory_weight2	= 20
+immunities_sect					= sect_bandit_extraexolight_outfit_immunities
+
+burn_protection					= 0.005	; 0.075-0.07
+shock_protection				= 0.765	; 0.85-0.085
+radiation_protection			= 0.001	; 0.0295-0.0235	= -0.053
+chemical_burn_protection		= 0.01	; 0.052-0.042
+strike_protection				= 0.60
+explosion_protection			= 0.43	; 0.73-0.3
+wound_protection				= 0.57	; 0.66-0.09
+
+;--------------------------------------------------------------------------
+
+[renegade_extraexolight_outfit]:bandit_exolight_outfit
+$spawn							= "outfit\renegade_extraexolight_outfit"
+visual							= dynamics\outfit\exolight_outfit
+actor_visual					= actors\stalker_renegade\stalker_renegade_extraexolight.ogf
+npc_visual						= actors\stalker_renegade\stalker_renegade_extraexolight.ogf
+
+inv_name						= renegade_extraexolight_outfit_name
+inv_name_short					= renegade_extraexolight_outfit_name
+description						= renegade_extraexolight_outfit_description
+icons_texture					= ui\ui_extrasuit_icons	
+inv_grid_x						= 4
+inv_grid_y						= 0
+upgr_icon_path					= ui\ui_extrasuit_icons		
+upgr_icon_x						= 600
+upgr_icon_y						= 150
+upgr_icon_width					= 300
+upgr_icon_height				= 200
+
+community						= renegade
+immunities_sect					= sect_bandit_extraexolight_outfit_immunities
+
+burn_protection					= 0.01	; 0.07-0.07 = 0
+shock_protection				= 1.015	; 1.1-0.085
+chemical_burn_protection		= 0.006	; 0.048-0.042
+telepatic_protection			= 0.001	; 0.06-0.06 = 0
+strike_protection				= 0.5
+fire_wound_protection			= 0.48

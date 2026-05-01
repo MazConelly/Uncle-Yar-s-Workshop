@@ -1,5 +1,6 @@
 -Module:
 Old C.W - Pistol Pack REDUX [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/old-cw-pistol-pack-redux
 
 ----------------------------------------------------------
 -Compatibility:

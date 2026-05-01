@@ -1,10 +1,10 @@
 -Module:
 Outfit Parts Overhaul [artifax]
+https://github.com/ahuyn/anomaly-opo
 
 ----------------------------------------------------------
 -Compatibility:
 Make sure you use the last Github version of OPO.
-https://github.com/ahuyn/anomaly-opo
 
 Let this overwrite it.
 
