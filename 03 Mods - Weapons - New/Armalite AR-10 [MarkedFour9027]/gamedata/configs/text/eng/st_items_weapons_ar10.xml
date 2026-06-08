@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ar10">
+		<text>ArmaLite AR-10</text>
+	</string>
+	<string id="st_wpn_ar10_s">
+		<text>AR-10</text>
+	</string>
+	<string id="st_wpn_ar10_descr">
+		<text>The ArmaLite AR-10 is a 7.62×51mm NATO battle rifle designed by Eugene Stoner in the late 1950s and manufactured by ArmaLite (then a division of the Fairchild Aircraft Corporation). When first introduced in 1956, the AR-10 used an innovative combination of a straight-line barrel/stock design with phenolic composite, a new patent-filed gas-operated bolt and carrier system and forged alloy parts resulting in a small arm significantly easier to control in automatic fire and over 1 lb (0.45 kg) lighter than other infantry rifles of the day. Over its production life, the original AR-10 was built in relatively small numbers, with fewer than 10,000 rifles assembled. However, the ArmaLite AR-10 would become the progenitor for a wide range of firearms.\n\n
+		%c[ui_gray_2] ATTACHMENTS:\n
+		%c[d_purple]� %c[ui_gray_2] Silencer: %c[ui_yellow] NATO Silencer</text>
+	</string>
+</string_table>

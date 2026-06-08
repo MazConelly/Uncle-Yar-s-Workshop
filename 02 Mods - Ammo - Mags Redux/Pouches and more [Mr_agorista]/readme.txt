@@ -17,13 +17,15 @@ Added short names.
 Integrated Spanish patch.
 Icon file trimmed.
 
-Scripted trader_autoinject and workshop_autoinject methods swapped in favor of DLTX.
 
 ----------------------------------------------------------
 -Patches:
 
 Backpacks extra mag capacity
 Original option DLTX for better compatibility.
+
+DLTX Distribution
+Converted scripted methods of distribution to DLTX.
 
 ----------------------------------------------------------
 -Known issues:

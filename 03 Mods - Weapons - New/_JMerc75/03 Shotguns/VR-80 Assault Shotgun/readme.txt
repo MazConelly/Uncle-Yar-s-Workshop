@@ -11,6 +11,7 @@ Let this overwrite the original mod.
 Removed change of reload sound assignments to the gun when attaching an Aimpoint sight.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

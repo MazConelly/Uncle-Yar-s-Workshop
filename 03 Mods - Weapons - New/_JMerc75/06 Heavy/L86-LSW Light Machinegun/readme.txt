@@ -15,6 +15,7 @@ Changed the G36 upgrades for the L85 ones.
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

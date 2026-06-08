@@ -16,6 +16,7 @@ NPC loadouts redistribution. Removed from mercs and Freedom masters. Bandits, CS
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Lootboxes
 PDA Interactive
 Weapon Parts OVerhaul

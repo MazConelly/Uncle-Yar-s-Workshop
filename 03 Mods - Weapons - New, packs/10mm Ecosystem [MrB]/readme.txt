@@ -28,6 +28,7 @@ Reworked distribution to NPCs:
 -Loners, bandits, and Renegades are terciary users, getting only the cheaper guns, and even then, veterans get the cheaper guns, and masters the more expensive ones. Shared guns are Kriss Gen 1, MP510, Tommy 10mm, and all Glocks 20 and 29. Loners also get the UMP10, Bren Ten and USP10. Bandits get the Kimber Eclipse and Renegades the Kimber Jagare.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Interactive PDA
 Lootboxes

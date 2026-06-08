@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_mag_beretta93r_9mm">
+		<text>Beretta 93R 20-Rounds Magazine</text>
+	</string>
+	<string id="st_mag_beretta93r_9mm_descr">
+		<text>
+		Proprietary Magazine for the Beretta 93R. The Magazine design makes it unfit for any other Beretta 92 pistol variant.
+		</text>
+	</string>
+</string_table>

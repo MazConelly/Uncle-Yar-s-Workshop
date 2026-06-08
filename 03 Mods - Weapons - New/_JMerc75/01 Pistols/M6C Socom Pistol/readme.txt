@@ -15,6 +15,7 @@ Also, given it's an overpowered silenced semi-automatic 24 rounds magnum pistol 
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Lootboxes
 PDA Interactive
 Weapon Parts OVerhaul

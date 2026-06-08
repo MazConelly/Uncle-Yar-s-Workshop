@@ -17,6 +17,7 @@ The original mod only added it to mercenaries only. Now it does for some of the 
 Icon file trimmed. Repeated icons for each scope have been removed, and instead overlays are now used.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

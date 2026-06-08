@@ -21,6 +21,7 @@ The Mags Redux patch has been integrated. I also adds a 100 round drum mag for t
 The jam idles patch has been integrated.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

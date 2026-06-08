@@ -12,6 +12,7 @@ Trader distribution.
 Icon files trimmed.
 
 Integrated into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 PDA Interactive

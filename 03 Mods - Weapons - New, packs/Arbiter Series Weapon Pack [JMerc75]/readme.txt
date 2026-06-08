@@ -18,6 +18,7 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
 Revolver Parts
 Grants the gun the appropiate parts, as available.
 

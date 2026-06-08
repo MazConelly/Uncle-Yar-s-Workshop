@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	
+	<string id="st_wpn_sw1917">
+		<text>Smith and Wesson M1917</text>
+	</string>
+	<string id="st_wpn_sw1917_s">
+		<text>S&W M1917</text>
+	</string>
+	<string id="st_wpn_sw1917_descr">
+		<text>The Smith & Wesson Model 1917 is a large-frame, double-action revolver developed in 1917. Chambered in .45 ACP and using half-moon clips for quick reloading, it was built on the sturdy N-frame and based on the Second Model Hand Ejector. Renowned for its accuracy, stopping power, and durability, the M1917 served in both World Wars and later became a respected and collectible civilian sidearm. \n \n
+		%c[pda_white]PROPERTIES:\n
+		%c[d_cyan] • %c[pda_white] Origin: %c[ui_gray_2]United States\n
+		%c[d_cyan] • %c[pda_white] Manufacturer: %c[ui_gray_2]Smith & Wesson\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_sw1917_snub">
+		<text>Smith and Wesson M1917 "Firestarter"</text>
+	</string>
+	<string id="st_wpn_sw1917_snub_short">
+		<text>The Firestarter</text>
+	</string>
+	<string id="st_wpn_sw1917_snub_descr">
+		<text>The Smith & Wesson Model 1917 is a large-frame, double-action revolver developed in 1917. Chambered in .45 ACP and using half-moon clips for quick reloading, it was built on the sturdy N-frame and based on the Second Model Hand Ejector. Renowned for its accuracy, stopping power, and durability, the M1917 served in both World Wars and later became a respected and collectible civilian sidearm.\n \n
+		This Model 1917 has had its barrel shortened, its trigger and hammer re-machined, and its metal surfaces refinished, resulting in a small(ish), mean and loud lead dispenser.\n \n
+		%c[pda_white]PROPERTIES:\n
+		%c[d_cyan] • %c[pda_white] Origin: %c[ui_gray_2]United States\n
+		%c[d_cyan] • %c[pda_white] Manufacturer: %c[ui_gray_2]Smith & Wesson\n
+		</text>
+	</string>
+	
+</string_table>

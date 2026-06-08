@@ -13,6 +13,7 @@ Added to new game loadouts for loner, bandit and freedom players.
 Icon file also compacted a bit. Nothing big.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

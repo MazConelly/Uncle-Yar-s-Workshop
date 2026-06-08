@@ -20,6 +20,7 @@ The Mags Redux files are also tweaked. Some data was redundant when it could jus
 Integrated into vanilla actor effects.
 
 Integrated into:
+FireModeCheck
 Interactive PDA
 Lootboxes
 Urban Tactics

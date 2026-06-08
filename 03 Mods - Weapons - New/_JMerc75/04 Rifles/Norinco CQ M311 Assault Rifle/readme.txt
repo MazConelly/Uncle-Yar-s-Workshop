@@ -13,6 +13,7 @@ Edited out the text to reduce the wankery and point out it's optimized for a Chi
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

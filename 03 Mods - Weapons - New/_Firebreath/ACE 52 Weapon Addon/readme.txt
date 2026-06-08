@@ -16,6 +16,7 @@ Added default actor effects configs.
 Mag Redux support now more compatible.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

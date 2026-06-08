@@ -13,6 +13,7 @@ Text edited to remove the "LEWD" tag and trim the excess description.
 Icon files trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 PDA Interactive

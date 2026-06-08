@@ -19,6 +19,7 @@ Files consolidated.
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

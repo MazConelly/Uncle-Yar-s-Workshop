@@ -16,6 +16,7 @@ Icon file trimmed.
 Mag Redux support. Reworked and added the post M2 30 rounds magazine.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

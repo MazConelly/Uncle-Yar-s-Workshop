@@ -1,0 +1,284 @@
+;------------------------------------------------------------------------------------------------
+[wpn_sw1917]:identity_immunities,weapon_probability,default_weapon_params,wpn_desert_eagle_sounds
+GroupControlSection					= spawn_group
+discovery_dependency				=
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\sw1917"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_sw1917
+
+class								= WP_PM
+slot								= 1
+animation_slot						= 1
+ef_weapon_type						= 5
+hand_dependence						= 1
+single_handed						= 1
+
+default_to_ruck						= false
+sprint_allowed						= true
+
+icons_texture						= ui\ui_sw1917
+inv_grid_width						= 2
+inv_grid_height						= 1
+inv_grid_x							= 0
+inv_grid_y							= 0
+
+inv_name							= st_wpn_sw1917
+inv_name_short						= st_wpn_sw1917_s
+description							= st_wpn_sw1917_descr
+
+kind								= w_pistol
+inv_weight							= 1
+cost								= 6400
+repair_type							= pistol
+
+hud									= wpn_sw1917_hud
+visual								= dynamics\weapons\wpn_sw1917\wpn_sw1917_world.ogf
+position							= -0.052136, -0.113731, 0.048921
+orientation							= 0, -4.018629, 9.55220
+fire_point							= 0, 0.172104, 0.145119
+ph_mass								= 1
+
+flame_particles						= weapons\generic_weapon03
+smoke_particles						= weapons\generic_shoot_00
+light_color							= 0.6, 0.5, 0.3
+light_range							= 3.5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgr_icon_path						= ui\ui_sw1917
+
+upgrades							= up_gr_firstab_mp412, up_gr_seconab_mp412
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_mp412
+upgr_icon_x							= 50
+upgr_icon_y							= 100
+upgr_icon_width						= 200
+upgr_icon_height					= 150
+
+fire_modes							= 1
+ammo_class							= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_current						= 90
+ammo_elapsed						= 12
+ammo_limit							= 120
+ammo_mag_size						= 6
+
+scopes								= none
+scope_status						= 0
+scope_zoom_factor					= 0
+
+silencer_status						= 0
+silencer_x							= 70
+silencer_y							= -20
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= weapons\generic_shoot_00
+
+grenade_launcher_status				= 0
+
+hit_impulse							= 40
+hit_power							= 0.52, 0.52, 0.52, 0.52
+hit_type							= fire_wound
+fire_distance						= 300
+bullet_speed						= 250
+rpm									= 220
+rpm_empty_click						= 200
+
+use_aim_bullet						= true
+time_to_aim							= 0.0 ;	1.0			
+zoom_dof							= -1000, 1.0, 1000
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0.0, 0.5, 5, 1.7
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 4.3
+fire_dispersion_base				= 0.6
+fire_dispersion_condition_factor	= 0.001
+
+misfire_start_condition				= 0.6			
+misfire_start_prob					= 0.006
+misfire_end_condition				= 0.12
+misfire_end_prob					= 0.10
+
+condition_queue_shot_dec			= 0.0015
+condition_shot_dec					= 0.0015
+
+cam_return							= 0
+cam_relax_speed						= 6
+cam_dispersion						= 3
+cam_dispersion_frac					= 1.1
+cam_dispersion_inc					= 0.0
+cam_max_angle						= 45.0
+cam_max_angle_horz					= 50
+cam_step_angle_horz					= 0.76
+zoom_cam_relax_speed				= 6
+zoom_cam_dispersion					= 1.8
+zoom_cam_dispersion_frac			= 0.8
+zoom_cam_dispersion_inc				= 0.2
+zoom_cam_max_angle					= 60.0
+zoom_cam_step_angle_horz			= 10
+zoom_cam_max_angle_horz				= 30
+
+PDM_disp_accel_factor				= 1.055
+PDM_disp_base						= 0.7
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 1.05
+
+cam_relax_speed_ai					= 120.75
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
+
+kill_msg_x							= 194
+kill_msg_y							= 123
+kill_msg_width						= 46
+kill_msg_height						= 27
+weapon_lower_speed					= 0.2
+
+use_alt_aim_hud						= true
+
+snd_reload_empty					= weapons\sw1917\sw1917_reload_2clip
+scripted_snd_reload_ammo1			= weapons\sw1917\sw1917_reload_2clip
+scripted_snd_reload_ammo2			= weapons\sw1917\sw1917_reload_2clip
+scripted_snd_reload_ammo3			= weapons\sw1917\sw1917_reload_1clip
+scripted_snd_reload_ammo4			= weapons\sw1917\sw1917_reload_1clip
+scripted_snd_reload_ammo5			= weapons\sw1917\sw1917_reload_1clip
+snd_reload							= $no_sound
+
+snd_reload_misfire					= weapons\sw1917\sw1917_unjam
+
+snd_shoot							= weapons\sw1917\sw1917_shoot
+snd_shoot_actor						= weapons\sw1917\sw1917_shoot
+
+snd_silncer_shot					= weapons\sw1917\sw1917_shoot_sil
+
+snd_draw							= weapons\sw1917\sw1917_draw
+snd_holster							= weapons\sw1917\sw1917_holster
+
+;====================================================================== HUD	===========================================================================;
+[wpn_sw1917_hud]:hud_base
+item_visual						= anomaly_weapons\wpn_sw1917\wpn_sw1917_hud.ogf
+attach_place_idx				= 0
+zoom_hide_crosshair				= true
+
+item_orientation				= 0, 0, 0
+item_position					= 0, 0, 0
+
+hands_orientation				= 0, 0, 0
+hands_orientation_16x9			= 0, 0, 0
+
+hands_position					= -0.041283, -0.004181, -0.100297; 0.025754, -0.007962, -0.035943
+hands_position_16x9				= -0.041283, -0.004181, -0.100297; 0.025754, -0.007962, -0.035943
+
+aim_hud_offset_alt_pos			= -0.181865, -0.034296, -0.046772
+aim_hud_offset_alt_pos_16x9		= -0.181865, -0.034296, -0.046772
+
+aim_hud_offset_alt_rot			= 0.00413, 0.103524, 0.304193
+aim_hud_offset_alt_rot_16x9		= 0.00413, 0.103524, 0.304193
+
+aim_hud_offset_pos				= -0.047291, 0.034679, -0.090304; -0.114173, 0.041089, -0.105171
+aim_hud_offset_pos_16x9			= -0.047291, 0.034679, -0.090304; -0.114173, 0.041089, -0.105171
+
+aim_hud_offset_rot				= 0.034735, 0.000317, 0; 0.036794, -0.000114, 0
+aim_hud_offset_rot_16x9			= 0.034735, 0.000317, 0; 0.036794, -0.000114, 0
+
+lowered_hud_offset_pos			= 0.029796, -0.306713, -0.01048; -0.015165, -0.312184, -0.01048
+lowered_hud_offset_pos_16x9		= 0.029796, -0.306713, -0.01048; -0.015165, -0.312184, -0.01048
+
+lowered_hud_offset_rot			= -1.00739, 0.121567, -0.014215
+lowered_hud_offset_rot_16x9		= -1.00739, 0.121567, -0.014215
+
+lean_hud_offset_pos				= 0, 0, 0
+lean_hud_offset_rot				= 0, 0, 0
+
+anm_show						= hand_sw1917_draw, sw1917_idle
+anm_hide						= hand_sw1917_holster, sw1917_idle
+
+anm_idle						= hand_sw1917_idle, sw1917_idle
+anm_idle_aim					= hand_sw1917_aim, sw1917_idle
+anm_idle_aim_moving				= hand_sw1917_walk, sw1917_idle, 0.75
+anm_idle_aim_moving_crouch		= hand_sw1917_aim, sw1917_idle, 0.7
+anm_idle_moving					= hand_sw1917_walk, sw1917_idle
+anm_idle_moving_crouch			= hand_sw1917_walk, sw1917_idle, 0.7
+anm_idle_sprint					= hand_sw1917_running, sw1917_idle, 1.3
+
+anm_reload_ammo5				= hand_sw1917_reload_1clip, sw1917_reload_1bul
+anm_reload_ammo4				= hand_sw1917_reload_1clip, sw1917_reload_2bul
+anm_reload_ammo3				= hand_sw1917_reload_1clip, sw1917_reload_3bul
+anm_reload_ammo2				= hand_sw1917_reload_2clip, sw1917_reload_4bul
+anm_reload_ammo1				= hand_sw1917_reload_2clip, sw1917_reload_5bul
+anm_reload_empty				= hand_sw1917_reload_2clip, sw1917_reload_6bul
+
+anm_reload_misfire				= hand_sw1917_unjam, sw1917_unjam
+
+anm_shots						= hand_sw1917_shoot, sw1917_shoot
+anm_shots_aim					= hand_sw1917_shoot_aim, sw1917_shoot
+
+anm_bore						= hand_sw1917_inspect, sw1917_idle
+
+; Jammed Animation Variants
+anm_idle_jammed					= hand_sw1917_idle, sw1917_idle_jam
+anm_show_jammed					= hand_sw1917_draw, sw1917_idle_jam
+anm_hide_jammed					= hand_sw1917_holster, sw1917_idle_jam
+anm_idle_aim_jammed				= hand_sw1917_aim, sw1917_idle_jam
+anm_idle_sprint_jammed			= hand_sw1917_running, sw1917_idle_jam
+anm_idle_moving_jammed			= hand_sw1917_walk, sw1917_idle_jam
+anm_idle_moving_crouch_jammed	= hand_sw1917_walk, sw1917_idle_jam
+anm_bore_jammed					= hand_sw1917_inspect, sw1917_idle_jam
+	
+anm_sprint_start				= hand_sw1917_walk2run, sw1917_idle
+anm_sprint_end					= hand_sw1917_run2walk, sw1917_idle
+anm_sprint_start_jammed			= hand_sw1917_walk2run, sw1917_idle_jam	
+anm_sprint_end_jammed			= hand_sw1917_run2walk, sw1917_idle_jam
+
+fire_bone						= muzzle
+fire_point						= 0.007101, 0.007072, 0
+
+freelook_z_offset_mul			= 0.1
+
+;------------------------------------------------------------------------------------------------
+[wpn_sw1917_snub]:wpn_sw1917
+parent_section	= wpn_sw1917_snub
+
+inv_grid_x		= 2
+silencer_status	= 0
+
+inv_name		= st_wpn_sw1917_snub
+inv_name_short	= st_wpn_sw1917_snub_short
+description		= st_wpn_sw1917_snub_descr
+
+light_range		= 5
+
+inv_weight		= 0.87
+cost			= 9400
+
+hud				= wpn_sw1917_snub_hud
+visual			= dynamics\weapons\wpn_sw1917\wpn_sw1917_snub_world.ogf
+
+hit_power		= 0.58, 0.58, 0.58, 0.58
+fire_distance	= 270
+bullet_speed	= 240
+
+;------------------------------------------------------------------------------------------------
+[wpn_sw1917_snub_hud]:wpn_sw1917_hud
+item_visual				= anomaly_weapons\wpn_sw1917\wpn_sw1917_snub_hud.ogf
+
+aim_hud_offset_pos		= -0.047176, 0.039372, -0.090304
+aim_hud_offset_pos_16x9	= -0.047176, 0.039372, -0.090304
+aim_hud_offset_rot		= 0.049453, -5.9e-05, 0
+aim_hud_offset_rot_16x9	= 0.049453, -5.9e-05, 0
+
+anm_show				= hand_sw1917_draw, sw1917_idle, 1.8
+anm_hide				= hand_sw1917_holster, sw1917_idle, 1.4

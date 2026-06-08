@@ -14,6 +14,7 @@ Tweaked default actor effects and Grok's Enhanced Recoil configs to inherit the 
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

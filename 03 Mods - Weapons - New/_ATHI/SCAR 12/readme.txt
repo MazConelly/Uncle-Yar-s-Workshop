@@ -18,6 +18,7 @@ Talk with ATHI.
 Trader distribution.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

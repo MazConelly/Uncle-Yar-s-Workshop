@@ -13,6 +13,7 @@ NPC loadouts redistributed. Now the Army and Duty will also carry it, in additio
 Icon file trimmed. Seems like some repainted variants in gray and desert camo were intended (the textures are even there for that), but as it is now, those icons merely bloated the file.
 
 Integration into:
+FireModeCheck
 Grok's Stashes Overhaul
 Lootboxes
 PDA Interactive

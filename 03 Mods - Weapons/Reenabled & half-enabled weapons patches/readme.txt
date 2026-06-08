@@ -24,10 +24,11 @@ Lootboxes
 
 
 M79:
-Trader: Sold by factions that also sell the RG-6 at the one supply tier lower.
+Trader: Sold by Sin, Monolith, and NATO leaning factions.
 NPC loadouts: it was only found in the hands of Sin masters. Now it'll will be carried by Army, Clear Sky, Duty, Freedom, ISG, Mercs (including eco ones), Monolith, and Sin, with a 20% chance of being carried by masters and legends and a 10% by veterans. Army, ISG, and Monolith members with a +10% to their chances, Clear Sky and Sin members with a -5%.
 As you can imagine, even with the low odds, this can be just as horrifying as Clear Sky grenata spamming.
 
+An option is offered for only trader distribution.
 
 ----------------------------------------------------------
 -Patches:

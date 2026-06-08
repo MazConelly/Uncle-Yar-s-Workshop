@@ -18,6 +18,7 @@ Reworked descriptions to mention the particular painting and remove the grenade 
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 Mags Redux

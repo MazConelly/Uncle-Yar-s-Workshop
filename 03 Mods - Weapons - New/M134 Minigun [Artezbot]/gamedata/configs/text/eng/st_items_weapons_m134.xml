@@ -4,6 +4,9 @@
     <string id="st_wpn_m134">
         <text>M134 Minigun</text>
     </string>
+    <string id="st_wpn_m134_s">
+        <text>M134</text>
+    </string>
     <string id="st_wpn_m134_descr">
         <text>The M134 Minigun is a 7.62x51mm NATO, six-barrel machine gun with a rate of fire of 2000 rounds per minute. It features Gatling-style rotating barrels with an external power source, normally an electric motor. The "Mini" in the name is in comparison to designs that use a similar firing mechanism but larger shells, such as General Electric's earlier 20mm M61 Vulcan, and "gun" for a caliber size smaller than that of a cannon, typically 20mm and higher.\n</text>
     </string>

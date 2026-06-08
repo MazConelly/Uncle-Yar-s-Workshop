@@ -10,9 +10,11 @@ NOTE: You need the original mod. Disable the original configs folder.
 -Explanation:
 
 Text edited for corrections. Also removed the "(LEWD)" tags.
+Added to Nimble and Meeker, for those without access to Dushman.
 Icon files trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

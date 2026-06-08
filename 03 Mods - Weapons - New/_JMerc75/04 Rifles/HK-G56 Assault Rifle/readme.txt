@@ -16,6 +16,7 @@ Icon file trimmed.
 Settings for actor effects and Grok's Enhanced Recoil changed to follow the HK416 and HK417 instead of the APS (¿!¿!!?!?).
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

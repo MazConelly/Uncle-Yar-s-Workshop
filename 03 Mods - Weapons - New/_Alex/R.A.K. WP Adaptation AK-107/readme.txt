@@ -35,6 +35,7 @@ Corrected trade assignments. Most traders have five supply levels depending on g
 Added default actor effects configs.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

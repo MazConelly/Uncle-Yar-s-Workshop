@@ -17,6 +17,7 @@ Added default settings for actor effects.
 Icon trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

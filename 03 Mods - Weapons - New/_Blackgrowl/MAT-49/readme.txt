@@ -23,5 +23,10 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
+Dark Signal Weapon Audio Pack
+For some reason that I can't see, the MAT-49 looses the shooting audio for NPCs when using Dark Signal. For all I can see, this shouldn't happen.
+Restating the data with DLTX seems to fix this issue.
+NOt to confuse with Dark signal Amplified Gunscape, though I'm unaware if it'll be compatible with this patch. Might be, might not. You try it.
+
 ----------------------------------------------------------
 -Known issues:

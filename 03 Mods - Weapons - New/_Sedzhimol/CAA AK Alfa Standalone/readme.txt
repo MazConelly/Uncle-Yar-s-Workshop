@@ -18,6 +18,7 @@ Icon file trimmed.
 Integrated into vanilla fetch tasks.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

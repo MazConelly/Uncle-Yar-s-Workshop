@@ -13,6 +13,7 @@ Added default actor effects settings.
 Minor text editing.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

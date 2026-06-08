@@ -20,6 +20,7 @@ Added files for the Cordon Army trader, ISG extra traders, and some of the basic
 Mags Redux support. It didn't cover all ammo it should. The mag is also removed from traders (Mag redux itself will distribute it).
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

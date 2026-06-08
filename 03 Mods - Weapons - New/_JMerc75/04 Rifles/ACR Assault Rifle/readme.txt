@@ -13,6 +13,7 @@ Raised trader goodwill requirement by one tier (from 2/5 to 3/5). Removed from S
 Icon file trimmed
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

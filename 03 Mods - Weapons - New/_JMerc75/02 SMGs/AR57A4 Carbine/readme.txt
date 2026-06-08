@@ -12,6 +12,7 @@ Let this overwrite the original mod.
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

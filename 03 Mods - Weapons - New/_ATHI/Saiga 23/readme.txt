@@ -11,6 +11,7 @@ NOTE: You still need the original mod. Disable the gamedata/configs folder.
 Trader distribution.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

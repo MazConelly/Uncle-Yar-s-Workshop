@@ -16,6 +16,7 @@ Edited text a bit. Removed the "LEWD" tag and the redundant "no attachment" line
 NPC loadout redistribution. Sin and Monolith masters, sure. Monolith snipers, strange, but fine. But I don't see it being carried by army masters. It will instead be carried by master loners.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

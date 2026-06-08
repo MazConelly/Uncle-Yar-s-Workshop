@@ -12,6 +12,7 @@ NOTE: You still need the original mod. Disable the gamedata\configs folder.
 Added default actor effects configs.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

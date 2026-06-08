@@ -21,6 +21,7 @@ Guns redistributed for NPcs, new game, and traders.
 70 should be widespread. 87 Target a bit more select. 92 Renetti will be carried by Freedom, Mercs and ISG. 93R only in military-like factions. Nimble will provide the 92 Cutlass and Samurai Edge.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

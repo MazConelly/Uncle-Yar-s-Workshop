@@ -25,5 +25,9 @@ This means those rifle families are now able to perform in high end content, and
 - BaS Patch. Moved extended and short mags for Kiparis, Skorpion, Sig 220, Remington 700 to base files. Slight ID reworking so all and base mags for the same guns follow the same patterns. Consolidation of weapon assignment files. Disabled redundant/old mags.
 This is mostly a reorganizing matter, but if you don't play with BaS, you're able to use some of the mags made for it.
 
+
+The Fork + Priler's Interactive 3D PDA 2.0 Enhanced patch will ensure consistent behavior between my fork and Priler's update of the trading feature.
+
+
 ----------------------------------------------------------
 -Known issues:

@@ -12,6 +12,7 @@ You can still use its included patches.
 -Explanation:
 
 Integrated into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

@@ -12,6 +12,7 @@ NOTE: You need the original mod. Disable the configs folder.
 Taken off Sid's inventory, given to Owl. Just so you don't start a new game at south and start cherry popping npcs. Might give it to Nimble instead later.
 
 Integration into:
+FireModeCheck
 PDA Interactive
 Weapon Parts Overhaul
 

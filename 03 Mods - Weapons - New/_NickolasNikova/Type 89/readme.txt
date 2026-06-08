@@ -15,6 +15,7 @@ Added default actor effects configs.
 Icon file made DX8-9 compliant.
 
 Integrated into:
+FireModeCheck
 Grok's Enhanced Recoil
 Lootboxes.
 PDA Interactive

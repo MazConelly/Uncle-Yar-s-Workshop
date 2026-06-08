@@ -10,6 +10,7 @@ NOTE: You need the original mod. Let this overwrite it.
 -Explanation:
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

@@ -14,6 +14,7 @@ NPC Loadouts. Carcass King variant is now rarer for NPCs to spawn with.
 Icon file trimmed. 
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

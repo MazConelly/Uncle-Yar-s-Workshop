@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_mag_beretta93r_9mm">
+		<text>Магазин Beretta 93R на 20 патронов</text>
+	</string>
+	<string id="st_mag_beretta93r_9mm_descr">
+		<text>
+		Специальный магазин для Beretta 93R. Конструкция магазина делает его непригодным для использования с другими вариантами пистолета Beretta 92.
+		</text>
+	</string>
+</string_table>

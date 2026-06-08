@@ -16,6 +16,7 @@ Don't use this with MiK's HK433.
 Added default actor effects configs.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

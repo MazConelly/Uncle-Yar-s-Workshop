@@ -42,6 +42,7 @@ The icon file has been trimed as well. Text edited a bit.
 
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

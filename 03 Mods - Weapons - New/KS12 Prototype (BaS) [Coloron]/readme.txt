@@ -25,6 +25,7 @@ Added default actor effects configs.
 
 Integration into:
 Armor Modkits addon. Instead of buying it off Nimble, you can instead upgrade a Saiga12 ISG with a custom gun modkit.
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 PDA Interactive

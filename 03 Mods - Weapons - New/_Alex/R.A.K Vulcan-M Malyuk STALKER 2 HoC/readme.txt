@@ -21,6 +21,7 @@ Distributed to NPCs and traders. Military and Monolith will sell it at the highe
 Added default actor effects configs.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

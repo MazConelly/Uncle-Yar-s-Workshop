@@ -1,0 +1,283 @@
+[wpn_ksg23_snd_shoot]:wpn_ksg_snd_shoot
+snd_1_layer = weapons\ks23_young_prince\ks23_shot_1
+
+;------------------------------------------------------------------------------------------------
+[wpn_ksg23]:wpn_ksg12
+$spawn			= "weapons\ksg23"
+parent_section	= wpn_ksg23
+
+inv_name		= st_wpn_ksg23
+inv_name_short	= st_wpn_ksg23_s
+description		= st_wpn_ksg23_descr
+
+inv_weight		= 3.2
+cost			= 78520
+
+hud				= wpn_ksg23_hud
+
+ammo_class		= ammo_23x75_shrapnel, ammo_23x75_shrapnel_bad, ammo_23x75_shrapnel_verybad, ammo_23x75_barrikada, ammo_23x75_barrikada_bad, ammo_23x75_barrikada_verybad
+ammo_elapsed	= 11
+ammo_mag_size	= 11
+
+silencer_name	= wpn_sil_hex23
+
+hit_impulse		= 60
+hit_power		= 0.5, 0.5, 0.5, 0.5
+bullet_speed	= 200
+rpm				= 91
+
+snd_shoot		= wpn_ksg23_snd_shoot
+snd_shoot_last	= weapons\ks23_young_prince\ks23_shot_2
+snd_shoot_last1	= weapons\ks23_young_prince\ks23_shot_last
+
+[wpn_ksg23_hud]:wpn_ksg12_hud
+
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_ac10632]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_ac10632_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= ac10632
+1icon_layer_x	= 139
+1icon_layer_y	= -13              
+
+[wpn_ksg23_ac10632_hud]:wpn_ksg12_ac10632_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_acog]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_acog_hud
+
+inv_weight		= 3.4
+
+1icon_layer		= acog
+1icon_layer_x	= 136
+1icon_layer_y	= -13
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+scope_dynamic_zoom	= off
+
+[wpn_ksg23_acog_hud]:wpn_ksg12_acog_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_eot]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_eot_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= eot
+1icon_layer_x	= 150
+1icon_layer_y	= -10
+
+[wpn_ksg23_eot_hud]:wpn_ksg12_eot_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_c-more]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_c-more_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= c-more
+1icon_layer_x	= 142
+1icon_layer_y	= -10
+
+[wpn_ksg23_c-more_hud]:wpn_ksg12_c-more_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_aim_low]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_aim_low_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= aim_low
+1icon_layer_x	= 137
+1icon_layer_y	= -5
+
+[wpn_ksg23_aim_low_hud]:wpn_ksg12_aim_low_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_aimpoint]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_aimpoint_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 141
+1icon_layer_y	= -1
+
+[wpn_ksg23_aimpoint_hud]:wpn_ksg12_aimpoint_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_point_aimpro]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_point_aimpro_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 145
+1icon_layer_y	= -17
+
+[wpn_ksg23_point_aimpro_hud]:wpn_ksg12_point_aimpro_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_ekp8_18]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_ekp8_18_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 142
+1icon_layer_y	= -2
+
+[wpn_ksg23_ekp8_18_hud]:wpn_ksg12_ekp8_18_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_d0cter]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_d0cter_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= d0cter
+1icon_layer_x	= 145
+1icon_layer_y	= -10
+
+[wpn_ksg23_d0cter_hud]:wpn_ksg12_d0cter_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_mepro]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_mepro_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= mepro
+1icon_layer_x	= 140
+1icon_layer_y	= -8
+
+[wpn_ksg23_mepro_hud]:wpn_ksg12_mepro_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_0kp2]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_0kp2_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 139
+1icon_layer_y	= -5
+
+[wpn_ksg23_0kp2_hud]:wpn_ksg12_0kp2_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_e0t2]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_e0t2_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= e0t2
+1icon_layer_x	= 140
+1icon_layer_y	= -15
+
+[wpn_ksg23_e0t2_hud]:wpn_ksg12_e0t2_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_rmr]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_rmr_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= rmr
+1icon_layer_x	= 140
+1icon_layer_y	= -7
+
+[wpn_ksg23_rmr_hud]:wpn_ksg12_rmr_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_deltapoint]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_deltapoint_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 139
+1icon_layer_y	= -7
+
+[wpn_ksg23_deltapoint_hud]:wpn_ksg12_deltapoint_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_compm4s]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_compm4s_hud
+
+inv_weight		= 3.3
+
+1icon_layer		= compm4s
+1icon_layer_x	= 140
+1icon_layer_y	= -17
+
+[wpn_ksg23_compm4s_hud]:wpn_ksg12_compm4s_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_rakurs]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_rakurs_hud
+
+inv_weight = 3.3
+
+1icon_layer		= rakurs
+1icon_layer_x	= 136
+1icon_layer_y	= -11
+
+[wpn_ksg23_rakurs_hud]:wpn_ksg12_rakurs_hud
+;------------------------------------------------------------------------------------------------------
+[wpn_ksg23_kemper]:wpn_ksg23
+visual			= dynamics\weapons\wpn_ksg12\wpn_ksg12_optic.ogf
+hud				= wpn_ksg23_kemper_hud
+
+inv_weight = 3.3
+
+1icon_layer		= kemper
+1icon_layer_x	= 140
+1icon_layer_y	= -16
+
+[wpn_ksg23_kemper_hud]:wpn_ksg12_kemper_hud
+;------------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------------
+; [wpn_ksg25]:wpn_ksg12
+; $spawn					= "weapons\ksg25"
+; parent_section			= wpn_ksg25
+
+; inv_grid_height			= 2
+; inv_grid_width			= 7
+; inv_grid_x				= 0
+; inv_grid_y				= 3
+
+; inv_name				= st_wpn_ksg25
+; inv_name_short			= st_wpn_ksg25_s
+; description				= st_wpn_ksg25_descr
+
+; inv_weight				= 4.2
+
+; cost					= 48850
+
+; hud						= wpn_ksg25_hud
+; visual					= dynamics\weapons\wpn_ksg12\wpn_ksg12.ogf
+
+; ammo_elapsed			= 25
+; ammo_mag_size			= 25
+
+; silencer_x				= 255 ; ???
+
+; hit_impulse				= 45
+; hit_power				= 0.85, 0.85, 0.85, 0.85
+; fire_distance			= 150
+; bullet_speed			= 370
+
+; zoom_rotate_time		= 0.30
+; crosshair_inertion		= 6.5
+; fire_dispersion_base	= 0.56
+
+; cam_dispersion			= 7.24
+
+; [wpn_ksg25_hud]:wpn_ksg12_hud
+; item_visual			= anomaly_weapons\wpn_ksg12\wpn_ksg12_hud.ogf

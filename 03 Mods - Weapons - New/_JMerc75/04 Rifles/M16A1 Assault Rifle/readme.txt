@@ -12,6 +12,7 @@ NOTE: You still need the original mod. Disable the original configs folder
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

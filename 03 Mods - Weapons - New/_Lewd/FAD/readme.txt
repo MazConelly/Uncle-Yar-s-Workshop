@@ -16,6 +16,7 @@ Weapon icons gathered into a single file, and spraypaint icon file trimmed.
 HQ icons are untouched.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

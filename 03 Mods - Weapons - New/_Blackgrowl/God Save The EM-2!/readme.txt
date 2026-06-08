@@ -14,6 +14,7 @@ You can still use its included patches, except the Mags Redux one.
 Mags Redux patch integrated.
 
 Integrated into:
+FireModeCheck
 Lootboxes
 PDA Interactive
 Weapon Parts Overhaul

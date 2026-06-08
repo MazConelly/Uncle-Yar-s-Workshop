@@ -18,8 +18,10 @@ The weapon file now inherits its data from the vanilla AKM, meaning it will look
 Given default actor effects configs, parts.
 
 Integration into:
-Grok's Stash Overhaul
+Enhanced Recoil - Gold Edition
+FireModeCheck
 GBOOBS
+Grok's Stash Overhaul
 Lootboxes
 Mags Redux
 PDA Interactive

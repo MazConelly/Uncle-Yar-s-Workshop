@@ -15,6 +15,7 @@ NPC loadout redistribution. Veterans will carry the incomplete pistol, masters t
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

@@ -27,6 +27,7 @@ Trader distribution. High goodwill will usually be required.
 Moved the HUD FOV 0.4 file to a different folder as optional.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

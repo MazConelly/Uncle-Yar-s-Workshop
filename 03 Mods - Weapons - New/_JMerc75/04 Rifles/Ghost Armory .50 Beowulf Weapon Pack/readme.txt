@@ -21,6 +21,7 @@ Configs and icon files are now consolidated into a single file each. This way th
 The Mags Redux patch is also given this treatment, and integrated into the main files.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 PDA Interactive
 Weapon Parts Overhaul

@@ -12,6 +12,7 @@ Trader distribution. Duty, Sin, Loris and Owl will sell it.
 Icon files trimmed.
 
 Integrated into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 PDA Interactive

@@ -20,6 +20,7 @@ Traders. Added to mercenaries. I was going to remove it from from Duty and Army,
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive
