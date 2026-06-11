@@ -1,5 +1,6 @@
 -Module:
 Mossberg 590 [SoulCrystal]
+https://www.moddb.com/mods/stalker-anomaly/addons/mossberg-590
 
 ----------------------------------------------------------
 -Compatibility:

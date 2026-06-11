@@ -1,5 +1,6 @@
 -Module:
 Armsel Protecta Reanimation [NickolasNikova]
+https://www.moddb.com/mods/stalker-anomaly/addons/armsel-protecta
 
 ----------------------------------------------------------
 -Compatibility:

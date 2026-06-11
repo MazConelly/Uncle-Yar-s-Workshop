@@ -1,5 +1,6 @@
 -Module:
 S.N.I.P.S. - 9x39 Subsonic Network Integration Program for Stalkers [Khyber]
+https://www.moddb.com/mods/stalker-anomaly/addons/snips-9x39-subsonic-network-integration-program-for-stalkers
 
 ----------------------------------------------------------
 -Compatibility:
@@ -12,6 +13,7 @@ Added default actor effects settings.
 Minor text editing.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

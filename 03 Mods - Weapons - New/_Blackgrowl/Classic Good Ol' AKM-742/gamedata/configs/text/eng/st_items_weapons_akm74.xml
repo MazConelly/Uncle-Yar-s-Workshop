@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_akm74">
+		<text>AKM-74/2</text>
+	</string>
+
+	<string id="st_wpn_akm74_descr">
+		<text>A true classic of The Zone, the AKM-74/2 is a Zone-made AK-74M that had its Solid Stock replaced with a Skeletal Stock, and has the furniture use a worn-out Border Guard green color, it also strangely has some vented top handguard, which might be a Zone-made modification to keep the barrel even cooler, for whatever reason. Seen commonly carried by the Border Guard, it was easy to acquire these right in The Zone. It is incredibly reliable and, most importantly, rather cheap, but due to the now rarity of this gun, it being replaced with the original AKs, it's not as cheap anymore.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02 Kobra, 1P29, PSO-1 scopes\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor (after modification)\n \n</text>
+	</string>
+
+</string_table>

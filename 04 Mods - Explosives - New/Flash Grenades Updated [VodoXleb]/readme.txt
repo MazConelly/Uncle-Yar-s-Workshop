@@ -1,5 +1,6 @@
 -Module:
 Flash Grenades Updated [VodoXleb]
+https://www.moddb.com/mods/stalker-anomaly/addons/flash-grenades-mk2
 
 ----------------------------------------------------------
 -Compatibility:
@@ -19,9 +20,16 @@ DLTX distribution
 Disables the scripted trader and npc loadouts method in favor of DLTX.
 Using NPC loadouts files rank fix in this package is recommended and encouraged for full coverage
 
-Flash Mk2 Animation [Lassie] merge
-A simple merge of both mods.
-NOTE: You still need the original mods. Disable the gamedata/configs/items/weapons in Flash Grenades Updated, and the gamedata/configs folder inside Flash Mk2 Animation.
+Flash Mk2 Animation [Lassie] DLTX
+DLTX conversion of Lassie's addon.
+However, this mod was removed from Moddb
+NOTE: You still need the original mod. Disable the configs folder.
+
+STALKER 2 HoC Grenade Animation
+Its animations will be used.
+NOTE: You still need the original mod.
+
+EFT Grenade Collision Sounds
 
 ----------------------------------------------------------
 -Known issues:

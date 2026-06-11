@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_cz_bren_805">
+		<text>CZ BREN 805</text>
+	</string>
+	<string id="st_wpn_cz_bren_805_s">
+		<text>BREN 805</text>
+	</string>
+	<string id="st_wpn_cz_bren_805_descr">
+		<text>The CZ BREN is a gas-operated modular assault rifle designed and manufactured by Ceska zbrojovka Uhersky Brod (CZ). It was created to replace the Sa vz. 58 in the Czech Army in 2006, and later sprung a large family of rifles. The first generation (BREN I) includes the 805-model chambered in 5.56x45mm NATO cartridge and the second generation (BREN II) introduces the new variants 806 (7,62x51mm NATO) and 807 (7,62x39mm). The rifle is fitted with folding iron sights, but also includes an integral Picatinny rail on top of the receiver and is capable of accepting a wide variety of additional sighting equipment. The weapon is equipped with side-folding buttstock, which is adjustable for length of pull, and can be completely removed if maximum compactness is required. Additional equipment could also a 40 mm underbarrel grenade launcher and a suppressor. It has been adopted by various police and military forces around the world and the number is likely to continue growing.\n
+		As customary for new western weapons, it has been first introduced to The Zone by the Mercenaries and the ISG but also, surprisingly, by Duty, wich adopted the 807 model to replace some of their older and worn out AK variants. Still, some examples have been seen for sale by merchants like Sidorovich and Owl, who have never had qualms about negotiating with whoever it takes to expand their businesses.\n
+		%c[ui_yellow]Fire modes: %c[ui_white]Semi, two shot burst, full auto\n
+		%c[ui_yellow]Magazine compatibility: %c[ui_white]All NATO STANAG 5.56x45mm magazines
+		</text>
+	</string>
+
+	<string id="st_wpn_cz_bren_806">
+		<text>CZ BREN 806</text>
+	</string>
+	<string id="st_wpn_cz_bren_806_s">
+		<text>BREN 806</text>
+	</string>
+	<string id="st_wpn_cz_bren_806_descr">
+		<text>The CZ BREN is a gas-operated modular assault rifle designed and manufactured by Ceska zbrojovka Uhersky Brod (CZ). It was created to replace the Sa vz. 58 in the Czech Army in 2006, and later sprung a large family of rifles. The first generation (BREN I) includes the 805-model chambered in 5.56x45mm NATO cartridge and the second generation (BREN II) introduces the new variants 806 (7,62x51mm NATO) and 807 (7,62x39mm). The rifle is fitted with folding iron sights, but also includes an integral Picatinny rail on top of the receiver and is capable of accepting a wide variety of additional sighting equipment. The weapon is equipped with side-folding buttstock, which is adjustable for length of pull, and can be completely removed if maximum compactness is required. Additional equipment could also a 40 mm underbarrel grenade launcher and a suppressor. It has been adopted by various police and military forces around the world and the number is likely to continue growing.\n
+		As customary for new western weapons, it has been first introduced to The Zone by the Mercenaries and the ISG but also, surprisingly, by Duty, wich adopted the 807 model to replace some of their older and worn out AK variants. Still, some examples have been seen for sale by merchants like Sidorovich and Owl, who have never had qualms about negotiating with whoever it takes to expand their businesses.\n
+		%c[ui_yellow]Fire modes: %c[ui_white]Semi, full auto\n
+		%c[ui_yellow]Magazine compatibility: %c[ui_white]All NATO STANAG 7.62x51mm magazines
+		</text>
+	</string>
+
+	<string id="st_wpn_cz_bren_807">
+		<text>CZ BREN 807</text>
+	</string>
+	<string id="st_wpn_cz_bren_807_s">
+		<text>BREN 807</text>
+	</string>
+	<string id="st_wpn_cz_bren_807_descr">
+		<text>The CZ BREN is a gas-operated modular assault rifle designed and manufactured by Ceska zbrojovka Uhersky Brod (CZ). It was created to replace the Sa vz. 58 in the Czech Army in 2006, and later sprung a large family of rifles. The first generation (BREN I) includes the 805-model chambered in 5.56x45mm NATO cartridge and the second generation (BREN II) introduces the new variants 806 (7,62x51mm NATO) and 807 (7,62x39mm). The rifle is fitted with folding iron sights, but also includes an integral Picatinny rail on top of the receiver and is capable of accepting a wide variety of additional sighting equipment. The weapon is equipped with side-folding buttstock, which is adjustable for length of pull, and can be completely removed if maximum compactness is required. Additional equipment could also a 40 mm underbarrel grenade launcher and a suppressor. It has been adopted by various police and military forces around the world and the number is likely to continue growing.\n
+		As customary for new western weapons, it has been first introduced to The Zone by the Mercenaries and the ISG but also, surprisingly, by Duty, wich adopted the 807 model to replace some of their older and worn out AK variants. Still, some examples have been seen for sale by merchants like Sidorovich and Owl, who have never had qualms about negotiating with whoever it takes to expand their businesses.\n
+		%c[ui_yellow]Fire modes: %c[ui_white]Semi, full auto\n
+		%c[ui_yellow]Magazine compatibility: %c[ui_white]All 7.62x39mm AK type magazines
+		</text>
+	</string>
+
+
+	<string id="st_mag_bren_7.62x51">
+		<text>CZ STANAG 7.62x51 Fast-loading Magazine</text>
+	</string>
+	<string id="st_mag_bren_7.62x51_descr">
+		<text>25 rounds fast-loading and STANAG compatible 7.62x51mm magazine by CZ for the BREN II 806.\n</text>
+	</string>
+
+</string_table>

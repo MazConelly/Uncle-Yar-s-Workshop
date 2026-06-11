@@ -1,5 +1,6 @@
 -Module:
 Suomi KP31 SMG [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/suomi-kp31-smg
 
 ----------------------------------------------------------
 -Compatibility:
@@ -7,7 +8,6 @@ NOTE: You need the original mod. Disable the original configs folder.
 
 ----------------------------------------------------------
 -Explanation:
-
 
 Changed upgrades to that of the vanilla PPSH41. The mod states it needs Tommy Gun Drop for that (and animations), but even with TGD present, the game crashes due to "Can't open section 'up_gr_firstab_1921'." Given it is ignoring the very present section, I give it a kick in the head.
 Changed ammo and mag to 9x19 instead of 9x18, and ammo count from 50 to 71, as per the real world gun and drum mag.

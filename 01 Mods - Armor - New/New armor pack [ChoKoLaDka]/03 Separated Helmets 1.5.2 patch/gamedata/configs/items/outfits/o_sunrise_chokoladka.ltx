@@ -17,13 +17,13 @@ inv_grid_y		= 0
 kind			= o_sci
 immunities_sect	= sect_scientific_outfit_immunities
 repair_type		= outfit_medium
-cost			= 52,000 ; 34280+17720
-inv_weight		= 9.8 ; 6.2+3.6
-power_loss		= 0.06
+cost			= 34280 ; 52000-17720
+inv_weight		= 6.2	; 9.8-3.6
+power_loss		= 0.05
 
-shock_protection		= 1.7
-radiation_protection	= 0.032
-chemical_burn_protection= 0.12
+shock_protection		= 1.7-0.04
+radiation_protection	= 0.032-0.0335
+chemical_burn_protection= 0.12-0.109
 
 [stalker_sanitar_outfit]:stalker_salamander_outfit,outfit_restrictions_1
 $spawn			= "outfit\stalker_outfit"
@@ -39,15 +39,17 @@ inv_grid_height	= 3
 inv_grid_x		= 2
 inv_grid_y		= 3
 
-cost			= 49678
+cost			= 39558	; 49678-10120
 additional_inventory_weight	= 8
 additional_inventory_weight2= 8
+inv_weight		= 6.8	; 8.3-1.5
+power_loss		= 0.05
 
-burn_protection			= 0.08
-shock_protection		= 0.8
-radiation_protection	= 0.03
-chemical_burn_protection= 0.04
-telepatic_protection	= 0.02
+burn_protection			= 0.073		; 0.08-0.007
+shock_protection		= 0.72		; 0.8-0.08
+radiation_protection	= 0.0065	; 0.03-0.0235
+chemical_burn_protection= 0.028		; 0.04-0.012
+telepatic_protection	= 0.014		; 0.02-0.006
 
 [stalker_veteran1_outfit]:stalker_outfit
 $spawn			= "outfit\stalker_veteran1_outfit"
@@ -56,7 +58,7 @@ npc_visual		= actors\stalker_neutral\stalker_neutral_veteran1.ogf
 character_portrait	= ui_inGame2_pantsir
 
 inv_name		= stalker_veteran1_outfit_name
-inv_name_short	= stalker_veteran1_outfit_name
+inv_name_short	= stalker_veteran1_outfit_name_s
 description		= stalker_veteran1_outfit_description
 icons_texture	= ui\ui_icon_chokoladka
 inv_grid_width	= 2

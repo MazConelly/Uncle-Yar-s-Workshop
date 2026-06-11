@@ -1,0 +1,8 @@
+<string_table>
+	<string id="ui_mcm_menu_dii_custom_layers_hexagon">
+		<text>Hexagon SKS suppressor indicator</text>
+	</string>
+	<string id="ui_mcm_dii_hexagon_dii_show">
+		<text>Toggle Hexagon SKS suppressor indicator</text>
+	</string>
+</string_table>

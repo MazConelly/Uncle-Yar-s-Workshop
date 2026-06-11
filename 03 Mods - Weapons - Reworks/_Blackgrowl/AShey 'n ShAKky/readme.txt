@@ -1,5 +1,6 @@
 -Module:
 AShey 'n ShAKky [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/ashandshak
 
 ----------------------------------------------------------
 -Compatibility:
@@ -13,6 +14,7 @@ You can still use its included patches, except the Mags Redux one.
 Mags Redux patch integrated.
 
 Integrated into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes
@@ -32,6 +34,10 @@ ShAK-12 Tactical [Lewdnatic] reduction patch
 Disables AShey's Shak-12 for whoever prefers LEWD's Tactical alone.
 Also disables the Ash specialized silencer and makes it use a vanilla silencer.
 Obviously, this is incompatible with the rest of files in this module. Choose one thing or the other.
+
+JSRS patch
+Patch by GhstKng.
+Don't install the mod's Dark Signal patch.
 
 ----------------------------------------------------------
 -Known issues:

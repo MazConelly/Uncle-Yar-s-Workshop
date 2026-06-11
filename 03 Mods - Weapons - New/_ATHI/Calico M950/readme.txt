@@ -14,10 +14,10 @@ Trader distribution. Added to same factions as above at low-mid goodwill.
 Actor effects and Grok's Enhanced Recoil configs tweaked to follow the MP5, not the P90.
 Disabled shell particle. As I understand, the Calico expells shells down by the handle. Not many opportunities to see the shell with this then.
 
-
 Mags Redux support. Added a 100 rounds mag.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

@@ -1,5 +1,6 @@
 -Module:
 Modular Miscellaneous Tweaks - Suppressor Changes [Vintar0]
+https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks
 
 ----------------------------------------------------------
 -Compatibility:
@@ -11,20 +12,18 @@ DLTX conversion.
 
 The original mod changes the stats of the basic "wpn_addon_silencer" template that all silencers inherit everything from, and removes changed stats from individual silencers.
 
-Technically, all silencers are covered by the mod as long as it inherits its data from "wpn_addon_silencer", but some silencers add their own stat changes, which would need to be squashed.
+Technically, all and new silencers, vanilla or modded, are covered by this as long as it inherits its data from "wpn_addon_silencer", but some silencers add their own stat changes, which would need to be squashed.
 
 So, in addition to vanilla silencers, this conversion now also fully applies to silencers from:
 -BaS
--AO3 Late Comers
--Blackgrowl's AShey 'n ShAKky
--Lewd's STG44
--Onerock's MCX Spear
-
-Some silencers don't need to be patched, as they already take all stats directly from "wpn_addon_silencer" without changes:
--half of the BaS silencers
 -MrB's 10mm Auto Ecosystem
+-AO3 Late Comers
+-Bert's M1 Garand
+-Blackgrowl's AShey 'n ShAKky
 -Joseph Porta's Vulcan
+-Lewd's STG44
 -Maid's Agram 2000
+-Onerock's MCX Spear
 
 There may be more I missed.
 

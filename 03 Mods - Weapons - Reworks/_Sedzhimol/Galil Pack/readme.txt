@@ -1,5 +1,6 @@
 -Module:
 Galil Pack [Sedzhimol] [Ghstkng reupload]
+https://www.moddb.com/mods/stalker-anomaly/addons/152dltx-galil-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -20,6 +21,7 @@ Added configs for actor effects.
 Mags Redux patch integrated into files.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

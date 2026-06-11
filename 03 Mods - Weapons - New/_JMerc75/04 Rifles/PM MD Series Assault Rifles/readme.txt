@@ -13,6 +13,7 @@ NPC loadouts. Fixed the assignment for loners of professional rank.
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

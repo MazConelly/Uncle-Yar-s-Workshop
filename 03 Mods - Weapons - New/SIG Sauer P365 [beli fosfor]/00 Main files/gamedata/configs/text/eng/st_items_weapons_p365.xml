@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_p365">
+		<text>SIG Sauer P365</text>
+	</string>
+	<string id="st_wpn_p365_s">
+		<text>P365</text>
+	</string>
+	<string id="st_wpn_p365_descr">
+		<text>The SIG Sauer P365 is a striker-fired subcompact semi-automatic pistol manufactured by SIG Sauer, intended for everyday carry. Chambered in 9x19 caliber with a 10 round capacity, it is lightweight thanks to its small size and light materials. It has been adopted in the United States by some police departments, and in Denmark bythe  Military Police and the Special Operations Command. It is commonly carried by ISG members and Mercenaries through the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Blackbox</text>
+	</string>
+
+	<string id="st_mag_sig365_9x19_default_10">
+		<text>Compact 10-round 9x19 SIG Sauer P365 Magazine</text>
+	</string>
+	<string id="st_mag_sig365_9x19_default_10_descr">
+		<text>Compact 10-round 9x19mm magazine for the SIG P365 handgun. Seems to be the default magazine shipped with the pistol.</text>
+	</string>
+
+	<string id="st_mag_sig365_9x19_default_17">
+		<text>Standard 17-round 9x19 SIG Sauer P365 Magazine</text>
+	</string>
+	<string id="st_mag_sig365_9x19_default_17_descr">
+		<text>Standard 17-round 9x19mm magazine for the SIG P365 handgun.</text>
+	</string>
+
+	<string id="st_mag_sig365_9x19_default_21">
+		<text>Extended 21-round 9x19 SIG Sauer P365 Magazine</text>
+	</string>
+	<string id="st_mag_sig365_9x19_default_21_descr">
+		<text>Extended 21-round 9x19mm magazine for the SIG P365 handgun.</text>
+	</string>
+
+	<string id="st_mag_sig365_9x19_extended">
+		<text>Extended 32-round 9x19 SIG Sauer P365 Magazine</text>
+	</string>
+	<string id="st_mag_sig365_9x19_extended_descr">
+		<text>Extended 32-round 9x19mm magazine by ProMag for the SIG P365 handgun. You guess some people can't be satisfied with a normal number of rounds loaded on a pistol.</text>
+	</string>
+
+	<string id="st_mag_sig365_9x19_drum">
+		<text>50-Round 9x19 SIG Sauer P365 Drum Magazine</text>
+	</string>
+	<string id="st_mag_sig365_9x19_drum_descr">
+		<text>50 Round Drum Magazine by ProMag for the SIG P365 handgun. Somewhere in your mind, you're unable to deny that a line has been crossed a long while ago.</text>
+	</string>
+
+</string_table>

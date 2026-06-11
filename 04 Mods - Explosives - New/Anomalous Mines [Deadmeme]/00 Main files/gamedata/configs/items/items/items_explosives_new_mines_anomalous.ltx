@@ -1,0 +1,67 @@
+;-------------------------<Anomalous mines>---------------------------------------------------------
+
+[ied_electro]:ied_new
+description			= st_ied_electro_descr
+inv_name			= st_ied_electro
+inv_name_short		= st_ied_electro
+cost				= 6500
+
+[ied_electro_blow]:ied_new_blow
+inv_name			= st_ied_electro1
+inv_name_short		= st_ied_electro1
+hit_type_blast		= shock
+hit_type_frag		= shock
+explode_particles	= anomaly2\electra2_blast
+light_color		    = 0.8,0.9,1
+snd_explode			= anomaly\electra_blast1
+
+
+[ied_gravy]:ied_electro
+description			= st_ied_gravy_descr
+inv_name			= st_ied_gravy
+inv_name_short		= st_ied_gravy
+
+[ied_gravy_blow]:ied_electro_blow
+inv_name			= st_ied_gravy1
+inv_name_short		= st_ied_gravy1
+hit_type_blast		= strike
+hit_type_frag		= strike
+up_throw_factor		= 5.0
+explode_particles	= anomaly2\gravity_blast_01
+light_color			= 1.4,1.6,1.3
+snd_explode			= anomaly\anomaly_gravy_blast1
+
+
+[ied_burn]:ied_electro
+description			= st_ied_burn_descr
+inv_name			= st_ied_burn
+inv_name_short		= st_ied_burn
+
+[ied_burn_blow]:ied_electro_blow
+inv_name			= st_ied_burn1
+inv_name_short		= st_ied_burn1
+blast_r				= 6.3
+hit_type_blast		= light_burn
+hit_type_frag		= light_burn
+explode_particles	= static\zharka_static
+light_color			= 1.9,1.6,1.3
+snd_explode			= anomaly\zhar_blow
+
+
+[ied_acid]:ied_electro
+description			= st_ied_acid_descr
+inv_name			= st_ied_acid
+inv_name_short		= st_ied_acid
+
+[ied_acid_blow]:ied_electro_blow
+inv_name			= st_ied_chem1
+inv_name_short		= st_ied_chem1
+blast_r				= 6.3
+frags				= 15
+hit_type_blast		= chemical_burn
+hit_type_frag		= chemical_burn
+explode_particles	= zones_mine\zone_acidic_mine_hit
+light_color			= 1.1,1.7,1.4
+light_range			= 50.0
+snd_explode			= anomaly\buzz_hit
+immunities_sect		= planted_mine_immunities

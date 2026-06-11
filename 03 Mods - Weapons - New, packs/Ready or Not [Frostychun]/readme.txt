@@ -1,5 +1,6 @@
 -Module:
 Ready or Not Pack [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/ready-or-not-weapon-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -41,6 +42,7 @@ The icon file has been trimed as well. Text edited a bit.
 
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

@@ -1,5 +1,6 @@
 -Module:
 Mosin & SKS stripper clips [Pumkin0]
+https://www.moddb.com/mods/stalker-anomaly/addons/mosin-and-sks-stripper-clips
 
 ----------------------------------------------------------
 -Compatibility:

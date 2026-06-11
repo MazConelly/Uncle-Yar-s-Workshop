@@ -1,5 +1,6 @@
 -Module:
 Metro 2033 Revolver (SWP) [s7x]
+https://discord.com/channels/456765861953536020/1350964755569053736/1350964755569053736
 
 ----------------------------------------------------------
 -Compatibility:
@@ -18,7 +19,6 @@ The "Only Nagant" option will also remove the changes made to the SWP's Redhawk 
 
 Only Nagant
 This will remove the changes made to the SWP's Redhawk and apply them directly to the new Metro Nagant for compatibility sake, particularly if you're already happy with the configs SWP already have for the Redhawk.
-
 
 ----------------------------------------------------------
 -Known issues:

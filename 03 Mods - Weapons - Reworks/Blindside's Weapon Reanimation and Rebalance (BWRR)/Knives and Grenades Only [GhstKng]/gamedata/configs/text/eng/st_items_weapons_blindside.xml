@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+	
+		<string id="st_grenade_rg-60tb">
+		<text>RG-60TB</text>
+	</string>
+	<string id="st_grenade_rg-60tb_descr">
+		<text>60-mm hand thermobaric grenade RG-60TB is designed to engage manpower, unsheltered on the ground, in various types of shelters and closed buildings. The grenade has a plastic oval body and remote fuse action with UZRGM mechanism. The weight of the basic structure - 240g. TNT equivalent composition 0.55-0.66 kg. The radius of destruction is 7m.\n \n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]medium (thermal damage)\n
+		%c[d_purple] • %c[ui_gray_2] Blast radius: %c[ui_gray_1]7 m\n
+		%c[d_purple] • %c[ui_gray_2] Fragments' radius: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Av. number of fragments: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~4 seconds</text>
+	</string>
+</string_table>

@@ -1,5 +1,6 @@
 -Module:
 Boomsticks and Sharpsticks [Mich]
+https://www.moddb.com/mods/stalker-anomaly/addons/boomsticks-and-sharpsticks
 
 ----------------------------------------------------------
 -Compatibility:

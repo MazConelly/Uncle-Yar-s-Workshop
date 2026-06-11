@@ -1,9 +1,12 @@
 -Module:
 M4s Re-Imagined [kRePiN]
+https://www.moddb.com/mods/stalker-anomaly/addons/m4s-re-imagined
 
 ----------------------------------------------------------
 -Compatibility:
 NOTE: You still need the original mod. Disable its configs folder.
+
+Updated for version 1.01.
 
 Due to the way this was made, it will probably only work for the current, original release of the mod (at the time of writing) and probably not when/if updates.
 

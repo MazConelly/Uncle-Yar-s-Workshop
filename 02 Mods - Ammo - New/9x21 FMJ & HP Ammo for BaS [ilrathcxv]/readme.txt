@@ -1,5 +1,6 @@
 -Module:
 9x21 FMJ & HP Ammo for BaS [ilrathcxv]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-9x21-fmj-hp-ammo-for-bas-gamma-compat
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 XM500 [Chillcat]
+https://www.moddb.com/mods/stalker-anomaly/addons/xm500
 
 ----------------------------------------------------------
 -Compatibility:

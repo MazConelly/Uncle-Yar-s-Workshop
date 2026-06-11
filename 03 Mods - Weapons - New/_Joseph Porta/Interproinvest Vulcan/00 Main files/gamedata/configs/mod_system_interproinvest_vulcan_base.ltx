@@ -3,7 +3,7 @@
 GroupControlSection				= spawn_group
 $npc							= on
 $prefetch						= 8
-$spawn							= "weapons\l85"
+$spawn							= "weapons\interproinvest_vulcan"
 scheduled						= off
 cform							= skeleton
 parent_section					= wpn_interproinvest_vulcan
@@ -33,7 +33,7 @@ inv_grid_x						= 0
 inv_grid_y						= 0
 
 inv_name						= st_wpn_interproinvest_vulcan
-inv_name_short					= st_wpn_interproinvest_vulcan
+inv_name_short					= st_wpn_interproinvest_vulcan_s
 description						= st_wpn_interproinvest_vulcan_descr
 
 kind							= w_rifle
@@ -48,8 +48,10 @@ visual							= dynamics\weapons\wpn_interproinvest_vulcan\wpn_interproinvest_vul
 position						= -0.026, -0.15, -0.015
 orientation						= 0, 1.75, -0.2
 
-fire_point						= 0.0, 0.186, 0.415
-fire_point2						= 0.0, 0.106, 0.468
+; fire_point						= 0.0, 0.186, 0.415
+; fire_point2						= 0.0, 0.106, 0.468
+fire_point						= 0, 0.186, 0.415
+fire_point2						= 0, 0.106, 0.468
 strap_bone0						= bip01_spine2
 strap_bone1						= bip01_spine1
 strap_position					= -0.15, -0.36, 0.25
@@ -266,13 +268,19 @@ item_orientation	= 0, 0, 0
 
 hands_position			= 0.035, -0.025, 0.15
 hands_position_16x9		= 0.035, -0.025, 0.15
-hands_orientation		= 0.0, 0.0, 0.0
-hands_orientation_16x9	= 0.0, 0.0, 0.0
+; hands_orientation		= 0.0, 0.0, 0.0
+; hands_orientation_16x9	= 0.0, 0.0, 0.0
+hands_orientation		= 0.003411, -0.571494, 0
+hands_orientation_16x9	= 0.003411, -0.571494, 0
 
-aim_hud_offset_pos		= -0.0904, 0.003, -0.1
-aim_hud_offset_pos_16x9	= -0.0904, 0.003, -0.1
-aim_hud_offset_rot		= 0.016, -0.000853, 0.01
-aim_hud_offset_rot_16x9	= 0.016, -0.000853, 0.01
+; aim_hud_offset_pos		= -0.0904, 0.003, -0.1
+; aim_hud_offset_pos_16x9	= -0.0904, 0.003, -0.1
+; aim_hud_offset_rot		= 0.016, -0.000853, 0.01
+; aim_hud_offset_rot_16x9	= 0.016, -0.000853, 0.01
+aim_hud_offset_pos		= -0.090826, 0.000787, -0.1
+aim_hud_offset_pos_16x9	= -0.090826, 0.000787, -0.1
+aim_hud_offset_rot		= 0.00082, -0.000269, 0.01
+aim_hud_offset_rot_16x9	= 0.00082, -0.000269, 0.01
 
 aim_hud_offset_alt_pos		= -0.090987, 0.006466, -0.2
 aim_hud_offset_alt_pos_16x9	= -0.090987, 0.006466, -0.2

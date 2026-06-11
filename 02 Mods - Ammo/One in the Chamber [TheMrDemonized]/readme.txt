@@ -1,5 +1,6 @@
 -Module:
 One in the Chamber [TheMrDemonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/one-in-the-chamber
 
 ----------------------------------------------------------
 -Compatibility:

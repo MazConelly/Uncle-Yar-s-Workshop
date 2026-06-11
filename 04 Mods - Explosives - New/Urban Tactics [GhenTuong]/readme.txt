@@ -1,5 +1,6 @@
 -Module:
 Urban Tactics [GhenTuong]
+https://www.moddb.com/mods/stalker-anomaly/addons/gt-urban-tactics/
 
 ----------------------------------------------------------
 -Compatibility:
@@ -15,7 +16,9 @@ Crafting file now will only add instead of override the crafting sections its tr
 Icons gathered into a single file.
 
 
-An option is offered for Ncenka's Expanded. In addition to the above:
+An option is offered for Ncenka's Expanded.
+https://www.moddb.com/mods/stalker-anomaly/addons/gt-ut-expanded-by-ncenka
+In addition to the above:
 Icons gathered into a single file. The icon for the explosive charge was too big for 1x1 dimensions, so I moved it a bit and made it 1x2. The icon for the RPG-7 tripwire also looked weird (is that a mace after Ivy Valentine was done with it?), so I remade it a little bigger.
 
 
@@ -33,11 +36,18 @@ BaS Lite includes its own patch.
 Misc. Weapon Pack
 
 Other loose mods. This includes:
-AR Pack
-Alex's AK107
-ATHI's Sig Spear
-Billwa's Milkor M32
-Lewdnatic's FAD, Groza Duty
+	AR Pack
+	Alex's AK107
+	ATHI's Sig Spear
+	Billwa's Milkor M32
+	Lewdnatic's FAD, Groza Duty
+
+
+STALKER 2 HoC Grenade Animation
+Its animations will be used.
+NOTE: You still need the original mod.
+
+EFT Grenade Collision Sounds
 
 ----------------------------------------------------------
 -Known issues:

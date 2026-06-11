@@ -1,5 +1,6 @@
 -Module:
 M134 Minigun [Artezbot]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-m134-minigun
 
 Do not use with ATHI's version of the gun.
 

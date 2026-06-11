@@ -1,5 +1,6 @@
 -Module:
 PP2000 Reanimation rework [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/pp2000-reanimation-rework
 
 ----------------------------------------------------------
 -Compatibility:

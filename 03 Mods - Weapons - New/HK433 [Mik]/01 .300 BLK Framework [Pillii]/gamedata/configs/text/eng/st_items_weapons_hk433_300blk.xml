@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_hk437">
+		<text>Heckler & Koch HK437</text>
+	</string>
+	<string id="st_wpn_hk437_s">
+		<text>HK437</text>
+	</string>
+	<string id="st_wpn_hk437_descr">
+		<text>A sub-machine gun variant of the HK433. Like its parent rifle, the HK437 combines the features of the G36 and HK416 assault rifles, utilizing the short-stroke gas system from the G36 and the HK416-style lower receiver, as well as a quick-release barrel. The receiver consists of two parts - upper receiver and lower receiver. The barrel is locked by rotating the bolt.\n
+		With its SMG size and being chambered in calibre .300 Blackout, it is inteded for medium-range tactical applications by special military and police forces requiring high power in a compact size. A number has been ordered for the German Army Special Forces and the Ukraine Main Directorate of Intelligence.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[d_green] Suppressor: %c[d_orange]5.56x45 compatible suppressor</text>
+	</string>
+
+</string_table>

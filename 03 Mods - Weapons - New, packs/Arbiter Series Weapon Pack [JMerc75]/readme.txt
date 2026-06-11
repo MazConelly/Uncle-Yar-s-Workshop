@@ -1,5 +1,6 @@
 -Module:
 Arbiter Series Weapon Pack [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/arbiter-series-weapon-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -17,6 +18,7 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
 Revolver Parts
 Grants the gun the appropiate parts, as available.
 

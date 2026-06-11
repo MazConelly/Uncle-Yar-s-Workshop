@@ -29,7 +29,6 @@ The Separated Helmets option skips or removes the head protection tweaks.
 
 Includes the changes in the individual patches in this pack.
 
-The wei
 
 ----------------------------------------------------------
 -Patches:

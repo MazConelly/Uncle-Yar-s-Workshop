@@ -1,5 +1,6 @@
 -Module:
 Molot VPO 136 and VPO 101 Rifles [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-bas-molot-vpo-136-and-vpo-101-rifles
 
 ----------------------------------------------------------
 -Compatibility:

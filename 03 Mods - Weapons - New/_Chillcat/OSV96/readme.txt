@@ -1,5 +1,6 @@
 -Module:
 OSV96 [Chillcat]
+https://www.moddb.com/mods/stalker-anomaly/addons/osv96
 
 ----------------------------------------------------------
 -Compatibility:

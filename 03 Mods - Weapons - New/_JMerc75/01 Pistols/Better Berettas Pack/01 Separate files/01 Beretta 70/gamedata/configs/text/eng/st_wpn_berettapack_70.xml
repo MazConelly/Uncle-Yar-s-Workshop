@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_beretta_70">
+		<text>Beretta 70</text>
+	</string>
+	<string id="st_wpn_beretta_70_descr">
+		<text>The Beretta 70 is a magazine-fed, single-action semi-automatic pistol series designed and produced by Beretta of Italy, which replaced the earlier 7.65mm Beretta M1935 pistol. Some pistols in this series were also marketed as the Falcon, New Puma, New Sable, Jaguar, and Cougar (not to be confused with the later Beretta 8000, which was also marketed as Cougar). The gun is notable for its appearances in film, and is also the first compact Beretta pistol to feature several improvements commonly found in Beretta pistols for the rest of the century. The 70 Series incorporated a cross-bolt safety modeled after that used on the M1951, but this safety was also difficult to operate with a single hand, and could also accidentally be switched on or off depending on the user's grip.</text>
+	</string>
+
+</string_table>

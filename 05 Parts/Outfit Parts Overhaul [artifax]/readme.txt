@@ -1,10 +1,10 @@
 -Module:
 Outfit Parts Overhaul [artifax]
+https://github.com/ahuyn/anomaly-opo
 
 ----------------------------------------------------------
 -Compatibility:
 Make sure you use the last Github version of OPO.
-https://github.com/ahuyn/anomaly-opo
 
 Let this overwrite it.
 
@@ -14,6 +14,7 @@ Let this overwrite it.
 Mechanics may now sell the basic parts.
 
 Integration into:
+Lootboxes
 PDA Interactive
 
 ----------------------------------------------------------

@@ -14,6 +14,7 @@ Icon files trimmed.
 todo:
 
 Integrated into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 PDA Interactive

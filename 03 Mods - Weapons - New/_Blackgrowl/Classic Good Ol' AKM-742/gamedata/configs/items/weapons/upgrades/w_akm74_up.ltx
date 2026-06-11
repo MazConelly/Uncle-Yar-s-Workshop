@@ -1,0 +1,135 @@
+[up_sect_fiftha_akm74]
+cost                                     = 1820
+
+silencer_status                          = 2
+silencer_name                            = wpn_sil_tgp-a
+silencer_x                               = 226
+silencer_y                               = 11
+snd_silncer_shot                         = weapons\ak74\ak74_shot_sil
+inv_weight                               = +0.02
+
+[up_sect_fifthc_akm74]
+cost                                     = 4680
+value                                    = "5.56x45"
+ammo_class                               = ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+condition_queue_shot_dec                 = +0.0002
+condition_shot_dec                       = +0.0002
+misfire_start_prob                       = 0.0005
+misfire_end_prob                         = 0.005 
+inv_weight                               = +0.15
+
+snd_shoot               = weapons\ak101\ak101_shoot
+snd_shoot1              = weapons\ak101\ak101_shoot1
+snd_silncer_shot		= weapons\ak101\ak101_shot_sil 
+
+hit_impulse                              = 25
+hit_power                                = 0.5, 0.5, 0.5, 0.5
+
+bullet_speed                = +30
+
+shell_particles	 			= weapons\556x45
+
+cam_dispersion                           = -0.05
+zoom_cam_dispersion					= -0.05
+cam_dispersion_frac         			= +0.05
+cam_dispersion_inc         			= +0.01
+zoom_cam_dispersion_inc         			= +0.01
+
+[up_sect_fifthd_akm74]
+cost                                     = 4680
+value                                    = "7.62x39"
+ammo_class                               = ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+condition_queue_shot_dec                 = +0.0001 
+condition_shot_dec                       = +0.0001 
+misfire_start_prob                       = 0.0005
+misfire_end_prob                         = 0.005 
+inv_weight                               = +0.15
+
+snd_shoot               = weapons\akm\akm_shoot
+snd_shoot1              = weapons\akm\akm_shoot1
+snd_shoot2              = weapons\akm\akm_shoot2
+snd_shoot3              = weapons\akm\akm_shoot3
+snd_shoot4              = weapons\akm\akm_shoot4
+snd_shoot5              = weapons\akm\akm_shoot5
+snd_silncer_shot		= weapons\ak\ak_shot_sil
+
+hit_impulse                              = 34
+hit_power                                = 0.58, 0.58, 0.58, 0.58
+
+fire_distance               = -100
+bullet_speed                = -155
+
+shell_particles	 			= weapons\762x39
+
+cam_dispersion                           = +0.1
+zoom_cam_dispersion					= +0.1
+cam_dispersion_frac         			= +0.3
+cam_dispersion_inc         			= +0.02
+zoom_cam_dispersion_inc         			= +0.02
+
+
+
+;----------------------------------------------------------------------------------------------------------------------
+
+[up_fiftha_akm74]
+scheme_index                             = 0, 4
+known                                    = 1
+effects                                  = up_gr_fifthcd_akm74
+section                                  = up_sect_fiftha_akm74
+property                                 = prop_silencer
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_add_a1_name
+description                              = st_up_add_a1_descr
+icon                                     = ui_inGame2_upgrade_SVDm2_9
+
+[up_fifthc_akm74]
+scheme_index                             = 1, 6
+known                                    = 1
+effects                                  =
+section                                  = up_sect_fifthc_akm74
+property                                 = prop_calibre
+
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_add_b2_name
+description                              = st_up_add_b2_descr
+icon                                     = ui_inGame2_upgrade_AKM_74_2_17
+
+[up_fifthd_akm74]
+scheme_index                             = 1, 7
+known                                    = 1
+effects                                  =
+section                                  = up_sect_fifthd_akm74
+property                                 = prop_calibre
+
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_add_b5_name
+description                              = st_up_add_b5_descr
+icon                                     = ui_inGame2_upgrade_AKM_74_2_17
+
+
+
+;----------------------------------------------------------------------------------------------------------------------
+
+[up_gr_fifthab_akm74]
+elements                                 = up_fiftha_akm74
+
+[up_gr_fifthcd_akm74]
+elements                                 = up_fifthc_akm74, up_fifthd_akm74

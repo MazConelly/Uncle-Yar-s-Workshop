@@ -13,6 +13,7 @@ The icon file has been simplified and reduced through the use of icon layers.
 Mags Redux support: the files for the unique RAPTR drum mag has been removed/disabled, and the gun will use the USAS12 one. They're basically the same, just with different models. So it seemed silly and redundant.
 
 Integration into:
+FireModeCheck
 Lootboxes
 PDA Interactive
 Weapon Parts Overhaul

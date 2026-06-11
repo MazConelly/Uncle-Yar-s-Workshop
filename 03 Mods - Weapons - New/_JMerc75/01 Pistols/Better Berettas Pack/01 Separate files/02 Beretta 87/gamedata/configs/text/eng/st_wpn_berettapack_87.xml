@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_beretta_87_target">
+		<text>Beretta 87 Target</text>
+	</string>
+	<string id="st_wpn_beretta_87_target_descr">
+		<text>Take the 87 Target out of its box, add optics (if desired) and it is competition ready, or ready to be put through its paces at training. Thanks to a built-in Weaver style rail, mounting optics can be done in a flash. The sights are adjustable, and the magazine features a sturdy rubber pad. The frame has a bevelled part for easy magazine insertion. Comes standard with plastic grips but walnut grips are available on request.\n
+		You'll find the trigger pull on the 87 Target to be very light and crisp. The pistol is designed to remain upright when set down on a flat surface, ready to be quickly gripped, magazine loaded and raised to the target.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Deltapoint, Aimpoint Low and RMR sights\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 9mm suppressor</text>
+	</string>
+
+</string_table>

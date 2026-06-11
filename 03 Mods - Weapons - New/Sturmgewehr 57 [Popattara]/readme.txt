@@ -1,5 +1,6 @@
 -Module:
 Sturmgewehr 57 [popattara]
+https://www.moddb.com/mods/stalker-anomaly/addons/sturmgewehr-57-stgw-57
 
 ----------------------------------------------------------
 -Compatibility:
@@ -17,8 +18,10 @@ Thanks to MRdemonized and Vodoxleb for the tips.
 As an aside, technically the real SG 510 is chambered in 7.5×55mm GP 11 rounds which I'm not making for this, so this is actually a SG 510-4 variant with the 510's face. We could make it actually be the 510-4, but that would need messing with textures first and I ain't getting into that now.
 
 Integration into:
-Grok's Stash Overhaul
+Enhanced Recoil - Gold Edition
+FireModeCheck
 GBOOBS
+Grok's Stash Overhaul
 PDA Interactive
 Weapon Parts Overhaul
 
@@ -27,6 +30,9 @@ Weapon Parts Overhaul
 
 Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
 The SR25 silencer will be used instead of a BaS one, for those who play without BaS.
+
+DLTX distribution
+Disables the scripted methods of distribution (ie: trader_autoinject) in favor of DLTX.
 
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,36 @@
+[ghillie_outfit_armored]:ghillie_outfit
+$spawn			= "outfit\ghillie_outfit_armored"
+
+inv_name		= st_ghillie_outfit_armored
+inv_name_short	= st_ghillie_outfit_armored
+description		= st_ghillie_outfit_armored_desc
+upgrades		= up_gr_firstab_skat_1, up_gr_seconab_skat_1, up_gr_thirdab_skat_1, up_gr_fourtab_skat_1
+upgrade_scheme	= up_scheme_skat_1
+
+kind					= o_heavy
+cost					= 123555 
+inv_weight				= 18.12
+; additional_inventory_weight   = 14
+; additional_inventory_weight2  = 14
+artefact_count			= 3
+immunities_sect			= sect_ghillie_outfit_armored_immunities
+repair_type				= outfit_heavy
+;repair_part_bonus		= 0.3
+hit_fraction_actor		= 0.35
+bones_koeff_protection	= actor_armor_cs_heavy
+control_inertion_factor	= 1.35
+power_loss				= 0.075
+npc_blindness_koeff		= 25
+
+burn_protection				= 0.039
+shock_protection			= 1.44
+radiation_protection		= 0.025
+chemical_burn_protection	= 0.060
+telepatic_protection		= 0.009
+strike_protection			= 0.25
+explosion_protection		= 0.30
+wound_protection			= 0.50
+fire_wound_protection		= 0.35
+
+[sect_ghillie_outfit_armored_immunities]:sect_cs_heavy_outfit_immunities
+burn_immunity	= 0.075

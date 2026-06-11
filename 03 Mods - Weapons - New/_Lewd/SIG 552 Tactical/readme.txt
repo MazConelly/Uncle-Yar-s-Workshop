@@ -1,5 +1,6 @@
 -Module:
 SIG 552 Tactical [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/sig-552-tactical-dltx
 
 ----------------------------------------------------------
 -Compatibility:
@@ -9,6 +10,7 @@ NOTE: You need the original mod. Let this overwrite it.
 -Explanation:
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

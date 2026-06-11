@@ -1,5 +1,6 @@
 -Module:
 New armor pack [ChoKoLaDka]
+https://www.moddb.com/mods/stalker-anomaly/addons/new-armor-pack-by-chokoladkadltx
 
 ----------------------------------------------------------
 -Compatibility:

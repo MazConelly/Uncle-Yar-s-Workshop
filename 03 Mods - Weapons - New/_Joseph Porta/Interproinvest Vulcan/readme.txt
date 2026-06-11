@@ -1,5 +1,6 @@
 -Module:
 Interproinvest Vulcan assault rifle [Joseph Porta]
+https://www.moddb.com/mods/stalker-anomaly/addons/interproinvest-vulcan-assault-rifle-v11
 
 ----------------------------------------------------------
 -Compatibility:
@@ -21,6 +22,7 @@ Vanilla scopes, actor effects, parts, Grok's Enhaced Recoil, and Mags Redux file
 Yeah, the first three are offered by the installer as optional and "Gamma files", which is kinda dumb, because, you know, *VANILLA USES ALL THAT AS A DEFAULT*. And who's gonna say no to being able to use the vanilla scopes? :V
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

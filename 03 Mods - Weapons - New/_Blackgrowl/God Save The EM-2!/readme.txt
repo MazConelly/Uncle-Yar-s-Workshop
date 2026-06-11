@@ -1,5 +1,6 @@
 -Module:
 God Save The EM-2! [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/em2
 
 ----------------------------------------------------------
 -Compatibility:
@@ -13,6 +14,7 @@ You can still use its included patches, except the Mags Redux one.
 Mags Redux patch integrated.
 
 Integrated into:
+FireModeCheck
 Lootboxes
 PDA Interactive
 Weapon Parts Overhaul

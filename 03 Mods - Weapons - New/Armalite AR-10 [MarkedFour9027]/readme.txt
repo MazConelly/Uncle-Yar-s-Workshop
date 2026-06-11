@@ -1,5 +1,6 @@
 -Module:
 Armalite AR-10 [MarkedFour9027]
+https://www.moddb.com/mods/stalker-anomaly/addons/armalite-ar-10
 
 ----------------------------------------------------------
 -Compatibility:
@@ -16,6 +17,7 @@ Added default settings for actor effects.
 Icon trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

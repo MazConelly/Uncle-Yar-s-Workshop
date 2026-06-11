@@ -1,5 +1,6 @@
 -Module:
 FN FNC - Wooden, Paratrooper & Marksman Models Edition [Beli fosfor]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-fn-fnc-wood-model-edition
 
 ----------------------------------------------------------
 -Compatibility:

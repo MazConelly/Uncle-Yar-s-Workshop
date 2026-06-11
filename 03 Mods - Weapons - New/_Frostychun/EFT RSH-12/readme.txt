@@ -1,5 +1,6 @@
 -Module:
 EFT RSH-12 [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/escape-from-tarkov-rsh-12-revolver
 
 ----------------------------------------------------------
 -Compatibility:

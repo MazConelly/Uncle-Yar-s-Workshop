@@ -1,5 +1,8 @@
 -Module:
 Vanilla Fixes (DLTX MiniMod) - Consistent Head Protection [snarfl] merge
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
+https://www.moddb.com/mods/stalker-anomaly/addons/consistent-head-protection-stats-fix
+https://www.moddb.com/mods/stalker-anomaly/addons/consistent-head-protection-dltx
 
 ----------------------------------------------------------
 -Compatibility:

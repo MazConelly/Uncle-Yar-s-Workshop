@@ -22,6 +22,7 @@ Added the same camo configs as in Misc. Weapon Pack's Guillied SVD. No idea if i
 
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stashes Overhaul
 Lootboxes

@@ -1,5 +1,6 @@
 -Module:
 RPG29 Vampire [Alex]
+https://www.moddb.com/mods/stalker-anomaly/addons/rpg29-vampire
 
 ----------------------------------------------------------
 -Compatibility:

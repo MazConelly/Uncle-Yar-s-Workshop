@@ -18,6 +18,7 @@ If you don't like this idea, the original trade and npc loadouts file are still 
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

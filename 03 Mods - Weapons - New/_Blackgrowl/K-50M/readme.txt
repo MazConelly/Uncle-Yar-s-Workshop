@@ -1,5 +1,6 @@
 -Module:
 K-50M [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/k50m
 
 ----------------------------------------------------------
 -Compatibility:
@@ -11,6 +12,7 @@ You can still use its included patches.
 -Explanation:
 
 Integrated into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

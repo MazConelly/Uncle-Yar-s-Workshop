@@ -1,5 +1,6 @@
 Module:
 Military SEVA armor for the player [cyborgcore]
+https://www.moddb.com/mods/stalker-anomaly/addons/military-seva-armor-for-the-player
 
 ----------------------------------------------------------
 -Compatibility:

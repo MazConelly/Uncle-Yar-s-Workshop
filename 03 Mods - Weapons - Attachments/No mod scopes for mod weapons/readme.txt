@@ -4,7 +4,7 @@ No mod scopes for mod weapons
 ----------------------------------------------------------
 -Compatibility:
 
-If you're using Modular Attachment System, this is useless.
+If you're using Modular Attachment System, this is useless. This only removes scopes from a weapon's "scopes" setting, not the scopes themselves.
 
 ----------------------------------------------------------
 -Explanation:
@@ -31,12 +31,14 @@ Those are the internal IDs of the scopes, to better recognize them in crash mess
 
 If you don't have those scopes, this will make guns from mods that use them, and don't provide options to not use them, simply not use them (natch).
 
-On the flipside, modded scopes aren't exactly standardized. Most of them are seldom used beyond their own authors. For instance, Pillii's mods do use a couple of Phant0m's, and Frostychun's use RWAP's. ATHI tends to use all available scopes around, but he doesn't publish mods in Moddb, so many vanilla players may not ever see his mods.
-So if anything you'd be alleviating the situation where you find a scope that *technically* should be useful for half the guns in the game, but you can only attach it to a handful.
+On the flipside, modded scopes aren't exactly standardized. Most of them are seldom used beyond their own authors.
+For example, ATHI has a few scopes himself, and tends to use all available scopes around. But he doesn't publish mods in Moddb, so many vanilla players may not ever see his mods. Meaning if a given weapon mod only uses ATHI's scopes, you'll never attach any scopes on that weapon.
+So if anything you'd be alleviating the situation where you find a scope that *technically* in real life should be useful for half the guns in the game, but you can only attach it to a handful because they're not prepared for it.
 
-The BaS scopes *are* used widely though, so keep that in mind if you're a usual Nato weapon user, as the vanilla selection leaves them the ACOG as the only long range option. But this can be solved using Modular Attachment System and its extra scope addon (YES, I KNOW, ADDING MORE TO SOLVE HAVING LESS, HAR HAR, I KNOW, look it only adds like 5 scopes, what else do you want from me, a wedding cake?)
+The BaS scopes *are* used widely though, so keep that in mind if you lean toward weapons with Picatinny rail, as the vanilla selection leaves them the ACOG as the only long range option.
+But this can be solved using Modular Attachment System and its extra scope addon (YES, I KNOW, ADDING MORE TO SOLVE HAVING LESS, HAR HAR, I KNOW, look it only adds like 5 scopes, what else do you want from me, a wedding cake?)
 
-Barrybogs's Cortex are only used by his VSSK Reanimation, and a few of ATHI's guns, so that's probably worth not removing.
+Barrybogs's Cortex is only used by his VSSK Reanimation that includes it, and a few of ATHI's guns, so that one is probably worth not removing, unless you don't use that VSSK Reanimation.
 
 ----------------------------------------------------------
 -Patches:

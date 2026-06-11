@@ -1,5 +1,6 @@
 -Module:
 Bigger Ammo Boxes (DLTX Minimod) [TheMrDemonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 
 ----------------------------------------------------------
 -Compatibility:

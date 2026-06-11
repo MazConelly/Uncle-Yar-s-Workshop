@@ -1,5 +1,6 @@
 -Module:
 Shak-12 Tactical [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-shak-12-tactical
 
 ----------------------------------------------------------
 -Compatibility:
@@ -16,6 +17,7 @@ The original mod only added it to mercenaries only. Now it does for some of the 
 Icon file trimmed. Repeated icons for each scope have been removed, and instead overlays are now used.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

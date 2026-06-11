@@ -1,5 +1,6 @@
 -Module:
 Laugo Alien Pistol [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/laugo-alien-pistol
 
 ----------------------------------------------------------
 -Compatibility:
@@ -13,6 +14,7 @@ Text edited to eliminate the full on gun nut ad wankery and note the gun hasn't 
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Weapon Parts OVerhaul
 
 ----------------------------------------------------------

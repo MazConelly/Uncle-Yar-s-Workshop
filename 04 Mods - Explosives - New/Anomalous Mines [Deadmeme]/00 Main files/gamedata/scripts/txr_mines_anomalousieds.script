@@ -1,0 +1,18 @@
+function on_game_start()
+    local fx		= txr_mines.FX_BY_SECTION
+    local section	= txr_mines.EXPLOSIVE_SECTION_LOOKUP
+
+    fx["ied_electro"] = 'ied_electro'
+    fx["ied_gravy"]	= 'ied_gravy'
+    fx["ied_burn"]	= 'ied_burn'
+    fx["ied_acid"]	= 'ied_acid'
+	
+    section["ied_electro"]	= 'ied_electro_blow'
+    section["ied_gravy"]	= 'ied_gravy_blow'
+    section["ied_burn"]		= 'ied_burn_blow'
+    section["ied_acid"]		= 'ied_acid_blow'
+	
+	-- printf("ze fx table\n%s", utils_data.print_table(txr_mines.FX_BY_SECTION, false, true))
+	-- printf("ze section table\n%s", utils_data.print_table(txr_mines.EXPLOSIVE_SECTION_LOOKUP, false, true))
+	
+end

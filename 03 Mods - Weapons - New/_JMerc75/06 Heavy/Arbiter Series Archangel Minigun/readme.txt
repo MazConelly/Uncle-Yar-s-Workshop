@@ -1,5 +1,6 @@
 -Module:
 Archangel Minigun [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/arbiter-series-archangel-minigun
 
 ----------------------------------------------------------
 -Compatibility:

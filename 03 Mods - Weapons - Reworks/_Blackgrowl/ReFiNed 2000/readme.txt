@@ -1,5 +1,6 @@
 -Module:
-ReFiNed 2000 [Strogglet15]
+ReFiNed 2000 [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/refined2000
 
 ----------------------------------------------------------
 -Compatibility:

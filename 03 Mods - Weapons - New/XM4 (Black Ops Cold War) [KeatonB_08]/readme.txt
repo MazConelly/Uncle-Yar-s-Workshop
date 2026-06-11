@@ -1,5 +1,6 @@
 -Module:
 XM4 (Black Ops Cold War) [KeatonB_08]
+https://www.moddb.com/mods/stalker-anomaly/addons/xm4-black-ops-cold-war
 
 ----------------------------------------------------------
 -Compatibility:

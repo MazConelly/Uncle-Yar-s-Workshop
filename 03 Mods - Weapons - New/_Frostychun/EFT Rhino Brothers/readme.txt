@@ -1,5 +1,6 @@
 -Module:
-EFT RSH-12 [FrostyChun]
+EFT Rhino Brothers [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/escape-from-tarkov-rhino-brothers
 
 ----------------------------------------------------------
 -Compatibility:

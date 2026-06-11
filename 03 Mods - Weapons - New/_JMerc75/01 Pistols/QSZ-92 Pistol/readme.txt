@@ -1,5 +1,6 @@
 -Module:
 QSZ-92 Pistol [JMerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/qsz-92-pistol
 
 ----------------------------------------------------------
 -Compatibility:

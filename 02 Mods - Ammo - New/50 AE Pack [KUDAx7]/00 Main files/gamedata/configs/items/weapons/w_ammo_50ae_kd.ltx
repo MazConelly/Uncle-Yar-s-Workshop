@@ -1,0 +1,188 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; AMMO .50AE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50_ae_copper_solid]:ammo_base 
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_50_ae_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_ae.ogf
+description		= ammo_50_ae_copper_solid_descr
+$prefetch		= 64
+
+cost			= 5600
+
+box_size		= 12
+
+inv_name		= ammo_50_ae_copper_solid
+inv_name_short	= .50 AE Copper Solid
+inv_weight		= 0.25
+
+icons_texture	= ui\ui_icon_KD_50_AE
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 0
+inv_grid_y		= 0
+k_disp			= 0.65
+k_impulse		= 0.85
+k_hit			= 0.94
+k_ap			= 0.056
+tracer_color_ID	= 1
+wm_size			= 0.058
+k_air_resistance= 0.95
+tracer			= off
+explosive		= off
+
+tier			= 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50_ae_fmj]:ammo_base 
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_50_ae_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_ae.ogf
+description		= ammo_50_ae_fmj_descr
+$prefetch		= 64
+
+cost			= 5250
+
+box_size		= 12
+
+inv_name		= ammo_50_ae_fmj
+inv_name_short	= .50 AE FMJ
+inv_weight		= 0.25
+
+icons_texture	= ui\ui_icon_KD_50_AE
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 2
+inv_grid_y		= 0
+k_disp			= 0.5
+k_impulse		= 0.95
+k_hit			= 0.85
+k_ap			= 0.050
+k_bullet_speed	 = 1.1
+tracer_color_ID	= 1
+wm_size			= 0.058
+k_air_resistance= 0.95
+tracer			= off
+explosive		= off
+
+tier			= 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50_ae_hawk_jsp]:ammo_base 
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_50_ae_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_ae.ogf
+description		= ammo_50_ae_hawk_jsp_descr
+$prefetch		= 64
+
+cost			= 5850
+
+box_size		= 12
+
+inv_name		= ammo_50_ae_hawk_jsp
+inv_name_short	= .50 AE Hawk JSP
+inv_weight		= 0.25
+
+icons_texture	= ui\ui_icon_KD_50_AE
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 3
+inv_grid_y		= 0
+k_disp			= 0.6
+k_impulse		= 0.86
+k_hit			= 1.22
+k_ap			= 0.028
+k_bullet_speed	= 1.1
+tracer_color_ID	= 1
+wm_size			= 0.082
+k_air_resistance= 0.95
+tracer			= off
+explosive		= off
+
+tier			= 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_50_ae_jhp]:ammo_base 
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_50_ae_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_ae.ogf
+description		= ammo_50_ae_jhp_descr
+$prefetch		= 64
+
+cost			= 5700
+
+box_size		= 12
+
+inv_name		= ammo_50_ae_jhp
+inv_name_short	= .50 AE JHP
+inv_weight		= 0.25
+
+icons_texture	= ui\ui_icon_KD_50_AE
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 4
+inv_grid_y		= 0
+k_disp			= 0.7
+k_impulse		= 0.9
+k_hit			= 1.47
+k_ap			= 0.023
+tracer_color_ID	= 1
+wm_size			= 0.058
+k_air_resistance= 0.95
+tracer			= off
+explosive		= off
+
+tier			= 3
+
+[ammo_50_ae_exp]:ammo_base 
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_50_ae_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_50_ae.ogf
+description		= ammo_50_ae_exp_descr
+$prefetch		= 64
+
+cost			= 5700
+
+box_size		= 12
+
+inv_name		= ammo_50_ae_exp
+inv_name_short	= .50 AE EXP
+inv_weight		= 0.25
+
+icons_texture	= ui\ui_icon_KD_50_AE
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 1
+inv_grid_y		= 0
+k_disp			= 0.8
+k_impulse		= 0.9
+k_hit			= 1.77
+k_ap			= 0.018
+tracer_color_ID	= 1
+wm_size			= 0.058
+k_air_resistance= 0.95
+tracer			= off
+explosive		= on
+
+tier			= 3

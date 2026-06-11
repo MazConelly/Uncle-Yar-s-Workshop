@@ -18,8 +18,10 @@ Added default actor effects configs.
 NPC loadout redistribution. Only masters from Freedom, ISG, Mercs, Monolith and loners will use it, with rare occurrences at lower ranks.
 Trader redistribution. Freedom, ISG, Mercs and Monolith will sell it at medium-high goodwill ranks.
 Icon file trimmed.
+Fixed textures for DX8-9 games.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

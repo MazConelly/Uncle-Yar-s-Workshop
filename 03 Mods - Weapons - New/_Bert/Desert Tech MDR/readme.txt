@@ -1,5 +1,6 @@
 -Module:
 Desert Tech MDR [bert]
+https://www.moddb.com/mods/stalker-anomaly/addons/desert-tech-mdr-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -20,6 +21,7 @@ Icon file trimmed. The mod repeated icons over and over for each scope. This is 
 I reduced the number and made liberal use of icon layers instead, something that even vanilla guns do. While some of the scopes I've checked seem fine (ie: ACOG), some others might have the icons misaligned, but it should be more performance friendly.
 
 Integration into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 PDA Interactive

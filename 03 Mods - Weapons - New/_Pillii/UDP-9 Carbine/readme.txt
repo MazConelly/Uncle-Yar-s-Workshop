@@ -1,5 +1,6 @@
 -Module:
 UDP-9 Carbine [Pillii]
+https://www.moddb.com/mods/stalker-anomaly/addons/pilliis-udp-9-carbine
 
 ----------------------------------------------------------
 -Compatibility:

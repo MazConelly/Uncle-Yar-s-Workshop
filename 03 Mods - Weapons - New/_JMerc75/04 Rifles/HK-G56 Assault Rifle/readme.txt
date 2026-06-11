@@ -1,5 +1,6 @@
 -Module:
 HK-G56 Assault Rifle [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/hk-g56-assault-rifle
 
 ----------------------------------------------------------
 -Compatibility:
@@ -15,6 +16,7 @@ Icon file trimmed.
 Settings for actor effects and Grok's Enhanced Recoil changed to follow the HK416 and HK417 instead of the APS (¿!¿!!?!?).
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

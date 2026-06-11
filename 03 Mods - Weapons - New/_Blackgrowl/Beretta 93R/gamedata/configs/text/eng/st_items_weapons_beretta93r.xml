@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_beretta93r">
+		<text>Beretta 93R</text>
+	</string>
+	<string id="st_wpn_beretta93r_descr">
+		<text>The Beretta 93R is the selective-fire machine pistol variant of the 92, for police and military use. The "R" stands for Raffica, which is Italian for "burst". It is similar to the Beretta 92, except for having a fire-selector for either three round burst or single fire, a collapsible angled foregrip, a longer trigger guard, a much blockier slide to make it more reliable as well as a 20-rounds magazine. To be used by the police and the military, although it hasn't been in production for a long time, it is a very rare pistol even in The Zone.\n \n</text>
+	</string>
+
+	<string id="st_wpn_beretta93r_up_accuracy">
+		<text>Barrel Readjustment</text>
+	</string>
+	<string id="st_wpn_beretta93r_up_accuracy_descr">
+		<text>Readjusting the unique machined barrel by giving it an offset appears to slightly increase accuracy.</text>
+	</string>
+
+	<string id="st_wpn_beretta93r_up_accuracy2">
+		<text>Receiver Maintenance</text>
+	</string>
+	<string id="st_wpn_beretta93r_up_accuracy2_descr">
+		<text>Cleaning, re-oiling and re-adjusting the receiver will do wonders to the gun's accuracy.</text>
+	</string>
+
+	<string id="st_wpn_beretta93r_up_recoil">
+		<text>Reinforced Slide</text>
+	</string>
+	<string id="st_wpn_beretta93r_up_recoil_descr">
+		<text>Reinforcement of the slide's interiors slightly reduces recoil with no negatives.</text>
+	</string>
+	
+	<string id="st_wpn_beretta93r_up_autofire">
+		<text>Full-Auto Mechanism Retooling</text>
+	</string>
+	<string id="st_wpn_beretta93r_up_autofire_descr">
+		<text>Reverse-engineering the unique 3-burst mechanism of the 93R, it can be changed to be full-auto instead, but with some minor reliability problems.</text>
+	</string>
+	
+</string_table>

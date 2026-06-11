@@ -23,8 +23,10 @@ Mags Redux support:
 added a 30 round magazine (cheaper, fast loading, small sized), and assigned it as the default magazine instead of the 50 round casket.
 
 Integrated into:
+Enhanced Recoil - Gold Edition
+FireModeCheck
+GBOOBS
 Grok's Stash Overhaul
-Grok's Enhanced Recoil
 Lootboxes
 PDA Interactive
 Weapon Parts OVerhaul

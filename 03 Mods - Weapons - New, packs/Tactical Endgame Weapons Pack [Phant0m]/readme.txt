@@ -1,5 +1,6 @@
 -Module:
 Tactical Endgame Weapons Pack - BAS Overhaul [Phant0m]
+https://www.moddb.com/mods/stalker-anomaly/addons/updated-phant0ms-tactical-endgame-weapons-pack-bas-overhaul
 
 ----------------------------------------------------------
 -Compatibility:

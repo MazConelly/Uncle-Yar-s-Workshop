@@ -14,6 +14,9 @@ Fixed inheritance assignment for sounds configs.
 Consolidated trade files. Some traders will also sell both versions of the rifles, others only the black or tan version.
 
 Integration into:
+Enhanced Recoil - Gold Edition
+FireModeCheck
+GBOOBS
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

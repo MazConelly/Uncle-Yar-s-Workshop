@@ -33,6 +33,10 @@ Adds a KSG23 variant like the one in Gamma. It will be rarer, carried by master 
 It requires either BaS, or the 23x75 ammo module in BaS Lite (you'll need the the patch for no BaS silencers).
 Support for Armor Modkits addon allows you to change a KSG12 to the KSG23 yourself.
 
+Simplified audio
+The current audio implementation risks an issue: for some reason, shooting can cause some sort of delay that mutes all audio, including following shots, that only gets resolved until a different audio is played. This can be easily tested in the debug room.
+If you find this issue, this patch will simplify the audio files, disabling the echo layers, shortening the length of the shooting sound, and making it mono instead of stereo, to prevent hearing NPCs shooting it from across the map. The sound is a bit weaker, but for some reason it solves the problem.
+
 ----------------------------------------------------------
 -Known issues:
 

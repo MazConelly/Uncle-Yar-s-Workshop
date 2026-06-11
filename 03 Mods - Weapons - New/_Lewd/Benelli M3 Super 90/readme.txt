@@ -1,5 +1,6 @@
 -Module:
 Benelli M3 Super 90 [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-weapon-pack-benelli-m3-super-90
 
 ----------------------------------------------------------
 -Compatibility:

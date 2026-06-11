@@ -1,5 +1,6 @@
 -Module:
 Birdshot for G.A.M.M.A [nhenhecas]
+https://www.moddb.com/mods/stalker-anomaly/addons/nhenhecas-birdshot-for-gamma
 
 ----------------------------------------------------------
 -Compatibility:

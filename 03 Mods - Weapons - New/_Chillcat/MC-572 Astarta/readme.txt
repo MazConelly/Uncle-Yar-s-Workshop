@@ -1,5 +1,6 @@
 -Module:
 MC-572 Astarta [Chillcat]
+https://www.moddb.com/mods/stalker-anomaly/addons/mc-572-astarta
 
 ----------------------------------------------------------
 -Compatibility:

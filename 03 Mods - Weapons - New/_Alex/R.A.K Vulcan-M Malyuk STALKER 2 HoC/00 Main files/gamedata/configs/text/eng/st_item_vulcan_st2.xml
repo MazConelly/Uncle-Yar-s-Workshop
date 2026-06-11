@@ -3,6 +3,9 @@
 	<string id="st_wpn_vulcan_st2">
 		<text>Vulcan-M "Maljuk"</text>
 	</string>
+	<string id="st_wpn_vulcan_st2_s">
+		<text>Vulcan-M Maljuk</text>
+	</string>
 	<string id="st_wpn_vulcan_st2_descr">
 		<text>The Vulcan-M, or "Maljuk" (Ukrainian for "Baby") is a deeply modernized Kalashnikov assault rifle and a variant of the "Vepr" assault rifle in ambidextrous bullpup configuration, made from polymer materials and chambered in 7.62?39mm, 5.45?39mm and 5.56?45mm NATO ammo, with an AK-74-type flash hider. Among several improvemens, the rifle is cooled by air convection which allows a longer barrel life, a deflector shield placed over the ejection port that allows spent cartridge cases to fall below 45 degrees while reduced gas is sent to the receiver.\n		
 		Development started in 2005 by the Ukrainian arms company Interproinvest (IPI) by contract of the Security Service of Ukraine, and adopted by the Armed Forces of Ukraine in 2017.\n

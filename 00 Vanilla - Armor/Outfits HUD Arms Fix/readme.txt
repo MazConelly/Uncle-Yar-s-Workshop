@@ -1,6 +1,8 @@
 -Module:
 Outfits HUD Arms Fix
+
 Based on Clear Sky SEVA Arms Fix [mrdoctorcourier]
+https://www.moddb.com/mods/stalker-anomaly/addons/clear-sky-seva-arms-fix
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Kriss Vector SMG [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/kriss-vector-smg-dltx
 
 ----------------------------------------------------------
 -Compatibility:
@@ -13,6 +14,7 @@ Tweaked default actor effects and Grok's Enhanced Recoil configs to inherit the 
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

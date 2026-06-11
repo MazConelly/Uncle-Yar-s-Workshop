@@ -16,6 +16,7 @@ Added default actor effects configs.
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Lootboxes
 Mags Redux
 PDA Interactive

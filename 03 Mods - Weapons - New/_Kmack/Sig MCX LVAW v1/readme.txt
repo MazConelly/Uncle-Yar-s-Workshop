@@ -16,6 +16,7 @@ Edited text to clarify this is the 5.45mm model.
 Moved both icons to the same file.
 
 Integrated into:
+FireModeCheck
 Mags Redux
 Weapon Parts Overahul
 

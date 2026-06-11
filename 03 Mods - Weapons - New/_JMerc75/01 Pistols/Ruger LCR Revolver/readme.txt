@@ -1,5 +1,6 @@
 -Module:
 Ruger LCR Revolver [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/ruger-lcr-revolver
 
 ----------------------------------------------------------
 -Compatibility:

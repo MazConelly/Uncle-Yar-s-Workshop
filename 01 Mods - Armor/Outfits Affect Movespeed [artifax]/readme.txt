@@ -1,10 +1,10 @@
 -Module:
 Outfits Affect Movespeed [ahuyn]
+https://github.com/ahuyn/anomaly-OAM
 
 ----------------------------------------------------------
 -Compatibility:
 Make sure you use the last Github version of OAM.
-https://github.com/ahuyn/anomaly-OAM
 
 ----------------------------------------------------------
 -Explanation:

@@ -1,5 +1,6 @@
 -Module:
 MSBS Grot [bert]
+https://www.moddb.com/mods/stalker-anomaly/addons/msbs-grot
 
 ----------------------------------------------------------
 -Compatibility:
@@ -21,6 +22,7 @@ Tweaked actor effects and Grok's Enhanced Recoil settings. Instead of taking fro
 Mags Redux patch integrated.
 
 Integration into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 PDA Interactive

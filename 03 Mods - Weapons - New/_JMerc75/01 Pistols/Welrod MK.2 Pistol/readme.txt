@@ -1,5 +1,6 @@
 -Module:
 Welrod MK.2 Pistol [Jmerc]
+https://www.moddb.com/mods/stalker-anomaly/addons/welrod-mk-2-pistol
 
 ----------------------------------------------------------
 -Compatibility:

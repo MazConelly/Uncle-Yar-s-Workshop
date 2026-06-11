@@ -1,5 +1,6 @@
 -Module:
 FN F2000 Reanimation and Remodel [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/fn-f2000-reanimation-and-remodel
 
 ----------------------------------------------------------
 -Compatibility:

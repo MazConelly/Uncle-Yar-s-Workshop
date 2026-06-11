@@ -1,5 +1,6 @@
 -Module:
 FAMAS Replacement [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-replacement-famas
 
 ----------------------------------------------------------
 -Compatibility:
@@ -22,6 +23,7 @@ Disabled the trade file for Duty, as it doesn't fit their theme (the Army still 
 You can drag the Felin scope to the F1 Felin to attach it, or drag a swiss knife or multitool on it to separate them (you will only get the unscoped F1 Felin).
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

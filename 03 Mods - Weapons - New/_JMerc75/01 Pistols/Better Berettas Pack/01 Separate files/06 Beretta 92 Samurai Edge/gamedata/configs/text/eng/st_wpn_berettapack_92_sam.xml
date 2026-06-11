@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_beretta_92_sam_edge">
+		<text>Beretta 92 "Samurai Edge"</text>
+	</string>
+	<string id="st_wpn_beretta_92_sam_edge_s">
+		<text>Samurai Edge</text>
+	</string>
+	<string id="st_wpn_beretta_92_sam_edge_descr">
+		<text>The Beretta Samurai Edge is a legendary firearm prominently used by a renown scientist. Known for its sleek and menacing design, this exceptional weapon combines the reliability of the Beretta handgun with the custom craftsmanship of a skilled bladesmith. Crafted from the finest materials, it boasts a precision-engineered frame and a remarkable balance, enabling swift and accurate targeting in dire situations. Adorned with intricate engravings and intricate detailing, the Samurai Edge exudes an air of both elegance and lethal intent. It has become an iconic symbol of resilience and survival, trusted by those who face unimaginable horrors with unwavering determination.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 9mm suppressor</text>
+	</string>
+
+</string_table>

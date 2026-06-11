@@ -1,5 +1,6 @@
 -Module:
 MK14 Overhaul [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/mk14-overhaul
 
 ----------------------------------------------------------
 -Compatibility:
@@ -13,6 +14,7 @@ You can still use its included patches, except the Mags Redux one.
 Mags Redux patch integrated.
 
 Integrated into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

@@ -1,5 +1,6 @@
 -Module:
 2D Scope Overhaul [Iront_Mesdents]
+https://www.moddb.com/mods/stalker-anomaly/addons/alpha-v0-2d-scope-overhaul
 
 ----------------------------------------------------------
 -Compatibility:
@@ -12,14 +13,15 @@ Ensured the text changes aren't overwritten by other mods.
 
 Split the main mod_system file, with the content modularized into smaller files. This is merely done for easier maintenance and development to help make patches for 2D Scope Overhaul.
 
+Updated the bolt action descope script with weapons from Simple Weapon Pack, Mosin Trio, Arisaka, and JMerc's.
+
 ----------------------------------------------------------
 -Patches:
 
 BaS SKS Improved patch
 Remade. Trimming of the original patch to reduce redundant data.
 
-
-todo: new guns patches?
-
 ----------------------------------------------------------
 -Known issues:
+
+todo: new guns patches?

@@ -1,5 +1,6 @@
 -Module:
 More Melee Features [BarryBogs]
+https://www.moddb.com/mods/stalker-anomaly/addons/more-melee-features
 
 ----------------------------------------------------------
 -Compatibility:

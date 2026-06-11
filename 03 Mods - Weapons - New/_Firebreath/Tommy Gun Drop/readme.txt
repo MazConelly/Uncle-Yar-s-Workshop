@@ -1,5 +1,6 @@
 -Module:
 Tommy Gun Drop [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/tommy-gun-drop
 
 ----------------------------------------------------------
 -Compatibility:
@@ -15,12 +16,12 @@ Except the Mags Redux and jam idles patches, you can still use the patches in th
 A Thompson 1928 is added. It will use the Thompson 1921 model and animations, and will act as a middle ground between the 1921's high firepower and the M1A1 cheapness.
 
 Buffed damage and push to the level of other .45 ACP guns.
-DLTX conversion of the scripted parts files.
 
 The Mags Redux patch has been integrated. I also adds a 100 round drum mag for the 1921, and it may spawn with one.
 The jam idles patch has been integrated.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes
@@ -32,6 +33,9 @@ Weapon Parts Overhaul
 
 Sound performance patch
 This will reduce the number of sound layers if shooting the gun affects your game's performance.
+
+DLTX Distribution
+Converts scripted methods of distribution (ie: trader_autoinject) to DLTX.
 
 Simple Weapons Pack [Hisalute] patch
 Disables SWP's M1A1, in favor of Firebreath's. 

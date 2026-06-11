@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_ghillie_outfit_armored">
+		<text>Armored Ghillie suit</text>
+	</string>
+	<string id="st_ghillie_outfit_armored_desc">
+		<text>%c[ui_gray_1]An armored suit given an external cover of foliage simulating adornments. Produced by certain factions for scouts and snipers asked to work close to trouble, it nonetheless uses quality materials that improve its camouflage over average ghillie suits. However, the weight and foliage make it particularly suffocating and vulnerable to fire.\n \n
+		</text>
+	</string>
+
+</string_table>

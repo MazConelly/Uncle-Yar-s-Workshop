@@ -1,5 +1,6 @@
 -Module:
-Custom Uniforms Module [plyaka.egor]
+Custom Uniforms Module C.U.M. [plyaka.egor]
+https://www.moddb.com/mods/stalker-anomaly/addons/custom-uniforms-module-cum
 
 ----------------------------------------------------------
 -Compatibility:

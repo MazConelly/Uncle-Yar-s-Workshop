@@ -1,5 +1,6 @@
 -Module:
 Arti's Ballistics [Ahuyn]
+https://github.com/ahuyn/anomaly-ballistics
 
 ----------------------------------------------------------
 -Compatibility:
@@ -7,8 +8,13 @@ Arti's Ballistics [Ahuyn]
 ----------------------------------------------------------
 -Explanation:
 
+Integration into:
+Lootboxes
+
 ----------------------------------------------------------
 -Patches:
+
+DLTX Distribution
 
 -7.62x39mm Air Burst, from the film Elysium
 It (attempts to) recreate the 7.62x39mm Airburst rounds from the film Elysium. These are identical to normal 7.62x39 FMJ rounds, except that in contact they explode with a 1 meter radius.

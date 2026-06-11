@@ -1,5 +1,6 @@
 -Module:
 Built Different [volnerowich]
+https://www.moddb.com/mods/stalker-anomaly/addons/built-different-0-2
 
 ----------------------------------------------------------
 -Compatibility:

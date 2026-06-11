@@ -18,6 +18,7 @@ Similarly, upgrade scheme changed from the one used for the G36, to the one used
 Icon file trimmed.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

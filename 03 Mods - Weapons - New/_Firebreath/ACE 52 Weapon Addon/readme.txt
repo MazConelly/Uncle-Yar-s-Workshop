@@ -1,5 +1,6 @@
 -Module:
 ACE 52 Weapon Addon [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/ace52-source-file
 
 ----------------------------------------------------------
 -Compatibility:
@@ -15,6 +16,7 @@ Added default actor effects configs.
 Mag Redux support now more compatible.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

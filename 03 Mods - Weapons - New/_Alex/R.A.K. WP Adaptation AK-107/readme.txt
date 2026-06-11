@@ -1,5 +1,6 @@
 -Module:
 R.A.K. WP Adaptation AK-107 [Alex]
+https://www.moddb.com/mods/stalker-anomaly/addons/rak-weapon-pack-adaptation-ak-107-update
 
 ----------------------------------------------------------
 -Compatibility:
@@ -34,6 +35,7 @@ Corrected trade assignments. Most traders have five supply levels depending on g
 Added default actor effects configs.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

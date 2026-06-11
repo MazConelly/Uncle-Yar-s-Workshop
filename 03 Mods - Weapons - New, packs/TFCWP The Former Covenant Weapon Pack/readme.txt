@@ -1,5 +1,6 @@
 -Module:
 TFCWP - The Former Covenant Weapon Pack
+https://www.moddb.com/mods/stalker-anomaly/addons/tfcwp-the-former-covenant-weapon-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -26,6 +27,7 @@ Trader distribution. High goodwill will usually be required.
 Moved the HUD FOV 0.4 file to a different folder as optional.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

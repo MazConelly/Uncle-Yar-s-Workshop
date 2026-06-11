@@ -1,5 +1,6 @@
 -Module:
 Drunk's Miserable Masks [Drunk_Headcrab]
+https://www.moddb.com/mods/stalker-anomaly/addons/drunks-miserable-masks-v7
 
 ----------------------------------------------------------
 -Compatibility:

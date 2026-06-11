@@ -1,5 +1,6 @@
 -Module:
 HK433 [Mik]
+https://www.moddb.com/mods/stalker-anomaly/addons/hk433
 
 ----------------------------------------------------------
 -Compatibility:
@@ -17,6 +18,7 @@ Reworked descriptions to mention the particular painting and remove the grenade 
 Icon file trimmed.
 
 Integration into:
+FireModeCheck
 Lootboxes
 Grok's Stash Overhaul
 Mags Redux

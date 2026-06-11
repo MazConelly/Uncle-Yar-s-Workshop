@@ -20,6 +20,7 @@ Icon file trimmed.
 Settings for actor effects and Grok's Enhanced Recoil now follow the standard AK74, not the Abakan.
 
 Integrated into:
+FireModeCheck
 Grok's Stash Overhaul
 Lootboxes
 PDA Interactive

@@ -1,5 +1,6 @@
 -Module:
 EFT MP153 [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/escape-from-tarkov-mp-153
 
 ----------------------------------------------------------
 -Compatibility:

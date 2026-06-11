@@ -1,5 +1,6 @@
 -Module:
 BAS Extra Weapons [TheMrDemonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-bas-extra-weapons-saiga-20s
 
 ----------------------------------------------------------
 -Compatibility:

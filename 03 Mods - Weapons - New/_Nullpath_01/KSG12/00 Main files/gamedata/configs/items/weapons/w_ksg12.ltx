@@ -1,3 +1,36 @@
+[wpn_ksg_snd_shoot]
+snd_1_layer = weapons\librarian_ksg\shoot\core
+snd_2_layer = weapons\librarian_ksg\pump
+snd_3_layer = weapons\_distance_shooting_mid\saiga_distant
+snd_4_layer = weapons\_distance_shooting_far\saiga_distant
+snd_5_layer = weapons\librarian_ksg\shoot\Echo_1
+snd_6_layer = weapons\librarian_ksg\shoot\Echo_2
+snd_7_layer = weapons\librarian_ksg\shoot\Echo_3
+snd_8_layer = weapons\librarian_ksg\shoot\Echo_4
+
+; [wpn_ksg_snd_shoot_duplet]:wpn_ksg_snd_shoot
+
+[wpn_ksg_snd_shoot_sil]
+snd_1_layer = weapons\saiga_eft\saiga_shot_sil
+snd_2_layer = weapons\librarian_ksg\pump
+
+[wpn_ksg_sounds]:base_sounds
+snd_bore = $no_sound
+snd_draw = weapons\w1300\w1300_draw
+snd_holster = weapons\shotgun_holster
+snd_shoot = wpn_ksg_snd_shoot
+snd_shoot_duplet = wpn_ksg_snd_shoot ; wpn_ksg_snd_shoot_duplet
+snd_silncer_shot = wpn_ksg_snd_shoot_sil
+snd_empty = weapons\w1300\w1300_empty
+snd_open_weapon = weapons\librarian_ksg\reload_start
+snd_add_cartridge = weapons\librarian_ksg\insert
+snd_close_weapon = weapons\librarian_ksg\reload_end
+snd_reload_misfire = weapons\librarian_ksg\unjam
+
+scripted_snd_bore = weapons\librarian_ksg\gabut
+scripted_snd_close_pump = weapons\librarian_ksg\reload_end_pump
+scripted_snd_ammo_check = weapons\librarian_ksg\mag_check
+
 ;------------------------------------------------------------------------------------------------
 [wpn_ksg12]:identity_immunities,weapon_probability,default_weapon_params,wpn_ksg_sounds
 GroupControlSection		= spawn_group
@@ -524,43 +557,3 @@ aim_hud_offset_pos		= -0.05818, -0.004542, -0.099172
 aim_hud_offset_pos_16x9	= -0.05818, -0.004542, -0.099172
 aim_hud_offset_rot		= -0.005329, 0.006259, 0
 aim_hud_offset_rot_16x9	= -0.005329, 0.006259, 0
-;------------------------------------------------------------------------------------------------------
-;------------------------------------------------------------------------------------------------------
-; [wpn_ksg25]:wpn_ksg12
-; $spawn					= "weapons\ksg25"
-; parent_section			= wpn_ksg25
-
-; inv_grid_height			= 2
-; inv_grid_width			= 7
-; inv_grid_x				= 0
-; inv_grid_y				= 3
-
-; inv_name				= st_wpn_ksg25
-; inv_name_short			= st_wpn_ksg25_s
-; description				= st_wpn_ksg25_descr
-
-; inv_weight				= 4.2
-
-; cost					= 48850
-
-; hud						= wpn_ksg25_hud
-; visual					= dynamics\weapons\wpn_ksg12\wpn_ksg12.ogf
-
-; ammo_elapsed			= 25
-; ammo_mag_size			= 25
-
-; silencer_x				= 255 ; ???
-
-; hit_impulse				= 45
-; hit_power				= 0.85, 0.85, 0.85, 0.85
-; fire_distance			= 150
-; bullet_speed			= 370
-
-; zoom_rotate_time		= 0.30
-; crosshair_inertion		= 6.5
-; fire_dispersion_base	= 0.56
-
-; cam_dispersion			= 7.24
-
-; [wpn_ksg25_hud]:wpn_ksg12_hud
-; item_visual			= anomaly_weapons\wpn_ksg12\wpn_ksg12_hud.ogf

@@ -1,5 +1,6 @@
 -Module:
 SVT-40 n' AVT-40 [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/svt-40-n-avt-40
 
 ----------------------------------------------------------
 -Compatibility:

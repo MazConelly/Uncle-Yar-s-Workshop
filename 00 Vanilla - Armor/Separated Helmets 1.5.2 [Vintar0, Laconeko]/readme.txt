@@ -1,5 +1,6 @@
 -Module:
 Separated Helmets Outfits Backpacks 1.5.2 [Vintar0, Laconeko]
+https://www.moddb.com/mods/stalker-anomaly/addons/separated-helmets-and-outfits-for-anomaly-152
 
 ----------------------------------------------------------
 -Compatibility:

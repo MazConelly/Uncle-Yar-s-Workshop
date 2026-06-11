@@ -1,5 +1,6 @@
 -Module:
-AUGmented [Firebreath, Blackgrowl]
+AUGmented - The AUG Pack [Firebreath, Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/augmented-the-aug-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -9,6 +10,9 @@ AUGmented [Firebreath, Blackgrowl]
 
 ----------------------------------------------------------
 -Patches:
+
+DLTX distribution
+Disables the scripted methods of distribution (ie: trader_autoinject) in favor of DLTX.
 
 Honey Badger and .300 BLK Framework [Pillii]
 Adds a variant of the Steyr AUG A3 in .300 Blackout, the AUG A3 M2 .300 Blackout.

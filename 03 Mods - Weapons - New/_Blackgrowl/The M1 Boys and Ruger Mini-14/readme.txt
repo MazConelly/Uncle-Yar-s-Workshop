@@ -1,5 +1,6 @@
 -Module:
 The M1 Boys and Ruger Mini-14 [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/them1boys
 
 ----------------------------------------------------------
 -Compatibility:

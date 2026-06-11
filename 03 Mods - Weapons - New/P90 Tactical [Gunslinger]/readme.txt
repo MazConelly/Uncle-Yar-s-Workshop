@@ -18,6 +18,7 @@ Trader distribution. To accommodate it in the higher supply tier, the normal P90
 Added default actor effects settings.
 
 Integration into:
+FireModeCheck
 Lootboxes
 Grok's Enhanced Recoil
 Grok's Stash Overhaul

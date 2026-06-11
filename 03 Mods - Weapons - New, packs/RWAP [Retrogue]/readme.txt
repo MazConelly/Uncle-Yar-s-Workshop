@@ -1,5 +1,6 @@
 -Module:
 RWAP [Retrogue]
+https://www.moddb.com/mods/stalker-anomaly/addons/rwap
 
 ----------------------------------------------------------
 -Compatibility:
@@ -30,6 +31,7 @@ Default actor effects settings.
 The AKMSU and MCX weapons had their internal IDs renamed, so they may be ordered in the inventory better and together, even with MCX guns from other mods.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes

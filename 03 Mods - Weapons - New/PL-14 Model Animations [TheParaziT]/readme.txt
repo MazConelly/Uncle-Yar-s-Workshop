@@ -1,5 +1,6 @@
 -Module:
 PL-14 Model & Animations [TheParaziT]
+https://www.moddb.com/mods/stalker-anomaly/addons/pl-14-modelanimations-addon1
 
 ----------------------------------------------------------
 -Compatibility:
@@ -8,13 +9,10 @@ NOTE: You still need the original mod. Disable the gamedata\configs folder.
 ----------------------------------------------------------
 -Explanation:
 
-Converted to DLTX the scripted files for NPC loadouts.
-Trader distribution.
-Given the PL-14 was a demonstrative design of the later-adopted PL-15, only Army will carry and sell it, with the exception of Nimble and expert loners.
-
 Added default actor effects configs.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes
@@ -24,6 +22,9 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
+DLTX distribution
+Converts the scripted methods of distribution (ie: trader_autoinject) to DLTX.
 
 ----------------------------------------------------------
 -Known issues:

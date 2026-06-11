@@ -1,5 +1,6 @@
 -Module:
 Extra Suits [Lonark]
+https://www.moddb.com/mods/stalker-anomaly/addons/extra-suits-10-enru
 
 ----------------------------------------------------------
 -Compatibility:
@@ -12,7 +13,7 @@ Ignore the original mod's Exoseva + Extra Suit patch and the rest of patches.
 DLTX conversion, with minor fixes.
 Added default actor effect settings.
 
-Includes integration for:
+Integration into:
 Grok's Stash Overhaul. The new outfits will as rare to find in stashes as the vanilla equivalents.
 Mags Redux. Like ExoSEVA above. Bandit's don't get the extra pouches like the vanilla ones, given these versions seem more like status symbols. The Sin SEVA, being the worst SEVA, carries 1 medium mag less (same as the SSPM).
 Outfits Affect Movespeed.

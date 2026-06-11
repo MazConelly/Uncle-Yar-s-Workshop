@@ -1,5 +1,6 @@
 -Module:
 FAD - Fusil Automático Doble [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lewd-fad-addon
 
 ----------------------------------------------------------
 -Compatibility:
@@ -10,12 +11,12 @@ NOTE: You need the original mod. Let this overwrite it.
 
 Disabled the laser configuration (the model doesn't have a LAM anyway).
 Text edited. Description is shorter, and removed any mentions of "LEWD", tiers, and a FAD-V2 (there's no such thing in the files, so I assume it's a abandoned/backlogged/scrapped idea). Also specifies the use of the BaS' M320 grenade launcher.
-NPC loadout scripted files are now converted to DLTX.
 NPC loadout redistribution. Experienced stalkers will have low odds to carry it, a lttle better for veterans and experts. Masters have a safe chance to carry it.
 Weapon icons gathered into a single file, and spraypaint icon file trimmed.
 HQ icons are untouched.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes
@@ -32,6 +33,9 @@ Self explanatory. Only the basic variant will be added to the game.
 
 Sound performance patch
 Use this to reduce the sound layers in case shooting the gun cause performance issues.
+
+DLTX distribution
+Disables the scripted methods of distribution (ie: trader_autoinject) in favor of DLTX.
 
 ----------------------------------------------------------
 -Known issues:

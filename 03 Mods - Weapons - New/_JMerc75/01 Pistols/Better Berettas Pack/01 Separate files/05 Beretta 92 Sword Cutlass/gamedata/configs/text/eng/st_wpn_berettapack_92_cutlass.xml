@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_beretta_92_cutlass">
+		<text>Beretta 92FS Inox "Sword Cutlass"</text>
+	</string>
+    <string id="st_wpn_beretta_92_cutlass_s">
+		<text>Sword Cutlass</text>
+	</string>
+	<string id="st_wpn_beretta_92_cutlass_descr">
+		<text>The Beretta 92 (also Beretta 96 and Beretta 98) is a series of semi-automatic pistols designed and manufactured by Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present.
+		This is a customized Beretta 92FS Inox with a 5.9 inch barrel and slide configuration, 1 inch longer than any standard Beretta 92 model. They are engraved with "9mm Sword Cutlass", the Jolly Roger of the famous pirate Calico Jack (which is also inlaid into the ivory grips), and a Thai inscription meaning "Manufactured by Praiyachat - Special Specs". Praiyachat, a Thai gunsmith.</text>
+	</string>
+		<!-- 		Rebeccca "Revy" Lee uses dual Sword Cutlass pistols as her personal sidearm. They're customized Beretta 92FS Inox pistols with a 5.9 inch barrel and slide configuration, 1 inch longer than any standard Beretta 92 model. They are engraved with "9mm Sword Cutlass", the Jolly Roger of the famous pirate Calico Jack (which is also inlaid into the ivory grips), and a Thai inscription meaning "Manufactured by Praiyachat - Special Specs". Praiyachat, a Thai gunsmith. -->
+
+</string_table>

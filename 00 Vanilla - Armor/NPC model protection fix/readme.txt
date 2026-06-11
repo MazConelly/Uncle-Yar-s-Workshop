@@ -12,4 +12,9 @@ Technically, NPCs aren't protected by outfits the same way the player is. The pl
 
 Some models look for the wrong capture file, so I changed them to the appropriate one.
 
+Such models include:
+-CS and Merc exos.
+-A Sunrise.
+-The ghillie suit.
+
 I only found four inspecting an unrelated matter. But there may be more. If you find any other or suspect about it, please do tell.

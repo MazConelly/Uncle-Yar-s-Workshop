@@ -1,0 +1,158 @@
+;------------------------------------------------------------------------------------------------
+[grenade_rgd5_electro]:grenade_rgd5
+$spawn				= "weapons\grenades\grenade_rgd5_electro"
+parent_section		= grenade_rgd5_electro
+
+icons_texture		= ui\granades_zone_icons
+inv_grid_x			= 0
+inv_grid_y			= 0
+inv_name			= st_grenade_rgd5_electro
+inv_name_short		= st_grenade_rgd5_electro
+description			= st_grenade_rgd5_electro_descr
+
+cost				= 12500
+
+hud					= grenade_rgd5_electro_hud
+visual				= dynamics\weapons\wpn_grenades\wpn_rgd_electro.ogf
+
+destroy_time		= 3800
+
+hit_type_blast		= shock
+hit_type_frag		= shock
+
+frag_hit			= 0.35
+frags				= 120
+frags_r				= 65
+fragment_speed		= 220
+explode_duration	= 5
+explode_particles	= anomaly2\electra2_blast
+
+snd_explode			= anomaly\electra_blast
+snd_checkout		= weapons\generic_checkout
+
+kill_msg_x			= 0
+kill_msg_y			= 0
+kill_msg_width		= 1
+kill_msg_height		= 1
+
+[grenade_rgd5_electro_hud]:grenade_rgd5_hud
+item_visual			= anomaly_weapons\wpn_grenades\grenade_electro_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+[grenade_rgd5_jarka]:grenade_rgd5_electro
+$spawn				= "weapons\grenades\rgd5jarka"
+parent_section		= grenade_rgd5_jarka
+
+inv_grid_x			= 2
+inv_name			= st_grenade_rgd5_jarka
+inv_name_short		= st_grenade_rgd5_jarka
+description			= st_grenade_rgd5_jarka_descr
+
+cost				= 6200
+
+hud					= grenade_rgd5_jarka_hud
+visual				= dynamics\weapons\wpn_grenades\wpn_rgd_jarka.ogf
+
+destroy_time		= 2000
+
+hit_type_blast		= light_burn
+hit_type_frag		= light_burn
+
+frag_hit_impulse	= 80
+frags				= 240
+frags_r				= 25
+fragment_speed		= 700
+explode_duration	= 3
+explode_particles	= static\zharka_static
+
+snd_explode			= anomaly\zhar_blow
+
+kill_msg_x			= 2
+
+[grenade_rgd5_jarka_hud]:grenade_rgd5_electro_hud
+item_visual			= anomaly_weapons\wpn_grenades\wpn_jarka_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+[grenade_rgd5_voronka]:grenade_rgd5_electro
+$spawn				= "weapons\grenades\rgd5voron"
+parent_section		= grenade_rgd5_voronka
+
+inv_grid_x			= 1
+inv_name			= st_grenade_rgd5_voronka
+inv_name_short		= st_grenade_rgd5_voronka
+description			= st_grenade_rgd5_voronka_descr
+
+cost				= 14370
+
+hud					= grenade_rgd5_voronka_hud
+visual				= dynamics\weapons\wpn_grenades\wpn_rgd_voronka.ogf
+
+destroy_time		= 3000
+
+upgr_icon_x			= 2
+upgr_icon_y			= 0
+upgr_icon_width		= 1
+upgr_icon_height	= 1
+
+hit_type_blast		= strike
+hit_type_frag		= strike
+
+frag_hit			= 0.40
+frags				= 165
+frags_r				= 30
+fragment_speed		= 500
+explode_duration	= 4
+explode_particles	= anomaly2\bold_sarkofag_blast ;gravity_blast_final
+
+snd_explode			= anomaly\gravity_entrance1
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+[grenade_rgd5_voronka_hud]:grenade_rgd5_electro_hud
+item_visual			= anomaly_weapons\wpn_grenades\wpn_voronka_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+[grenade_rgd5_web]:grenade_rgd5_electro
+$spawn				= "weapons\grenades\rgd5web"
+parent_section		= grenade_rgd5_web
+
+inv_grid_x			= 3
+inv_name			= st_grenade_rgd5_web
+inv_name_short		= st_grenade_rgd5_web
+description			= st_grenade_rgd5_web_descr
+
+cost				= 5000
+
+hud					= grenade_rgd5_web_hud
+visual				= dynamics\weapons\wpn_grenades\wpn_rgd_web.ogf
+
+destroy_time		= 2500
+
+upgr_icon_x			= 3
+upgr_icon_y			= 0
+upgr_icon_width		= 1
+upgr_icon_height	= 1
+
+hit_type_blast		= strike
+hit_type_frag		= strike
+
+frag_hit			= 0.25
+frag_hit_impulse	= 45
+frags				= 400
+frags_r				= 110
+fragment_speed		= 150
+explode_duration	= 9
+explode_particles	= anomaly_grenade\grenade_web\web_blast ;gravity_blast_final
+
+snd_explode			= anomaly\web_blowout
+
+kill_msg_x			= 240
+kill_msg_y			= 123
+kill_msg_width		= 14
+kill_msg_height		= 23
+
+[grenade_rgd5_web_hud]:grenade_rgd5_electro_hud
+item_visual			= anomaly_weapons\wpn_grenades\grenade_web_hud.ogf

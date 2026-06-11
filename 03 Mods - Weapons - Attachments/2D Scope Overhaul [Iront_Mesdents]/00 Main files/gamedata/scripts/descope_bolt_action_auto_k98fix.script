@@ -1,0 +1,234 @@
+-- Script written by Iront Mesdents.
+-- Under creative commons liscence CC BY=NC-SA
+-- You can remix adapt,and build upon my work non-commercially,as long as you credit me and license your new creations under the identical terms.
+-- You can include this in modpacks as long as no revenue is generated from doing so.
+-- (In fact,I invite you to make it better,I was barely able to write this. It's literally my first attempt at coding)
+--[[
+    Many thanks to the people on the Anomaly Discord for the help they provided,but in particular: 
+    Mr Demonized for his pointers and timed events mod essential to this script,
+    Raven Ascendant for dropping a ton of useful info in the Discord
+    Aoldri for the help debugging the first versions of the script
+    xcvb and Drunk & High (on discord) for the usefulness of the device.fov function essential to this script
+    And anyone else who I might have forgotten. If that is the case,I am sorry and will add your name here as needed.
+]]
+
+local weapon_is_bolt = nil
+local cwpn = nil
+base_fov = nil
+local descope_fov = nil
+local k98 = nil
+local rifles = nil
+local weapon_is_kar = false
+local block_zoom_in = false
+local weapon_cycling = false
+
+
+function actor_on_first_update()
+    function Set (bolt_weapon_list)
+        local set = {}
+            for _,l 
+                in ipairs(bolt_weapon_list) 
+                do set[l] = true 
+            end
+        return set
+    end
+    rifles = Set {
+        "wpn_arisaka",
+        "wpn_arisaka_wpn_addon_scope_pu",
+        "wpn_arisaka_3006",
+        "wpn_arisaka_3006_wpn_addon_scope_pu",
+        "wpn_carcano",
+        "wpn_carcano_wpn_addon_scope_pu",
+        "wpn_dvl10",
+        "wpn_dvl10_acog",
+        "wpn_dvl10_gauss_sight",
+        "wpn_dvl10_leupold",
+        "wpn_dvl10_marchf",
+        "wpn_dvl10_pks",
+        "wpn_dvl10_pn23",
+        "wpn_dvl10_specter",
+        "wpn_dvl10_m1",
+        "wpn_dvl10_m1_acog",
+        "wpn_dvl10_m1_gauss_sight",
+        "wpn_dvl10_m1_leupold",
+        "wpn_dvl10_m1_marchf",
+        "wpn_dvl10_m1_pks",
+        "wpn_dvl10_m1_pn23",
+        "wpn_dvl10_m1_specter",
+        "wpn_k98",
+        "wpn_k98_mod",
+        "wpn_k98_mod_silen98",
+        "wpn_kar98_retrotac",
+        "wpn_kar98_retrotac_pn23fore",
+        "wpn_karabiner98k",
+        "wpn_karabiner98k_silen98",
+        "wpn_l96a1",
+        "wpn_l96a1m",
+        "wpn_m1903",
+        "wpn_m24",
+        "wpn_m98b",
+        "wpn_mosin",
+        "wpn_mosin_pu",
+        "wpn_mosin_carbine",
+        "wpn_mosin_k",
+        "wpn_mosin_k_pu",
+		"wpn_mosin_short",
+		"wpn_mosin_short_pu",
+		"wpn_obrez",
+		"wpn_obrez_pu",
+		"wpn_shiv",
+        "wpn_rem700_aics",
+        "wpn_rem700_aics_pn23fore",
+        "wpn_rem700_mcmillan",
+        "wpn_rem700_mcmillan_pn23fore",
+        "wpn_rem700_mcmillan",
+        "wpn_rem700_mcmillan_pn23fore",
+        "wpn_remington700",
+        "wpn_remington700_aac",
+        "wpn_remington700_aac_ac10632",
+        "wpn_remington700_aac_acog",
+        "wpn_remington700_aac_aimpoint",
+        "wpn_remington700_aac_c-more",
+        "wpn_remington700_aac_compm4s",
+        "wpn_remington700_aac_e0t2",
+        "wpn_remington700_aac_eot",
+        "wpn_remington700_aac_e0t2",
+        "wpn_remington700_aac_leupold",
+        "wpn_remington700_aac_marchf",
+        "wpn_remington700_aac_mark8_rmr",
+        "wpn_remington700_aac_mepro",
+        "wpn_remington700_aac_pn23",
+        "wpn_remington700_aac_point_aimpro",
+        "wpn_remington700_aac_spec_alt",
+        "wpn_remington700_aac_specter",		
+        "wpn_remington700_aac_triji",
+        "wpn_remington700_bas_archangel",
+        "wpn_remington700_bas_lapua700",
+        "wpn_remington700_bas_magpul_pro",
+        "wpn_remington700_bas_mod_x_gen3",
+        "wpn_remington700_aics",
+        "wpn_remington700_aics_pn23fore",
+        "wpn_remington700_mcmillan",
+        "wpn_remington700_mcmillan_pn23fore",
+        "wpn_remington700_bas_magpul_pro",
+        "wpn_remington700_bas_mod_x_gen3",
+		"wpn_rossmk3_j",
+		"wpn_rossmk3_j_wpn_addon_scope_zf4",
+        "wpn_sv98",
+        "wpn_sv98_custom",
+        "wpn_sv98_custom_acog",
+        "wpn_trg",
+        "wpn_vssk",
+        "wpn_w70",
+    }
+    function Set2 (k98_weapon_list)
+        local set2 = {}
+            for _,l 
+                in ipairs(k98_weapon_list) 
+                do set2[l] = true 
+            end
+        return set2
+    end
+    k98 = Set2 {
+        "wpn_k98",
+        "wpn_k98_mod",
+        "wpn_k98_mod_silen98",
+        "wpn_k98_mod_silen98",
+        "wpn_kar98_retrotac",
+        "wpn_kar98_retrotac_pn23fore",
+        "wpn_karabiner98k",
+        "wpn_karabiner98k_silen98",
+    }
+    
+    base_fov = get_console():get_float("fov")
+    descope_fov = base_fov-15
+end
+
+function actor_on_update()
+    cwpn = db.actor:active_item():section()
+end
+
+function on_option_change()
+    base_fov = get_console():get_float("fov")
+    descope_fov = base_fov-15
+end
+
+function actor_on_weapon_zoom_in()
+    cwpn = db.actor:active_item():section()
+    if rifles[cwpn] then
+        weapon_is_bolt = true
+    else
+        weapon_is_bolt = false
+    end
+    if k98[cwpn] then
+        weapon_is_kar = true
+    else
+        weapon_is_kar = false
+    end
+end
+
+function actor_on_weapon_fired()
+    if weapon_is_bolt == true then
+        block_zoom_in = false
+        if device().fov<descope_fov then
+            kar_has_scope = true
+            demonized_time_events.CreateTimeEvent("unscope_delay",0,0.5,
+            function()
+                local is_aim_toggle = ui_options.get("control/general/aim_toggle")
+                if is_aim_toggle then
+                    level.press_action(bind_to_dik(key_bindings.kWPN_ZOOM))
+                else	
+                    level.release_action(bind_to_dik(key_bindings.kWPN_ZOOM))
+                end
+            return true
+            end)
+            if weapon_is_kar == true then 
+                demonized_time_events.CreateTimeEvent("scope_block_delay",0,2.1,
+                function()
+                    block_zoom_in = false
+                    kar_has_scope = false
+                return true
+                end)
+            else return end
+        else
+            printf("FOV too big")
+            kar_has_scope = false
+        end
+    else
+        do printf("Was not on the list!") 
+        end
+    end
+end
+
+function actor_on_weapon_zoom_out()
+    if weapon_is_kar == true and kar_has_scope == true then
+        weapon_cycling = db.actor:active_item():get_state() or 0
+        if weapon_cycling == 5 then
+            block_zoom_in = true
+        else
+            printf("Not animating")
+            block_zoom_in = false
+        end
+    else return
+    end
+end
+
+function on_before_key_press(key,bind,dis,flags)
+    if bind == key_bindings.kWPN_ZOOM
+    and weapon_is_kar == true 
+    and block_zoom_in == true then    
+        flags.ret_value = false
+    else
+        flags.ret_value = true
+    end        
+end
+
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_first_update",actor_on_first_update)
+    RegisterScriptCallback("actor_on_weapon_zoom_in",actor_on_weapon_zoom_in)
+    RegisterScriptCallback("actor_on_weapon_zoom_out",actor_on_weapon_zoom_out)
+    RegisterScriptCallback("actor_on_weapon_fired",actor_on_weapon_fired)
+    RegisterScriptCallback("on_before_key_press",on_before_key_press)
+    RegisterScriptCallback("on_option_change",on_option_change)
+end

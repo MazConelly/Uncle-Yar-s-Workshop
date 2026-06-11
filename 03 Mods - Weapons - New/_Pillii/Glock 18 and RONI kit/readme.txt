@@ -1,5 +1,6 @@
 -Module:
 Glock 18 and RONI kit [Pillii]
+https://www.moddb.com/mods/stalker-anomaly/addons/pilliis-glock-18-and-roni-kit/page/2#comments
 
 ----------------------------------------------------------
 -Compatibility:

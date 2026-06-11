@@ -1,5 +1,6 @@
 -Module:
 MP7 Re-Imagined [Krepin]
+https://www.moddb.com/mods/stalker-anomaly/addons/mp7-reimagined
 
 ----------------------------------------------------------
 -Compatibility:

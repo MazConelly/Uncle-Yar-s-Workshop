@@ -1,5 +1,6 @@
 -Module:
 .50 BMG Desert Eagle [LEWD]
+https://www.moddb.com/mods/stalker-anomaly/addons/lun4t1cs-very-normal-desert-eagle-in-50-bmg
 
 ----------------------------------------------------------
 -Compatibility:
@@ -11,6 +12,7 @@ NOTE: You need the original mod. Disable the configs folder.
 Taken off Sid's inventory, given to Owl. Just so you don't start a new game at south and start cherry popping npcs. Might give it to Nimble instead later.
 
 Integration into:
+FireModeCheck
 PDA Interactive
 Weapon Parts Overhaul
 

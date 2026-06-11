@@ -1,5 +1,6 @@
 -Module:
 Chargeable Gauss Rifle [Vodoxleb]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-modded-exes-betachargeable-gauss-rifle
 
 ----------------------------------------------------------
 -Compatibility:

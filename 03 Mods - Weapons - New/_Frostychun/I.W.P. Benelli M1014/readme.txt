@@ -1,5 +1,6 @@
 -Module:
 I.W.P. Benelli M1014 [FrostyChun]
+https://www.moddb.com/mods/stalker-anomaly/addons/iwp-benelli-m1014-shotgun
 
 ----------------------------------------------------------
 -Compatibility:

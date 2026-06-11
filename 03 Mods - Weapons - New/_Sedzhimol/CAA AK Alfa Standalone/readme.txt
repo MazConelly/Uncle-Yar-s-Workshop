@@ -1,5 +1,6 @@
 -Module:
 CAA AK Alfa Standalone [Sedzhimol]
+https://www.moddb.com/mods/stalker-anomaly/addons/alpha-akm-reanimation
 
 ----------------------------------------------------------
 -Compatibility:
@@ -17,6 +18,7 @@ Icon file trimmed.
 Integrated into vanilla fetch tasks.
 
 Integration into:
+FireModeCheck
 Grok's Enhanced Recoil
 Grok's Stash Overhaul
 Lootboxes
