@@ -1,8 +1,23 @@
-![wpn_ash12]
-cam_return		= 0
-
+; -- CZ 52 -- ;
 ![wpn_cz52_hud]
-;fix shell point and size
-;still bugs out vanilla enhanced recoil, use something like GBOOBS Recoil Revised or similar
-shell_bone		= gilza
-shell_point		= 0, 0, 0
+shell_point		= 0.03, 0.048, 0.151
+
+;typo found and fixed by ChatGPT
+anm_idle_sprint_empty = cz75a_idle_sprint, idle_2
+
+
+; -- CAM RETURN OFF -- ;
+![wpn_ash12]
+cam_return = 0
+
+![wpn_remington700]
+cam_return = 0
+
+![wpn_wa2000]
+cam_return = 0
+
+
+; -- MUZZLE FLASH FIX -- ;
+![wpn_bm16_full_hud]
+fire_point = 0, 0, 0.52
+
