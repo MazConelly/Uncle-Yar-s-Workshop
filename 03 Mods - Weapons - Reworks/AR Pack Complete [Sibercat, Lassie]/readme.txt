@@ -9,9 +9,12 @@ NOTE: To avoid issues with this Lite option, make sure to go into the original m
 
 ----------------------------------------------------------
 -Explanation:
-Fixed the scope_ui.xml files not having all the data needed that caused crashes if AR Pack loaded after BaS, added a couple fixed sounds Lassie had in the Anomaly Discord, the missing description for the Colt M16A1 Scope, and removed the DDM4 V7 from the new game loadouts for Mercenaries (seriously, a quick silenced assault rifle with 45 rounds mags and a Leupold scope? And then you give it to Nimble and master rank stalkers to act as if it were rare. C'ome oooooon).
+Fixed the scope_ui.xml files not having all the data needed that caused crashes if AR Pack loaded after BaS.
+Added a couple fixed sounds Lassie had in the Anomaly Discord.
+Added the missing description for the Colt M16A1 Scope.
 
-The DDM4 can now attach and detach a silencer (instead of having a fixed one) and is now its own independent thing. This leaves the vanilla M16A2 back in its place, but this way the whole thing will be compatible with something like Billwa's M16A2 Replacer.
+Removed the DDM4 V7 from the new game loadouts for Mercenaries (seriously, a quick silenced assault rifle with 45 rounds mags and a Leupold scope? And then you give it to Nimble and master rank stalkers to act as if it were rare. Come oooooon).
+The DDM4 can now attach and detach a silencer (instead of having a fixed one) and is now its own independent thing. This leaves the vanilla M16A2 back in its place, but this way the whole thing will be compatible with other reworks for the M16A2.
 
 Gathered all icons into a single file. During the process, I trashed out out all the icons with a scope after pooping out another without handle or scope, and used that one for attachment overlays. These overlays won't be 100% on point, but when are they?
 
@@ -31,6 +34,9 @@ The Lite option includes everything mentioned above, but adds only the new rifle
 
 ----------------------------------------------------------
 -Patches:
+
+Mags Redux Standalone
+
 
 ----------------------------------------------------------
 -Known issues:

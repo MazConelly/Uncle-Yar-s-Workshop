@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_tommy_10x25">
+		<text>10mm Thompson Stick Magazine</text>
+	</string>
+	<string id="st_mag_tommy_10x25_descr">
+		<text>Slightly modified Thompson reproduction magazine that allows it to hold 30 rounds of the 10mm Auto instead of the vaunted .45 ACP.</text>
+	</string>
+
+	<string id="st_mag_tommy_10x25_drum">
+		<text>10mm Thompson Drum Magazine</text>
+	</string>
+	<string id="st_mag_tommy_10x25_drum_descr">
+		<text>Slightly modified Thompson reproduction drum magazine that allows it to hold 50 rounds of the 10mm Auto instead of the vaunted .45 ACP.</text>
+	</string>
+
+</string_table>

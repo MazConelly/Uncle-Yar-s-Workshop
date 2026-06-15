@@ -21,6 +21,13 @@ Mags Redux patch has been integrated.
 ----------------------------------------------------------
 -Patches:
 
+2D Scope Overhaul
+Requested by Rambito
+Allows the basic SKS to use the PU scope, with appropiate aiming texture. Hacky, but it works.
+
+
+The following patches are mere retweaks of the original ones the mod already included, to comply with some of the changes in the main files.
+
 NPC Loadouts and Traders - Scopes
 Replaces the original NPC Loadouts and Traders component.
 Factions that are assigned the OP-SKS will now see random ammo/scope configurations at higher ranks (veteran and upwards).
@@ -32,10 +39,6 @@ For the standalone option, Mercs, Monolith and Owl will sell it, as the original
 
 Rail upgrade
 Small tweaks to the original component.
-
-2D Scope Overhaul
-Requested by Rambito
-Allows the basic SKS to use the PU scope, with appropiate aiming texture. Hacky, but it works.
 
 ----------------------------------------------------------
 -Known issues:

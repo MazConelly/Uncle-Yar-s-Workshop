@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp510">
+		<text>MP5/10</text>
+	</string>
+	<string id="st_wpn_mp510_descr">
+		<text>The MP5 is one of the most famous and widespread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favorite of numerous military, law enforcement, intelligence and security organizations the world over.\n
+		MP5/10 was developed at the behest of the American FBI, who sought a more powerful firearm to arm their Agents with. After field tests with rechambered Thompson SMG's proved to be successful, H&amp;K took to the task of developing an MP5 chambered in 10mm Auto. Ultimately, it saw very little success commercially, to the point it was discontinued in the year 2000, outside of spare parts and repairs. Even the FBI seems to be slowly phasing them out or relegating them to secondary roles.\n
+		Decent chances you are carrying a piece of American law enforcement history with you, Stalker.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit
+		</text>
+	</string>
+
+</string_table>

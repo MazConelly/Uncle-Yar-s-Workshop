@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_banshee10">
+		<text>Banshee Mk10</text>
+	</string>
+	<string id="st_wpn_banshee10_descr">
+		<text>The Banshee Mk10 is a compact and lightweight semi-automatic AR-15 “pistol” chambered in 10mm Auto, offering high performance with excellent accuracy and reliability in a small package. High quality 8 inch barrel, with a 30-round capacity magazine provides ample firepower. A single-stage, mil-spec trigger with a crisp and consistent trigger pull. Being fashioned after the AR-15 platform, carbines like this have a wide variety of customization options.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit</text>
+	</string>
+
+<!-- This one when patched for Pilli's HoneyBadger -->
+	<string id="st_wpn_banshee300">
+		<text>Banshee 300 Mk4</text>
+	</string>
+	<string id="st_wpn_banshee10_descr">
+		<text>The Banshee 300 Mk4 is a compact and lightweight semi-automatic AR-15 “pistol” chambered in .300 ACC Blackout, for optimum performance in subsonic, suppressed, and short-barrel applications. High quality 8 inch barrel, with a 30-round capacity magazine provides ample firepower. A single-stage, mil-spec trigger with a crisp and consistent trigger pull. Being fashioned after the AR-15 platform, carbines like this have a wide variety of customization options.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.</text>
+	</string>
+
+	<string id="st_wpn_bansheeshort">
+		<text>Banshee MkGs (10mm)</text>
+	</string>
+	<string id="st_wpn_bansheeshort_descr">
+		<text>The MkGs Banshee is a compact and lightweight semi-automatic AR-15 “pistol” that has been converted to use 10mm Auto, offering high performance with excellent accuracy and reliability in a small package. This conversion uses a 5 inch barrel. 30-round capacity magazine provides ample firepower. A single-stage, mil-spec trigger with a crisp and consistent trigger pull. Being fashioned after the AR-15 platform, carbines like this have a wide variety of customization options.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit</text>
+	</string>
+
+
+	<string id="st_up_banshee10auto_name">
+		<text>Auto Sear</text>
+	</string>
+	<string id="st_up_banshee10auto_descr">
+		<text>Gun goes brrrrrr.</text>
+	</string>
+
+</string_table>

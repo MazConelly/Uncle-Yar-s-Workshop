@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sigxten">
+		<text>P320 XTEN</text>
+	</string>
+	<string id="st_wpn_sigxten_descr">
+		<text>SIG Sauer P320, manufactured by J.P. Sauer &amp; Son Company, is an advancement of the P250 series of handguns, itself a follow-up to the P220/P226 pistols, but with a striker-fire mechanism instead of the older double-action hammer-fired mechanism. The P320 is a modern and modular handgun, available in many calibers and configurations.\n
+		The XTEN variant (as name may imply) is chambered in 10mm Auto. Its components are strengthened to withstand the high pressures of the powerful 10mm Auto cartridge. Ammo capacity is reduced to 15 rounds.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+</string_table>

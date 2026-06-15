@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_keclipse">
+		<text>Kimber Eclipse Custom II</text>
+	</string>
+	<string id="st_wpn_keclipse_descr">
+		<text>A high-end 1911-style pistol chambered in 10mm Auto. It features a full-size 1911-style frame and slide, with a blacked-out finish that gives it a sleek, modern look. The frame and slide are made from stainless steel, which provides durability and resistance to corrosion. Stainless steel 5-inch barrel, match-grade and hand-fitted to the slide, ensures excellent accuracy and consistency. Kimber's Tactical Wedge 3-dot tritium night sights provide excellent visibility in low-light conditions. The trigger is a match-grade aluminum trigger, which provides a smooth pull and a crisp break. Overall, it’s a high-quality, well-designed pistol that is well-suited for self-defense, hunting, or target shooting.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_kjagare">
+		<text>Kimber Super Jagare</text>
+	</string>
+	<string id="st_wpn_kjagare_descr">
+		<text>A high-end 1911-style pistol designed for hunting and outdoor use, chambered in 10mm Auto. This is a specialized handgun that offers features specifically tailored to hunting and outdoor activities. Stainless steel slide and frame, with a matte black finish. 6-inch match-grade barrel that is crowned for accuracy and fitted with a stainless steel bushing. featuring a full-length guide rod and a heavy recoil spring, which helps to mitigate felt recoil and improve accuracy. This unit has a set of adjustable Vortex Venom red dot sights that allow for rapid target acquisition and accuracy, even in low light conditions. Overall, it’s a specialized handgun that is designed for hunters and outdoor enthusiasts who demand the best performance and accuracy from their firearms.</text>
+	</string>
+
+</string_table>

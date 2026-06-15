@@ -1,0 +1,102 @@
+;------------------------------------------------------------------------------------------------
+;GLOCK 40
+;------------------------------------------------------------------------------------------------
+[wpn_glock40]:wpn_glock20
+$spawn			= "weapons\glock40"
+parent_section	= wpn_glock40
+
+inv_grid_height	= 1
+inv_grid_width	= 2
+inv_grid_x		= 2
+inv_grid_y		= 0
+
+inv_name		= st_wpn_glock40
+inv_name_short	= st_wpn_glock40
+description		= st_wpn_glock40_descr
+
+inv_weight		= 1.000
+cost			= 16750
+
+hud				= wpn_glock40_hud
+visual			= dynamics\weapons\wpn_glock40\wpn_glock40_world.ogf
+
+upgr_icon_x		= 850
+upgr_icon_y		= 0
+
+silencer_x		= 78
+
+hit_power		= 0.59, 0.59, 0.59, 0.59
+fire_distance	= 370
+bullet_speed	= 390
+
+;------------------------------------------------------------------------HUD----------------------------------------------------------------------------
+[wpn_glock40_hud]:wpn_glock20_hud
+item_visual		= anomaly_weapons\wpn_glock40\wpn_glock40_hud.ogf
+;--------------------------------------------------------------------Addons--------------------------------------------------------------------------
+[wpn_glock40_mrbsentinel]:wpn_glock40
+visual			= dynamics\weapons\wpn_glock40\wpn_glock40_sentinel_world.ogf
+parent_section	= wpn_glock40_mrbsentinel
+
+icons_texture	= ui\ui_icon_mrbs_tenweapons_glock
+inv_grid_height	= 2
+inv_grid_width	= 2
+inv_grid_x		= 8
+inv_grid_y		= 0
+ammo_elapsed	= 30
+ammo_mag_size	= 30
+
+inv_weight		= 1.53
+cost			= 31750
+scope_status	= 1
+rpm				= 820
+fire_modes		= 1,-1
+
+silencer_x		= 87
+silencer_y		= -9
+
+hud				= wpn_glock40_triji_hud
+
+laser_status	= true
+
+use_alt_aim_hud	= true
+
+[wpn_glock40_triji_hud]:wpn_glock40_hud
+item_visual					= anomaly_weapons\wpn_glock40\wpn_glock40_sentinel_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.089062, -0.028088, 0
+aim_hud_offset_alt_pos_16x9	= -0.089062, -0.028088, 0
+aim_hud_offset_alt_rot		= -0.004049, 0.013443, 0.218099
+aim_hud_offset_alt_rot_16x9	= -0.004049, 0.013443, 0.218099
+
+aim_hud_offset_pos		= -0.047537, 0.021077, -0.019738
+aim_hud_offset_pos_16x9	= -0.047537, 0.021077, -0.019738
+aim_hud_offset_rot		= -0.000807, 0.007917, -0.02735
+aim_hud_offset_rot_16x9	= -0.000807, 0.007917, -0.02735
+
+hands_orientation		= -1.1134, -4.5144, 0.15
+hands_orientation_16x9	= -1.1134, -4.5144, 0.15
+hands_position			= -0.080812, -0.098425, -0.332702
+hands_position_16x9		= -0.080812, -0.098425, -0.332702
+
+anm_show			= glock_longmag_draw, idle
+anm_show_empty		= glock_longmag_draw, idle_empty
+anm_hide			= glock_longmag_hide, idle
+anm_hide_empty		= glock_longmag_hide, idle_empty
+anm_idle			= glock_longmag_idle, idle
+anm_idle_empty		= glock_longmag_idle, idle_empty
+anm_shots			= glock_longmag_shoot, shoot
+anm_shot_l			= glock_longmag_shoot_last, shoot_last
+anm_idle_aim		= glock_longmag_idle_aim, idle
+anm_idle_aim_empty	= glock_longmag_idle_aim, idle_empty
+
+anm_reload			= glock_longmag_reload_speed, reload_speed_glock
+anm_reload_empty	= glock_longmag_reload_empty_speed, reload_empty_speed_glock
+
+anm_idle_moving				= glock_longmag_idle_moving, idle ,0.7
+anm_idle_moving_empty		= glock_longmag_idle_moving, idle_empty ,0.7
+anm_idle_moving_crouch		= glock_longmag_idle_crouch, idle
+anm_idle_moving_crouch_empty= glock_longmag_idle_crouch, idle_empty
+anm_idle_sprint				= glock_longmag_idle_sprint_v4, idle
+anm_idle_sprint_empty		= glock_longmag_idle_sprint_v4, idle_empty
+anm_bore					= glock_longmag_idle_aim, idle
+anm_bore_empty				= glock_longmag_idle_aim, idle_empty

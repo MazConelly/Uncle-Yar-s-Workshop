@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sig220_10">
+		<text>P220 (10mm)</text>
+	</string>
+	<string id="st_wpn_sig220_10_descr">
+		<text>The SIG-Sauer P220, manufactured in the late 1970s by J.P. Sauer &amp; Son Company, is often considered the best out of the box .45 calibre double action pistol. An instant success, the P220 was adopted by the Swiss and Japanese SDF and by many European police organisations. This pistol also found its way into the US, first through the Browning Arms Company of Utah and since the 1980s, through the SIGARMS Company of New Hampshire.\n
+		This variant is chambered in 10mm Auto. Its components are strengthened to withstand the high pressures of the powerful 10mm Auto cartridge. Ammo capacity is 8 rounds.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+</string_table>
