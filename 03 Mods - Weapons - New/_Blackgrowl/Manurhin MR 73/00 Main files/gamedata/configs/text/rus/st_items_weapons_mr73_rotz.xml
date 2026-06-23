@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+    Weapons
+-->
+
+<string_table>
+
+    <string id="st_wpn_mr73">
+        <text>Manurhin MR 73</text>
+    </string>
+    <string id="st_wpn_mr73_s">
+        <text>MR 73</text>
+    </string>
+    <string id="st_wpn_mr73_descr">
+        <text>Manurhin MR 73 - французский револьвер под патрон .357 Magnum с УСМ двойного/одинарного действия, разработанный в 1972 году и до сих пор используемый и производимый. Получил признание в полицейских спецподразделениях  Франции, таких как GIGN и RAID. Имеет высокую точность, умеренную отдачу и плавный, быстрый спуск.\n</text>
+    </string>
+
+</string_table>

@@ -12,8 +12,11 @@ Recommended use of NPC loadouts files rank fix in this same patch pack.
 -Explanation:
 Fixes NPC loadouts for vanilla Anomaly.
 Recommended use of NPC loadouts files rank fix in this same patch pack for full coverage.
+Icon file compressed.
 
 Integration into the vanilla corpse, reward, and stash systems.
+
+Fixed the name for the Enhanced Recoil - Gold Edition file.
 
 Integration into:
 Arszi's Mutant Bleeding + Optimized patch

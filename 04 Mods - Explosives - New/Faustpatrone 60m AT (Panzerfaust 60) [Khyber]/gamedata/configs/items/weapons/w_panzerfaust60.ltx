@@ -1,0 +1,242 @@
+[wpn_panzerfaust60_sounds]
+snd_draw		= weapons\rg6\rg6_draw
+snd_holster		= weapons\shotgun_holster
+snd_shoot		= weapons\wpn_panzerfaust60\panzerfaust60_shoot
+snd_shoot_actor	= weapons\wpn_panzerfaust60\panzerfaust60_shoot
+snd_empty		= weapons\rpg7\rpg7_empty
+snd_explode		= wpn_fake_og-7b_explode
+snd_reload		= none
+
+;------------------------------------------------------------------------------------------------
+[wpn_panzerfaust60]:weapon_probability,default_weapon_params,wpn_panzerfaust60_sounds
+GroupControlSection				= spawn_group
+discovery_dependency			=
+$prefetch						= 8
+$spawn							= "weapons\wpn_panzerfaust60"
+$npc							= off
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_panzerfaust60
+
+class							= WP_RPG7
+slot							= 2
+animation_slot					= 4
+ef_main_weapon_type				= 4
+ef_weapon_type					= 0
+hand_dependence					= 2
+single_handed					= 0
+allow_repair					= false
+dont_stack						= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_icon_panzerfaust60
+inv_grid_height					= 1
+inv_grid_width					= 4
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_panzerfaust60
+inv_name_short					= st_wpn_panzerfaust60_s
+description						= st_wpn_panzerfaust60_descr
+inv_weight						= 3.1
+
+kind							= w_explosive
+ammo_class						= tch_ammo_149
+ammo_current					= 5
+ammo_elapsed					= 5
+ammo_limit						= 5
+ammo_mag_size					= 1
+
+hit_impulse						= 250
+hit_type						= explosion
+bullet_speed					= 1
+cost							= 2600
+fire_point						= 0.0, 0.162, 0.35
+fire_distance					= 10
+hit_power						= 2.7, 2.7, 2.7, 2.7
+hud								= wpn_panzerfaust60_hud
+
+position						= -0.027, -0.113, 0
+orientation						= 0, 0, 0
+fire_point						= 0.0, 0.162, 0.35
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.28, -0.20, 0.25
+strap_orientation				= -15, -189, 110
+ph_mass							= 2
+
+light_color						= 0.95, 0.95, 0.3
+light_range						= 20.0
+light_time						= 0.75
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+fragment_speed					= 50
+explode_duration				= 5
+
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+max_zoom_factor					= 5
+reload_dof						= 0.0, 0.5, 5, 1.7
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 1.3
+fire_dispersion_base			= 0
+fire_dispersion_condition_factor= 0.025
+
+scope_status					= 0
+scope_zoom_factor				= 0
+rocket_class					= wpn_ammo_149_missile
+rpm								= 150
+
+silencer_status					= 0
+
+grenade_launcher_status			= 0
+launch_speed					= 80
+
+cam_relax_speed					= 2.0
+cam_dispersion					= 7.05
+cam_max_angle					= 3
+cam_max_angle_horz				= 2
+cam_step_angle_horz				= 0.5
+
+misfire_end_condition			= 0
+misfire_end_prob				= 1
+misfire_probability				= 1
+misfire_start_condition			= 1
+misfire_start_prob				= 1
+condition_queue_shot_dec		= 5.0
+condition_shot_dec				= 5.0
+
+strap_orientation				= -15,-189,110
+strap_position					= -0.28,-0.20,0.25
+visual							= dynamics\weapons\wpn_panzerfaust60\wpn_panzerfaust60.ogf
+
+smoke_particles					= amik\weapons\smoke_particles\smoke_particles_pump_01
+
+PDM_disp_accel_factor			= 2.3
+PDM_disp_base					= 0.9
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.3
+
+cam_relax_speed_ai				= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 2.0
+min_radius						= 0
+max_radius						= 500
+
+kill_msg_x						= 0
+kill_msg_y						= 85
+kill_msg_width					= 73
+kill_msg_height					= 19
+
+tier							= 1
+
+[wpn_panzerfaust60_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_panzerfaust60\wpn_panzerfaust60_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_orientation	= -0.108803, 0.992424, 0
+item_position		= 0.002499, -0.254003, 0.317079
+
+aim_hud_offset_pos		= -0.108826, 0.044424, -0.241423
+aim_hud_offset_pos_16x9	= -0.108826, 0.044424, -0.241423
+aim_hud_offset_rot		= 0.033191, 0.049937, -0.074773
+aim_hud_offset_rot_16x9	= 0.033191, 0.049937, -0.074773
+
+hands_orientation		= 3.64735, 4.995029, -12.053548
+hands_orientation_16x9	= 3.64735, 4.995029, -12.053548
+hands_position			= 0.036257, -0.363285, 0.138625
+hands_position_16x9		= 0.036257, -0.363285, 0.138625
+
+lowered_hud_offset_pos		= 0.420679, -0.110098, 0.062291
+lowered_hud_offset_pos_16x9	= 0.420679, -0.110098, 0.062291
+lowered_hud_offset_rot		= 0.266319, -1.080904, -0.52411
+lowered_hud_offset_rot_16x9	= 0.266319, -1.080904, -0.52411
+
+lean_hud_offset_pos	= 0,0,0
+lean_hud_offset_rot	= 0,0,0
+
+gl_hud_offset_pos	= 0,0,0
+gl_hud_offset_rot	= 0,0,0
+
+;---Animations
+anm_show				= pf_hands_draw, pf_draw
+anm_hide				= pf_hands_holster, pf_holster
+anm_idle				= pf_hands_idle, pf_idle
+anm_idle_aim			= pf_hands_idle, pf_idle
+anm_idle_moving			= pf_hands_move, pf_idle, 0.75
+anm_idle_moving_crouch	= pf_hands_move, pf_idle, 0.5
+anm_idle_sprint			= pf_hands_sprint, pf_idle
+anm_reload				= pf_hands_reload, pf_empty_idle
+anm_shots				= pf_hands_shot, pf_shot
+anm_idle_empty			= pf_hands_idle, pf_empty_idle
+
+fire_bone	= muzzle
+fire_point	= 0,0,0
+
+freelook_z_offset_mul	= 0.1
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_ammo_149_missile]:identity_immunities,default_weapon_params,weapon_probability,wpn_panzerfaust60_sounds
+GroupControlSection		= spawn_group
+discovery_dependency	=
+$prefetch				= 32
+cform					= skeleton
+
+class					= G_RPG7
+
+kind					= 
+inv_name				= "ammo_149"
+inv_name_short			= "ammo_149_s"
+
+inv_weight				= .2
+cost					= 200
+
+visual					= dynamics\weapons\wpn_panzerfaust60\ammo_149.ogf
+ph_mass					= 5
+jump_height				= 0
+
+up_throw_factor			= 1.5
+
+force_explode_time		= 30000
+
+engine_impulse			= 1
+engine_impulse_up		= 6
+engine_present			= true
+engine_work_time		= 100
+engine_particles		= amik\weapons\smoke_particles\smoke_particles_pump_01
+
+lights_enabled			= false
+light_color				= 1.9, 1.4, 0.5
+light_range				= 24.0
+light_time				= 1.28
+trail_light_color		= 0.6, 0.5, 0.3
+trail_light_range		= 15.0
+
+wallmark_section		= explosion_marks
+wm_size					= 0.1
+
+hit_type_blast			= explosion
+hit_type_frag			= fire_wound
+
+blast					= 5
+blast_r					= 6
+blast_impulse			= 250
+blast_impulse_factor	= 2
+
+frag_hit				= 0.1
+frag_hit_impulse		= 15
+frags					= 10
+frags_r					= 35
+fragment_speed			= 230
+explode_duration		= 0
+explode_particles		= explosions\explosion_04
+
+kill_msg_x				= 0
+kill_msg_y				= 85
+kill_msg_width			= 73
+kill_msg_height			= 19
+;------------------------------------------------------------------------------------------------
+

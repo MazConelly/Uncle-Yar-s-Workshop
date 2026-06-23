@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_scope_roni">
+		<text>Micro RONI upgrade kit</text>
+	</string>
+	<string id="st_addon_scope_roni_descr">
+		<text>The CAA Micro-RONI Gen 3 is a carbine conversion kit for regular Glock handguns, the Micro-RONI is designed to offer a better grip, stability and platform for many accessories. A set of magazines with capacity for 33 rounds is also included.\n
+		Includes:\n
+		%c[d_purple] - %c[ui_gray_2] Picattiny rails\n
+		%c[d_purple] - %c[ui_gray_2] 33rnd extended magazine\n
+		%c[d_purple] - %c[ui_gray_2] Compatibility: Glock 18\n</text>
+	</string>
+
+	<string id="st_addon_scope_roni_upkit">
+		<text>Micro RONI "PDF Custom" upgrade kit</text>
+	</string>
+	<string id="st_addon_scope_roni_upkit_descr">
+		<text>The CAA Micro-RONI Gen 3 is a carbine conversion kit for regular Glock handguns, the Micro-RONI is designed to offer a better grip, stability and platform for many accessories. A set of magazines with capacity for 33 rounds is also included.\n
+		This particular kit has been expanded by mercenaries, by including a LCO Leupold Carbine Optic and a Laser Pointer Module.\n		
+		Includes:\n
+		%c[d_purple] - %c[ui_gray_2] Picattiny rails\n
+		%c[d_purple] - %c[ui_gray_2] 33rnd extended magazine\n
+		%c[d_purple] - %c[ui_gray_2] LCO Leupold Carbine Optic\n
+		%c[d_purple] - %c[ui_gray_2] LAM\n
+		%c[d_purple] - %c[ui_gray_2] Compatibility: Glock 18\n</text>
+	</string>
+
+</string_table>

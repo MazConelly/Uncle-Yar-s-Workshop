@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_mr73">
+		<text>Manurhin MR 73</text>
+	</string>
+	<string id="st_wpn_mr73_s">
+		<text>MR 73</text>
+	</string>
+	<string id="st_wpn_mr73_descr">
+		<text>The Manurhin MR 73 is a French-manufactured, high-end double-action/single-action revolver primarily chambered in .357 Magnum, designed in 1972 and still present and made even today, favoured by SOF-equivalents of France, such as GIGN and RAID. It offers match grade accuracy and has tolerable recoil with a fast trigger.\n</text>
+	</string>
+
+</string_table>

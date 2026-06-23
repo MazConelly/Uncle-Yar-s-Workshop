@@ -9,6 +9,7 @@ The module is technically standalone, except for the Rowan loadouts patch, which
 ----------------------------------------------------------
 -Explanation:
 
+De-DLTX-fied files that didn't need to be DLTX.
 The weapons now inherit from others (or inherit correctly, or without repeating data) as it seem it was intended: the Saiga20 for the Saiga Eco, though I may change it to vanilla Saiga later; the TOZ 134 from the TOZ 34; and the Vityaz for the PP-19 Bizon-2-07.
 This should also ensure visual consistency when using a rework or reanimation for those guns.
 Experienced stalkers that carry Saiga 20 may have random sights and ammo (in case you managed to get your hands on the elusive Momopate's 20x70 slugs).

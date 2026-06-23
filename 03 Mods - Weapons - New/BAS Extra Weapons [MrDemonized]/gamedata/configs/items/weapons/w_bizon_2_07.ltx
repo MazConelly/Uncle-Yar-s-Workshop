@@ -1,0 +1,112 @@
+[wpn_bizon_2_07_snd_shoot]
+snd_1_layer	= weapons\ppsh41\ppsh41_shoot
+snd_2_layer	= weapons\_distance_shooting_mid\g3sg1_distant
+snd_3_layer	= weapons\_distance_shooting_far\g3sg1_distant
+
+[wpn_bizon_2_07_sounds]:base_sounds, wpn_vityaz_sounds
+snd_shoot	= wpn_bizon_2_07_snd_shoot
+
+[wpn_bizon_2_07]:wpn_vityaz,wpn_bizon_2_07_sounds
+$spawn					= "weapons\bizon_2_07"
+parent_section			= wpn_bizon_2_07
+
+icons_texture			= ui\ui_icon_bas_extra_weapons
+inv_grid_width			= 4
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 4
+inv_name				= st_wpn_bizon_2_07
+inv_name_short			= st_wpn_bizon_2_07
+description				= st_wpn_bizon_2_07_descr
+
+inv_weight				= 3.02
+cost					= 24760
+
+hud						= wpn_bizon_2_07_hud
+
+flame_particles			= weapons\generic_weapon03
+
+shell_point				= 0.0, 0.188, 0.082
+shell_particles			= amik\weapons\data\9x18\9x18_2_r
+
+upgrades				= up_gr_firstab_bizon_2_07, up_gr_seconab_bizon_2_07, up_gr_thirdab_bizon_2_07, up_gr_fourtab_bizon_2_07, up_gr_fifthab_bizon_2_07
+
+ammo_class				= ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_p_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
+ammo_elapsed			= 35
+ammo_mag_size			= 35
+startup_ammo			= 105
+
+silencer_status			= 0
+
+hit_impulse				= 25
+fire_distance			= 520
+bullet_speed			= 530
+rpm						= 750
+
+cam_relax_speed			= 5
+cam_dispersion			= 0.72
+cam_dispersion_inc		= 0.0375
+cam_max_angle			= 39.0
+cam_max_angle_horz		= 39.0
+cam_step_angle_horz		= 1.8
+zoom_cam_dispersion		= 0.56
+zoom_cam_dispersion_frac= 0.7
+zoom_cam_dispersion_inc	= 0.0275
+zoom_cam_max_angle		= 32.0
+zoom_cam_max_angle_horz	= 32.0
+zoom_cam_step_angle_horz= 1.7
+
+[wpn_bizon_2_07_hud]:wpn_vityaz_hud
+fire_point	= 0.013, 0.015, 0.63
+
+[wpn_bizon_2_07_ac10632]:wpn_bizon_2_07
+hud				= wpn_bizon_2_07_ac10632_hud
+visual			= dynamics\weapons\wpn_vityaz\wpn_vityaz_ac10632.ogf
+
+1icon_layer		= ac10632
+1icon_layer_x	= 66
+1icon_layer_y	= -9
+
+inv_weight		= 3.315
+
+[wpn_bizon_2_07_ac10632_hud]:wpn_vityaz_ac10632_hud
+fire_point	= 0.013, 0.015, 0.63
+
+![wpn_vityaz_acog]
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+[wpn_bizon_2_07_acog]:wpn_bizon_2_07
+hud				= wpn_bizon_2_07_acog_hud
+visual			= dynamics\weapons\wpn_vityaz\wpn_vityaz_acog.ogf
+
+1icon_layer		= acog
+1icon_layer_x	= 69
+1icon_layer_y	= -7
+
+inv_weight		= 3.62
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+[wpn_bizon_2_07_acog_hud]:wpn_vityaz_acog_hud
+fire_point	= 0.013, 0.015, 0.63
+
+[wpn_bizon_2_07_eot]:wpn_bizon_2_07
+hud				= wpn_bizon_2_07_eot_hud
+visual			= dynamics\weapons\wpn_vityaz\wpn_vityaz_eot.ogf
+
+1icon_layer		= eot
+1icon_layer_x	= 72
+1icon_layer_y	= -4
+
+inv_weight		= 3.53
+
+[wpn_bizon_2_07_eot_hud]:wpn_vityaz_eot_hud
+fire_point	= 0.013, 0.015, 0.63

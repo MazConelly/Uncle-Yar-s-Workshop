@@ -8,9 +8,15 @@ https://www.moddb.com/mods/stalker-anomaly/addons/snips-9x39-subsonic-network-in
 ----------------------------------------------------------
 -Explanation:
 
-Fixed a missing sign in loadouts file.
+De-DLTX-fied files that didn't need to be DLTX.
+Minor text editing. Added short name for the Tiss, and more clarifying full name for the OTs-12n without dovetail mount.
+
+Traders. Removed from Freedom, given to Duty and Owl.
+If using Basic Trader Profiles Expansion, Barkeep will have the AKvs-M and the Ots-12n without dovetail.
+
+NPC loadouts. Fixed a missing sign in loadouts file. Ranks below veteran have a reduced chance to spawn with the weapons (10% for novices, 20% for experienced, and 50% for professional); these are 9x39 weapons after all.
+
 Added default actor effects settings.
-Minor text editing.
 
 Integration into:
 FireModeCheck

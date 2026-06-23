@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_glock_18c_roni">
+		<text>CAA Micro-RONI Gen 3</text>
+	</string>
+	<string id="st_wpn_glock_18c_roni_s">
+		<text>Glock RONI</text>
+	</string>
+	<string id="st_wpn_glock_18_roni_descr">
+		<text>The CAA Micro-RONI Gen 3 is a carbine conversion kit for regular Glock handguns, the Micro-RONI is designed to offer a better grip, stability and platform for many accessories. Use your pistol for a greater effective range, faster aiming and better accuracy.\n
+		The kit has been used on a Glock 18C.\n
+		%c[d_purple] - %c[ui_gray_2] GemTech suppressor (after upgrades)\n
+		%c[d_purple] - %c[ui_gray_2] NATO scopes and reflex sights\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Mercenary mod kit</text>
+	</string>
+
+	<string id="st_wpn_glock_18c_roni">
+		<text>CAA Micro-RONI Gen 3 PDF Custom</text>
+	</string>
+	<string id="st_wpn_glock_18c_roni_descr">
+		<text>The CAA Micro-RONI Gen 3 is a carbine conversion kit for regular Glock handguns, the Micro-RONI is designed to offer a better grip, stability and platform for many accessories. Use your pistol for a greater effective range, faster aiming and better accuracy.\n
+		This version of Micro-RONI has been modified by mercenaries to fit their needs in the Zone. Although it`s mainly found among mercs, other experienced loners and monolithians will use them as a trophy.\n
+		The kit has been used on a Glock 18C.\n
+		%c[d_purple] - %c[ui_gray_2] GemTech suppressor (after upgrades)\n
+		%c[d_purple] - %c[ui_gray_2] LCO Leupold Carbine Optic\n
+		%c[d_purple] - %c[ui_gray_2] LAM\n
+		</text>
+	</string>
+
+</string_table>

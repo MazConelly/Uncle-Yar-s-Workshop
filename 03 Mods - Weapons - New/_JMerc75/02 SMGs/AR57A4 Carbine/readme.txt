@@ -4,10 +4,12 @@ https://www.moddb.com/mods/stalker-anomaly/addons/ar57a4-carbine
 
 ----------------------------------------------------------
 -Compatibility:
-Let this overwrite the original mod.
+Note: You still need the original mod. Disable its configs folder.
 
 ----------------------------------------------------------
 -Explanation:
+
+Removed from Army trader (¿?).
 
 Icon file trimmed.
 
@@ -20,6 +22,9 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
+Luna's Master Disassembly List and Parts Fix
+Assigns Luna's 5.7x28mm barrel.
 
 ----------------------------------------------------------
 -Known issues:

@@ -1,21 +1,21 @@
 
 [monolith_novice]:stalker_novice
 primary		= monolith_novice_primary
-secondary	= monolith_veteran_secondary
+secondary	= monolith_novice_secondary
 extra		= monolith_novice_extra
 
 [monolith_trainee]:monolith_novice
 primary		= monolith_trainee_primary
-; secondary	= monolith_trainee_secondary
+secondary	= monolith_trainee_secondary
 
 [monolith_experienced]:stalker_experienced
 primary		= monolith_experienced_primary
-secondary	= monolith_veteran_secondary
+secondary	= monolith_experienced_secondary
 extra		= monolith_experienced_extra
 
 [monolith_professional]:monolith_experienced
 primary		= monolith_professional_primary
-; secondary	= monolith_professional_secondary
+secondary	= monolith_professional_secondary
 
 [monolith_veteran]:stalker_veteran
 primary		= monolith_veteran_primary
@@ -81,7 +81,24 @@ wpn_m4a1
 wpn_g36k
 wpn_mp153
 
+[monolith_novice_secondary]
+wpn_hpsa
+wpn_beretta
+wpn_walther
+wpn_glock
+wpn_sig220
+wpn_sig220
+wpn_colt1911
+wpn_colt1911
+wpn_usp
+wpn_usp
+wpn_gsh18
+wpn_cz75
+wpn_cz75
+
 [monolith_trainee_primary]:monolith_novice_primary
+
+[monolith_trainee_primary]:monolith_novice_secondary
 
 [monolith_experienced_primary]
 wpn_lr300:0:r
@@ -267,7 +284,24 @@ wpn_fal:0:r
 wpn_mk14
 wpn_mk14:0:r
 
+[monolith_experienced_secondary]
+wpn_hpsa
+wpn_beretta
+wpn_walther
+wpn_glock
+wpn_sig220
+wpn_sig220
+wpn_colt1911
+wpn_colt1911
+wpn_usp
+wpn_usp
+wpn_gsh18
+wpn_cz75
+wpn_cz75
+
 [monolith_professional_primary]:monolith_experienced_primary
+
+[monolith_professional_secondary]:monolith_experienced_secondary
 
 [monolith_veteran_primary]
 wpn_sig550:r:r
