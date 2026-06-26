@@ -2,10 +2,9 @@
 GroupControlSection		= spawn_group
 $npc					= on
 $prefetch				= 8
-$spawn					= "weapons\mp5"
+$spawn					= "weapons\spectre"
 scheduled				= off
 cform					= skeleton
-icons_texture			= ui\ui_icon_spectre
 
 parent_section			= wpn_spectre
 
@@ -20,6 +19,7 @@ single_handed			= 1
 default_to_ruck			= false
 sprint_allowed			= true
 
+icons_texture			= ui\ui_icon_spectre
 inv_grid_width			= 2
 inv_grid_height			= 2
 inv_grid_x				= 0
@@ -365,10 +365,12 @@ aim_hud_offset_rot_16x9	= 0.009159, 0.061811, 0
 
 ;------------------------------------------------------------------------------------------------;	
 [wpn_spectre_tac]:wpn_spectre
+$spawn			= "weapons\spectre_tac"
 parent_section	= wpn_spectre_tac
 
 inv_grid_width	= 3
 inv_grid_x		= 2
+inv_grid_y		= 0
 inv_name		= st_wpn_spectre_tac
 inv_name_short	= st_wpn_spectre_tac
 description		= st_wpn_spectre_tac_descr

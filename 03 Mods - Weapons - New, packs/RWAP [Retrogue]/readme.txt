@@ -83,5 +83,8 @@ MAS RWAP
 Ensures compatibility with the changed IDs.
 If you use the group modules, you only need this if you picked the MCX and Modified AKs groups.
 
+Luna's Master Disassembly List and Parts Fix
+Assigns the .338 barrel to the CR7.
+
 ----------------------------------------------------------
 -Known issues:

@@ -33,5 +33,8 @@ Given the Gungnir mod depends on files of the Mjolnir anyway, I merged files whi
 Reenabled shell ejection particles.
 Every faction that couldn't sell the Stormbreaker, will sell the Gungnir (except Freedom which won't get it), but at a higher penalty.
 
+Luna's Master Disassembly List and Parts Fix
+Assigns the .338 barrel to the weapons.
+
 ----------------------------------------------------------
 -Known issues:

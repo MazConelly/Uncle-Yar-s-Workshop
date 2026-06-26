@@ -1,0 +1,657 @@
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir]:wpn_mjolnir_tac
+$spawn					= "weapons\gungnir"
+parent_section			= wpn_gungnir
+
+icons_texture			= ui\gungnir_icon
+inv_grid_width			= 5
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 0
+
+inv_name				= st_wpn_gungnir
+inv_name_short			= st_wpn_gungnir
+description				= st_wpn_gungnir_descr
+
+inv_weight				= 4.00
+cost					= 80200
+
+hud						= wpn_gungnir_hud
+visual					= dynamics\weapons\wpn_gungnir\wpn_gungnir_world.ogf
+
+smoke_particles			= ghost_particles\weapons\flame_eft_ak
+
+shell_particles			= weapons\762x51
+
+fire_modes				= -1, 1
+startup_ammo			= 40
+
+scopes					= acog, eot, specter, 0kp2, ac10632, leupold, aimpoint, point_aimpro, e0t2, pn23, compm4s, marchf, triji, mark8_rmr, spec_alt, gauss_sight, t12, ps320, echo1, razorhd, cortex, p1x42, devo, uh2, he510, bossxe, lco1, gee36
+
+silencer_name			= wpn_sil_timberwolf
+silencer_x				= 221
+silencer_y				= 19
+
+hit_impulse				= 46
+hit_power				= 1.6, 1.6, 1.6, 1.6
+bullet_speed			= 1330
+rpm						= 400
+
+lewd_lens_hide_enabled	= true
+lewd_lens_hide_bone		= lens
+lewd_lens_hide_delays	= 0.1,0
+lewd_lens_hide_aim_mode	= true, false, false
+;------------------------------------------------------------------------HUD----------------------------------------------------------------------------
+[wpn_gungnir_hud]:wpn_mjolnir_tac_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_hud.ogf
+
+aim_hud_offset_pos		= -0.057663, -0.010056, -0.044303
+aim_hud_offset_pos_16x9	= -0.057663, -0.010056, -0.044303
+aim_hud_offset_rot		= 0.008182, 0.006721, 0
+aim_hud_offset_rot_16x9	= 0.008182, 0.006721, 0
+
+anm_shots	= stormbreaker_shoot, shoot, 2.0
+
+shell_bone	= wpn_body
+shell_point	= 0.004, 0, 0.141
+
+fire_bone2	= muzzle
+fire_point	= 0, 0, -0.268
+
+;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
+[wpn_gungnir_ac10632]:wpn_gungnir
+hud				= wpn_gungnir_ac10632_hud
+
+1icon_layer		= ac10632_x
+1icon_layer_x	= 97
+1icon_layer_y	= -1
+
+inv_weight		= 3.715
+
+[wpn_gungnir_ac10632_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.058442, -0.007103, 0
+aim_hud_offset_pos_16x9	= -0.058442, -0.007103, 0
+aim_hud_offset_rot		= 0.008967, 0.007517, 0
+aim_hud_offset_rot_16x9	= 0.008967, 0.007517, 0
+;-------------------------------------------------------------------------------
+[wpn_gungnir_eot]:wpn_gungnir
+hud				= wpn_gungnir_eot_hud
+
+1icon_layer		= eot_x
+1icon_layer_x	= 101
+1icon_layer_y	= 1
+
+inv_weight		= 3.900
+
+[wpn_gungnir_eot_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.058018, -0.013779, 0
+aim_hud_offset_pos_16x9	= -0.058018, -0.013779, 0
+aim_hud_offset_rot		= 0.009746, 0.007245, 0
+aim_hud_offset_rot_16x9	= 0.009746, 0.007245, 0
+;--------------------------------------------------------------------------------
+[wpn_gungnir_0kp2]:wpn_gungnir
+hud				= wpn_gungnir_0kp2_hud
+
+inv_weight		= 3.800
+
+1icon_layer		= 0kp2_x
+1icon_layer_x	= 98
+1icon_layer_y	= 6
+
+[wpn_gungnir_0kp2_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_0kp2_hud.ogf
+
+aim_hud_offset_pos		= -0.055022, -0.00142, 0
+aim_hud_offset_pos_16x9	= -0.055022, -0.00142, 0
+aim_hud_offset_rot		= 0.009195, 0.006812, 0
+aim_hud_offset_rot_16x9	= 0.009195, 0.006812, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_aimpoint]:wpn_gungnir
+hud				= wpn_gungnir_aimpoint_hud
+
+inv_weight		= 3.730
+
+1icon_layer		= aimpoint_x
+1icon_layer_x	= 96
+1icon_layer_y	= -8
+
+[wpn_gungnir_aimpoint_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.058018, -0.00456, 0
+aim_hud_offset_pos_16x9	= -0.058018, -0.00456, 0
+aim_hud_offset_rot		= 0.010106, 0.00757, 0
+aim_hud_offset_rot_16x9	= 0.010106, 0.00757, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_point_aimpro]:wpn_gungnir
+hud				= wpn_gungnir_point_aimpro_hud
+
+inv_weight		= 3.930
+
+1icon_layer		= point_aimpro_x
+1icon_layer_x	= 102
+1icon_layer_y	= -8
+
+[wpn_gungnir_point_aimpro_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.056862, -0.007383, 0
+aim_hud_offset_pos_16x9	= -0.056862, -0.007383, 0
+aim_hud_offset_rot		= 0.010524, 0.004054, 0
+aim_hud_offset_rot_16x9	= 0.010524, 0.004054, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_e0t2]:wpn_gungnir
+hud				= wpn_gungnir_e0t2_hud
+
+inv_weight		= 3.830
+
+1icon_layer		= e0t2_x
+1icon_layer_x	= 99
+1icon_layer_y	= -4
+
+[wpn_gungnir_e0t2_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.057975, -0.007472, 0
+aim_hud_offset_pos_16x9	= -0.057975, -0.007472, 0
+aim_hud_offset_rot		= 0.007693, 0.00689, 0
+aim_hud_offset_rot_16x9	= 0.007693, 0.00689, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_compm4s]:wpn_gungnir
+hud				= wpn_gungnir_compm4s_hud
+
+1icon_layer		= compm4s_x
+1icon_layer_x	= 99
+1icon_layer_y	= -8
+
+inv_weight		= 3.980
+
+[wpn_gungnir_compm4s_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.057277, -0.007536, 0
+aim_hud_offset_pos_16x9	= -0.057277, -0.007536, 0
+aim_hud_offset_rot		= 0.008707, 0.006867, 0
+aim_hud_offset_rot_16x9	= 0.008707, 0.006867, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_t12]:wpn_gungnir
+hud				= wpn_gungnir_t12_hud
+
+1icon_layer		= t12_x
+1icon_layer_x	= 98
+1icon_layer_y	= -4
+
+inv_weight		= 3.980
+
+[wpn_gungnir_t12_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_t12_hud.ogf
+
+aim_hud_offset_pos		= -0.057277, -0.007536, 0
+aim_hud_offset_pos_16x9	= -0.057277, -0.007536, 0
+aim_hud_offset_rot		= 0.008995, 0.005137, 0
+aim_hud_offset_rot_16x9	= 0.008995, 0.005137, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_p1x42]:wpn_gungnir
+hud				= wpn_gungnir_p1x42_hud
+
+inv_weight		= 3.972
+
+1icon_layer		= p1x42_x
+1icon_layer_x	= 97
+1icon_layer_y	= -7
+
+[wpn_gungnir_p1x42_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_p1x42_hud.ogf
+
+aim_hud_offset_pos		= -0.058091, -0.007482, 0
+aim_hud_offset_pos_16x9	= -0.058091, -0.007482, 0
+aim_hud_offset_rot		= 0.010458, 0.006907, 0
+aim_hud_offset_rot_16x9	= 0.010458, 0.006907, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_bossxe]:wpn_gungnir
+hud				= wpn_gungnir_bossxe_hud
+
+inv_weight		= 3.972
+
+1icon_layer		= bossxe_x
+1icon_layer_x	= 99
+1icon_layer_y	= -4
+
+use_alt_aim_hud	= true
+laser_status	= true
+
+[wpn_gungnir_bossxe_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_bossxe_hud.ogf
+
+aim_hud_offset_pos		= -0.057281, -0.015979, 0
+aim_hud_offset_pos_16x9	= -0.057281, -0.015979, 0
+aim_hud_offset_rot		= -0.002272, 0.004955, 0
+aim_hud_offset_rot_16x9	= -0.002272, 0.004955, 0
+
+aim_hud_offset_alt_pos		= -0.080215, -0.085349, 0
+aim_hud_offset_alt_pos_16x9	= -0.080215, -0.085349, 0
+aim_hud_offset_alt_rot		= -0.003752, 0.010601, 0.7
+aim_hud_offset_alt_rot_16x9	= -0.003752, 0.010601, 0.7
+
+hands_orientation		= -0.072963, -0.75207, 0
+hands_orientation_16x9	= -0.072963, -0.75207, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_uh2]:wpn_gungnir
+hud				= wpn_gungnir_uh2_hud
+
+inv_weight		= 3.972
+
+1icon_layer		= uh2_x
+1icon_layer_x	= 99
+1icon_layer_y	= -5
+
+[wpn_gungnir_uh2_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_uh2_hud.ogf
+
+aim_hud_offset_pos		= -0.058054, -0.009887, 0
+aim_hud_offset_pos_16x9	= -0.058054, -0.009887, 0
+aim_hud_offset_rot		= 0.008826, 0.007114, 0
+aim_hud_offset_rot_16x9	= 0.008826, 0.007114, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_lco1]:wpn_gungnir
+hud				= wpn_gungnir_lco1_hud
+
+inv_weight		= 3.972
+
+1icon_layer		= lco1_x
+1icon_layer_x	= 96
+1icon_layer_y	= -2
+
+[wpn_gungnir_lco1_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_lco1_hud.ogf
+
+aim_hud_offset_pos		= -0.058537, -0.011396, 0
+aim_hud_offset_pos_16x9	= -0.058537, -0.011396, 0
+aim_hud_offset_rot		= 0.008876, 0.007746, 0
+aim_hud_offset_rot_16x9	= 0.008876, 0.007746, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_he510]:wpn_gungnir
+hud				= wpn_gungnir_he510_hud
+
+inv_weight		= 3.972
+
+1icon_layer		= he510_x
+1icon_layer_x	= 95
+1icon_layer_y	= -2
+
+[wpn_gungnir_he510_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_he510_hud.ogf
+
+aim_hud_offset_pos		= -0.058366, -0.009959, 0
+aim_hud_offset_pos_16x9	= -0.058366, -0.009959, 0
+aim_hud_offset_rot		= 0.00945, 0.007498, 0
+aim_hud_offset_rot_16x9	= 0.00945, 0.007498, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+;-----------------------------------------------------------SCOPES--------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_gungnir_marchf]:wpn_gungnir
+hud				= wpn_gungnir_marchf_hud
+
+1icon_layer		= marchf_x
+1icon_layer_x	= 77
+1icon_layer_y	= 1
+
+inv_weight		= 4.240
+
+scope_status	= 1
+scope_dynamic_zoom		= on
+scope_zoom_factor		= 5
+min_scope_zoom_factor	= 40
+
+[wpn_gungnir_marchf_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_marchf_hud.ogf
+
+aim_hud_offset_pos		= -0.056602, -0.009294, -0.002336
+aim_hud_offset_pos_16x9	= -0.056602, -0.009294, -0.002336
+aim_hud_offset_rot		= 0.013329, 0.002434, 0
+aim_hud_offset_rot_16x9	= 0.013329, 0.002434, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_pn23]:wpn_gungnir
+hud				= wpn_gungnir_pn23_hud
+
+1icon_layer		= pn23_x
+1icon_layer_x	= 60
+1icon_layer_y	= -7
+
+inv_weight		= 4.250
+
+scope_status	= 1
+scope_zoom_factor	= 20
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_gungnir_pn23_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.057053, -0.02164, -0.039164
+aim_hud_offset_pos_16x9	= -0.057053, -0.02164, -0.039164
+aim_hud_offset_rot		= 0.013141, 0.002215, 0
+aim_hud_offset_rot_16x9	= 0.013141, 0.002215, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_acog]:wpn_gungnir
+hud				= wpn_gungnir_acog_hud
+
+1icon_layer		= acog_x
+1icon_layer_x	= 87
+1icon_layer_y	= 0
+
+inv_weight		= 3.950
+
+scope_status	= 1
+scope_zoom_factor	= 42.86
+zoom_rotate_time	= 0.25
+
+[wpn_gungnir_acog_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.057092, -0.007668, -0.053045
+aim_hud_offset_pos_16x9	= -0.057092, -0.007668, -0.053045
+aim_hud_offset_rot		= 0.020098, 0.002591, 0
+aim_hud_offset_rot_16x9	= 0.020098, 0.002591, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_triji]:wpn_gungnir
+hud				= wpn_gungnir_triji_hud
+
+1icon_layer		= acog_x
+1icon_layer_x	= 87
+1icon_layer_y	= 0
+
+inv_weight		= 4.025
+
+scope_status	= 1
+scope_zoom_factor	= 42.86
+zoom_rotate_time	= 0.25
+
+use_alt_aim_hud	= true
+
+[wpn_gungnir_triji_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_trijicon_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.057092, -0.007668, -0.053045
+aim_hud_offset_pos_16x9	= -0.057092, -0.007668, -0.053045
+aim_hud_offset_rot		= 0.020098, 0.002591, 0
+aim_hud_offset_rot_16x9	= 0.020098, 0.002591, 0
+
+aim_hud_offset_alt_pos		= -0.065279, -0.058975, 0
+aim_hud_offset_alt_pos_16x9	= -0.065279, -0.058975, 0
+aim_hud_offset_alt_rot		= 0.009183, 0.006443, 0.79
+aim_hud_offset_alt_rot_16x9	= 0.009183, 0.006443, 0.79
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_specter]:wpn_gungnir
+hud				= wpn_gungnir_specter_hud
+
+1icon_layer		= specter_x
+1icon_layer_x	= 70
+1icon_layer_y	= -5
+
+inv_weight		= 4.270
+
+scope_status	= 1
+scope_zoom_factor	= 30
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+zoom_step_count		= 1
+
+use_alt_aim_hud	= true
+
+[wpn_gungnir_specter_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.056913, -0.010127, -0.036512
+aim_hud_offset_pos_16x9	= -0.056913, -0.010127, -0.036512
+aim_hud_offset_rot		= 0.013811, 0.002637, 0
+aim_hud_offset_rot_16x9	= 0.013811, 0.002637, 0
+
+aim_hud_offset_alt_pos		= -0.057478, -0.037007, 0
+aim_hud_offset_alt_pos_16x9	= -0.057478, -0.037007, 0
+aim_hud_offset_alt_rot		= 0.013515, 0.007181, 0
+aim_hud_offset_alt_rot_16x9	= 0.013515, 0.007181, 0
+;--------------------------------------------------------------------------------
+[wpn_gungnir_spec_alt]:wpn_gungnir
+hud				= wpn_gungnir_spec_alt_hud
+
+1icon_layer		= specter_x
+1icon_layer_x	= 70
+1icon_layer_y	= -5
+
+inv_weight		= 4.270
+
+scope_status	= 1
+scope_zoom_factor	= 30
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+zoom_step_count		= 1
+
+use_alt_aim_hud	= true
+
+[wpn_gungnir_spec_alt_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_spec_alt_hud.ogf
+
+aim_hud_offset_pos		= -0.056913, -0.010127, -0.036512
+aim_hud_offset_pos_16x9	= -0.056913, -0.010127, -0.036512
+aim_hud_offset_rot		= 0.013811, 0.002637, 0
+aim_hud_offset_rot_16x9	= 0.013811, 0.002637, 0
+
+aim_hud_offset_alt_pos		= -0.065279, -0.058975, 0
+aim_hud_offset_alt_pos_16x9	= -0.065279, -0.058975, 0
+aim_hud_offset_alt_rot		= 0.009183, 0.006443, 0.79
+aim_hud_offset_alt_rot_16x9	= 0.009183, 0.006443, 0.79
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_leupold]:wpn_gungnir
+hud				= wpn_gungnir_leupold_hud
+
+1icon_layer		= leupold_x
+1icon_layer_x	= 72
+1icon_layer_y	= -3
+
+inv_weight		= 4.280
+
+scope_status	= 1
+scope_zoom_factor	= 15
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_gungnir_leupold_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_leupold_hud.ogf
+
+aim_hud_offset_pos		= -0.05721, -0.010859, 0.017786
+aim_hud_offset_pos_16x9	= -0.05721, -0.010859, 0.017786
+aim_hud_offset_rot		= 0.013671, 0.002604, 0
+aim_hud_offset_rot_16x9	= 0.013671, 0.002604, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_mark8_rmr]:wpn_gungnir
+hud				= wpn_gungnir_mark8_rmr_hud
+
+1icon_layer		= leupold_x
+1icon_layer_x	= 72
+1icon_layer_y	= -3
+
+inv_weight		= 4.280
+
+scope_status	= 1
+scope_zoom_factor	= 15
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_gungnir_mark8_rmr_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_mark8_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.05721, -0.010859, 0.017786
+aim_hud_offset_pos_16x9	= -0.05721, -0.010859, 0.017786
+aim_hud_offset_rot		= 0.013671, 0.002604, 0
+aim_hud_offset_rot_16x9	= 0.013671, 0.002604, 0
+
+aim_hud_offset_alt_pos		= -0.065279, -0.058975, 0
+aim_hud_offset_alt_pos_16x9	= -0.065279, -0.058975, 0
+aim_hud_offset_alt_rot		= 0.009183, 0.006443, 0.79
+aim_hud_offset_alt_rot_16x9	= 0.009183, 0.006443, 0.79
+;------------------------------------------------------------------------------------
+[wpn_gungnir_gauss_sight]:wpn_gungnir
+hud				= wpn_gungnir_gauss_sight_hud
+
+1icon_layer		= gauss_sight_x
+1icon_layer_x	= 63
+1icon_layer_y	= 2
+
+inv_weight		= 4.55
+
+scope_status	= 1
+scope_dynamic_zoom	= on
+scope_zoom_factor	= 12
+
+[wpn_gungnir_gauss_sight_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_gauss_hud.ogf
+
+aim_hud_offset_pos		= -0.057033, -0.007293, -0.048974
+aim_hud_offset_pos_16x9	= -0.057033, -0.007293, -0.048974
+aim_hud_offset_rot		= 0.014217, 0.002797, 0
+aim_hud_offset_rot_16x9	= 0.014217, 0.002797, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_ps320]:wpn_gungnir
+hud				= wpn_gungnir_ps320_hud
+
+1icon_layer		= ps320_x
+1icon_layer_x	= 64
+1icon_layer_y	= -6
+
+inv_weight		= 4.45
+
+scope_status	= 1
+scope_dynamic_zoom	= on
+scope_zoom_factor	= 20
+zoom_step_count		= 1
+
+[wpn_gungnir_ps320_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_ps320_hud.ogf
+
+aim_hud_offset_pos		= -0.057564, -0.007382, -0.03886
+aim_hud_offset_pos_16x9	= -0.057564, -0.007382, -0.03886
+aim_hud_offset_rot		= 0.013417, 0.002605, 0
+aim_hud_offset_rot_16x9	= 0.013417, 0.002605, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_cortex]:wpn_gungnir
+hud				= wpn_gungnir_cortex_hud
+
+1icon_layer		= cortex_x
+1icon_layer_x	= 70
+1icon_layer_y	= -1
+
+inv_weight		= 4.50
+
+scope_status	= 1
+scope_dynamic_zoom	= on
+scope_zoom_factor	= 10
+
+[wpn_gungnir_cortex_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_cortex_hud.ogf
+
+aim_hud_offset_pos		= -0.057216, -0.014604, 0.030564
+aim_hud_offset_pos_16x9	= -0.057216, -0.014604, 0.030564
+aim_hud_offset_rot		= 0.013824, 0.002497, 0
+aim_hud_offset_rot_16x9	= 0.013824, 0.002497, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_razorhd]:wpn_gungnir
+hud				= wpn_gungnir_razorhd_hud
+
+1icon_layer		= razorhd_x
+1icon_layer_x	= 70
+1icon_layer_y	= -7
+
+inv_weight		= 4.40
+
+scope_status	= 1
+scope_dynamic_zoom	= on
+scope_zoom_factor	= 20
+
+[wpn_gungnir_razorhd_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_razorhd_hud.ogf
+
+aim_hud_offset_pos		= -0.057092, -0.009221, 0.024351
+aim_hud_offset_pos_16x9	= -0.057092, -0.009221, 0.024351
+aim_hud_offset_rot		= 0.013112, 0.002151, 0
+aim_hud_offset_rot_16x9	= 0.013112, 0.002151, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_echo1]:wpn_gungnir
+hud				= wpn_gungnir_echo1_hud
+
+1icon_layer		= echo1_x
+1icon_layer_x	= 93
+1icon_layer_y	= -4
+
+inv_weight		= 4.52
+
+scope_status	= 1
+scope_dynamic_zoom	= on
+scope_zoom_factor	= 60
+zoom_step_count		= 1
+
+[wpn_gungnir_echo1_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_echo1_hud.ogf
+
+aim_hud_offset_pos		= -0.055905, -0.017065, 0
+aim_hud_offset_pos_16x9	= -0.055905, -0.017065, 0
+aim_hud_offset_rot		= 0.003956, -0.003908, 0
+aim_hud_offset_rot_16x9	= 0.003956, -0.003908, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_devo]:wpn_gungnir
+hud				= wpn_gungnir_devo_hud
+
+1icon_layer		= devo_x
+1icon_layer_x	= 60
+1icon_layer_y	= -4
+
+inv_weight		= 4.54
+
+scope_status	= 1
+scope_zoom_factor	= 20
+
+use_alt_aim_hud	= true
+
+[wpn_gungnir_devo_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_devo_hud.ogf
+
+aim_hud_offset_pos		= -0.057079, 0.002162, -0.048185
+aim_hud_offset_pos_16x9	= -0.057079, 0.002162, -0.048185
+aim_hud_offset_rot		= 0.01406, 0.002547, 0
+aim_hud_offset_rot_16x9	= 0.01406, 0.002547, 0
+
+aim_hud_offset_alt_pos		= -0.058537, -0.011396, 0
+aim_hud_offset_alt_pos_16x9	= -0.058537, -0.011396, 0
+aim_hud_offset_alt_rot		= 0.008876, 0.007746, 0
+aim_hud_offset_alt_rot_16x9	= 0.008876, 0.007746, 0
+;------------------------------------------------------------------------------------------------
+[wpn_gungnir_gee36]:wpn_gungnir
+hud				= wpn_gungnir_gee36_hud
+
+1icon_layer		= gee36_x
+1icon_layer_x	= 70
+1icon_layer_y	= -2
+
+inv_weight		= 4.54
+
+scope_status	= 1
+scope_zoom_factor	= 40
+
+use_alt_aim_hud	= true
+
+[wpn_gungnir_gee36_hud]:wpn_gungnir_hud
+item_visual	= anomaly_weapons\wpn_gungnir\wpn_gungnir_gee36_hud.ogf
+
+aim_hud_offset_pos		= -0.056997, -0.010578, -0.023589
+aim_hud_offset_pos_16x9	= -0.056997, -0.010578, -0.023589
+aim_hud_offset_rot		= 0.014308, 0.002728, 0
+aim_hud_offset_rot_16x9	= 0.014308, 0.002728, 0
+
+aim_hud_offset_alt_pos		= -0.057563, -0.027524, 0
+aim_hud_offset_alt_pos_16x9	= -0.057563, -0.027524, 0
+aim_hud_offset_alt_rot		= 0.009799, 0.007438, 0
+aim_hud_offset_alt_rot_16x9	= 0.009799, 0.007438, 0		

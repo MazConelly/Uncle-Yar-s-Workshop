@@ -3,7 +3,7 @@ VR-80 Assault Shotgun [JMerc]
 
 ----------------------------------------------------------
 -Compatibility:
-Let this overwrite the original mod.
+NOTE: You still need the original mod. Disable the original configs folder.
 
 ----------------------------------------------------------
 -Explanation:

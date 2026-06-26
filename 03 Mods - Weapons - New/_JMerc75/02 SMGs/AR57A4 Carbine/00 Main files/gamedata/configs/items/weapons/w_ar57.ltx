@@ -3,7 +3,7 @@
 GroupControlSection				= spawn_group
 $npc							= on
 $prefetch						= 8
-$spawn							= "weapons\mp5"
+$spawn							= "weapons\ar57"
 scheduled						= off
 cform							= skeleton
 parent_section					= wpn_ar57
@@ -19,7 +19,7 @@ single_handed					= 0
 default_to_ruck					= false
 sprint_allowed					= true
 
-icons_texture					= ui\ar57_icon
+icons_texture					= ui\ui_icon_ar57
 inv_grid_height					= 2
 inv_grid_width					= 5
 inv_grid_x						= 0
@@ -64,7 +64,7 @@ light_var_range					= 0.5
 upgrades						= up_gr_firstab_p90, up_gr_seconab_p90, up_gr_thirdab_p90, up_gr_fourtab_p90, up_gr_fifthab_p90, up_gr_fifthcd_p90
 installed_upgrades				=
 upgrade_scheme					= upgrade_scheme_mp5
-upgr_icon_path					= ui\ar57_icon
+upgr_icon_path					= ui\ui_icon_ar57
 upgr_icon_x						= 0
 upgr_icon_y						= 300
 upgr_icon_width					= 250
@@ -232,9 +232,10 @@ freelook_z_offset_mul	= 0.5
 
 ;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
 [wpn_ar57_acog]:wpn_ar57
-inv_weight		= 2.95
-
+visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 hud				= wpn_ar57_acog_hud
+
+inv_weight		= 2.95
 
 1icon_layer		= acog
 1icon_layer_x	= 95
@@ -246,8 +247,6 @@ scope_zoom_factor	= 25
 zoom_rotate_time	= 0.25
 scope_dynamic_zoom	= off
 
-visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 [wpn_ar57_acog_hud]:wpn_ar57_hud
 item_visual	= anomaly_weapons\wpn_ar57\wpn_ar57_acog_hud.ogf
 
@@ -255,15 +254,14 @@ aim_hud_offset_pos		= -0.069174, 0.002484, -0.042448
 aim_hud_offset_pos_16x9	= -0.069174, 0.002484, -0.042448
 ;-------------------------------------------------------------------------------
 [wpn_ar57_ac10632]:wpn_ar57
+visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
+hud				= wpn_ar57_ac10632_hud
+
 1icon_layer		= ac10632
 1icon_layer_x	= 90
 1icon_layer_y	= -9
 
 inv_weight		= 2.715
-
-hud				= wpn_ar57_ac10632_hud
-
-visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 
 [wpn_ar57_ac10632_hud]:wpn_ar57_hud
 item_visual	= anomaly_weapons\wpn_ar57\wpn_ar57_ac10632_hud.ogf
@@ -274,15 +272,14 @@ aim_hud_offset_rot		= 0.000929, 0.012592, 0
 aim_hud_offset_rot_16x9	= 0.000929, 0.012592, 0
 ;-------------------------------------------------------------------------------
 [wpn_ar57_eot]:wpn_ar57
+visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
+hud				= wpn_ar57_eot_hud
+
 1icon_layer		= eot
 1icon_layer_x	= 85
 1icon_layer_y	= -8
 
 inv_weight		= 2.900
-
-hud				= wpn_ar57_eot_hud
-
-visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 
 [wpn_ar57_eot_hud]:wpn_ar57_hud
 item_visual	= anomaly_weapons\wpn_ar57\wpn_ar57_eot_hud.ogf
@@ -294,7 +291,6 @@ aim_hud_offset_rot_16x9	= 0.00015, 0.011679, 0
 ;-----------------------------------------------------------------------------
 [wpn_ar57_c-more]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_c-more_hud
 
 1icon_layer		= c-more
@@ -313,7 +309,6 @@ aim_hud_offset_rot_16x9	= 0.001715, 0.01184, 0
 ;--------------------------------------------------------------------------------
 [wpn_ar57_specter]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_specter_hud
 
 1icon_layer		= specter
@@ -339,7 +334,6 @@ aim_hud_offset_pos_16x9	= -0.069819, 0.003837, -0.015004
 ;--------------------------------------------------------------------------------
 [wpn_ar57_mepro]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_mepro_hud
 
 inv_weight		= 2.970
@@ -358,7 +352,6 @@ aim_hud_offset_rot_16x9	= -0.000131, 0.012428, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ar57_aimpoint]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_aimpoint_hud
 
 inv_weight		= 2.730
@@ -377,7 +370,6 @@ aim_hud_offset_rot_16x9	= 0.000792, 0.012219, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ar57_point_aimpro]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_point_aimpro_hud
 
 inv_weight		= 2.930
@@ -396,7 +388,6 @@ aim_hud_offset_rot_16x9	= 1.9e-05, 0.011678, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ar57_ekp8_18]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_ekp8_18_hud
 
 inv_weight		= 2.872
@@ -415,7 +406,6 @@ aim_hud_offset_rot_16x9	= 0.000366, 0.011628, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ar57_e0t2]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_e0t2_hud
 
 inv_weight		= 2.827
@@ -434,7 +424,6 @@ aim_hud_offset_rot_16x9	= 0.000868, 0.01142, 0
 ;------------------------------------------------------------------------------------------------------------------------------
 [wpn_ar57_compm4s]:wpn_ar57
 hud				= wpn_ar57_compm4s_hud
-
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 
 1icon_layer		= compm4s
@@ -452,15 +441,15 @@ aim_hud_offset_rot		= 0.002708, 0.012485, 0
 aim_hud_offset_rot_16x9	= 0.002708, 0.012485, 0
 ;------------------------------------------------------------------------------------------------
 [wpn_ar57_kemper]:wpn_ar57
-inv_weight		= 2.870
-
+visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 hud				= wpn_ar57_kemper_hud
+
+inv_weight		= 2.870
 
 1icon_layer		= kemper
 1icon_layer_x	= 92
 1icon_layer_y	= -12
 
-visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 
 scope_status	= 0
 
@@ -478,7 +467,6 @@ aim_hud_offset_rot_16x9	= 0.000932, 0.012747, 0
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
 hud				= wpn_ar57_triji_hud
 
-icons_texture	= ui\ar57_icon
 inv_grid_height	= 2
 inv_grid_width	= 5
 inv_grid_x		= 0
@@ -506,10 +494,8 @@ aim_hud_offset_pos_16x9	= -0.069658, 0.003193, -0.0197
 ;----------------------------------------------------------------------------------------------------------------------------
 [wpn_ar57_spec_alt]:wpn_ar57
 visual			= dynamics\weapons\wpn_ar57\wpn_ar57_world.ogf
-
 hud				= wpn_ar57_spec_alt_hud
 
-icons_texture	= ui\ar57_icon
 inv_grid_height	= 2
 inv_grid_width	= 5
 inv_grid_x		= 0

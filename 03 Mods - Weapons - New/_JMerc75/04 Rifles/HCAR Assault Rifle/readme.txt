@@ -3,7 +3,7 @@ HCAR Assault Rifle [Jmerc]
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You still need the original mod. Let this overwrite it.
+NOTE: You still need the original mod. Disable the original configs folder.
 
 ----------------------------------------------------------
 -Explanation:
