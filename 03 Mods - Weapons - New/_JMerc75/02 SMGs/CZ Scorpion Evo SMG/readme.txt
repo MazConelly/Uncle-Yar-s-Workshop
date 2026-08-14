@@ -29,8 +29,5 @@ Boomsticks and Sharpsticks ammo patch
 Clones the gun into the 9x21mm variant. It will use BaS' 9x21 ammo, silencer, and mags. It will be only be carried and traded by Duty and the Army.
 Integrated support for Armor Modkits addon allows you to use modkits to change the chambering of a given gun.
 
-Armor Modkits addon
-This is intended for BaS Lite users. This weapon can use the Special AK 5C Kit from BaS, but BaS Lite offers options to remove the upgrade kits. This patch allows you to use a modkit for the upgrade.
-
 ----------------------------------------------------------
 -Known issues:

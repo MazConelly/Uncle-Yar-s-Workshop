@@ -1,0 +1,257 @@
+;------------------------------------------------------------------------------------------------
+[wpn_draco_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_akm_sounds
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\draco_j"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_draco_j
+
+class								= WP_AK74
+slot								= 1
+animation_slot						= 2
+ef_main_weapon_type					= 2
+ef_weapon_type						= 8
+hand_dependence						= 1
+single_handed						= 1
+
+default_to_ruck						= false
+sprint_allowed						= true
+
+icons_texture						= ui\ui_icon_dracoj
+inv_grid_width						= 4
+inv_grid_height						= 2
+inv_grid_x							= 0
+inv_grid_y							= 2
+inv_name							= st_wpn_draco_j
+inv_name_short						= st_wpn_draco_j_s
+description							= st_wpn_draco_j_descr
+
+kind								= w_pistol ; w_smg ; w_rifle
+inv_weight							= 1.98
+cost								= 76521
+repair_type							= rifle_5
+weapon_class						= assault_rifle
+
+hud									= wpn_draco_j_hud
+visual								= dynamics\weapons\wpn_draco_j\wpn_draco_j_world.ogf
+position							= -0.026, -0.175, 0.0
+orientation							= 0, 0, 0
+fire_point							= 0, 0.218, 0.338921
+fire_point2							= 0, 0.161, 0.583
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_position						= -0.26, -0.11, 0.25
+strap_orientation					= -15, -9, 110
+ph_mass								= 4
+
+flame_particles						= weapons\generic_weapon05
+smoke_particles						= weapons\generic_shoot_00
+grenade_flame_particles				= weapons\generic_weapon01
+
+shell_point							= 0.07,0.2,0.466
+shell_dir							= 0.0, 1.0, 0.0
+shell_bone							= wpn_body
+shell_particles						= weapons\545x39
+
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgrades							= up_gr_firstab_ak74, up_gr_seconab_ak74, up_gr_thirdab_ak74, up_gr_fourtab_ak74
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_ak74
+upgr_icon_path						= ui\ui_icon_dracoj
+upgr_icon_x							= 0
+upgr_icon_y							= 350
+upgr_icon_width						= 200
+upgr_icon_height					= 150
+
+fire_modes							= 1, -1
+ammo_class							= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+ammo_elapsed						= 30
+ammo_mag_size						= 30
+startup_ammo						= 90
+
+scope_status						= 0
+scope_zoom_factor					= 0
+
+silencer_name						= 
+silencer_status						= 0
+
+grenade_class						= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name				= wpn_addon_grenade_launcher
+grenade_launcher_status				= 0
+grenade_launcher_x					= 114
+grenade_launcher_y					= 21
+launch_speed						= 0
+
+hit_impulse							= 60
+hit_power							= 0.70, 0.70, 0.70, 0.70
+hit_type							= fire_wound
+fire_distance						= 400
+bullet_speed						= 600
+rpm									= 750
+rpm_empty_click						= 200
+
+use_aim_bullet						= false
+time_to_aim							= 0.0 ;	3.0
+zoom_dof							= 0.5, 1.0, 180
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0.0, 0.5, 5, 2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 5.8
+fire_dispersion_base				= 0.35
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability					= 0.005
+misfire_start_condition				= 0.7 ;	0.75
+misfire_start_prob					= 0.007
+misfire_end_condition				= 0.1
+misfire_end_prob					= 0.11
+
+condition_queue_shot_dec			= 0.0008
+condition_shot_dec					= 0.0008
+
+cam_return							= 0
+cam_relax_speed						= 10
+cam_dispersion						= 0.762
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.0725
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 1.38
+zoom_cam_relax_speed				= 10
+zoom_cam_dispersion					= 0.732
+zoom_cam_dispersion_frac			= 0.7
+zoom_cam_dispersion_inc				= 0.0625
+zoom_cam_max_angle					= 50.0
+zoom_cam_max_angle_horz				= 50.0
+zoom_cam_step_angle_horz			= 1.28
+
+PDM_disp_accel_factor				= 2.5
+PDM_disp_base						= 1.15
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 2.5
+
+cam_relax_speed_ai					= 360
+zoom_cam_relax_speed_ai				= 360
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
+
+kill_msg_x							= 0
+kill_msg_y							= 28
+kill_msg_width						= 84
+kill_msg_height						= 28
+
+snd_reload							= weapons\dracoj\dracoj_reload
+snd_reload_empty					= weapons\dracoj\dracoj_reload_empty
+snd_reload_misfire					= weapons\dracoj\dracoj_unjam
+
+[wpn_draco_j_hud]:hud_base
+item_visual							= anomaly_weapons\wpn_draco_j\wpn_draco_j_hud.ogf
+attach_place_idx					= 0
+zoom_hide_crosshair					= true
+
+item_position						= 0, 0, 0
+item_orientation					= 0, 0, 0
+
+aim_hud_offset_pos					= -0.053063, 0.021118, -0.07801
+aim_hud_offset_pos_16x9				= -0.053063, 0.021118, -0.07801
+aim_hud_offset_rot					= 0.01273, 0.015363, 0
+aim_hud_offset_rot_16x9				= 0.01273, 0.015363, 0
+
+hands_orientation					= 0.867841, 0.792467, 0
+hands_orientation_16x9				= 0.867841, 0.792467, 0
+hands_position						= 0.006726, -0.008389, 0.044224
+hands_position_16x9					= 0.006726, -0.008389, 0.044224
+
+lowered_hud_offset_pos				= 0.086008, 0.011395, 0.013012
+lowered_hud_offset_pos_16x9			= 0.086008, 0.011395, 0.013012
+lowered_hud_offset_rot				= 0.122041, -0.530188, 0.1
+lowered_hud_offset_rot_16x9			= 0.122041, -0.530188, 0.1
+
+anm_bore							= dracoj_inspect, idle
+anm_show							= dracoj_draw, idle
+anm_hide							= dracoj_holster, idle
+
+anm_idle							= dracoj_idle, idle
+anm_idle_aim_moving					= dracoj_idle_aim, idle, 1.6
+anm_idle_aim_moving_crouch			= dracoj_idle_aim, idle, 1.3
+anm_idle_moving						= dracoj_walk, idle, 1.9
+anm_idle_moving_crouch				= dracoj_walk, idle, 1.5
+anm_idle_sprint						= dracoj_run, idle, 2.0
+
+anm_reload							= dracoj_reload, reload
+anm_reload_empty					= dracoj_reload_empty, reload_empty
+anm_reload_misfire					= dracoj_unjam, unjam
+
+anm_shots							= dracoj_shoot, shoot
+anm_idle_aim						= dracoj_idle_aim, idle
+
+; Jammed Animation Variants
+anm_idle_jammed						= dracoj_idle, idle_jammed
+anm_show_jammed						= dracoj_draw, idle_jammed
+anm_hide_jammed						= dracoj_holster, idle_jammed
+anm_idle_aim_jammed					= dracoj_idle_aim, idle_jammed
+anm_idle_sprint_jammed				= dracoj_run, idle_jammed, 2.0
+anm_idle_moving_jammed				= dracoj_walk, idle_jammed, 1.9
+anm_idle_moving_crouch_jammed		= dracoj_walk, idle_jammed, 1.5
+anm_bore_jammed						= dracoj_inspect, idle_jammed
+
+shell_bone							= bolt
+shell_dir							= 0, 1, 0
+shell_point							= 0, 0, 0
+
+fire_bone							= muzzle
+fire_point							= 0, 0, 0
+fire_point2							= 0.078965, -0.211564, 0.553397
+
+freelook_z_offset_mul				= 0.2
+
+;------------------------------------------------------------------------------------------------
+[wpn_draco_j_black]:wpn_draco_j
+parent_section			= wpn_draco_j_black
+
+hand_dependence			= 1
+single_handed			= 0
+slot					= 2
+
+hud						= wpn_draco_j_black_hud
+visual					= dynamics\weapons\wpn_draco_j\wpn_draco_j_black_world.ogf
+
+inv_weight				= 2.45
+cost					= 48321
+kind					= w_smg ; w_rifle
+
+inv_grid_width			= 5
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 0
+inv_name				= st_wpn_draco_j_black
+inv_name_short			= st_wpn_draco_j_black
+
+upgr_icon_x				= 0
+upgr_icon_y				= 200
+upgr_icon_width			= 250
+upgr_icon_height		= 150
+
+rpm						= 550
+fire_dispersion_base	= 0.23
+
+[wpn_draco_j_black_hud]:wpn_draco_j_hud
+item_visual	= anomaly_weapons\wpn_draco_j\wpn_draco_j_black_hud.ogf
+
+anm_shots	= dracoj_shoot_brace, shoot

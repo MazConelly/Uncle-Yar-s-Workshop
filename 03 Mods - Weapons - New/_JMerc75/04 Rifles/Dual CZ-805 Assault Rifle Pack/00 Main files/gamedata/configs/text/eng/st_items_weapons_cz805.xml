@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 	<string id="st_wpn_cz_805">
-		<text>CZ 805 BREN A1 - 5.56?45</text>
+		<text>CZ 805 BREN A1</text>
 	</string>
 	<string id="st_wpn_cz_805_s">
-		<text>CZ 805 A1 5.56</text>
+		<text>CZ 805 A1</text>
 	</string>
 	<string id="st_wpn_cz_805_descr">
 		<text>The CZ 805 BREN is a gas-operated assault rifle designed and manufactured in Czechoslovakia by Ceska zbrojovka Uhersky Brod, developed to replace the Vz. 58 in the Armed Forces of the Czech Republic in 2006. It and its variants has been exported to be adopted by other countries like France, Mexico, and Ukraine.\n
@@ -14,22 +14,11 @@
 		%c[d_purple] - %c[ui_gray_2] Suppressor: Surefire SOCOM556-MONSTER\n</text>
 	</string>
 
-	<string id="st_wpn_cz_805_68">
-		<text>CZ 805 BREN A1 - 6.8 Remington SPC</text>
-	</string>
-	<string id="st_wpn_cz_805_68_s">
-		<text>CZ 805 A1 6.8 SPC</text>
-	</string>
-	<string id="st_wpn_cz_805_68_descr">
-		<text>The CZ 805 BREN is a gas-operated assault rifle designed and manufactured in Czechoslovakia by Ceska zbrojovka Uhersky Brod, developed to replace the Vz. 58 in the Armed Forces of the Czech Republic in 2006. It and its variants has been exported to be adopted by other countries like France, Mexico, and Ukraine.\n
-		This model is chambered for 6.8 Remington SPC rounds.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] - %c[ui_gray_2] Scopes: Most scopes for Picatinny/weaver\n
-		%c[d_purple] - %c[ui_gray_2] Suppressor: Surefire SOCOM556-MONSTER\n</text>
-	</string>
-
 	<string id="st_wpn_cz_805_skull">
 		<text>CZ 805 "Carcass King"</text>
+	</string>
+	<string id="st_wpn_cz_805_skull_s">
+		<text>Carcass King</text>
 	</string>
 	<string id="st_wpn_cz_805_skull_descr">
 		<text>The CZ 805 BREN is a gas-operated assault rifle designed and manufactured in Czechoslovakia by Ceska zbrojovka Uhersky Brod, developed to replace the Vz. 58 in the Armed Forces of the Czech Republic in 2006. It and its variants has been exported to be adopted by other countries like France, Mexico, and Ukraine.\n

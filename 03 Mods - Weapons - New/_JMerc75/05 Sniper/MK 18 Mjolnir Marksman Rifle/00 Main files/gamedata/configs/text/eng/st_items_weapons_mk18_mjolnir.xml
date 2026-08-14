@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_mjolnir">
+		<text>MK 18 "Mjolnir"</text>
+	</string>
+	<string id="st_wpn_mjolnir_s">
+		<text>Mjolnir</text>
+	</string>
+	<string id="st_wpn_mjolnir_descr">
+		<text>The MK 18 Mjolnir rifle is a formidable weapon known for its exceptional performance and versatility. Engineered with precision and combat effectiveness in mind, this rifle combines cutting-edge technology with rugged durability. The MK 18 Mjolnir boasts a compact and ergonomic design, allowing for ease of maneuverability in various environments. Its robust construction and advanced materials ensure reliability even in the harshest conditions. Equipped with a powerful and accurate barrel, this rifle delivers impressive firepower and effective range. It features customizable attachments, enabling the user to tailor the weapon to their specific needs and preferences. The MK 18 Mjolnir rifle is a favored choice among tactical professionals and enthusiasts seeking a reliable and high-performance firearm for a range of mission profiles. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount)
+        %c[d_purple] - %c[ui_gray_2] Suppressor: M700 .388 LM Suppressor\n\n</text>
+	</string>
+
+	<string id="st_wpn_mjolnir_tac">
+		<text>MK 18 "Stormbreaker"</text>
+	</string>
+	<string id="st_wpn_mjolnir_tac_s">
+		<text>Stormbreaker</text>
+	</string>
+	<string id="st_wpn_mjolnir_tac_descr">
+		<text>The MK 18 Stormbreaker rifle is a formidable weapon known for its exceptional performance and versatility. Engineered with precision and combat effectiveness in mind, this rifle combines cutting-edge technology with rugged durability. The MK 18 Stormbreaker boasts a compact and ergonomic design, allowing for ease of maneuverability in various environments. Its robust construction and advanced materials ensure reliability even in the harshest conditions. Equipped with a powerful and accurate barrel, this rifle delivers impressive firepower and effective range. It features customizable attachments, enabling the user to tailor the weapon to their specific needs and preferences. The MK 18 Stormbreaker rifle is a favored choice among tactical professionals and enthusiasts seeking a reliable and high-performance firearm for a range of mission profiles.\n
+		Features an angled foregrip to help with recoil control and a LAM unit to help with close quarters combat. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount)
+        %c[d_purple] - %c[ui_gray_2] Suppressor: M700 .388 LM Suppressor\n\n</text>
+	</string>
+
+	<string id="st_mag_mjolnir_short">
+		<text>MK 18 "Mjolnir" 10-Round Magazine.</text>
+	</string>
+	<string id="st_mag_mjolnir_short_descr">
+		<text>Magazine for the MK18 .338 Rifles, houses 10 rounds of .338 Lapua Magnum ammunition.\n\n</text>
+	</string>
+
+		<string id="st_mag_mjolnir_big">
+		<text>MK 18 "Stormbreaker" 18-Round Magazine.</text>
+	</string>
+	<string id="st_mag_mjolnir_big_descr">
+		<text>Magazine for the MK18 .338 Rifles, houses 18 rounds of .338 Lapua Magnum ammunition.\n\n</text>
+	</string>
+
+</string_table>

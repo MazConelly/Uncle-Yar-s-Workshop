@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_panzerfaust60">
+		<text>Faustpatrone 60m AT (Panzerfaust 60)</text>
+	</string>
+	<string id="st_wpn_panzerfaust60_s">
+		<text>Panzerfaust 60</text>
+	</string>
+	<string id="st_wpn_panzerfaust60_descr">
+		<text>A 149mm single-shot anti-tank launcher, the Panzerfaust 60 was originally issued to German infantry in WWII. During the Cold War, thousands were quietly funneled into Eastern Europe for potential insurgent use and hidden in long-forgotten caches. With the rise of the Zone, many resurfaced through black market channels. Despite their age, functional units still pack enough force to destroy light armor or breach fortified positions. "Reliability may vary" some fire perfectly, others explode in the user's hands.\n \n
+		%c[ui_gray_2]NOTES: \n
+		%c[d_red] • %c[d_red] *Single-shot* %c[ui_yellow]launcher is discarded after use\n
+		%c[d_purple] • %c[ui_gray_2] Unstable ignition compounds may lead to misfire or delayed detonation\n \n</text>
+	</string>
+
+	<string id="ammo_149">
+		<text>149mm HEAT Warhead</text>
+	</string>
+	<string id="ammo_149_s">
+		<text>149mm HEAT</text>
+	</string>
+	<string id="ammo_149_descr">
+		<text>This fin-stabilized High-Explosive Anti-Tank (HEAT) warhead was designed for the Panzerfaust 60 launcher, using a shaped copper charge to focus explosive force into a narrow jet capable of melting through armor.\n \n%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]high\n%c[d_purple] • %c[ui_gray_2] Blast radius: %c[ui_gray_1]5 m\n%c[d_purple] • %c[ui_gray_2] Fragments' radius: %c[ui_gray_1]30 m\n%c[d_purple] • %c[ui_gray_2] Av. number of fragments: %c[ui_gray_1]20 (small shrapnels)\n%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]none (explodes on impact)</text>
+	</string>
+
+</string_table>

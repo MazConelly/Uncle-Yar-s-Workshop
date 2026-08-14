@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_m1carbine">
+		<text>M1 Carbine</text>
+	</string>
+	<string id="st_wpn_m1carbine_descr">
+		<text>The M1 Carbine is a semi-automatic Carbine rifle chambered in .30 Carbine cartridge, which in metrics is 7.62x33mm, with 15 rounds in the magazine. It was manufactured in 1942 and has been in service for years, until 1973. However, despite its end in 1973, a lot of these are still available over the world, mostly for paramilitary forces and the like. A lightweight, short-barrelled and easily manoeuvrable weapon, anyone including rookies can easily use this weapon and keep it for a long time.</text>
+	</string>
+
+	<string id="st_wpn_m1a1">
+		<text>M1A1 "Paratrooper"</text>
+	</string>
+	<string id="st_wpn_m1a1_s">
+		<text>M1A1</text>
+	</string>
+	<string id="st_wpn_m1a1_descr">
+		<text>The M1A1 is a variant of the M1 Carbine, specifically made by request of Airborne Troopers. Its only difference is the replacement of the solid stock with a folding one, as well as having no bayonet lug and the rearsight having two diopters instead of being adjustable. Just as effective as the M1 Carbine itself, but having slightly lower weight and better handling.</text>
+	</string>
+
+	<string id="st_wpn_mini14">
+		<text>Ruger Mini-14</text>
+	</string>
+	<string id="st_wpn_mini14_s">
+		<text>Mini-14</text>
+	</string>
+	<string id="st_wpn_mini14_descr">
+		<text>The Ruger Mini-14 is a lightweight, semi-automatic rifle chambered in 5.56x45mm NATO cartridge, with a 30-rounds magazine. In production and service since 1973, the Mini-14 is heavily based on the M14 itself, looking very much alike, making people call it its Little Brother, despite the fact that neither the M14 nor the Mini-14 share their respective gas system designs. Still, to be considered as such, this weapon can be seen as a lighter M14 that also uses a lighter round, but still deadly enough, as well as a lot more reliable.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_draco_j">
+		<text>Micro Draco</text>
+	</string>
+	<string id="st_wpn_draco_j_s">
+		<text>Draco</text>
+	</string>
+	<string id="st_wpn_draco_j_descr">
+		<text>The Draco pistol is a compact, Romanian-made firearm based on the AK-47 design, chambered in 7.62x39mm. Despite its short barrel (typically around 10 inches or less), it retains the power and reliability of its full-sized counterpart, making it popular for home defense, truck guns, and tactical applications. Lacking a stock, the Draco is classified as a pistol under U.S. law, though many users add braces or convert them into short-barreled rifles (SBRs) with proper registration. Its loud report, bright muzzle flash, and high-energy rounds make it an intimidating weapon, often featured in movies and pop culture.\n
+		This is the smaller Micro Draco model, painted in a somewhat curious choice of colors.\n
+		</text>
+	</string>
+
+	<string id="st_wpn_draco_j_black">
+		<text>Micro Draco (stock)</text>
+	</string>
+	<string id="st_wpn_draco_j_black_descr">
+		<text>The Draco pistol is a compact, Romanian-made firearm based on the AK-47 design, chambered in 7.62x39mm. Despite its short barrel (typically around 10 inches or less), it retains the power and reliability of its full-sized counterpart, making it popular for home defense, truck guns, and tactical applications. Lacking a stock, the Draco is classified as a pistol under U.S. law, though many users add braces or convert them into short-barreled rifles (SBRs) with proper registration. Its loud report, bright muzzle flash, and high-energy rounds make it an intimidating weapon, often featured in movies and pop culture.\n
+		This is the smaller Micro Draco model, with a stock attached for improved handling, basically turning into a very small PDW.\n</text>
+	</string>
+	
+	
+	<string id="st_mag_draco_banana">
+		<text>30-Round Draco "Banana" Magazine</text>
+	</string>
+	<string id="st_mag_draco_banana_descr">
+		<text>Magazine for the AK-Draco Pistol, holds 30 rounds of 7.62x39 ammunition. Smells like bananas.\n \n</text>
+	</string>
+	
+	<string id="st_mag_draco_black">
+		<text>30-Round Draco Magazine</text>
+	</string>
+	<string id="st_mag_draco_black_descr">
+		<text>Magazine for the AK-Draco Pistol, holds 30 rounds of 7.62x39 ammunition.\n \n</text>
+	</string>
+	
+</string_table>

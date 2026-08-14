@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_g11_j">
+		<text>H&K G11</text>
+	</string>
+	<string id="st_wpn_g11_j_s">
+		<text>G11</text>
+	</string>
+	<string id="st_wpn_g11_j_descr">
+		<text>The H&K G11 was a non-production prototype assault rifle developed during the late Cold War in West Germany, with a sleek, futuristic design complemented by an ergonomic layout, allowing for superior handling, high rate of fire and modularity in diverse combat scenarios. Development ended succesfully in 1990 with 1000 produced units, but it was abandoned during the German reunification.\n
+		This 5.56mm variant is a redesign that adapts the original feeding system for caseless ammunition for conventional NATO ammo to blend cutting-edge design with the power and reliability of a conventional NATO round, featuring advanced materials and a streamlined profile that make it lighter and more adaptable.\n</text>
+	</string>
+
+<!-- 	<text>The H&K G11, reimagined and chambered in 5.56x45mm, blends cutting-edge design with the power and reliability of a conventional NATO round. Retaining its revolutionary caseless ammunition system, the modified G11 offers increased velocity and reduced recoil, enhancing accuracy and control. The sleek, futuristic design is complemented by an ergonomic layout, allowing for superior handling in diverse combat scenarios. The 5.56mm variant maintains the G11's high rate of fire and modularity, featuring advanced materials and a streamlined profile that make it lighter and more adaptable. This hybrid innovation bridges the gap between traditional and future small arms technology, providing a versatile and formidable weapon for modern warfare. \n \n</text>
+	</string> -->
+	
+	<string id="st_wpn_g11_j_acog">
+		<text>G11 "Schwert"</text>
+	</string>
+	<string id="st_wpn_g11_j_acog_s">
+		<text>G11 Schwert</text>
+	</string>
+
+	<string id="st_wpn_g11_j_aimpro">
+		<text>G11 "Dolch"</text>
+	</string>
+	<string id="st_wpn_g11_j_aimpro_S">
+		<text>G11 Dolch</text>
+	</string>
+
+	<string id="st_wpn_g11_j_leupold">
+		<text>G11 "Lanze"</text>
+	</string>
+	<string id="st_wpn_g11_j_leupold_s">
+		<text>G11 Lanze</text>
+	</string>
+
+	<string id="st_mag_g11j_556">
+		<text>H&K G11 Magazine</text>
+	</string>
+	<string id="st_mag_g11j_556_descr">
+		<text>Magazine for the H&K G11 battle rifle, holds 45 rounds of 5.56x45mm NATO ammunition. \n \n</text>
+	</string>
+	
+</string_table>

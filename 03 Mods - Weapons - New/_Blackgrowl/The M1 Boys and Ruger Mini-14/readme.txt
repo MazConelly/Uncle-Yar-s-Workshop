@@ -13,6 +13,8 @@ The mod is still expecting updates and fixes, do not use these files beyond "UPD
 ----------------------------------------------------------
 -Explanation:
 
+Files consolidated.
+
 Integrated into:
 Grok's Stash Overhaul
 PDA Interactive

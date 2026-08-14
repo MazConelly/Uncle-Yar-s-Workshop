@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_rpk74_16">
+		<text>RPK-16 (tambor)</text>
+	</string>
+	<string id="st_wpn_rpk74_16_s">
+		<text>RPK-16</text>
+	</string>
+	<string id="st_wpn_rpk16_descr">
+		<text>La ametralladora ligera RPK-16 es una respuesta al programa "Tokar-2", en el que compiti? con la propuesta de Degtyaryov. En 2018, el Ministerio de Defensa de la Federaci?n Rusa ha firmado un contrato relativo a la adquisici?n de la RPK-16, y se espera que asuma el papel de la RPK-74 en las Fuerzas Armadas rusas. El RPK-16 lleva rec?mara de 5,45?39 mm y cuenta con el tradicional sistema Kalashnikov de pist?n de largo recorrido accionado por gas, y comparte varias caracter?sticas t?cnicas y ergon?micas novedosas derivadas del programa AK-12. Por ejemplo, un carril Picatinny en la parte superior del receptor para montar diversas miras ?pticas y en la parte inferior del guardamanos para montar el b?pode desmontable montado en el carril Picatinny en lugar del b?pode fijo del RPK-74, una empu?adura de pistola ergon?mica y una culata plegable, y dos longitudes de ca??n principales; un ca??n largo de 550 mm (cuando se aplica o configura para la funci?n de ametralladora ligera) y un ca??n corto de 370 mm (cuando se aplica o configura para la funci?n de fusil de asalto). Su dise?o le permite tener un ca??n intercambiable que se puede desmontar f?cilmente, y la capacidad de acoplar r?pidamente un supresor desmontable. Tiene un peso en combate de 6 kg (13,23 lb), una longitud total de 1.076 mm (42,4 in), una cadencia de tiro c?clica de 700 cartuchos por minuto, un alcance de precisi?n de 800 m (870 yd). Utiliza principalmente un cargador de tambor de 95 cartuchos y es compatible con los cargadores de caja de los AK-74, AK-12 y RPK-74.</text>
+	</string>
+
+</string_table>

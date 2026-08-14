@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_m82a2">
+		<text>Barrett M82A2</text>
+	</string>
+	<string id="st_wpn_m82a2_s">
+		<text>M82A2</text>
+	</string>
+	<string id="st_wpn_m82a2_descr">
+		<text>The M82A2 is a rare, prototype bullpup version of the Barrett M82A1, an Anti-Materiel Rifle (AMR), designed for shoulder firing to compensate for heavy recoil. It features a pistol grip and trigger ahead of the magazine, hence the bullpup design, it also has a buttpad below the receiver and a forward grip. Only a small number were ever manufactured, primarily for testing. Comes with a 29-inch (73cm) barrel.\n \n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Leupold Mark 4 4.5-14x50mm LR/T M1 Scope\n</text>
+	</string>
+
+</string_table>

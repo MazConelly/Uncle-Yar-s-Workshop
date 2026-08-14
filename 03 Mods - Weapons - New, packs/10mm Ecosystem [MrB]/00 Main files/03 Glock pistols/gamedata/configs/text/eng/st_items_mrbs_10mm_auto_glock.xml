@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_glock20">
+		<text>Glock 20</text>
+	</string>
+	<string id="st_wpn_glock20_descr">
+		<text>A polymer-framed, short recoil-operated pistol. Designed and produced by Austrian manufacturer Glock Ges.m.b.H., the Glock family of firearms has been popular worldwide in military, law enforcement and civilian use since 1982. Reliable, safe, and with variants for any and all needs, Glocks can be found in every faction's hands.\n
+		The Glock 20 is a slightly bigger, sturdier-built cousin of the Glock 17, chambered in 10mm Auto. The larger caliber cuts the ammo capacity down to 15 shots with a full-size magazine.\n
+		It is said this pistol has gained popularity in recent years in North America for protection against arctic wildlife. Something capable of reliably putting down Alaskan brown bears may be just enough against the monsters the Zone vomits out every other day.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_glock29">
+		<text>Glock 29</text>
+	</string>
+	<string id="st_wpn_glock29_descr">
+		<text>A polymer-framed, short recoil-operated pistol. Designed and produced by Austrian manufacturer Glock Ges.m.b.H., the Glock family of firearms has been popular worldwide in military, law enforcement and civilian use since 1982. Reliable, safe, and with variants for any and all needs, Glocks can be found in every faction's hands.\n
+		The Glock 29 is a 10mm sub-compact pistol from the Glock family of pistols. As a concealed-carry pistol, its standard magazine carries only 10 rounds. Easy to conceal, with low recoil for its size and caliber, it is a very capable backup gun.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_glock40">
+		<text>Glock 40</text>
+	</string>
+	<string id="st_wpn_glock40_descr">
+		<text>A polymer-framed, short recoil-operated pistol. Designed and produced by Austrian manufacturer Glock Ges.m.b.H., the Glock family of firearms has been popular worldwide in military, law enforcement and civilian use since 1982. Reliable, safe, and with variants for any and all needs, Glocks can be found in every faction's hands.\n
+		The Glock 40 is a long slide variant of the Glock 20, similarly chambered in 10mm Auto. The longer barrel allows it to squeeze a bit more of a punch from this powerful cartridge compared to its shorter barreled brothers, Glock 20 and 29.\n
+		It is said this pistol has gained popularity in recent years in North America for protection against arctic wildlife. Something capable of reliably putting down a charging moose may be just enough against the monsters the Zone vomits out every other day.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+</string_table>

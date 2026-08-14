@@ -11,6 +11,7 @@ Let this overwrite the original files.
 -Explanation:
 
 Integrated into:
+FireModeCheck
 Lootboxes
 PDA Interactive
 Weapon Parts Overhaul

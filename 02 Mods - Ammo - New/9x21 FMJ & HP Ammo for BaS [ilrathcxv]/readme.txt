@@ -5,6 +5,8 @@ https://www.moddb.com/mods/stalker-anomaly/addons/dltx-9x21-fmj-hp-ammo-for-bas-
 ----------------------------------------------------------
 -Compatibility:
 
+Original mod not needed.
+
 ----------------------------------------------------------
 -Explanation:
 

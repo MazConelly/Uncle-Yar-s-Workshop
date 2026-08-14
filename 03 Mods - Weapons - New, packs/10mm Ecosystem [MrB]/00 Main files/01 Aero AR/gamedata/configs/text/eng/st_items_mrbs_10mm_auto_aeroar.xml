@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_aeroar">
+		<text>Aero Survival Rifle</text>
+	</string>
+	<string id="st_wpn_aeroar_descr">
+		<text>The Aero Survival Rifle is a versatile, takedown-style rifle chambered in 10mm Auto. It is a lightweight (in part due to being constructed out of aviation aluminum) and compact rifle that is easy to transport and can be configured for a variety of different purposes.\n
+		It features a semi-automatic blowback action combined with a 16.25-inch barrel, capable of getting the most bang for your buck out of the powerful 10mm Auto cartridge. Ample picatinny rails real estate allows for an easy installation of a variety of different sights, optics and other attachments. Thanks to that, it is a versatile firearm that can be used for a variety of different purposes, including hunting, personal defense, and recreational shooting.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit</text>
+	</string>
+
+</string_table>

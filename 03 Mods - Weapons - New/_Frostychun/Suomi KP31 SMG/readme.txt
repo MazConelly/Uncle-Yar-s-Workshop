@@ -13,6 +13,9 @@ Changed upgrades to that of the vanilla PPSH41. The mod states it needs Tommy Gu
 Changed ammo and mag to 9x19 instead of 9x18, and ammo count from 50 to 71, as per the real world gun and drum mag.
 The inventory icon will now be used as the upgrade icon, instead of... dunno, it was showing the hidden blurry photo of some soccer player for me.
 
+Traders. Distributed to the same factions assigned in NPC loadouts (loners, bandits, renegades, CS).
+NPC loadouts. Experienced ranks will now carry it. Novices will only carry it with FMJ ammo loaded. 
+
 Tweaked actor effects and Grok's Recoil to follow the MP5 (another 9x19 gun), instead of the Tommy in .45 ACP (a loltastic choice as the original mod had the KP31 as a 9x18).
 The PPSH41 would be a much better example to follow, but these files are more concerned with the ammo used, so...
 

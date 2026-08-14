@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_scope_mrbsentinel">
+		<text>SENTINEL kit</text>
+	</string>
+	<string id="st_addon_mrbsentinel_descr">
+		<text>Upgrade kit meant for Glock pistols in 10mm. Package contains a red dot sight, laser sight, extended 30-round magazine and an auto-sear, turning your Glock of choice into a fully automatic machine pistol.\n
+		Attention: This upgrade is irreversible.</text>
+	</string>
+
+	<string id="st_addon_scope_mrbwarden">
+		<text>WARDEN kit</text>
+	</string>
+	<string id="st_addon_mrbwarden_descr">
+		<text>Upgrade kit meant for almost every 10mm Auto pistol found in the zone, that is not a Glock. Package contains an extended magazine, red dot sight, laser sight and a compensator.\n
+		IMPORTANT: Not all pistols can mount this upgrade, double check prior to purchase.\n
+		Attention: This upgrade is irreversible.</text>
+	</string>
+
+	<string id="st_addon_scope_mrboperative">
+		<text>OPERATIVE kit</text>
+	</string>
+	<string id="st_addon_mrboperative_descr">
+		<text>Upgrade kit meant for many of the 10mm Auto SMG and PCC’s. Double check prior to purchase for compatibility. Package contains a tactical magazine, EOT holographic sight and a laser sight.\n
+		Attention: This upgrade is irreversible.</text>
+	</string>	
+
+	<string id="st_addon_scope_mrbenforcer">
+		<text>ENFORCER kit</text>
+	</string>
+	<string id="st_addon_mrbenforcer_descr">
+		<text>Upgrade kit meant for many of the 10mm Auto SMG and PCC’s. Double check prior to purchase for compatibility. Package contains a 50 round drum magazine, Specter scope and canted red dot sight.\n
+		Attention: This upgrade is irreversible.</text>
+	</string>
+
+</string_table>

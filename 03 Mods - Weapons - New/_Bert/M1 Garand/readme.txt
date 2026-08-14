@@ -9,11 +9,11 @@ NOTE: The original mod is still needed. Disable the configs folder
 ----------------------------------------------------------
 -Explanation:
 
-NPC loadouts.
+NPC loadouts
 Fixed a couple rank sections. Depending on faction, novices have a smaller chance to carry a Garand (25% for Monolith and poorer factions, 50% for Freedom and CS, 75% for ISG and Mercs). ISG novices may have it spawn with a silencer, while mercs with a scope. All novices only get normal ammo.
 Experienced ranks still get full chance to spawn with random ammo and attachments.
 
-Traders.
+Traders
 Files consolidated.
 Made items a bit rarer. The rifle has a 0.90 chance of being stocked, while the silencer, and main scope have a 0.80%. The prototype scope is raised one supply level at a 0.50 chance of being stocked.
 Added to bandit traders. The Flea Market at night *might* have the rifle and silencer.

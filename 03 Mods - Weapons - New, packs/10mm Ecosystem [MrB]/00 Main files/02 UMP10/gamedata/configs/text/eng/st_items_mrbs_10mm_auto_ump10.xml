@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ump10">
+		<text>UMP10</text>
+	</string>
+	<string id="st_wpn_ump10_descr">
+		<text>The UMP was developed by H&amp;K in the 1990s, first appearing on the market in 1999. The idea behind the UMP was to create lightweight and powerful submachine gun, that was also cheaper than the MP5. The UMP, being targeted primarily for US law enforcement, appeared in .45 ACP and .40 S&amp;W chamberings, and later in 9mm.\n
+		The markings show this to originally be an UMP40, a variant chambered in .40 S&amp;W, a shortened and lighter-kick variant born from 10mm Auto.\n
+		This particular example has been modified by a skilled Zone Gunsmith to feed from a standard 10mm MP5-10 magazine, and to withstand the high pressure caliber. One may be curious as to how this engineering wizardry has been achieved, but it's best not to question one of the many miracles found within the Zone.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit
+		</text>
+	</string>
+
+</string_table>

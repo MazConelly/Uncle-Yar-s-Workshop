@@ -1,0 +1,284 @@
+![wpn_glock_18c]
+visual				= dynamics\weapons\wpn_glock_auto\wpn_glock_auto_world.ogf
+
+icons_texture		= ui\ui_wpn_glock_18
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 8
+inv_grid_y			= 0
+
+hud					= wpn_glock_18_hud
+
+fire_point			= 0, 0.135, 0.141
+fire_point2			= 0, 0.135, 0.141
+shell_point		 	= 0, 0.128, 0.041
+
+upgr_icon_path		= ui\ui_wpn_glock_18
+upgr_icon_x			= 0
+upgr_icon_y			= 200
+upgr_icon_width		= 200
+upgr_icon_height	= 100
+
+upgrades			= up_gr_firstab_sig320, up_gr_seconab_sig220, up_gr_thirdab_sig220, up_gr_fourtab_sig220, up_gr_fifthab_sig220
+
+; ammo_elapsed		= 17 ; 33
+; ammo_mag_size		= 17 ; 33
+
+silencer_x			= 83
+silencer_y			= -19
+
+snd_empty								= weapons\fort\fort_new_empty
+snd_draw								= weapons\fort\fort_new_draw
+snd_holster								= weapons\fort\fort_new_holster
+snd_reload								= weapons\glock\glock_reload
+snd_reload_empty						= weapons\glock\glock_reload_empty
+snd_bore								= weapons\fn57\fn57_inspect
+snd_reload_misfire						= weapons\glock\glock_unjam
+
+scripted_snd_ammo_check					= weapons\glock\glock_magcheck
+scripted_snd_ammo_check_empty			= weapons\glock\glock_magcheck
+scripted_snd_ammo_check_jammed			= weapons\glock\glock_magcheck
+scripted_snd_ammo_check_empty_jammed	= weapons\glock\glock_magcheck
+scripted_snd_ammo_check_no_mag			= $no_sound
+
+scripted_snd_reload_misfire_empty		= weapons\glock\glock_unjam_empty
+scripted_snd_sprint2walk				= weapons\fort\fort_new_draw
+scripted_snd_walk2sprint				= weapons\fort\fort_new_holster
+
+weapon_lower_speed					= 0.2
+
+;  [wpn_glock_18c_hud]:wpn_glock_18_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni]:wpn_glock_18c
+$spawn								= "weapons\glock_18c_roni"
+parent_section						= wpn_glock_18c_roni
+
+class								= WP_LR300
+slot								= 2
+animation_slot						= 8
+ef_main_weapon_type					= 2
+ef_weapon_type						= 6
+single_handed						= 0
+
+inv_name							= st_wpn_glock_18c_roni
+inv_name_short						= st_wpn_glock_18c_roni_s
+description							= st_wpn_glock_18c_roni_descr
+icons_texture						= ui\ui_wpn_glock_18c_roni
+inv_grid_width						= 4
+inv_grid_height						= 2
+
+kind								= w_smg ;w_pistol
+inv_weight							= 1.7
+cost								= 49350
+weapon_class						= assault_rifle
+
+hud									= wpn_glock_18_roni_hud
+visual								= dynamics\weapons\wpn_glock_roni\wpn_glock_roni_world.ogf
+position							= 0.0, 0.0, 0.0
+fire_point							= 0.0, 0.188, 0.392
+fire_point2							= 0.0, 0.188, 0.392
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_position		 				= -0.2,-0.22,0.12
+strap_orientation					= -10, -5, 10
+ph_mass								= 3
+
+flame_particles						= weapons\generic_weapon05
+
+shell_point							= 0.0, 0.188, 0.082
+shell_dir							= 0.0, 1.0, 0.0
+shell_particles						= weapons\9x19
+
+light_range							= 5
+
+upgr_icon_path						= ui\ui_wpn_glock_18c_roni
+upgr_icon_x							= 0
+upgr_icon_y							= 100
+ammo_elapsed						= 33
+ammo_mag_size						= 33
+
+scopes								= ac10632, c-more, eot, aimpoint, point_aimpro, compm4s, lco1, uh2, e0t2, rmr
+scope_zoom_factor					= 0
+
+silencer_x							= 191
+silencer_y							= -9
+
+hit_impulse							= 34
+bullet_speed						= 400
+rpm_empty_click						= 200
+ap_modifier							= 1.1
+
+reload_dof							= 0.0, 0.5, 5, 2
+crosshair_inertion					= 4.35
+fire_dispersion_base				= 0.24
+inertion_origin_aim_offset			= -0.03
+inertion_origin_offset				= -0.05
+inertion_tendto_aim_speed			= 8
+inertion_tendto_speed				= 5
+
+misfire_probability					= 0.005
+misfire_start_condition				= 0.7 ;	0.85
+
+condition_queue_shot_dec			= 0.0014
+condition_shot_dec					= 0.0012
+
+cam_relax_speed						= 5
+cam_dispersion						= 0.8
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.0475
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 1.5
+zoom_cam_relax_speed				= 10
+zoom_cam_dispersion					= 0.9
+zoom_cam_dispersion_frac			= 1.0
+zoom_cam_dispersion_inc				= 0.06
+zoom_cam_max_angle					= 45.0
+zoom_cam_max_angle_horz				= 45.0
+zoom_cam_step_angle_horz			= 1.1
+
+PDM_disp_accel_factor				= 1.5
+PDM_disp_base						= 0.5
+PDM_disp_vel_factor					= 1.5
+
+cam_relax_speed_ai					= 120.75
+zoom_cam_relax_speed_ai				= 120.75
+
+kill_msg_x							= 72
+kill_msg_y							= 82
+kill_msg_width						= 56
+
+snd_empty								= weapons\roni\glock_trigger
+snd_empty_first							= weapons\roni\glock_hammer
+snd_draw								= weapons\roni\roni_draw
+snd_holster								= weapons\roni\roni_holster
+snd_reload								= weapons\roni\roni_reload_part
+snd_reload_empty						= weapons\roni\roni_reload_empty
+snd_bore								= $no_sound
+snd_bore_empty							= $no_sound
+snd_reload_misfire						= weapons\roni\roni_unjam
+
+scripted_snd_reload						= weapons\roni\roni_reload_part
+scripted_snd_ammo_check					= weapons\roni\roni_magcheck
+scripted_snd_ammo_check_empty			= weapons\roni\roni_magcheck
+scripted_snd_ammo_check_jammed			= weapons\roni\roni_magcheck
+scripted_snd_ammo_check_empty_jammed	= weapons\roni\roni_magcheck
+scripted_snd_ammo_check_no_mag			= $no_sound
+scripted_snd_bore						= weapons\roni\roni_inspect
+scripted_snd_bore_empty					= weapons\roni\roni_inspect_empty
+
+scripted_snd_reload_misfire_empty		= $no_sound
+scripted_snd_sprint2walk				= $no_sound
+scripted_snd_walk2sprint				= $no_sound
+
+use_alt_aim_hud						= true
+
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_c-more]:wpn_glock_18c_roni
+1icon_layer		= c-more
+1icon_layer_x	= 113
+1icon_layer_y	= -14
+
+hud	= wpn_glock_18_roni_c-more_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_ac10632]:wpn_glock_18c_roni
+1icon_layer	= ac10632
+1icon_layer_x	= 113
+1icon_layer_y	= -16
+
+hud	= wpn_glock_18_roni_ac10632_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_eot]:wpn_glock_18c_roni
+1icon_layer		= eot
+1icon_layer_x	= 113	
+1icon_layer_y	= -14
+
+hud	= wpn_glock_18_roni_eot_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_aimpoint]:wpn_glock_18c_roni
+1icon_layer		= aimpoint
+1icon_layer_x	= 110
+1icon_layer_y	= -6
+
+hud	= wpn_glock_18_roni_aimpoint_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_compm4s]:wpn_glock_18c_roni
+1icon_layer		= compm4s
+1icon_layer_x	= 108
+1icon_layer_y	= -21
+
+hud	= wpn_glock_18_roni_compm4s_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_point_aimpro]:wpn_glock_18c_roni
+1icon_layer		= point_aimpro
+1icon_layer_x	= 112
+1icon_layer_y	= -18
+
+hud	= wpn_glock_18_roni_point_aimpro_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_e0t2]:wpn_glock_18c_roni
+1icon_layer		= e0t2
+1icon_layer_x	= 107
+1icon_layer_y	= -13
+
+hud	= wpn_glock_18_roni_e0t2_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_lco1]:wpn_glock_18c_roni
+1icon_layer		= lco1
+1icon_layer_x	= 112
+1icon_layer_y	= -14
+
+hud	= wpn_glock_18_roni_lco1_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_uh2]:wpn_glock_18c_roni
+1icon_layer		= uh2
+1icon_layer_x	= 111
+1icon_layer_y	= -16
+
+hud	= wpn_glock_18_roni_uh2_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_rmr]:wpn_glock_18c_roni
+1icon_layer		= rmr
+1icon_layer_x	= 105
+1icon_layer_y	= -4
+
+hud	= wpn_glock_18_roni_rmr_hud
+
+;------------------------------------------------------------------------------------------------
+[wpn_glock_18c_roni_upkit]:wpn_glock_18c_roni
+$spawn						= "weapons\glock_18c_roni_upkit"
+parent_section				= wpn_glock_18c_roni_upkit
+
+inv_name					= st_glock_18c_roni_upkit
+description					= st_glock_18c_roni_upkit_descr
+icons_texture				= ui\ui_wpn_glock_18c_roni_up
+
+inv_weight					= 1.9
+cost						= 62350
+
+hud							= wpn_glock_18_roni_upkit_hud
+
+upgr_icon_path				= ui\ui_wpn_glock_18c_roni_up
+
+scopes						= none
+scope_status				= 1
+
+zoom_cam_dispersion			= 0.7
+zoom_cam_dispersion_inc		= 0.04
+zoom_cam_max_angle			= 38.0
+zoom_cam_max_angle_horz		= 38.0
+
+use_alt_aim_hud				= true
+
+laser_status				= true

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp155">
+		<text>BAIKAL MP-155</text>
+	</string>
+	<string id="st_wpn_mp155_descr">
+		<text>La Baikal MP-155 es una escopeta semiautomбtica que viene en calibre 12, con caсуn de 750 mm de бnima lisa. Se produce desde 2011 y es el modelo mбs popular entre los cazadores rusos. La versiуn contrabandeada a la Zona venнa modificada de fбbrica con el cargador de 8 cartuchos.\n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] • %c[ui_gray_2] Mira: La mayorнa de las уpticas para el sistema Picatinny/weaver\n
+		%c[d_purple] • %c[ui_gray_2] Supresor: Supresor OTAN compatible con multicalibre\n</text>
+	</string>
+
+</string_table>

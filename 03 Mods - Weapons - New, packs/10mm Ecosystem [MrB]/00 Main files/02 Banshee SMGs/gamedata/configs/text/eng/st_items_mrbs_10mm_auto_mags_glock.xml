@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_glock_10x25">
+		<text>10mm Standard Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_descr">
+		<text>10mm Auto Glock magazine with standard 15 round capacity.\n
+		A magazine so reliable, other manufacturers would prefer to license your magazine rather than have to design a brand new solution of their own.</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_ext">
+		<text>10mm Extended Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_ext_descr">
+		<text>10mm Auto Glock magazine with extended 30 round capacity.\n
+		A magazine so reliable, other manufacturers would prefer to license your magazine rather than have to design a brand new solution of their own.</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_drum">
+		<text>10mm Drum Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_10x25_drum_descr">
+		<text>10mm Auto Glock Drum with high 50 round capacity.\n
+		A magazine so reliable, other manufacturers would prefer to license your magazine rather than have to design a brand new solution of their own.</text>
+	</string>
+
+</string_table>

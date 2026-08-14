@@ -23,6 +23,8 @@ Files consolidated.
 
 Added default actor effects configs.
 
+Mags Redux support. Changed for compatibility with the files in ATHI's Saiga-23. A new game is required to apply this module if you were already using KS12 Prototype AND Mags Redux.
+
 Integration into:
 Armor Modkits addon. Instead of buying it off Nimble, you can instead upgrade a Saiga12 ISG with a custom gun modkit.
 FireModeCheck

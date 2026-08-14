@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_prt_w_barrel_50bmg">
+		<text>.50 BMG barrel</text>
+	</string>
+	<string id="st_prt_w_barrel_50bmg_descr">
+		<text>barrel from a .50 BMG rifle.\n \n
+		</text>
+	</string>
+
+</string_table>

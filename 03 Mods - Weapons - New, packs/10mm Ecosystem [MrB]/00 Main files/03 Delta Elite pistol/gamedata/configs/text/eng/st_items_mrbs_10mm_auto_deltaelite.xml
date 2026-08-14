@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_deltaelite">
+		<text>Colt Delta Elite</text>
+	</string>
+	<string id="st_wpn_deltaelite_descr">
+		<text>The Colt Delta Elite is a semi-automatic pistol based on the Colt 1911 design, with some modifications to accommodate the 10mm Auto cartridge - the second gun in the world to use the cartridge, and first from a major manufacturer. It has a single-action trigger, thumb safety, grip safety, and a beavertail grip safety to help prevent slide bite. a 5-inch barrel with a fully supported ramp improves accuracy. The pistol feeds from a 8-round magazine, which is designed to be durable and reliable, a claim that could not be said about its competition at the time, as far as 10mm Auto guns go.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+</string_table>

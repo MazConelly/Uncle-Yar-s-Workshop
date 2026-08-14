@@ -1,0 +1,122 @@
+
+[up_sect_firsta_mr73]
+cost                                     = 2280
+value                                    = +15
+inv_weight                               = -0.06
+crosshair_inertion                       = -0.7
+PDM_disp_base                            = -0.15
+PDM_disp_vel_factor                      = -0.35
+PDM_disp_accel_factor                    = -0.35
+
+[up_sect_firstc_mr73]
+cost                                     = 2180
+value                                    = +10
+rpm                                      = +20
+inv_weight                               = +0.03
+
+[up_sect_firstd_mr73]
+cost                                     = 2390
+value                                    = -10
+cam_dispersion                           = -0.191 
+cam_dispersion_inc                       = 0.0 ;-0.198 
+cam_step_angle_horz                      = -0.114 
+inv_weight                               = +0.05
+
+[up_sect_firste_mr73]
+cost                                     = 4790
+value                                    = +15
+
+fire_dispersion_base                     = -0.2
+fire_distance                            = +150
+bullet_speed                             = +60
+
+rpm                                      = -70
+
+cam_dispersion                           = +1.0
+zoom_cam_dispersion                      = -0.35
+
+inv_weight                               = +0.055
+
+fire_point                               = 0, 0.057, 0.3155
+hud_fire_point                           = 0, 0, 0.059
+
+[up_sect_secona_mr73]
+cost                                     = 1980
+value                                    = +10
+condition_shot_dec                       = -0.0002
+condition_queue_shot_dec                 = -0.0002
+misfire_start_prob                       = -0.001
+misfire_end_prob                         = -0.01
+inv_weight                               = +0.04
+
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_firsta_mr73]:up_info_type_a
+scheme_index                             = 0, 0
+effects                                  = up_gr_firstcd_mr73
+section                                  = up_sect_firsta_mr73
+
+property                                 = prop_inertion
+
+name                                     = st_up_stvp_b5_name
+description                              = st_up_stvp_b5_descr
+icon                                     = ui_inGame2_upgrade_Black_hawk_10
+
+[up_firstc_mr73]:up_info_type_a
+scheme_index                             = 1, 0
+effects                                  = up_gr_firstef_mr73
+section                                  = up_sect_firstc_mr73
+
+property                                 = prop_rpm
+
+name                                     = st_up_barp_c1_name
+description                              = st_up_barp_c1_descr
+icon                                     = ui_inGame2_upgrade_Black_hawk_7
+
+[up_firstd_mr73]:up_info_type_a
+scheme_index                             = 1, 1
+effects                                  = up_gr_firstef_mr73
+section                                  = up_sect_firstd_mr73
+
+property                                 = prop_recoil
+
+name                                     = st_up_zatp_b6_name
+description                              = st_up_zatp_b6_descr
+icon                                     = ui_inGame2_upgrade_Black_hawk_2
+
+[up_firste_mr73]:up_info_type_a
+scheme_index                             = 2, 0
+effects                                  =
+section                                  = up_sect_firste_mr73
+
+property                                 = prop_dispersion
+
+name                                     = st_up_barp_a1_name
+description                              = st_up_barp_a1_descr
+icon                                     = ui_inGame2_upgrade_Black_hawk_5
+
+[up_secona_mr73]:up_info_type_a
+scheme_index                             = 0, 1
+effects                                  =
+section                                  = up_sect_secona_mr73
+
+property                                 = prop_reliability
+
+name                                     = st_up_usmp_b5_name
+description                              = st_up_usmp_b5_descr
+icon                                     = ui_inGame2_upgrade_Black_hawk_14
+
+
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_gr_firstab_mr73]
+elements                                 = up_firsta_mr73
+
+[up_gr_firstcd_mr73]
+elements                                 = up_firstc_mr73, up_firstd_mr73
+
+[up_gr_firstef_mr73]
+elements                                 = up_firste_mr73
+
+[up_gr_seconab_mr73]
+elements                                 = up_secona_mr73

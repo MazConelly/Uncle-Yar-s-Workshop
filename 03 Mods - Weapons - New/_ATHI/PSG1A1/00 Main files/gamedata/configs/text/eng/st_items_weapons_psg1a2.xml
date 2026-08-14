@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_psg1a2">
+		<text>HK PSG-1 A2</text>
+	</string>
+	<string id="st_wpn_psg1a2_s">
+		<text>PSG-1 A2</text>
+	</string>
+	<string id="st_wpn_psg1a2_descr">
+		<text>The PSG-1 is a precision rifle based on the G3 battle rifle, designed as a police sniper rifle for maximum precision. It boasts very high accuracy, but is also extremely expensive, leading to limited sales and a cessation of production in 2010. The PSG-1's accuracy is close to that of bolt-action sniper rifles, which is exceptional for a semi-automatic weapon. The rifle's weight, price and rather delicate construction makes it unsuitable for military use, leading to the development of the MSG90, with improvements aimed towards military conditions.\n
+		This A2 variant comes with Picatinny rails for mounting various optics and devices.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] PEQ LA5 LAM</text>
+	</string>
+
+</string_table>

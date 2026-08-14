@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_akvs">
+		<text>AKvs-M</text>
+	</string>
+	<string id="st_wpn_akvs2">
+		<text>AKvs-Mt</text>
+	</string>
+	<string id="st_wpn_akvs_descr">
+		<text>The AKvs-M is a 9x39mm rifle patented by the Zone from areas where 9x39 is more common than the weapons. These rifles are made by taking a standard AKM assault rifle, Rechambering or replacing the barrel, Retrofitting the gas block and Modifying the magwell to take your typical 9x39 "Groza" Magazines.\n
+		The gas system has been modified to allow the gases to be tapped from a secondary block near the chamber to the primary forward block. This is done to compensate for the low pressures of the 9x39 round to insure reliable function. As complicated as these modifications may seem, These rifles still remain common due to the cheap cost and fast turnaround.\n
+		The AKvs series are known to have some reliability issues due to the parts being retrofitted for the caliber and not manufactured.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02 Kobra, 1P29, PSO-1 scopes\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)</text>
+	</string>
+
+	<string id="st_wpn_ots12">
+		<text>OTs-12n</text>
+	</string>
+	<string id="st_wpn_ots12_descr">
+		<text>The OTs-12 was developed in the early 1990s in TsKIB SOO of Tula designers VN Telesh and Yu.V.Lebedev. It is basically an AKS-74U re-chambered for 9x39mm, it was designed as alternative to the AKS-74U. The TsKIB COO of Tula made several hundred of OTs-12s, which were transferred to the Interior Ministry security forces.\n
+		Despite the good evaluation, the Tula Arms Plant did not put the rifle into mass-production. They instead opted for a bullpup configuration known as OTs-14 Groza, which became its successor.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02 Kobra, 1P29, PSO-1 scopes\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor</text>
+	</string>
+	<string id="st_wpn_ots12v2">
+		<text>OTs-12n (no Dovetail mount)</text>
+	</string>
+	<string id="st_wpn_ots12v2_descr">
+		<text>The OTs-12 was developed in the early 1990s in TsKIB SOO of Tula designers VN Telesh and Yu.V.Lebedev. It is basically an AKS-74U re-chambered for 9x39mm, it was designed as alternative to the AKS-74U. The TsKIB COO of Tula made several hundred of OTs-12s, which were transferred to the Interior Ministry security forces.\n
+		Despite the good evaluation, the Tula Arms Plant did not put the rifle into mass-production. They instead opted for a bullpup configuration known as OTs-14 Groza, which became its successor.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_red] • %c[d_red] None due to the absence of a dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor</text>
+	</string>
+
+	<string id="st_wpn_ots12v2s">
+		<text>OTs-12c "Tiss" </text>
+	</string>
+	<string id="st_wpn_ots12v2s_s">
+		<text>Tiss</text>
+	</string>
+	<string id="st_wpn_ots12v2s_descr">
+		<text>The OTs-12 was developed in the early 1990s in TsKIB SOO of Tula designers VN Telesh and Yu.V.Lebedev. It is basically an AKS-74U re-chambered for 9x39mm, it was designed as alternative to the AKS-74U. The TsKIB COO of Tula made several hundred of OTs-12s, which were transferred to the Interior Ministry security forces.\n
+		Despite the good evaluation, the Tula Arms Plant did not put the rifle into mass-production. They instead opted for a bullpup configuration known as OTs-14 Groza, which became its successor.\n
+		This version has a 8.13 inch barrel and no dovetail mount, indicating this might be one of the earlier models.\n 
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_red] • %c[d_red] None due to the absence of a dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor</text>
+	</string>
+
+</string_table>

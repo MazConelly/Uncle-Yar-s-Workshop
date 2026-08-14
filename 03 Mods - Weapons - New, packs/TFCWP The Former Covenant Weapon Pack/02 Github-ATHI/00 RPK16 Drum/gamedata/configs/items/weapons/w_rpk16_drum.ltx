@@ -1,0 +1,876 @@
+;;------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum]:wpn_rpk74
+hud					= wpn_rpk74_16_drum_hud
+parent_section		= wpn_rpk74_16_drum
+
+inv_name			= st_wpn_rpk74_16
+inv_name_short		= st_wpn_rpk74_16_s
+description			= st_wpn_rpk74_16_descr
+
+icons_texture		= ui\ui_icon_tcwp_rpk74_16_drum
+inv_grid_height		= 2
+inv_grid_width		= 5
+inv_grid_x			= 0
+inv_grid_y			= 0
+
+upgr_icon_path		= ui\ui_icon_tcwp_rpk74_16_drum
+upgr_icon_x			= 0
+upgr_icon_y			= 100
+upgr_icon_width		= 350
+upgr_icon_height	= 150
+
+visual				= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_world.ogf
+position			= 0, 0.029, -0.023
+
+inv_weight			= 4.5
+
+scopes				= ac10632, c-more, eot, acog, triji, specter, spec_alt, leupold, mark8_rmr, pn23, ps320, gauss_sight, 0kp2, 1p87, aimpoint, ekp8_18, e0t2, exps3, he510, p1x42, pk6, rmr, uh2
+scope_status		= 0
+scope_zoom_factor	= 0
+
+silencer_x			= 217
+silencer_y			= 12
+
+ammo_elapsed		= 95
+ammo_mag_size		= 95
+startup_ammo		= 190
+
+bullet_speed		= 960
+fire_distance		= 1000
+rpm					= 700
+rpm_empty_click		= 225
+
+use_alt_aim_hud		= true
+
+laser_status		= true
+
+;_______________
+
+snd_bore							= $no_sound
+scripted_snd_bore					= weapons\rpk16\handling\rpk16_inspect_tcwp1	
+scripted_snd_bore_variant1			= weapons\rpk16\handling\rpk16_inspect_tcwp2
+scripted_snd_bore_empty				= weapons\rpk16\handling\rpk16_inspect_empty_tcwp1
+scripted_snd_bore_empty_variant1	= weapons\rpk16\handling\rpk16_inspect_empty_tcwp2
+scripted_snd_bore_jammed			= weapons\rpk16\handling\rpk16_inspect_tcwp1	
+scripted_snd_bore_jammed_variant1	= weapons\rpk16\handling\rpk16_inspect_tcwp2
+
+snd_draw							= $no_sound
+scripted_snd_show					= weapons\rpk16\handling\rpk16_deploy_tcwp1	
+scripted_snd_show_variant1			= weapons\rpk16\handling\rpk16_deploy_tcwp2	
+scripted_snd_show_variant2			= weapons\rpk16\handling\rpk16_deploy_tcwp3	
+scripted_snd_show_empty				= weapons\rpk16\handling\rpk16_deploy_empty_tcwp1	
+scripted_snd_show_empty_variant1	= weapons\rpk16\handling\rpk16_deploy_empty_tcwp2	
+scripted_snd_show_empty_variant2	= weapons\rpk16\handling\rpk16_deploy_empty_tcwp3	
+	
+snd_holster							= $no_sound
+scripted_snd_hide					= weapons\rpk16\handling\rpk16_holster_tcwp1
+scripted_snd_hide_variant1			= weapons\rpk16\handling\rpk16_holster_tcwp2
+scripted_snd_hide_empty				= weapons\rpk16\handling\rpk16_holster_empty_tcwp
+
+scripted_snd_sprint_end				= weapons\rpk16\handling\rpk16_end_sprint_tcwp1,true
+scripted_snd_sprint_end_variant1	= weapons\rpk16\handling\rpk16_end_sprint_tcwp2,true
+scripted_snd_sprint_end_variant2	= weapons\rpk16\handling\rpk16_end_sprint_tcwp3,true
+
+scripted_snd_sprint_end_empty			= weapons\rpk16\handling\rpk16_end_sprint_empty_tcwp1
+scripted_snd_sprint_end_empty_variant1	= weapons\rpk16\handling\rpk16_end_sprint_empty_tcwp2
+scripted_snd_sprint_end_empty_variant2	= weapons\rpk16\handling\rpk16_end_sprint_empty_tcwp1
+
+scripted_snd_sprint_end_jammed			= weapons\rpk16\handling\rpk16_end_sprint_tcwp1
+scripted_snd_sprint_end_jammed_variant1	= weapons\rpk16\handling\rpk16_end_sprint_tcwp2
+scripted_snd_sprint_end_jammed_variant2	= weapons\rpk16\handling\rpk16_end_sprint_tcwp3
+
+snd_switch_mode		= weapons\rpk16\handling\rpk16_firemode_switch_tcwp1
+snd_switch_mode1	= weapons\rpk16\handling\rpk16_firemode_switch_tcwp2
+snd_switch_mode2	= weapons\rpk16\handling\rpk16_firemode_switch_tcwp3
+snd_switch_mode3	= weapons\rpk16\handling\rpk16_firemode_switch_tcwp4
+snd_switch_mode4	= weapons\rpk16\handling\rpk16_firemode_switch_tcwp5
+snd_switch_mode5	= weapons\rpk16\handling\rpk16_firemode_switch_tcwp6
+
+snd_reload	= weapons\rpk16\handling\rpk16_reload_partial_tcwp1
+snd_reload1	= weapons\rpk16\handling\rpk16_reload_partial_tcwp2
+snd_reload2	= weapons\rpk16\handling\rpk16_reload_partial_tcwp3
+
+snd_reload_empty	= weapons\rpk16\handling\rpk16_reload_empty_tcwp1
+snd_reload_empty1	= weapons\rpk16\handling\rpk16_reload_empty_tcwp2
+snd_reload_empty2	= weapons\rpk16\handling\rpk16_reload_empty_tcwp3
+
+snd_reload_misfire	= weapons\rpk16\handling\rpk16_unjam_tcwp1
+snd_reload_misfire1	= weapons\rpk16\handling\rpk16_unjam_tcwp2
+snd_reload_misfire2	= weapons\rpk16\handling\rpk16_unjam_tcwp3
+snd_reload_misfire3	= weapons\rpk16\handling\rpk16_unjam_tcwp4
+snd_switch			= $no_sound
+
+snd_empty	= weapons\rpk16\handling\rpk16_trigger_hammer_tcwp1
+snd_empty1	= weapons\rpk16\handling\rpk16_trigger_hammer_tcwp2
+snd_empty2	= weapons\rpk16\handling\rpk16_trigger_hammer_tcwp3
+snd_empty3	= weapons\rpk16\handling\rpk16_trigger_hammer_tcwp4
+snd_empty4	= weapons\rpk16\handling\rpk16_trigger_hammer_tcwp5
+snd_empty5	= weapons\rpk16\handling\rpk16_trigger_hammer_tcwp6
+
+snd_shoot				= wpn_rpk16_drum_snd_shoot
+snd_shoot_actor			= wpn_rpk16_drum_snd_shoot_actor
+snd_silncer_shot		= wpn_rpk16_drum_snd_silenced
+snd_silncer_shot_actor	= wpn_rpk16_drum_snd_silenced_actor
+
+[wpn_rpk16_drum_snd_shoot]
+snd_1_layer		= weapons\_gunfire\mono\akm_jsrs\close_1
+snd_1_layer1	= weapons\_gunfire\mono\akm_jsrs\close_2
+snd_1_layer2	= weapons\_gunfire\mono\akm_jsrs\close_3
+snd_1_layer3	= weapons\_gunfire\mono\akm_jsrs\close_4
+snd_2_layer		= weapons\_gunfire\mono\akm_jsrs\Close_Distance
+snd_3_layer		= weapons\_gunfire\mono\akm_jsrs\Medium_Distance
+snd_4_layer		= weapons\_shared\mono\Reflectors\762\Reflector_1, 0.5
+snd_4_layer1	= weapons\_shared\mono\Reflectors\762\Reflector_2, 0.5
+snd_4_layer2	= weapons\_shared\mono\Reflectors\762\Reflector_3, 0.5
+snd_4_layer3	= weapons\_shared\mono\Reflectors\762\Reflector_4, 0.5
+snd_5_layer		= weapons\_cracks\mono\Crack_far\Crack_1
+snd_5_layer1	= weapons\_cracks\mono\Crack_far\Crack_6
+snd_5_layer2	= weapons\_cracks\mono\Crack_far\Crack_9
+snd_6_layer		= weapons\_shared\mono\762w\Far_1
+snd_6_layer1	= weapons\_shared\mono\762w\Far_3
+snd_7_layer		= weapons\_shared\mono\762w\tail_1, 0.5
+snd_7_layer1	= weapons\_shared\mono\762w\tail_2, 0.5
+snd_8_layer		= weapons\_shared\mono\762w\mid_762w
+snd_9_layer		= weapons\_shells\mono\556mm_shell_soil1
+snd_9_layer1	= weapons\_shells\mono\556mm_shell_soil2
+snd_9_layer2	= weapons\_shells\mono\556mm_shell_soil3
+snd_9_layer3	= weapons\_shells\mono\556mm_shell_soil4
+snd_9_layer4	= weapons\_shells\mono\556mm_shell_soil5
+snd_9_layer5	= weapons\_shells\mono\556mm_shell_soil6
+snd_9_layer6	= weapons\_shells\mono\556mm_shell_soil7
+snd_9_layer7	= weapons\_shells\mono\556mm_shell_soil8
+snd_9_layer8	= weapons\_shells\mono\556mm_shell_soil9
+snd_10_layer	= weapons\rpk16\mono\rpk16_mono_close1
+snd_10_layer1	= weapons\rpk16\mono\rpk16_mono_close1
+snd_10_layer2	= weapons\rpk16\mono\rpk16_mono_close1
+snd_10_layer3	= weapons\rpk16\mono\rpk16_mono_close1
+snd_10_layer4	= weapons\rpk16\mono\rpk16_mono_close1
+snd_10_layer5	= weapons\rpk16\mono\rpk16_mono_close1
+
+[wpn_rpk16_drum_snd_shoot_actor] -- added 15 milliseconds in each rpk16_stereo_close sample in the master track to avoid cutting issues in GAMMA
+snd_1_layer		= weapons\rpk16\stereo\rpk16_stereo_close1
+snd_1_layer1	= weapons\rpk16\stereo\rpk16_stereo_close2
+snd_1_layer2	= weapons\rpk16\stereo\rpk16_stereo_close3
+snd_1_layer3	= weapons\rpk16\stereo\rpk16_stereo_close4
+snd_1_layer4	= weapons\rpk16\stereo\rpk16_stereo_close5
+snd_1_layer5	= weapons\rpk16\stereo\rpk16_stereo_close6
+snd_2_layer		= weapons\_shared\stereo\reflectors\762\Reflector_1, 0.5
+snd_2_layer1	= weapons\_shared\stereo\reflectors\762\Reflector_2, 0.5
+snd_2_layer2	= weapons\_shared\stereo\reflectors\762\Reflector_3, 0.5
+snd_2_layer3	= weapons\_shared\stereo\reflectors\762\Reflector_4, 0.5
+snd_3_layer		= weapons\_shared\stereo\echo_1, 0.25
+snd_3_layer1	= weapons\_shared\stereo\echo_2, 0.25
+snd_3_layer2	= weapons\_shared\stereo\echo_3, 0.25
+snd_3_layer3	= weapons\_shared\stereo\echo_4, 0.25
+snd_4_layer		= weapons\_bass\bass_mid
+snd_5_layer		= weapons\_shells\stereo\556mm_shell_soil1
+snd_5_layer1	= weapons\_shells\stereo\556mm_shell_soil2
+snd_5_layer2	= weapons\_shells\stereo\556mm_shell_soil3
+snd_5_layer3	= weapons\_shells\stereo\556mm_shell_soil4
+snd_5_layer4	= weapons\_shells\stereo\556mm_shell_soil5
+snd_5_layer5	= weapons\_shells\stereo\556mm_shell_soil6
+snd_5_layer6	= weapons\_shells\stereo\556mm_shell_soil7
+snd_5_layer7	= weapons\_shells\stereo\556mm_shell_soil8
+snd_5_layer8	= weapons\_shells\stereo\556mm_shell_soil9
+
+[wpn_rpk16_drum_snd_silenced]
+snd_1_layer		= weapons\_sd\mono\762_warsaw\sd_close_1
+snd_1_layer1	= weapons\_sd\mono\762_warsaw\sd_close_2
+snd_1_layer2	= weapons\_sd\mono\762_warsaw\sd_close_3
+snd_1_layer3	= weapons\_sd\mono\762_warsaw\sd_close_4
+snd_2_layer		= weapons\_sd\mono\762_warsaw\tail_sd_1, 0.5
+snd_2_layer1	= weapons\_sd\mono\762_warsaw\tail_sd_2, 0.5
+snd_2_layer2	= weapons\_sd\mono\762_warsaw\tail_sd_3, 0.5
+snd_2_layer3	= weapons\_sd\mono\762_warsaw\tail_sd_4, 0.5
+snd_3_layer		= weapons\_bass\bass_mid_sd
+snd_4_layer		= weapons\_sd\mono\Distance\762mm_distance
+snd_5_layer		= weapons\_cracks\mono\crack_far\crack_1
+snd_5_layer1	= weapons\_cracks\mono\crack_far\crack_2
+snd_5_layer2	= weapons\_cracks\mono\crack_far\crack_3
+snd_5_layer3	= weapons\_cracks\mono\crack_far\crack_4
+snd_6_layer		= weapons\rpk16\mono\rpk16_sil_mono_close1
+snd_6_layer1	= weapons\rpk16\mono\rpk16_sil_mono_close2
+snd_6_layer2	= weapons\rpk16\mono\rpk16_sil_mono_close3
+snd_6_layer3	= weapons\rpk16\mono\rpk16_sil_mono_close4
+snd_6_layer4	= weapons\rpk16\mono\rpk16_sil_mono_close5
+snd_6_layer5	= weapons\rpk16\mono\rpk16_sil_mono_close6
+snd_7_layer		= weapons\_shells\mono\556mm_shell_soil1
+snd_7_layer1	= weapons\_shells\mono\556mm_shell_soil2
+snd_7_layer2	= weapons\_shells\mono\556mm_shell_soil3
+snd_7_layer3	= weapons\_shells\mono\556mm_shell_soil4
+snd_7_layer4	= weapons\_shells\mono\556mm_shell_soil5
+snd_7_layer5	= weapons\_shells\mono\556mm_shell_soil6
+snd_7_layer6	= weapons\_shells\mono\556mm_shell_soil7
+snd_7_layer7	= weapons\_shells\mono\556mm_shell_soil8
+snd_7_layer8	= weapons\_shells\mono\556mm_shell_soil9
+
+[wpn_rpk16_drum_snd_silenced_actor]
+snd_1_layer		= weapons\rpk16\stereo\rpk16_sil_stereo_close1
+snd_1_layer1	= weapons\rpk16\stereo\rpk16_sil_stereo_close2
+snd_1_layer2	= weapons\rpk16\stereo\rpk16_sil_stereo_close3
+snd_1_layer3	= weapons\rpk16\stereo\rpk16_sil_stereo_close4
+snd_1_layer4	= weapons\rpk16\stereo\rpk16_sil_stereo_close5
+snd_1_layer5	= weapons\rpk16\stereo\rpk16_sil_stereo_close6
+snd_2_layer		= weapons\_sd\stereo\762_warsaw\tail_sd_1, 0.5
+snd_2_layer1	= weapons\_sd\stereo\762_warsaw\tail_sd_2, 0.5
+snd_2_layer2	= weapons\_sd\stereo\762_warsaw\tail_sd_3, 0.5
+snd_2_layer3	= weapons\_sd\stereo\762_warsaw\tail_sd_4, 0.5
+snd_3_layer		= weapons\_shared\stereo\echo_9, 0.25
+snd_3_layer1	= weapons\_shared\stereo\echo_2, 0.25
+snd_3_layer2	= weapons\_shared\stereo\echo_3, 0.25
+snd_3_layer3	= weapons\_shared\stereo\echo_4, 0.25
+snd_4_layer		= weapons\_bass\bass_mid_sd
+snd_5_layer		= weapons\_shells\stereo\556mm_shell_soil1
+snd_5_layer1	= weapons\_shells\stereo\556mm_shell_soil2
+snd_5_layer2	= weapons\_shells\stereo\556mm_shell_soil3
+snd_5_layer3	= weapons\_shells\stereo\556mm_shell_soil4
+snd_5_layer4	= weapons\_shells\stereo\556mm_shell_soil5
+snd_5_layer5	= weapons\_shells\stereo\556mm_shell_soil6
+snd_5_layer6	= weapons\_shells\stereo\556mm_shell_soil7
+snd_5_layer7	= weapons\_shells\stereo\556mm_shell_soil8
+snd_5_layer8	= weapons\_shells\stereo\556mm_shell_soil9
+;________________
+
+[wpn_rpk74_16_drum_hud]:hud_base
+item_visual			= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true	
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_orientation		= 0.524389, 2.623023, 0.557602
+hands_orientation_16x9	= 0.524389, 2.623023, 0.557602
+hands_position			= -0.002015, 0.007457, -0.032323
+hands_position_16x9		= -0.002015, 0.007457, -0.032323
+
+aim_hud_offset_pos		= -0.04721, 0.030664, -0.05
+aim_hud_offset_pos_16x9	= -0.04721, 0.030664, -0.05
+aim_hud_offset_rot		= 0.001013, 0.00491, -0.17
+aim_hud_offset_rot_16x9	= 0.001013, 0.00491, -0.17
+
+aim_hud_offset_alt_pos		= -0.087839, -0.077945, 0.017991
+aim_hud_offset_alt_pos_16x9	= -0.087839, -0.077945, 0.017991
+aim_hud_offset_alt_rot		= -0.002456, 0.010825, 0.6
+aim_hud_offset_alt_rot_16x9	= -0.002456, 0.010825, 0.6
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lowered_hud_offset_pos		= 0.06, -0.035, -0.02
+lowered_hud_offset_pos_16x9	= 0.06, -0.035, -0.02
+lowered_hud_offset_rot		= -0.1, -0.6, 0.4
+lowered_hud_offset_rot_16x9	= -0.1, -0.6, 0.4
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= rpk16_new_holster, idle
+anm_hide_variant1			= rpk16_new_holster, idle
+anm_idle					= rpk16_new_idle, idle
+anm_idle_variant1			= rpk16_new_idle, idle
+anm_idle_variant2			= rpk16_new_idle, idle
+anm_idle_aim				= rpk16_new_aim, idle
+anm_idle_aim_variant1		= rpk16_new_aim, idle
+anm_idle_aim_variant2		= rpk16_new_aim, idle
+anm_idle_aim_moving			= rpk16_new_aim, idle, 0.75
+anm_idle_aim_moving_crouch	= rpk16_new_aim, idle, 0.7
+anm_idle_moving				= rpk16_new_walk, idle
+anm_idle_moving_crouch		= rpk16_new_walk, idle, 0.9
+anm_idle_sprint				= rpk16_new_sprint, idle, 1.05
+anm_idle_sprint_variant1	= rpk16_new_sprint, idle, 1.05
+anm_idle_sprint_variant2	= rpk16_new_sprint, idle, 1.05
+anm_reload					= rpk16_new_reload, reload
+anm_reload_empty			= rpk16_new_reload_empty, reload_empty
+anm_reload_misfire			= rpk16_new_unjam, unjam
+!anm_shots					= rpk16_new_shoot, shoot
+!anm_shots_variant1			= rpk16_new_shoot1, shoot1
+!anm_shots_variant2			= rpk16_new_shoot2, shoot2
+!anm_shots_aim				= rpk16_new_shoot_aim, shoot
+!anm_shots_aim_variant1		= rpk16_new_shoot_aim1, shoot1
+!anm_shots_aim_variant2		= rpk16_new_shoot_aim2, shoot2
+anm_show					= rpk16_new_draw, idle
+anm_show_variant1			= rpk16_new_draw, idle
+anm_show_variant2			= rpk16_new_draw, idle
+anm_bore					= rpk16_new_inspect, inspect
+anm_bore_variant1			= rpk16_new_inspect, inspect
+anm_switch_mode				= rpk16_new_fire_switch, idle
+
+; ---Empty---
+anm_hide_empty					= rpk16_new_holster, idle
+anm_show_empty					= rpk16_new_draw, idle
+anm_show_empty_variant1			= rpk16_new_draw, idle
+anm_show_empty_variant2			= rpk16_new_draw, idle
+anm_bore_empty					= rpk16_new_inspect, inspect
+anm_bore_empty_variant1			= rpk16_new_inspect, inspect
+anm_idle_empty					= rpk16_new_idle, idle
+anm_idle_empty_variant1			= rpk16_new_idle, idle
+anm_idle_empty_variant2			= rpk16_new_idle, idle
+anm_idle_aim_empty				= rpk16_new_aim, idle
+anm_idle_aim_empty_variant1		= rpk16_new_aim, idle
+anm_idle_aim_empty_variant2		= rpk16_new_aim, idle
+anm_idle_aim_moving_empty		= rpk16_new_aim, idle, 0.75
+anm_idle_aim_moving_crouch_empty= rpk16_new_aim, idle, 0.7
+anm_idle_moving_empty			= rpk16_new_walk, idle, 1.1 
+anm_idle_moving_crouch_empty	= rpk16_new_walk, idle, 0.9
+anm_idle_sprint_empty			= rpk16_new_sprint, idle, 1.05
+anm_idle_sprint_empty_variant1	= rpk16_new_sprint, idle, 1.05
+anm_idle_sprint_empty_variant2	= rpk16_new_sprint, idle, 1.05
+
+; ---Jammed---
+anm_hide_jammed					= rpk16_new_holster, idle_jammed
+anm_idle_jammed					= rpk16_new_idle, idle_jammed
+anm_idle_jammed_variant1		= rpk16_new_idle, idle_jammed
+anm_idle_jammed_variant2		= rpk16_new_idle, idle_jammed
+anm_idle_aim_jammed				= rpk16_new_aim, idle_jammed
+anm_idle_aim_jammed_variant1	= rpk16_new_aim, idle_jammed
+anm_idle_aim_jammed_variant2	= rpk16_new_aim, idle_jammed
+anm_idle_aim_moving_jammed		= rpk16_new_aim, idle_jammed, 0.75
+anm_idle_aim_moving_crouch_jammed= rpk16_new_aim, idle_jammed, 0.7
+anm_idle_moving_jammed			= rpk16_new_walk, idle_jammed, 1.1 
+anm_idle_moving_crouch_jammed	= rpk16_new_walk, idle_jammed, 0.9
+anm_idle_sprint_jammed			= rpk16_new_sprint, idle_jammed, 1.05
+anm_show_jammed					= rpk16_new_draw, idle_jammed
+anm_bore_jammed					= rpk16_new_inspect, inspect_jammed
+anm_switch_mode_jammed			= rpk16_new_fire_switch, idle_jammed
+
+;--- Переходы спринта---
+anm_sprint_end					= rpk16_new_sprint_end, idle
+anm_sprint_end_variant1			= rpk16_new_sprint_end, idle
+anm_sprint_end_variant2			= rpk16_new_sprint_end, idle
+
+anm_sprint_end_empty			= rpk16_new_sprint_end, idle
+anm_sprint_end_empty_variant1	= rpk16_new_sprint_end, idle
+anm_sprint_end_empty_variant2	= rpk16_new_sprint_end, idle
+
+anm_sprint_end_jammed			= rpk16_new_sprint_end, idle_jammed
+anm_sprint_end_jammed_variant1	= rpk16_new_sprint_end, idle_jammed
+anm_sprint_end_jammed_variant1	= rpk16_new_sprint_end, idle_jammed
+
+;--- Паттерны спринта---
+
+; Note - to make variants for pattern animations like below, make sure to have equivalent amount of "sub"-anims. e.g : 3 end sprint variants like here need 3 anm idle sprint, 3 anm_idle, 3 sprint end variants.
+
+ts_pattern_sprint_end	= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_pattern_sprint_end1	= anm_idle_sprint_variant1, ^anm_idle.*, anm_sprint_end_variant1
+ts_pattern_sprint_end2	= anm_idle_sprint_variant2, ^anm_idle.*, anm_sprint_end_variant2
+
+ts_pattern_sprint_end_empty	= anm_idle_sprint_empty, ^anm_idle.*, anm_sprint_end_empty
+ts_pattern_sprint_end_empty1= anm_idle_sprint_empty_variant1, ^anm_idle.*, anm_sprint_end_empty_variant1
+ts_pattern_sprint_end_empty2= anm_idle_sprint_empty_variant2, ^anm_idle.*, anm_sprint_end_empty_variant2
+
+ts_pattern_sprint_end_jammed	= anm_idle_sprint_jammed, ^anm_idle.*, anm_sprint_end_jammed
+ts_pattern_sprint_end_jammed1	= anm_idle_sprint_jammed_variant1, ^anm_idle.*, anm_sprint_end_jammed_variant1
+ts_pattern_sprint_end_jammed2	= anm_idle_sprint_jammed_variant2, ^anm_idle.*, anm_sprint_end_jammed_variant2
+
+fire_bone	= muzzle
+fire_bone2	= muzzle
+fire_point	= 0, 0.0, 0.0
+fire_point2	= 0.0, 0.0, 0.0
+
+shell_bone	= wpn_body
+shell_dir	= 0, 1, 0
+shell_point	= 0,0,0.15
+
+freelook_z_offset_mul	= 0.3
+
+;=========================================================== ADDONS	==========================================================;
+[wpn_rpk74_16_drum_ac10632]:wpn_rpk74_16_drum
+visual			= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_reflex_world.ogf
+hud				= wpn_rpk74_16_drum_ac10632_hud
+
+1icon_layer		= ac10632_x
+1icon_layer_x	= 86
+1icon_layer_y	= -8
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_ac10632_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.047546, 0.012946, -0.05
+aim_hud_offset_pos_16x9	= -0.047546, 0.012946, -0.05
+aim_hud_offset_rot		= 0.001182, 0.003159, -0.17
+aim_hud_offset_rot_16x9	= 0.001182, 0.003159, -0.17
+
+lowered_hud_offset_pos		= 0.1, -0.02, -0.01
+lowered_hud_offset_pos_16x9	= 0.1, -0.02, -0.01
+lowered_hud_offset_rot		= -0.1, -0.7, 0.4
+lowered_hud_offset_rot_16x9	= -0.1, -0.7, 0.4
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_c-more]:wpn_rpk74_16_drum
+visual			= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_reflex_world.ogf
+hud				= wpn_rpk74_16_drum_c-more_hud
+
+1icon_layer		= c-more_x
+1icon_layer_x	= 89
+1icon_layer_y	= -5
+
+inv_weight		= 4.63
+
+[wpn_rpk74_16_drum_c-more_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.047384, 0.014073, -0.05
+aim_hud_offset_pos_16x9	= -0.047384, 0.014073, -0.05
+aim_hud_offset_rot		= 0.000844, 0.003394, -0.17
+aim_hud_offset_rot_16x9	= 0.000844, 0.003394, -0.17
+
+lowered_hud_offset_pos		= 0.1, -0.02, -0.01
+lowered_hud_offset_pos_16x9	= 0.1, -0.02, -0.01
+lowered_hud_offset_rot		= -0.1, -0.7, 0.4
+lowered_hud_offset_rot_16x9	= -0.1, -0.7, 0.4
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_eot]:wpn_rpk74_16_drum
+visual			= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_reflex_world.ogf
+hud				= wpn_rpk74_16_drum_eot_hud
+
+1icon_layer		= eot_x
+1icon_layer_x	= 88
+1icon_layer_y	= -5
+
+inv_weight		= 4.8
+
+[wpn_rpk74_16_drum_eot_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.047014, 0.006424, -0.05
+aim_hud_offset_pos_16x9	= -0.047014, 0.006424, -0.05
+aim_hud_offset_rot		= 0.002702, 0.00287, -0.17
+aim_hud_offset_rot_16x9	= 0.002702, 0.00287, -0.17
+
+lowered_hud_offset_pos		= 0.1, -0.02, -0.01
+lowered_hud_offset_pos_16x9	= 0.1, -0.02, -0.01
+lowered_hud_offset_rot		= -0.1, -0.7, 0.4
+lowered_hud_offset_rot_16x9	= -0.1, -0.7, 0.4
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_0kp2]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_0kp2_hud
+
+1icon_layer		= 0kp2_x
+1icon_layer_x	= 89
+1icon_layer_y	= 0
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_0kp2_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_0kp2_hud.ogf
+
+aim_hud_offset_pos		= -0.044304, 0.017205, -0.05
+aim_hud_offset_pos_16x9	= -0.044304, 0.017205, -0.05
+aim_hud_offset_rot		= 0.000437, 0.002614, -0.17
+aim_hud_offset_rot_16x9	= 0.000437, 0.002614, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_1p87]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_1p87_hud
+
+1icon_layer		= 1p87_x
+1icon_layer_x	= 92
+1icon_layer_y	= -12
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_1p87_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_1p87_hud.ogf
+
+aim_hud_offset_pos		= -0.047607, -0.001917, -0.05
+aim_hud_offset_pos_16x9	= -0.047607, -0.001917, -0.05
+aim_hud_offset_rot		= 0.000941, 0.003181, -0.17
+aim_hud_offset_rot_16x9	= 0.000941, 0.003181, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_aimpoint]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_aimpoint_hud
+
+1icon_layer		= aimpoint_x
+1icon_layer_x	= 90
+1icon_layer_y	= -14
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_aimpoint_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.047101, 0.015187, -0.05
+aim_hud_offset_pos_16x9	= -0.047101, 0.015187, -0.05
+aim_hud_offset_rot		= 0.002161, 0.0034, -0.17
+aim_hud_offset_rot_16x9	= 0.002161, 0.0034, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_ekp8_18]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_ekp8_18_hud
+
+1icon_layer		= ekp8_18_x
+1icon_layer_x	= 85
+1icon_layer_y	= 1
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_ekp8_18_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_ekp8_18_hud.ogf
+
+aim_hud_offset_pos		= -0.046829, 0.001131, -0.05
+aim_hud_offset_pos_16x9	= -0.046829, 0.001131, -0.05
+aim_hud_offset_rot		= -0.011838, 0.000519, -0.17
+aim_hud_offset_rot_16x9	= -0.011838, 0.000519, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_e0t2]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_e0t2_hud
+
+1icon_layer		= e0t2_x
+1icon_layer_x	= 88
+1icon_layer_y	= -10
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_e0t2_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.046962, 0.012346, -0.05
+aim_hud_offset_pos_16x9	= -0.046962, 0.012346, -0.05
+aim_hud_offset_rot		= 0.000516, 0.002332, -0.17
+aim_hud_offset_rot_16x9	= 0.000516, 0.002332, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_exps3]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_exps3_hud
+
+1icon_layer		= exps3_x
+1icon_layer_x	= 88
+1icon_layer_y	= -10
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_exps3_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_exps3_hud.ogf
+
+aim_hud_offset_pos		= -0.046891, 0.004653, -0.05
+aim_hud_offset_pos_16x9	= -0.046891, 0.004653, -0.05
+aim_hud_offset_rot		= 0.00293, 0.002811, -0.17
+aim_hud_offset_rot_16x9	= 0.00293, 0.002811, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_he510]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_he510_hud
+
+1icon_layer		= he510_x
+1icon_layer_x	= 88
+1icon_layer_y	= -9
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_he510_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_he510_hud.ogf
+
+aim_hud_offset_pos		= -0.046993, 0.010695, -0.05
+aim_hud_offset_pos_16x9	= -0.046993, 0.010695, -0.05
+aim_hud_offset_rot		= 0.000356, 0.002509, -0.17
+aim_hud_offset_rot_16x9	= 0.000356, 0.002509, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_p1x42]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_p1x42_hud
+
+1icon_layer		= p1x42_x
+1icon_layer_x	= 90
+1icon_layer_y	= -13
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_p1x42_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_p1x42_hud.ogf
+
+aim_hud_offset_pos		= -0.047021, 0.012614, -0.05
+aim_hud_offset_pos_16x9	= -0.047021, 0.012614, -0.05
+aim_hud_offset_rot		= 0.002223, 0.002905, -0.17
+aim_hud_offset_rot_16x9	= 0.002223, 0.002905, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_pk6]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_pk6_hud
+
+1icon_layer		= pk6_x
+1icon_layer_x	= 88
+1icon_layer_y	= -8
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_pk6_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_pk6_hud.ogf
+
+aim_hud_offset_pos		= -0.047436, 0.021813, -0.05
+aim_hud_offset_pos_16x9	= -0.047436, 0.021813, -0.05
+aim_hud_offset_rot		= -3.4e-05, 0.003651, -0.17
+aim_hud_offset_rot_16x9	= -3.4e-05, 0.003651, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_rmr]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_rmr_hud
+
+1icon_layer		= rmr_x
+1icon_layer_x	= 88
+1icon_layer_y	= -3
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_rmr_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.046946, 0.012327, -0.05
+aim_hud_offset_pos_16x9	= -0.046946, 0.012327, -0.05
+aim_hud_offset_rot		= 0.000851, 0.002444, -0.17
+aim_hud_offset_rot_16x9	= 0.000851, 0.002444, -0.17
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_uh2]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_uh2_hud
+
+1icon_layer		= uh2_x
+1icon_layer_x	= 93
+1icon_layer_y	= -11
+
+inv_weight		= 4.62
+
+[wpn_rpk74_16_drum_uh2_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_uh2_hud.ogf
+
+aim_hud_offset_pos		= -0.046964, 0.009767, -0.05
+aim_hud_offset_pos_16x9	= -0.046964, 0.009767, -0.05
+aim_hud_offset_rot		= 0.001191, 0.002616, -0.17
+aim_hud_offset_rot_16x9	= 0.001191, 0.002616, -0.17
+;--------------------------------------------------------------------------------------------
+;-------------------------------------------SCOPES-------------------------------------------
+;--------------------------------------------------------------------------------------------
+[wpn_rpk74_16_drum_acog]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_acog_hud
+
+1icon_layer		= acog_x
+1icon_layer_x	= 79
+1icon_layer_y	= -7
+
+inv_weight		= 4.85
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+[wpn_rpk74_16_drum_acog_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.047613, 0.013063, -0.102268
+aim_hud_offset_pos_16x9	= -0.047613, 0.013063, -0.102268
+aim_hud_offset_rot		= 0.010652, 0.007332, -0.18
+aim_hud_offset_rot_16x9	= 0.010652, 0.007332, -0.18
+
+lowered_hud_offset_pos		= 0.1, -0.02, -0.01
+lowered_hud_offset_pos_16x9	= 0.1, -0.02, -0.01
+lowered_hud_offset_rot		= -0.1, -0.7, 0.4
+lowered_hud_offset_rot_16x9	= -0.1, -0.7, 0.4 
+;--------------------------------------------------------------------------	
+[wpn_rpk74_16_drum_triji]:wpn_rpk74_16_drum
+hud					= wpn_rpk74_16_drum_triji_hud
+
+1icon_layer		= acog_x
+1icon_layer_x	= 79
+1icon_layer_y	= -7
+
+inv_weight		= 5.01
+
+scope_status		= 1
+scope_zoom_factor	= 42.86
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+use_alt_aim_hud	= true
+
+[wpn_rpk74_16_drum_triji_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_triji_hud.ogf
+
+aim_hud_offset_pos		= -0.047613, 0.013063, -0.102268
+aim_hud_offset_pos_16x9	= -0.047613, 0.013063, -0.102268
+aim_hud_offset_rot		= 0.010652, 0.007332, -0.18
+aim_hud_offset_rot_16x9	= 0.010652, 0.007332, -0.18
+
+aim_hud_offset_alt_pos		= -0.073428, -0.040098, -0.09
+aim_hud_offset_alt_pos_16x9	= -0.073428, -0.040098, -0.09
+aim_hud_offset_alt_rot		= -0.000502, 0.010082, 0.61
+aim_hud_offset_alt_rot_16x9	= -0.000502, 0.010082, 0.61
+
+lowered_hud_offset_pos		= 0.1, -0.02, -0.01
+lowered_hud_offset_pos_16x9	= 0.1, -0.02, -0.01
+lowered_hud_offset_rot		= -0.1, -0.7, 0.4
+lowered_hud_offset_rot_16x9	= -0.1, -0.7, 0.4 
+;--------------------------------------------------------------------------		
+[wpn_rpk74_16_drum_specter]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_specter_hud
+
+1icon_layer		= specter_x
+1icon_layer_x	= 60
+1icon_layer_y	= -12
+
+inv_weight		= 4.9
+
+scope_status		= 1
+scope_zoom_factor	= 30
+scope_dynamic_zoom	= on
+zoom_rotate_time	= 0.25	
+zoom_step_count		= 1
+
+use_alt_aim_hud	= true	
+
+[wpn_rpk74_16_drum_specter_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.047051, 0.010019, -0.101136
+aim_hud_offset_pos_16x9	= -0.047051, 0.010019, -0.101136
+aim_hud_offset_rot		= 0.005098, 0.006254, -0.17
+aim_hud_offset_rot_16x9	= 0.005098, 0.006254, -0.17
+
+aim_hud_offset_pos		= -0.047051, 0.010019, -0.101136
+aim_hud_offset_pos_16x9	= -0.047051, 0.010019, -0.101136
+aim_hud_offset_rot		= 0.005098, 0.006254, -0.17
+aim_hud_offset_rot_16x9	= 0.005098, 0.006254, -0.17
+;--------------------------------------------------------------------------		
+[wpn_rpk74_16_drum_spec_alt]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_spec_alt_hud
+
+1icon_layer		= specter_x
+1icon_layer_x	= 60
+1icon_layer_y	= -12
+
+inv_weight		= 5.15
+
+scope_status		= 1
+scope_zoom_factor	= 30
+scope_dynamic_zoom	= on
+zoom_rotate_time	= 0.25	
+zoom_step_count		= 1
+
+use_alt_aim_hud	= true	
+
+[wpn_rpk74_16_drum_spec_alt_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_specalt_hud.ogf
+
+aim_hud_offset_pos		= -0.047051, 0.010019, -0.101136
+aim_hud_offset_pos_16x9	= -0.047051, 0.010019, -0.101136
+aim_hud_offset_rot		= 0.005098, 0.006254, -0.17
+aim_hud_offset_rot_16x9	= 0.005098, 0.006254, -0.17
+
+aim_hud_offset_alt_pos		= -0.073428, -0.040098, -0.09
+aim_hud_offset_alt_pos_16x9	= -0.073428, -0.040098, -0.09
+aim_hud_offset_alt_rot		= -0.000502, 0.010082, 0.61
+aim_hud_offset_alt_rot_16x9	= -0.000502, 0.010082, 0.61
+;--------------------------------------------------------------------------		
+[wpn_rpk74_16_drum_leupold]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_leupold_hud
+
+1icon_layer		= leupold_x
+1icon_layer_x	= 61
+1icon_layer_y	= -10
+
+inv_weight		= 4.82
+
+scope_status		= 1
+scope_zoom_factor	= 15
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_rpk74_16_drum_leupold_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_leupold_hud.ogf
+
+aim_hud_offset_pos		= -0.047263, 0.009455, -0.064785
+aim_hud_offset_pos_16x9	= -0.047263, 0.009455, -0.064785
+aim_hud_offset_rot		= 0.004823, 0.006364, -0.17
+aim_hud_offset_rot_16x9	= 0.004823, 0.006364, -0.17
+;--------------------------------------------------------------------------		
+[wpn_rpk74_16_drum_mark8_rmr]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_mark8_rmr_hud
+
+1icon_layer		= leupold_x
+1icon_layer_x	= 61
+1icon_layer_y	= -10
+
+inv_weight		= 5.07
+
+scope_status		= 1
+scope_zoom_factor	= 15
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+use_alt_aim_hud			= true
+
+[wpn_rpk74_16_drum_mark8_rmr_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_mark8_hud.ogf
+
+aim_hud_offset_pos		= -0.047263, 0.009455, -0.064785
+aim_hud_offset_pos_16x9	= -0.047263, 0.009455, -0.064785
+aim_hud_offset_rot		= 0.004823, 0.006364, -0.17
+aim_hud_offset_rot_16x9	= 0.004823, 0.006364, -0.17
+
+aim_hud_offset_alt_pos		= -0.073428, -0.040098, -0.09
+aim_hud_offset_alt_pos_16x9	= -0.073428, -0.040098, -0.09
+aim_hud_offset_alt_rot		= -0.000502, 0.010082, 0.61
+aim_hud_offset_alt_rot_16x9	= -0.000502, 0.010082, 0.61	
+;--------------------------------------------------------------------------				
+[wpn_rpk74_16_drum_pn23]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_pn23_hud
+
+1icon_layer		= pn23_x
+1icon_layer_x	= 51
+1icon_layer_y	= -12
+
+inv_weight		= 4.95
+
+scope_status		= 1
+scope_zoom_factor	= 20
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_rpk74_16_drum_pn23_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.045783, -0.00048, -0.073234
+aim_hud_offset_pos_16x9	= -0.045783, -0.00048, -0.073234
+aim_hud_offset_rot		= 0.006125, -0.001518, -0.18
+aim_hud_offset_rot_16x9	= 0.006125, -0.001518, -0.18
+;--------------------------------------------------------------------------				
+[wpn_rpk74_16_drum_gauss_sight]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_gauss_sight_hud
+
+1icon_layer		= gauss_sight_x
+1icon_layer_x	= 47
+1icon_layer_y	= -3
+
+inv_weight		= 4.95
+
+scope_status		= 1
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_rpk74_16_drum_gauss_sight_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_gauss_hud.ogf
+
+aim_hud_offset_pos		= -0.045767, 0.012696, -0.094307
+aim_hud_offset_pos_16x9	= -0.045767, 0.012696, -0.094307
+aim_hud_offset_rot		= 0.006249, -0.001134, -0.18
+aim_hud_offset_rot_16x9	= 0.006249, -0.001134, -0.18
+;--------------------------------------------------------------------------				
+[wpn_rpk74_16_drum_ps320]:wpn_rpk74_16_drum
+hud				= wpn_rpk74_16_drum_ps320_hud
+
+1icon_layer		= ps320_x
+1icon_layer_x	= 53
+1icon_layer_y	= -12
+
+inv_weight		= 4.95
+
+zoom_step_count		= 1	
+scope_status		= 1
+scope_zoom_factor	= 20
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_rpk74_16_drum_ps320_hud]:wpn_rpk74_16_drum_hud
+item_visual	= anomaly_weapons\wpn_rpk16_drum\wpn_rpk16_ps320_hud.ogf
+
+aim_hud_offset_pos		= -0.045958, 0.013235, -0.071117
+aim_hud_offset_pos_16x9	= -0.045958, 0.013235, -0.071117
+aim_hud_offset_rot		= 0.006337, -0.001291, -0.18
+aim_hud_offset_rot_16x9	= 0.006337, -0.001291, -0.18

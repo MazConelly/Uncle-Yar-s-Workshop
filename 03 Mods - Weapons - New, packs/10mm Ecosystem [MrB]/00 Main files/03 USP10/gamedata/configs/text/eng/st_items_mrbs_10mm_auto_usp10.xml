@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_usp10">
+		<text>USP10</text>
+	</string>
+	<string id="st_wpn_usp10_descr">
+		<text>Originally designed for the American Market, the USP, Universal Self loading Pistol, is known as an accurate and reliable handgun. Made to meet the criteria of U.S. law enforcement and military, and influenced by famous designs like the Gov. Model 1911 pistol, the USP incorporates several successful handgun design elements. Able to withstand extreme punishment and adverse conditions, it is used by many police and special forces units.\n
+		This pistol's markings show it to be an USP40, a model chambered in .40 S&amp;W, a shortened and lighter-kick variant born from 10mm Auto.\n
+		In spite of the markings, this particular example takes 10mm Auto, modified by a Zone gunsmith to withstand the high pressure caliber. One may be curious as to how this engineering wizardry has been achieved, but it's best not to question one of the many miracles found within the Zone.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+</string_table>
