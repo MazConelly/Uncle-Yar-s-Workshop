@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_colt1911_10x25">
+		<text>10mm Standard Single-Stack Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_descr">
+		<text>10mm Auto single-stack magazine with 8 round capacity.</text>
+	</string>
+
+	<string id="st_mag_colt1911_10x25_ext">
+		<text>10mm Extended Single-Stack Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_ext_descr">
+		<text>10mm Auto single-stack magazine with extended 12 round capacity.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_saiga_bp">
+		<text>Saiga-12S Bullpup</text>
+	</string>
+	<string id="st_wpn_saiga_bp_s">
+		<text>Saiga Bullpup</text>
+	</string>
+	<string id="st_wpn_saiga_bp_descr">
+		<text>This is a custom bullpup configuration shotgun, derived from a Saiga-12S. This gun originated as some gunsmith's personal project, how it got into the Zone is anyone's guess. Several modifications were made, including the relocation of the charging handle to the left side of the receiver. As a result of these modifications, this gun features slightly improved accuracy and less felt recoil than a conventional Saiga, though its cyclic rate has beeen reduced as a result. Its small size also improves its suitability to close quarters operations, though the bullpup configuration may feel awkward to some.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1</text>
+	</string>
+
+</string_table>

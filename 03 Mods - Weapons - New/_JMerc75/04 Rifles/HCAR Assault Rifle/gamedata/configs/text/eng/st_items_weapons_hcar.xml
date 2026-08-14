@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_hcar">
+		<text>Heavy Counter Assault Rifle</text>
+	</string>
+	<string id="st_wpn_hcar_s">
+		<text>HCAR</text>
+	</string>
+	<string id="st_wpn_hcar_descr">
+		<text>The Ohio Ordinance HCAR (Heavy Counter Assault Rifle) is a modern, versatile firearm renowned for its exceptional performance and adaptability. Designed for military and law enforcement applications, the HCAR combines the reliability and firepower of a battle rifle with the agility and ergonomics of an assault rifle. It features a gas piston operating system, enabling reliable operation in various environments and reducing recoil for improved control. With a rugged construction, ambidextrous controls, and a modular design, the HCAR offers users the ability to customize it for their specific needs, whether in close-quarters combat or long-range engagements. Its compatibility with various accessories, such as optics, suppressors, and rail-mounted accessories, further enhances its effectiveness. In summary, the HCAR is a cutting-edge firearm engineered to excel in the most demanding and dynamic combat scenarios.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most collimator sights for Picatinny/Weaver system\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Suppressor: AAC 7.62 SND-6 Suppressor\n</text>
+	</string>
+
+</string_table>

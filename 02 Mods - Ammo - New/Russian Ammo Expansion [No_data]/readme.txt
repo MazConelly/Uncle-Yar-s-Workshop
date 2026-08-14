@@ -5,6 +5,8 @@ https://www.moddb.com/mods/stalker-anomaly/addons/russian-ammo-expansion
 ----------------------------------------------------------
 -Compatibility:
 
+Original mod not needed.
+
 ----------------------------------------------------------
 -Explanation:
 

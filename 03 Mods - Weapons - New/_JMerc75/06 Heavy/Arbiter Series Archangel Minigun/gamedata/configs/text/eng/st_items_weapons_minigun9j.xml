@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_minigun9j">
+		<text>Archangel</text>
+	</string>
+	<string id="st_wpn_minigun9j_descr">
+		<text>The Arbiter Archangel is a brutally efficient, one-handed minigun chambered in 9x19mm, designed for those who demand overwhelming firepower without compromise. Featuring a high-speed, six-barrel rotary system with an advanced recoil-dampening gyro stabilizer, it allows for unprecedented control despite its blistering rate of fire. An optional wrist brace ensures it remains both tactical and devastating in close-quarters combat. Cloaked in matte black, the Archangel isn’t just a weapon—it’s a divine judgment rendered in lead.</text>
+	</string>
+
+	<string id="st_mag_minigun9j_default">
+		<text>Arbiter Archangel 100-Round Magazine.</text>
+	</string>
+	<string id="st_mag_minigun9j_default_descr">
+		<text>Magazine for the Arbiter Archangel minigun, holds 100 rounds of 9x19mm ammunition. God help the heretics.\n\n</text>
+	</string>
+
+</string_table>

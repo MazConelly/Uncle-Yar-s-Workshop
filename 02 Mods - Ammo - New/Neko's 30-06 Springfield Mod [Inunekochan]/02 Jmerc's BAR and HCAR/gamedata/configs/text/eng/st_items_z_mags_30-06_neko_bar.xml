@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_bar_default">
+		<text>M1918 BAR\HCAR 20 round Magazine</text>
+	</string>
+	<string id="st_mag_bar_default_s">
+		<text>BAR\HCAR 20rnd Mag</text>
+	</string>
+	<string id="st_mag_bar_default_desc">
+		<text>Standard magazine for the M1918 BAR, its varients, and the Ohio Ordinance HCAR.\nHolds 20 rounds of .30-06 Sprinfield.\n</text>
+	</string>
+
+	<string id="st_mag_bar_extended">
+		<text>M1918 BAR\HCAR 30 round Magazine</text>
+	</string>
+	<string id="st_mag_bar_extended_s">
+		<text>BAR\HCAR 30rnd Mag</text>
+	</string>
+	<string id="st_mag_bar_extended_desc">
+		<text>An extended but much heavier magazine for the M1918 BAR, its varients, and the Ohio Ordinance HCAR.\nHolds 20 rounds of .30-06 Sprinfield.\n</text>
+	</string>
+
+	<string id="st_mag_bar_extended_40">
+		<text>M1918 BAR\HCAR Prototype 40rnd Mag</text>
+	</string>
+	<string id="st_mag_bar_extended_40_s">
+		<text>BAR\HCAR Prototype 40rnd Mag</text>
+	</string>
+	<string id="st_mag_bar_extended_40_desc">
+		<text>A very rare prototype magazine for the M1918 BAR that holds 40 rounds of .30-06 Springfield to assist in Anti-Aircraft roles\nHow ever due to its size and frequent jams, this 40 round magazine was disconnintued in the 1920s\n</text>
+	</string>
+
+</string_table>

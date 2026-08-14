@@ -4,10 +4,12 @@ https://www.moddb.com/mods/stalker-anomaly/addons/qsz-92-pistol
 
 ----------------------------------------------------------
 -Compatibility:
-Let this overwrite the original mod.
+Note: You still need the original mod. Disable the configs folder.
+
 ----------------------------------------------------------
 -Explanation:
 
+Nerfs damage to that of other 9x19 pistols.
 Icon file trimmed.
 
 Integrated into:

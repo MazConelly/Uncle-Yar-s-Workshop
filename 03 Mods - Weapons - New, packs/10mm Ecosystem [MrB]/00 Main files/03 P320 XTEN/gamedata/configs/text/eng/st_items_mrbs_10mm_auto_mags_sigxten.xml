@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_xten_10x25">
+		<text>10mm Standard Double-Stack Magazine</text>
+	</string>
+	<string id="st_mag_xten_10x25_descr">
+		<text>10mm Auto double-stack magazine with 15 round capacity.</text>
+	</string>
+
+	<string id="st_mag_xten_10x25_ext">
+		<text>10mm Extended Double-Stack Magazine</text>
+	</string>
+	<string id="st_mag_xten_10x25_ext_descr">
+		<text>10mm Auto double-stack magazine with extended 19 round capacity.</text>
+	</string>
+
+</string_table>

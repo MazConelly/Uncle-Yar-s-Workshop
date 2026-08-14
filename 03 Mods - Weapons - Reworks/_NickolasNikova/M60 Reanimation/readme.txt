@@ -7,6 +7,7 @@ Only available in NickolasNikova's Discord.
 NOTE: You still need the original mod. Disable the original gamedata/configs folder.
 
 Not compatible with other equivalent reanimations.
+Billwa's Weapon Collection includes this same reanimation with its own copies of the files here, and doesn't need this module.
 
 ----------------------------------------------------------
 -Explanation:

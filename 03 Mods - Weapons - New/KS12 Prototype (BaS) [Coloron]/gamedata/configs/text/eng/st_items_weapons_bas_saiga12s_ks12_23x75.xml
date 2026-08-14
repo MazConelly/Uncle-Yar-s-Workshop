@@ -34,22 +34,4 @@
 		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allows its calibre to be changed at the cost of huge fire rate loss and increased recoil.</text>
 	</string>
 
-	<string id="st_mag_saiga12s_isg">
-		<text>Modified 23x75 Saiga-12S Magazine</text>
-	</string>
-	<string id="st_mag_saiga12s_isg_descr">
-		<text>
-		Modified Saiga-12S magazine with capacity for 8 shotshells. This magazine has been retooled for 23x75mm shotgun shells.
-		</text>
-	</string>
-
-	<string id="st_mag_saiga12s_isg_ext">
-		<text>Extended 23x75 Saiga-12S Magazine</text>
-	</string>
-	<string id="st_mag_saiga12s_isg_ext_descr">
-		<text>
-		Extended Saiga-12S magazine with capacity for 12 shotshells. This magazine has been retooled for 23x75mm shotgun shells. More shells means more mutants you can kill each each magazine.
-		</text>
-	</string>
-
 </string_table>

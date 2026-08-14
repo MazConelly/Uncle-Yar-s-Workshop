@@ -1,53 +1,55 @@
 
 [up_sect_firsta_mat49]
-cost			= 3460
-value			= "7.62x25"
-ammo_class		= ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
-ammo_elapsed	= +3
-ammo_mag_size	= +3
+cost						= 3460
+value						= "7.62x25"
+ammo_class					= ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
+ammo_elapsed				= +3
+ammo_mag_size				= +3
 
-rpm				= +300
+rpm							= +300
 
-;snd_shoot		= weapons\tt33\tt33_shoot
-;snd_shoot1		= weapons\tt33\tt33_shoot1
+;snd_shoot					= weapons\tt33\tt33_shoot
+;snd_shoot1					= weapons\tt33\tt33_shoot1
 
-hit_power		= 0.45, 0.45, 0.45, 0.45
+hit_power					= 0.45, 0.45, 0.45, 0.45
 
-fire_distance	= +180
-bullet_speed	= +100
+fire_distance				= +180
+bullet_speed				= +100
 
-shell_particles	= weapons\45acp
+shell_particles				= weapons\45acp
 
-cam_dispersion			= +0.1
-zoom_cam_dispersion		= +0.1
-inv_weight				= +0.115
+cam_dispersion				= +0.1
+zoom_cam_dispersion			= +0.1
+inv_weight					= +0.115
 
-fire_dispersion_base	= -0.07
+fire_dispersion_base		= -0.07
 
 condition_shot_dec			= +0.00009
 condition_queue_shot_dec	= +0.00009
 misfire_start_prob			= +0.0008
 misfire_end_prob			= +0.008
 
+fire_point					= 0, 0.179, 0.463
+hud_fire_point				= 0, 0, 0.03827
 ;----------------------------------------------------------------------------------------------------------------------
 [up_firsta_mat49]
-scheme_index			= 0, 0
-known					= 1
-effects					= 
-section					= up_sect_firsta_mat49
-property				= prop_calibre
+scheme_index				= 0, 0
+known						= 1
+effects						= 
+section						= up_sect_firsta_mat49
+property					= prop_calibre
 
-precondition_functor	= inventory_upgrades.precondition_functor_a
-precondition_parameter	= a & b
-effect_functor			= inventory_upgrades.effect_functor_a
-effect_parameter		= something_here
+precondition_functor		= inventory_upgrades.precondition_functor_a
+precondition_parameter		= a & b
+effect_functor				= inventory_upgrades.effect_functor_a
+effect_parameter			= something_here
 
-prereq_functor			= inventory_upgrades.prereq_functor_a
-prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
-prereq_params			=
-name					= st_up_mat49_tokarev
-description				= st_up_mat49_tokarev_desc
-icon					= ui_inGame2_upgrade_Marta_15
+prereq_functor				= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor		= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params				=
+name						= st_up_mat49_tokarev
+description					= st_up_mat49_tokarev_desc
+icon						= ui_inGame2_upgrade_Marta_15
 
 
 ;----------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_udp9">
+		<text>UDP-9 Carbine</text>
+	</string>
+	<string id="st_wpn_udp9_s">
+		<text>UDP-9</text>
+	</string>
+	<string id="st_wpn_udp9_descr">
+		<text>The UDP-9 is a straight blowback operating AR-9 pistol caliber carbine. It features a number of AR-15 style components but shots 9mm. Accepts any 9mm GLOCK magazine while featuring last round bolt hold open.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Sights: NATO \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: GemTech Suppressor</text>
+	</string>
+
+</string_table>

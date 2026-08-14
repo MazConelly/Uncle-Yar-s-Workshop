@@ -27,6 +27,8 @@ Weapon Parts OVerhaul
 ----------------------------------------------------------
 -Patches:
 
+Luna's Master Disassembly List and Parts Fix
+Assigns the .338 barrel to the weapon.
 
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_kriss10">
+		<text>KRISS Vector Gen1 SMG (10mm)</text>
+	</string>
+	<string id="st_wpn_kriss10_descr">
+		<text>The KRISS Vector SMG is the ideal choice for law enforcement and military units seeking a controllable, compact, weapon system for close quarter combat environments.\n
+		This particular example has been modified with a Gen 2 10mm conversion kit, allowing it to retain its full auto trigger control group, preserving Full Auto fire capability from the get go, with its recoil mechanism fine tuned for 10mm Auto. The gun feeds from 10mm Glock type magazines.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_kriss10g2">
+		<text>KRISS Vector Gen2 SBR (10mm)</text>
+	</string>
+	<string id="st_wpn_kriss10g2_descr">
+		<text>The KRISS Vector SMG is the ideal choice for law enforcement and military units seeking a controllable, compact, weapon system for close quarter combat environments.\n
+		Gen 2 is a general iterative improvement upon the Gen 1, changing it’s original unique stock for an AR-15 pattern one, removing the front flashlight mount, switching to pivoting trigger among other “quality of life” changes. This particular example is chambered for 10mm Auto. This SBR comes with a threaded barrel, allowing for use of a suppressor.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_kriss10g2_alt">
+		<text>KRISS Vector Gen2 CRB (10mm)</text>
+	</string>
+	<string id="st_wpn_kriss10g2_alt_descr">
+		<text>The KRISS Vector SMG is the ideal choice for law enforcement and military units seeking a controllable, compact, weapon system for close quarter combat environments.\n
+		Gen 2 is a general iterative improvement upon the Gen 1, changing it’s original unique stock for an AR type one, removing the front flashlight mount, switching to pivoting trigger among other “quality of life” changes. This particular example is chambered for 10mm Auto.\n
+		CRB features a lengthened 16 inch extended barrel that some rookie stalker may mistake for a suppressor, although the weapon cannot be suppressed. The longer barrel allows it to squeeze quite a bit more performance from this powerful cartridge compared to its shorter barreled 10mm brothers.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_up_vectorg210auto_name">
+		<text>Full Auto Trigger Pack</text>
+	</string>
+	<string id="st_up_vectorg210auto_descr">
+		<text>Gun goes brrrrrr FASTER.</text>
+	</string>
+
+</string_table>

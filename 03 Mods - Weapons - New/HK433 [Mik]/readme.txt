@@ -12,6 +12,7 @@ Do not use with Sedzhimol's HK433.
 -Explanation:
 
 Standardized the stats for all variants. They're all the same gun in different colors. And internally, the variants inherit directly from the main one.
+Fixed use of BaS' Leupold RMR Tactical Kit.
 Fixed filenames for actor effects and Grok's Enhanced Recoil configs, and made sure the variants benefit of it. Parts as well.
 Trader distribution.
 Reworked descriptions to mention the particular painting and remove the grenade launcher indication, as the weapons aren't actually prepared for it.

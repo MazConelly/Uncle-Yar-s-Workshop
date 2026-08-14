@@ -4,7 +4,7 @@ https://www.moddb.com/mods/stalker-anomaly/addons/dltx-luger-p08-handgun
 
 ----------------------------------------------------------
 -Compatibility:
-Let this overwrite the original mod.
+NOTE: You still need the original mod. Disable the original configs folder.
 
 ----------------------------------------------------------
 -Explanation:

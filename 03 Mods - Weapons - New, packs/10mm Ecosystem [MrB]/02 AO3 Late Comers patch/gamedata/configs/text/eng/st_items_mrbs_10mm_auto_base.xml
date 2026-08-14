@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_ammo_10x25_fmj">
+		<text>10mm Auto FMJ</text>
+	</string>
+	<string id="st_ammo_10x25_fmj_descr">
+		<text>
+        Standard 10mm Auto (10x25) FMJ round. Offers no particular advantage over other round types beside its availability, simplicity of manufacture and cost.\n
+		For some reason, box art makes you think of a Scandinavian country, known for its manufacture of affordable furniture.\n
+		</text>
+	</string>
+
+	<string id="st_ammo_10x25_fmj_old_descr">
+		<text>Standard 10mm Auto (10x25) FMJ round. Offers no particular advantage over other round types beside its availability, simplicity of manufacture and cost.\n
+		This box seems to have been exposed to the elements for quite some time.</text>
+	</string>
+
+	<string id="st_ammo_10x25_ap">
+		<text>10mm Auto HC</text>
+	</string>
+	<string id="st_ammo_10x25_ap_descr">
+		<text>10mm Auto (10x25) round marketed under “Solid Core” or “Hard Cast” monikers. One of heaviest possible cartridges in the 10mm offerings, made from enhanced alloys for maximum penetration potential.\n
+		Due to the lack of military adoption of the 10mm Auto, this is one of the best options if armor penetration is one’s goal.</text>
+	</string>
+
+	<string id="st_ammo_10x25_ap_old_descr">
+		<text>10mm Auto (10x25) round marketed under “Solid Core” or “Hard Cast” monikers. One of heaviest possible cartridges in the 10mm offerings, made from enhanced alloys for maximum penetration potential.\n
+		This box seems to have been exposed to the elements for quite some time.</text>
+	</string>
+
+	<string id="st_ammo_10x25_hydrashok">
+		<text>10mm Auto XTP-JHP</text>
+	</string>
+	<string id="st_ammo_10x25_hydrashok_descr">
+		<text>Potent 10mm Auto (10x25) Jacketed Hollow Point round with eXtreme Terminal Performance bullet design, optimized for deep terminal penetration, great accuracy and controlled expansion.</text>
+	</string>
+
+	<string id="st_ammo_10x25_hydrashok_old_descr">
+		<text>Potent 10mm Auto (10x25) Jacketed Hollow Point round with eXtreme Terminal Performance bullet design, optimized for deep terminal penetration, great accuracy and controlled expansion.\n
+		This box seems to have been exposed to the elements for quite some time.</text>
+	</string>
+
+	<string id="st_prt_w_barrel_tenlong">
+		<text>10mm Caliber Barrel (L)</text>
+	</string>
+	<string id="st_prt_w_barrel_tenlong_descr">
+		<text>A 10mm (or .40 caliber) barrel. Used in variety of SMG and PCC platforms.</text>
+	</string>
+
+	<string id="st_prt_w_p_barrel_tenshort">
+		<text>10mm Caliber Barrel (S)</text>
+	</string>
+	<string id="st_prt_w_p_barrel_tenshort_descr">
+		<text>A 10mm (or .40 caliber) barrel. Used in variety of pistol platforms.</text>
+	</string>
+
+	<string id="st_addon_sil_10mm">
+		<text>10mm Auto Suppressor</text>
+	</string>
+	<string id="st_addon_sil_10mm_descr">
+		<text>Suppressor suited for the high powered 10mm Auto cartridge.</text>
+	</string>
+
+</string_table>

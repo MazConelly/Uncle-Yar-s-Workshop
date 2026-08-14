@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_mp5_10x25">
+		<text>10mm Standard MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_descr">
+		<text>Polymer magazine made for the MP5/10 in 10mm Auto, able to hold 30 rounds. This magazine also fits the UMP10.\n
+		The magazine is straight instead of being slightly curved, akin to early 9mm MP5 magazines.</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25_extended">
+		<text>Extended 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_extended_descr">
+		<text>Extended magazine for 10mm AutoMP5/10 sub-machinegun with capacity for 40 rounds.</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25_drum">
+		<text>Drum 10mm Auto MP5/10 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_10x25_drum_descr">
+		<text>Drum magazine for 10mm Auto MP5/10 sub-machinegun with capacity for 50 rounds.</text>
+	</string>
+
+</string_table>

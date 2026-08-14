@@ -29,7 +29,8 @@ Simple Weapon Pack
 Clones the Winchester 70 in SWP to a .30-06 clone.
 
 JMerc's BAR and HCAR
-Adds .30-06 mags for those weapons.
+Adds two .30-06 mags for those weapons, capable of loading 20, 30 and 40 rounds.
+If BAR is present, it's 7.62x51 20 round mag is overwriten by the .30-06 one.
 
 ----------------------------------------------------------
 -Known issues:

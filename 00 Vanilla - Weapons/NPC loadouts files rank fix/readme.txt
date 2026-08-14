@@ -46,12 +46,14 @@ All factions get RGF5 as novices and experienced, and swap it for F1 at veteran 
 Novices have a small chance to have them, and the higher the rank, the higher chance they'll get them until masters get a guaranteed F1.
 The Army starts getting each at earlier ranks at higher odds (easier, organized local access to trained professionals).
 
-All veterans and masters have a 50 and 100% chance for smoke grenades.
+All veterans and masters have a 50 and 100% chance for smoke grenades.*
 Military factions start at novice rank, though with very low chances.
 Clear Sky, Ecologists, Freedom, and Monolith start at experienced, also at low chances.
 
 All veterans and masters have a 15 and 45% chance of getting thermite grenades.
 Military factions and Monolith start at experienced with very low odds.
+
+*22-6-26 note: It seems the current versions of the modded exes have issues with NPCs using smoke grenades. As such, the lines adding them are disabled for the moment.
 
 
 ----The following patches are intended as auxiliary to the GRENATA expansion.

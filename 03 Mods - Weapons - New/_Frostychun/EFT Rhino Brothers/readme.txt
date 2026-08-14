@@ -4,7 +4,7 @@ https://www.moddb.com/mods/stalker-anomaly/addons/escape-from-tarkov-rhino-broth
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the original mod. Let this overwrite it.
+NOTE: You need the original mod. Disable its configs folder.
 
 IMPORTANT: A new game is required if you were already using the mod.
 
@@ -32,6 +32,12 @@ Cylinder and hammer are assigned as parts.
 Speedloaders and ammo for revolvers
 The 9mm and .357 revolvers are assigned speedloaders.
 This requires the Speedloaders and ammo module in this package, as it includes a 6 rounds 9mm speedloader which the main mod doesn't.
+
+AO3 Late Comers - .40 S&W
+Clones the Chiappa Rhino 50DS into a model chambered for .40 S&W.
+
+Small Caliber Ammo Framework [WIP, NOT FOR USE YET]
+The Chiappa Rhino 50DS will load 38 Special instead of .357.
 
 ----------------------------------------------------------
 -Known issues:

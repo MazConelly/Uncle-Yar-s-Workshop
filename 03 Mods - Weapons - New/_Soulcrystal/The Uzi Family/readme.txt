@@ -25,7 +25,7 @@ Weapon Parts Overhaul
 -Patches:
 
 BaS
-Expansion of the original BaS option. If you installed it, this will expand it with the changes above (selling to traders and PDA Interactive integration).
+Expansion of the original BaS option. If you installed it, this will expand it with the changes above.
 
 ----------------------------------------------------------
 -Known issues:

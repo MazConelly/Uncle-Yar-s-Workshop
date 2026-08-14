@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_tommy10">
+		<text>M1927A1 Carbine (10mm)</text>
+	</string>
+	<string id="st_wpn_tommy10_descr">
+		<text>“Modern” reproduction of the vaunted Thompson submachine gun, fashioned after the 1921/1928 pattern. Blowback-operated, air-cooled, magazine fed, semi-auto carbine, with a longer 16+ inch barrel to comply with various American gun laws and regulations.\n
+		After the original manufacturer has been tasked with rechambering FBI Thompsons in 10mm Auto as test beds, they have briefly offered a semi-auto only carbine chambered in 10mm Auto in early 90’s on the civilian market. Due to the volume of units sold, and limited time of manufacture, Thompsons chambered in 10mm Auto are one of rarer firearms out there.\n
+		While this carbine is semi-auto only, you are certain a skilled and properly equipped zone gunsmith will be able to convert it into Full Auto, just as Brigadier General John T. Thompson has always intended his invention to be.</text>
+	</string>
+
+	<string id="st_up_tommy10mag_name">
+		<text>Drum capacity</text>
+	</string>
+	<string id="st_up_tommy10mag_descr">
+		<text>Extends drum capacity to 50 rounds.</text>
+	</string>
+
+	<string id="st_up_tommy10auto_name">
+		<text>Full Auto Trigger Group</text>
+	</string>
+	<string id="st_up_tommy10auto_descr">
+		<text>Just as Brigadier General John T. Thompson would have wanted it.</text>
+	</string>
+
+</string_table>

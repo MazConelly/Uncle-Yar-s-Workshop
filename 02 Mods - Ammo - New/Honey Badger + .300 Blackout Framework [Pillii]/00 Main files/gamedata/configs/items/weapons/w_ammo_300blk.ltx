@@ -1,0 +1,70 @@
+[ammo_300blk_ap]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_300blk_ap"
+class			= AMMO_S
+cform			= skeleton
+visual			= anomaly_weapons\wpn_ammo\ammo_300_ap.ogf
+description		= ammo_300blk_ap_descr
+$prefetch 		= 64
+
+cost			= 3460
+
+box_size		= 15
+
+inv_name		= ammo_300blk_ap
+inv_name_short	= ammo_300blk_ap_s
+inv_weight		= .34
+icons_texture = ui\wpn_honeybadger\ui_wpn_honeybadger
+
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 13
+inv_grid_y		= 3
+
+k_disp			= 0.66
+k_impulse		= 0.5
+k_ap			= 0.248
+tracer_color_ID	= 1
+wm_size			= 0.042
+k_air_resistance = 0.15
+
+tier			= 5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_300blk_fmj]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_300blk_fmj"
+class			= AMMO_S
+cform			= skeleton
+visual			= anomaly_weapons\wpn_ammo\ammo_300_fmj.ogf
+description		= ammo_300blk_fmj_descr
+$prefetch 		= 64
+
+cost			= 2100
+
+box_size		= 15
+
+inv_name		= ammo_300blk_fmj
+inv_name_short	= ammo_300blk_fmj_s
+inv_weight		= .35
+icons_texture = ui\wpn_honeybadger\ui_wpn_honeybadger
+
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 11
+inv_grid_y		= 3
+
+k_disp			= 0.5
+k_impulse		= 0.55
+k_ap			= 0.178
+tracer_color_ID	= 1
+wm_size			= 0.048
+k_air_resistance = 0.15
+
+tier			= 3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+

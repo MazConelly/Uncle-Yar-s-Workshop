@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_saiga23">
+		<text>Модифицированный магазин Сайга-12S 23х75</text>
+	</string>
+	<string id="st_mag_saiga23_descr">
+		<text>
+		Модифицированный магазин Сайга-12S на 8 патронов. Этот магазин переоборудован под патроны для дробовика 23x75 мм.
+		</text>
+	</string>
+
+	<string id="st_mag_saiga23_ext">
+		<text>Удлиненный магазин Сайга-12С 23х75</text>
+	</string>
+	<string id="st_mag_saiga23_ext_descr">
+		<text>
+		Удлиненный магазин Сайга-12S на 12 патронов. Этот магазин переоборудован под патроны для дробовика 23x75 мм. Больше снарядов означает больше мёртвых мутантов.
+		</text>
+	</string>
+
+</string_table>

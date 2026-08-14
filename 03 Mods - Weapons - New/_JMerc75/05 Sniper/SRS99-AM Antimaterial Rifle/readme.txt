@@ -27,5 +27,12 @@ As I understand, the SRS99 in Halo actually uses a 14.5x114mm cartridge. The clo
 The .50 BMG and Barret M82 resto patch in the module for Lewd's .50 BMG Ammo Pack will also cover this patch.
 This patch may require a new game if you were already using the mod and Mags Redux. I think. I'm not 100% sure about this issue affecting the Mags Redux type stats. 
 
+.50 BMG and M82 Barret Restoration - Barrel part
+To assign the .50 BMG barrel, if you took the option in that module.
+
+Luna's Master Disassembly List and Parts Fix
+Assigns the .338 barrel to the weapon.
+Do not use with the patches above.
+
 ----------------------------------------------------------
 -Known issues:

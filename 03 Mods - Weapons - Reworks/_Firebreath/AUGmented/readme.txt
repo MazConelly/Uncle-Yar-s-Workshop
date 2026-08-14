@@ -8,6 +8,11 @@ https://www.moddb.com/mods/stalker-anomaly/addons/augmented-the-aug-pack
 ----------------------------------------------------------
 -Explanation:
 
+Integration into:
+Lootboxes
+Mags Redux
+PDA Interactive
+
 ----------------------------------------------------------
 -Patches:
 

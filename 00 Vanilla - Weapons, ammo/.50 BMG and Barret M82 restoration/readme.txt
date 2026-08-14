@@ -15,9 +15,15 @@ Do note this isn't a "for fun" mod; the Anomaly devs presumably made the M82 cha
 
 This allows the Barret M82 to use .50 BMG ammo as normal, and restores the .50 BMG ammo. Other mods tried to do so but I remember them being clunky and/or merged with 4.6 ammo restorations. Not quite a fix patch, but not quite big enough to justify its own mod page.
 
-The M82 should now hit harder, faster and farther than the rest of snipers and calibers, but not as the Gauss. You may see NPCs being pushed a few meters (in lieu of just becoming a big crater). The standard .50 BGM is craftable and distributed to some traders in very limited quantities (CS, Freedom, ISG, mercs, and Monolith, so you can restock at any longitude of the Zone).
+The M82 should now hit harder, faster and farther than the rest of snipers and calibers, but not as the Gauss. You may see NPCs being pushed a few meters (in lieu of just becoming a big crater). The standard .50 BGM is craftable and distributed to some traders in very limited quantities (CS, Freedom, ISG, mercs, and Monolith).
 
-The same changes will be applied to Sedzhimol's Gepard Model 6, Chillcat's XM500, and Lunatic's Desert Eagle in .50 BMG.
+In addition, being a NATO weapon, it will be assigned the NATO gas tube, not the Russian one.
+
+The following mod weapons are covered by the same changes:
+	-Blackgrowl's Barret M82A2
+	-Chillcat's XM500
+	-Lewdnatic's Desert Eagle in .50 BMG.
+	-Sedzhimol's Gepard Model 6
 
 You can loot the ammo from corpses, but do note that it remains highly scarce and it's not added to stashes, dynamic item spawns, or rewards. All this makes using the M82 a more difficult and focused task. It's overkill for the Zone after all.
 That said, files have been made to integrate it into those systems. They're just disabled, as I'm unsure of how they'll affect the balance.
@@ -27,14 +33,12 @@ mod_dynamic_item_spawn_ammo50bgmresto.ltx.mohidden
 mod_item_rewards_ammo50bmgresto.ltx.mohidden
 mod_treasure_manager_ammo50bgmresto.ltx.mohidden
 
-Can be sold to traders.
-
 Integrated into the vanilla looting, dynamic item spawn, and treasure, and task reward systems.
 
 Integrated into:
 Grok's Stash Overhaul
 Lootboxes
-Mags Redux. The M82 magazine now loads .50 BMG instead of 12.7x55.
+Mags Redux. The M82 magazine will be changed to load .50 BMG by default instead of 12.7x55.
 PDA Interactive
 
 ----------------------------------------------------------
@@ -43,6 +47,10 @@ PDA Interactive
 Arti's Ballistics patch
 The AP ammo is also craftable and added to traders at very high goodwill, with AB's new descriptions applied properly.
 I left AB to set the stats, as I assume there's a game plan there. I may be wrong and the work it's simply incomplete; I'm not a ballistics guy, so feel free to mention anything that should be changed.
+
+Barrel part
+Adds a .50 BMG barrel part, and assigns it to all covered weapons.
+Mostly made to screw around, you can skip this if you prefer not contributing to the item bloat.
 
 ----------------------------------------------------------
 -Known issues:
