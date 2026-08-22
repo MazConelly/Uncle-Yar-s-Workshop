@@ -25,13 +25,16 @@ The tweaks for exo suits are removed (not disabled), for compatibility with the 
 
 The wpn_axe3's heavy attack fix left over from the original Vanilla Bug Fix Pack is retained. Pretty harmless, but if you use Barry's More Melee Features, you'll want to disable lines 2 and 3 of the file.
 
-The Separated Helmets option skips or removes the head protection tweaks.
-
 Includes the changes in the individual patches in this pack.
-
 
 ----------------------------------------------------------
 -Patches:
+
+Separated Helmets
+Compatible with either Vintar0's original, Laconeko's 1.5.2 update, or MazConnelly's 1.5.3 update.
+
+Separated Helmets and Backpacks 1.5.3
+Additional option, in case you use the Separated Backpacks option in MazConnelly's 1.5.3 update.
 
 ----------------------------------------------------------
 -Known issues:

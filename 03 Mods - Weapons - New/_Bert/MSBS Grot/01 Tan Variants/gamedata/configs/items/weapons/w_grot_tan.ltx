@@ -1,0 +1,429 @@
+[wpn_grot_tan]:wpn_grot
+$spawn				= "weapons\grot_tan"
+parent_section		= wpn_grot_tan
+
+icons_texture		= ui\ui_icons_grot_tan
+inv_grid_width		= 5
+inv_grid_height		= 2
+inv_grid_x			= 0
+inv_grid_y			= 0
+inv_name			= st_wpn_grot_tan
+; inv_name_short		= st_wpn_grot_s
+; description		= st_wpn_grot_descr
+
+hud					= wpn_grot_tan_hud
+visual				= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+
+upgrades			= up_gr_firstab_ak103, up_gr_seconab_ak103, up_gr_thirdab_ak103, up_gr_fourtab_ak103, up_gr_fifthab_ak103, up_gr_fifthcd_ak103
+upgrade_scheme		= upgrade_scheme_ak74
+upgr_icon_path		= ui\ui_icons_grot_tan
+upgr_icon_x			= 0
+upgr_icon_y			= 100
+upgr_icon_width		= 300
+upgr_icon_height	= 150
+
+ammo_class			= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+
+; silencer_name		= wpn_sil_nato
+
+hit_impulse			= 34
+hit_power			= 0.58, 0.58, 0.58, 0.58
+bullet_speed		= 794
+rpm					= 750
+
+crosshair_inertion			= 5.6
+fire_dispersion_base		= 0.22
+
+cam_dispersion_frac			= 0.9
+cam_dispersion_inc			= 0.0775
+cam_step_angle_horz			= 1.13
+zoom_cam_dispersion_inc		= 0.0625
+zoom_cam_step_angle_horz	= 1.03
+
+PDM_disp_base				= 1.15
+
+[wpn_grot_tan_hud]:wpn_grot_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_hud.ogf
+
+;---------------------------------------------------------------------------------------------------------------------------
+
+[wpn_grot_tan_ac10632]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_ac10632_hud
+
+1icon_layer		= ac10632
+1icon_layer_x	= 77
+1icon_layer_y	= -11
+inv_grid_x		= 5
+
+inv_weight		= 4.13
+
+[wpn_grot_tan_ac10632_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.060316, 0.015936, -0.054586
+aim_hud_offset_pos_16x9	= -0.060316, 0.015936, -0.054586
+aim_hud_offset_rot		= 0.004828, 0.007457, -0.021546
+aim_hud_offset_rot_16x9	= 0.004828, 0.007457, -0.021546
+
+[wpn_grot_tan_acog]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 77
+1icon_layer_y	= -11
+inv_grid_x		= 5
+
+inv_weight		= 4.52
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+[wpn_grot_tan_acog_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.065811, 0.017333, -0.0631
+aim_hud_offset_pos_16x9	= -0.065811, 0.017333, -0.0631
+aim_hud_offset_rot		= 0.01463, 0.003794, -0.021546
+aim_hud_offset_rot_16x9	= 0.01463, 0.003794, -0.021546
+
+[wpn_grot_tan_eot]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_eot_hud
+
+1icon_layer		= eot
+1icon_layer_x	= 86
+1icon_layer_y	= -9
+inv_grid_x		= 5
+
+inv_weight		= 4.36
+
+[wpn_grot_tan_eot_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.059629, 0.009475, -0.013269
+aim_hud_offset_pos_16x9	= -0.059629, 0.009475, -0.013269
+aim_hud_offset_rot		= 0.006035, 0.007934, -0.021546
+aim_hud_offset_rot_16x9	= 0.006035, 0.007934, -0.021546
+
+[wpn_grot_tan_specter]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 49
+1icon_layer_y	= -15
+inv_grid_x		= 5
+
+inv_weight		= 4.67
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+[wpn_grot_tan_specter_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_specter_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.059576, -0.002892, -0.033821
+aim_hud_offset_alt_pos_16x9	= -0.059576, -0.002892, -0.033821
+aim_hud_offset_alt_rot		= 0.0114, 0.007544, -0.021546
+aim_hud_offset_alt_rot_16x9	= 0.0114, 0.007544, -0.021546
+
+aim_hud_offset_pos		= -0.064171, 0.019079, -0.070726
+aim_hud_offset_pos_16x9	= -0.064171, 0.019079, -0.070726
+aim_hud_offset_alt_rot		= 0.0125, 0.00765, -0.021546
+aim_hud_offset_alt_rot_16x9	= 0.0125, 0.00765, -0.021546
+
+[wpn_grot_tan_leupold]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_leupold_hud
+
+1icon_layer		= leupold
+1icon_layer_x	= 59
+1icon_layer_y	= -14
+inv_grid_x		= 5
+
+inv_weight		= 4.67
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_grot_tan_leupold_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_leupold_hud.ogf
+
+aim_hud_offset_pos		= -0.064, 0.013234, -0.043431
+aim_hud_offset_pos_16x9	= -0.064, 0.013234, -0.043431
+aim_hud_offset_rot		= 0.008804, 0.003205, -0.021546
+aim_hud_offset_rot_16x9	= 0.008804, 0.003205, -0.021546
+
+[wpn_grot_tan_aimpoint]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_aimpoint_hud
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 90
+1icon_layer_y	= -17
+inv_grid_x		= 5
+
+inv_weight		= 3.53
+
+[wpn_grot_tan_aimpoint_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.059987, 0.013167, -0.058214
+aim_hud_offset_pos_16x9	= -0.059987, 0.013167, -0.058214
+aim_hud_offset_rot		= 0.005254, 0.008531, -0.021546
+aim_hud_offset_rot_16x9	= 0.005254, 0.008531, -0.021546
+
+[wpn_grot_tan_e0t2]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_e0t2_hud
+
+1icon_layer		= e0t2
+1icon_layer_x	= 87
+1icon_layer_y	= -13
+inv_grid_x		= 5
+
+inv_weight		= 4.27
+
+[wpn_grot_tan_e0t2_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.059631, 0.013167, -0.02919
+aim_hud_offset_pos_16x9	= -0.059631, 0.013167, -0.02919
+aim_hud_offset_rot		= 0.003408, 0.007563, -0.021546
+aim_hud_offset_rot_16x9	= 0.003408, 0.007563, -0.021546
+
+[wpn_grot_tan_compm4s]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_compm4s_hud
+
+1icon_layer		= compm4s
+1icon_layer_x	= 77
+1icon_layer_y	= -18
+inv_grid_x		= 5
+
+inv_weight		= 4.28
+
+[wpn_grot_tan_compm4s_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.060129, 0.014658, -0.044567
+aim_hud_offset_pos_16x9	= -0.060129, 0.014658, -0.044567
+aim_hud_offset_rot		= 0.004686, 0.007775, -0.021546
+aim_hud_offset_rot_16x9	= 0.004686, 0.007775, -0.021546
+
+[wpn_grot_tan_marchf]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_marchf_hud
+
+1icon_layer		= marchf
+1icon_layer_x	= 60
+1icon_layer_y	= -9
+inv_grid_x		= 5
+
+inv_weight		= 4.63
+
+scope_status		= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
+
+[wpn_grot_tan_marchf_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_marchf_hud.ogf
+
+aim_hud_offset_pos		= -0.065061, 0.014667, -0.01784
+aim_hud_offset_pos_16x9	= -0.065061, 0.014667, -0.01784
+aim_hud_offset_rot		= 0.00781, 0.00433, -0.021546
+aim_hud_offset_rot_16x9	= 0.00781, 0.00433, -0.021546
+
+[wpn_grot_tan_ekp8_18]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_ekp8_18_hud
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 79
+1icon_layer_y	= -2
+inv_grid_x		= 5
+
+inv_weight		= 4.39
+
+[wpn_grot_tan_ekp8_18_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_ekp8_18_hud.ogf
+
+aim_hud_offset_pos		= -0.060108, 0.010256, -0.049182
+aim_hud_offset_pos_16x9	= -0.060108, 0.010256, -0.049182
+aim_hud_offset_rot		= -0.006177, 0.008199, -0.021546
+aim_hud_offset_rot_16x9	= -0.006177, 0.008199, -0.021546
+
+[wpn_grot_tan_gauss_sight]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_gauss_sight_hud
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 71
+1icon_layer_y	= -9
+inv_grid_x		= 5
+
+inv_weight		= 5.41
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_grot_tan_gauss_sight_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_gauss_hud.ogf
+
+aim_hud_offset_pos		= -0.06336, 0.023198, -0.074016
+aim_hud_offset_pos_16x9	= -0.06336, 0.023198, -0.074016
+aim_hud_offset_rot		= 0.008591, 0.00576, -0.021546
+aim_hud_offset_rot_16x9	= 0.008591, 0.00576, -0.021546
+
+[wpn_grot_tan_pn23]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_pn23_hud
+
+1icon_layer		= pn23
+1icon_layer_x	= 49
+1icon_layer_y	= -16
+inv_grid_x		= 5
+
+inv_weight		= 4.33
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+[wpn_grot_tan_pn23_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.06122, 0.000943, -0.051087
+aim_hud_offset_pos_16x9	= -0.06122, 0.000943, -0.051087
+aim_hud_offset_rot		= 0.008591, 0.005277, -0.021546
+aim_hud_offset_rot_16x9	= 0.008591, 0.005277, -0.021546
+
+[wpn_grot_tan_c-more]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 84
+1icon_layer_y	= -8
+inv_grid_x		= 5
+
+inv_weight		= 4.15
+
+[wpn_grot_tan_c-more_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.060162, 0.019273, -0.054175
+aim_hud_offset_pos_16x9	= -0.060162, 0.019273, -0.054175
+aim_hud_offset_rot		= 0.005254, 0.008305, -0.021546
+aim_hud_offset_rot_16x9	= 0.005254, 0.008305, -0.021546
+
+[wpn_grot_tan_0kp2]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_0kp2_hud
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 81
+1icon_layer_y	= -4
+inv_grid_x		= 5
+
+inv_weight		= 4.28
+
+[wpn_grot_tan_0kp2_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_0kp2_hud.ogf
+
+aim_hud_offset_rot		= -0.001704, 0.010637, -0.021546
+aim_hud_offset_rot_16x9	= -0.001704, 0.010637, -0.021546
+
+[wpn_grot_tan_d0cter]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_d0cter_hud
+
+1icon_layer		= d0cter
+1icon_layer_x	= 80
+1icon_layer_y	= -11
+inv_grid_x		= 5
+
+inv_weight		= 4.04
+
+[wpn_grot_tan_d0cter_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_d0cter_hud.ogf
+
+aim_hud_offset_pos		= -0.059882, 0.029074, -0.047618
+aim_hud_offset_pos_16x9	= -0.059882, 0.029074, -0.047618
+aim_hud_offset_rot		= -0.001136, 0.007987, -0.021546
+aim_hud_offset_rot_16x9	= -0.001136, 0.007987, -0.021546
+
+[wpn_grot_tan_deltapoint]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_deltapoint_hud
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 76
+1icon_layer_y	= -6
+inv_grid_x		= 5
+
+inv_weight		= 4.06
+
+[wpn_grot_tan_deltapoint_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_deltapoint_hud.ogf
+
+aim_hud_offset_pos		= -0.059998, 0.022894, -0.04407
+aim_hud_offset_pos_16x9	= -0.059998, 0.022894, -0.04407
+aim_hud_offset_rot		= 0.002343, 0.008305, -0.021546
+aim_hud_offset_rot_16x9	= 0.002343, 0.008305, -0.021546
+
+[wpn_grot_tan_kemper]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 83
+1icon_layer_y	= -13
+inv_grid_x		= 5
+
+inv_weight		= 4.28
+
+[wpn_grot_tan_kemper_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.059988, 0.012883, -0.04407
+aim_hud_offset_pos_16x9	= -0.059988, 0.012883, -0.04407
+aim_hud_offset_rot		= 0.00426, 0.008146, -0.021546
+aim_hud_offset_rot_16x9	= 0.00426, 0.008146, -0.021546
+
+[wpn_grot_tan_rmr]:wpn_grot_tan
+visual			= dynamics\weapons\wpn_grot\wpn_grot_tan_world.ogf
+hud				= wpn_grot_tan_rmr_hud
+
+1icon_layer		= rmr
+1icon_layer_x	= 76
+1icon_layer_y	= -6
+inv_grid_x		= 5
+ 
+inv_weight		= 4.04
+
+[wpn_grot_tan_rmr_hud]:wpn_grot_tan_hud
+item_visual	= dynamics\weapons\wpn_grot\wpn_grot_tan_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.059572, 0.026233, -0.055294
+aim_hud_offset_pos_16x9	= -0.059572, 0.026233, -0.055294
+aim_hud_offset_rot		= 0.001775, 0.007881, -0.021546
+aim_hud_offset_rot_16x9	= 0.001775, 0.007881, -0.021546

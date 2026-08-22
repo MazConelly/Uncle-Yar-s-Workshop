@@ -1,7 +1,14 @@
-[greh_extrascientific_light_outfit]:monolith_scientific_light_outfit
+[greh_extrascientific_light_outfit]:outfit_base,outfit_restrictions_1
 $spawn							= "outfit\greh_extrascientific_light_outfit"
+class							= EQU_STLK
+ef_equipment_type				= 2
+visual							= dynamics\outfit\scientific_outfit
 actor_visual					= actors\stalker_greh\stalker_greh_extraseva.ogf
 npc_visual						= actors\stalker_greh\stalker_greh_extraseva.ogf
+player_hud_section				= actor_hud_loner_seva
+character_portrait				= ui_inGame2_neutral_nauchniy
+full_icon_name					= npc_icon_scientific_outfit
+full_scale_icon					= 12, 11
 
 inv_name						= greh_extrascientific_light_outfit_name
 inv_name_short					= greh_extrascientific_light_outfit_name
@@ -14,11 +21,31 @@ upgr_icon_x						= 620
 upgr_icon_y						= 515
 upgr_icon_width					= 300
 upgr_icon_height				= 140
+upgrades						= up_gr_firstab_seva_1, up_gr_seconab_seva_1, up_gr_thirdab_seva_1, up_gr_fourtab_seva_1
+installed_upgrades				=
+upgrade_scheme					= up_scheme_seva_1
 
 community						= greh
+kind							= o_sci
+cost							= 85000
+inv_weight						= 9.1
+additional_inventory_weight		= 22
+additional_inventory_weight2	= 22
+artefact_count					= 3
+immunities_sect					= sect_scientific_light_outfit_immunities
+repair_type						= outfit_medium
+;repair_part_bonus				= 0.44
+hit_fraction_actor				= 0.5
+bones_koeff_protection			= actor_armor_class2
+control_inertion_factor			= 1.42
+power_loss						= 0.05
 
 burn_protection					= 0.32
 shock_protection				= 0.9
+radiation_protection			= 0.031
 chemical_burn_protection		= 0.15
+telepatic_protection			= 0.1
 strike_protection				= 0.32
+explosion_protection			= 0.2
 wound_protection				= 0.32
+fire_wound_protection			= 0.29

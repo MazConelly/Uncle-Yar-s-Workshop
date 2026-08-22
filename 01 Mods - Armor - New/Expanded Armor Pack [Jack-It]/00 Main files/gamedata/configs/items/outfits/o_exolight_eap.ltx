@@ -1,39 +1,70 @@
-[exolight_legend_outfit]:exolight_outfit
+[exolight_legend_outfit]:outfit_base,outfit_restrictions_1
 $spawn							= outfit\exolight_legend_outfit
+class							= E_STLK
+ef_equipment_type				= 5
+visual							= dynamics\outfit\neutarl_exolight_outfit
 actor_visual					= actors\stalker_neutral\exolight_legend_outfit.ogf
 npc_visual						= actors\stalker_neutral\exolight_legend_outfit.ogf
-inv_name						= st_exolight_legend_outfit_name
-inv_name_short					= st_exolight_legend_outfit_name
-description						= st_exolight_legend_outfit_description
+player_hud_section				= actor_hud_exolight
+character_portrait				= ui_inGame2_neutral_4
+full_icon_name					= npc_icon_exo_outfit
+full_scale_icon					= 2, 11
 
+inv_name						= st_exolight_legend_outfit_name
+inv_name_short					= st_exolight_legend_outfit_name_s
+description						= st_exolight_legend_outfit_description
 icons_texture					= ui\ui_icon_eap
 inv_grid_width					= 2
 inv_grid_height					= 3
 inv_grid_x						= 6
 inv_grid_y						= 3
+upgr_icon_x						= 3776
+upgr_icon_y						= 1594
+upgr_icon_width					= 301
+upgr_icon_height				= 170
+upgrades						= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
+installed_upgrades				=
+upgrade_scheme					= up_scheme_exolight_1
 
+community						= stalker
+kind							= o_heavy
 cost							= 93890
 inv_weight						= 14
 additional_inventory_weight		= 24
 additional_inventory_weight2	= 24
 artefact_count					= 4
+immunities_sect					= sect_exolight_outfit_immunities
+repair_type						= outfit_heavy
+;repair_part_bonus				= 0.38
 hit_fraction_actor				= 0.2
 bones_koeff_protection			= actor_armor_duty_exo
+control_inertion_factor			= 1.76
 power_loss						= 0.09
 
 burn_protection					= 0.2
 shock_protection				= 1.4
+radiation_protection			= 0.03
+chemical_burn_protection		= 0.032
+telepatic_protection			= 0.06
+strike_protection				= 0.55
+explosion_protection			= 0.75
 wound_protection				= 0.75
+fire_wound_protection			= 0.58
 
-[isg_exolight_ghost_outfit]:isg_exolight_outfit
+[isg_exolight_ghost_outfit]:outfit_base,outfit_restrictions_1
 $spawn							= outfit\isg_exolight_ghost_outfit
-ef_equipment_type				= 3
+class							= E_STLK
+ef_equipment_type				= 5
 visual							= dynamics\outfit\isg_outfit
 actor_visual					= actors\stalker_isg\isg_exolight_ghost_outfit.ogf
 npc_visual						= actors\stalker_isg\isg_exolight_ghost_outfit.ogf
+player_hud_section				= actor_hud_freedom_exolight
+character_portrait				= ui_inGame2_neutral_3
+full_icon_name					= npc_icon_exo_outfit
+full_scale_icon					= 2, 11
 
 inv_name						= st_isg_exolight_ghost_outfit_name
-inv_name_short					= st_isg_exolight_ghost_outfit_name
+inv_name_short					= st_isg_exolight_ghost_outfit_name_s
 description						= st_isg_exolight_ghost_outfit_description
 icons_texture					= ui\ui_icon_eap
 inv_grid_width					= 2
@@ -44,22 +75,34 @@ upgr_icon_x						= 3776
 upgr_icon_y						= 1594
 upgr_icon_width					= 301
 upgr_icon_height				= 170
-upgrades						= up_gr_firstab_lonerpack_1, up_gr_seconab_lonerpack_1, up_gr_thirdab_lonerpack_1, up_gr_fourtab_lonerpack_1
-upgrade_scheme					= up_scheme_seva_1
+; upgrades						= up_gr_firstab_lonerpack_1, up_gr_seconab_lonerpack_1, up_gr_thirdab_lonerpack_1, up_gr_fourtab_lonerpack_1
+upgrades						= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
+installed_upgrades				=
+; upgrade_scheme					= up_scheme_seva_1
+upgrade_scheme					= up_scheme_exolight_1
 
-cost							= 95680
-inv_weight						= 18
+community						= isg
+kind							= o_heavy
+cost							= 105360	; 58360+37000 +10k due to camo and artefact slots
+inv_weight						= 18.75		; 11.63+5.12
 additional_inventory_weight		= 18
 additional_inventory_weight2	= 18
 artefact_count					= 4
+immunities_sect					= isg_svoboda_exolight_outfit_immunities
+repair_type						= outfit_heavy
+;repair_part_bonus				= 0.38
+hit_fraction_actor				= 0.25
+bones_koeff_protection			= actor_armor_radiation
+control_inertion_factor			= 1.76
+power_loss						= 0.05
 npc_blindness_koeff				= 20
 
-burn_protection               = 0.425 ; 0.15+0.275
-shock_protection              = 0.92
-radiation_protection          = 0.059 ; 0.0295+0.0295
-chemical_burn_protection      = 0.134 ; 0.048+0.086
-telepatic_protection          = 0.155 ; 0.1+0.055
+burn_protection               = 0.355	; 0.08+0.275
+shock_protection              = 0.835
+radiation_protection          = 0.0355	; 0.006+0.0295
+chemical_burn_protection      = 0.092	; 0.006+0.086
+telepatic_protection          = 0.095	; 0.04+0.055
 strike_protection             = 0.55
-explosion_protection          = 0.75
-wound_protection              = 1.05 ; 0.65+0.4
-fire_wound_protection         = 0.69 ; 0.57+0.12
+explosion_protection          = 0.85	; 0.45+0.4
+wound_protection              = 0.68	; 0.56+0.12
+fire_wound_protection         = 0.57

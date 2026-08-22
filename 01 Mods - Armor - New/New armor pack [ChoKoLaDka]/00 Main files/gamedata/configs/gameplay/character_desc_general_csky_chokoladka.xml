@@ -8,7 +8,7 @@
 
 <specific_character id="sim_default_csky_4_chokoladka_0" team_default = "1">
 #include "gameplay\profiles\character_desc_csky_4.xml"
-    <icon>ui_inGame2_csky_2_gas</icon>
+    <icon>ui_inGame2_stalker_exoseva</icon>
     <snd_config>characters_voice\human\csky_3\</snd_config>
     <visual>actors\stalker_nebo\stalker_nebo_exoseva_nauch</visual>
 </specific_character>

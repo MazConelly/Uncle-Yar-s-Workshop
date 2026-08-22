@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-	<string id="st_wpn_rhino_50ds_357_eft">
+	<string id="st_wpn_rhino_50ds_40sw_eft">
 		<text>Chiappa Rhino 50DS .40 S&W</text>
 	</string>
-	<string id="st_wpn_rhino_50ds_357_eft_s">
+	<string id="st_wpn_rhino_50ds_40sw_eft_s">
 		<text>Rhino 50DS .40SW</text>
 	</string>
-	<string id="st_wpn_rhino_50ds_357_eft_descr">
+	<string id="st_wpn_rhino_50ds_40sw_eft_descr">
 		<text>The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction, with an unusual barrel arrangement for revolvers opposite the lower drum chamber.\n
 		This model is the 50DS with a 5 inch barrel, chambered in .40 S&W.\n</text>
 	</string>

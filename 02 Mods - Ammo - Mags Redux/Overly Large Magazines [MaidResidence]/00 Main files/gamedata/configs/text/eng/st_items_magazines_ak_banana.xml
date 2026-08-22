@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_ak_7.62x39_banana">
+		<text>100-round 7.62x39 AK Magazine</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_banana_descr">
+		<text>A ridiculous 100 round 7.62x39 double stack AK magazine. Extremely impractical and unreliable, it is almost unheard of to be able to load these magazines past half capacity without significant issue. These are best suited as no more than a decoration. By some miracle, this particular one works perfectly.</text>
+	</string>
+
+</string_table>

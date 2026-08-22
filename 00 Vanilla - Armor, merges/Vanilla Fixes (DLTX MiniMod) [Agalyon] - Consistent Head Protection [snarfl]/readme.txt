@@ -10,6 +10,8 @@ Original mods not required.
 
 Incompatible with full armor system overhauls like Breaker_Oak's.
 
+Obviously not useful with Separated Helmets.
+
 ----------------------------------------------------------
 -Explanation:
 Not much to merge, except adding the actor_armor_ace_seva scheme from Minimod's to Consistent's, and use it on merc armors.

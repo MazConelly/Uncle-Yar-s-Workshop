@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_deagle_50bmg_default">
+		<text>7-round .50 BMG Magazine</text>
+	</string>
+	<string id="st_mag_deagle_50bmg_default_descr">
+		<text>7-round magazine chambered for .50 BMG rounds, fits in a M82 and any weapon it could share magazines with. It won't fit on your smaller pockets, but it's lighter. Good if you're expecting to only shoot a few rounds.</text>
+	</string>
+
+	<string id="st_mag_deagle_50bmg_drum">
+		<text>20-round .50 BMG Drum</text>
+	</string>
+	<string id="st_mag_deagle_50bmg_drum_descr">
+		<text>20-round drum magazine chambered for .50 BMG rounds, fits in a M82 and any weapon it could share magazines with. Someone using one of these would be preparing for an endurance sniping session, or doesn't have much confidence in their aiming.</text>
+	</string>
+
+</string_table>

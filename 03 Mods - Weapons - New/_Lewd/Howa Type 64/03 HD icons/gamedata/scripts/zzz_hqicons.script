@@ -1,0 +1,27 @@
+--Made By Utjan
+--Edited By NullMoxy
+
+base_texture = utils_xml.get_icons_texture
+function utils_xml.get_icons_texture(section)
+	local icon_file = SYS_GetParam(0, section, "icon_file")
+	if not icon_file then 
+		return base_texture(section)
+	end
+	return icon_file
+end
+
+base_axis = utils_xml.get_item_axis
+function utils_xml.get_item_axis(section, grid_size, unpacked)
+	if not unpacked then return base_axis(section, grid_size, unpacked) end
+
+	local hq_icon_area = SYS_GetParam(0, section, "hq_icon_area")
+	if not hq_icon_area then return base_axis(section, grid_size, unpacked) end
+
+	local seperate_icon_area = str_explode(hq_icon_area, ",")
+	local x1 = tonumber(seperate_icon_area[1])
+	local y1 = tonumber(seperate_icon_area[2])
+	local x2 = tonumber(seperate_icon_area[3])
+	local y2 = tonumber(seperate_icon_area[4])
+
+	return x1, y1, x2, y2
+end

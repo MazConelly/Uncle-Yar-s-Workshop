@@ -23,5 +23,8 @@ Weapon Parts OVerhaul
 ----------------------------------------------------------
 -Patches:
 
+DX8-9 textures
+For those who can't play on DX11.
+
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,91 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\scopes.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local arm_scope = 
+[[
+  <wpn_crosshair_colt_3x x="0" y="0" width="2048" height="1536">
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_colt_3x</texture>
+    </auto_static>
+  </wpn_crosshair_colt_3x>
+]]
+            xml_obj:insertFromXMLString(arm_scope)
+        end
+    end)
+
+
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\scopes_16.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local arm_scope = 
+[[
+  <wpn_crosshair_colt_3x x="0" y="0" width="2048" height="1536">
+    <auto_static x="128" y="0" width="768" height="768" stretch="1">
+      <texture>wpn_crosshair_colt_3x</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="128" height="768" stretch="1">
+      <texture>wpn_crosshair_add_l</texture>
+    </auto_static>
+    <auto_static x="896" y="0" width="128" height="768" stretch="1">
+      <texture>wpn_crosshair_add_r</texture>
+    </auto_static>
+  </wpn_crosshair_colt_3x>
+]]
+            xml_obj:insertFromXMLString(arm_scope)
+        end
+    end)
+
+
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\scopes_21.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local arm_scope = 
+[[
+  <wpn_crosshair_colt_3x x="0" y="0" width="2048" height="1536">
+    <auto_static x="224" y="0" width="576" height="768" stretch="1">
+      <texture>wpn_crosshair_colt_3x</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="224" height="768" stretch="1">
+      <texture>wpn_crosshair_add_l</texture>
+    </auto_static>
+    <auto_static x="800" y="0" width="224" height="768" stretch="1">
+      <texture>wpn_crosshair_add_r</texture>
+    </auto_static>
+  </wpn_crosshair_colt_3x>
+]]
+            xml_obj:insertFromXMLString(arm_scope)
+        end
+    end)
+
+
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\textures_descr\ui_ingame.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local arm_scope = 
+[[
+   <file name="wpn\wpn_crosshair_colt_3x">
+    <texture id="wpn_crosshair_colt_3x" x="0" y="0" width="1024" height="1024" />
+   </file>
+]]
+            xml_obj:insertFromXMLString(arm_scope)
+        end
+    end)
+
+end

@@ -43,10 +43,18 @@ Blanket patch for just about almost every other modded gun I've found that could
 Pistol ammo will occupy a inventory space of 2x1, instead of 1x1, like Cr3pis' icons do.
 
 
+--Real life 9x19 7N31
+he 9x19 7N31 is a speciality ammo for which only a few weapons are actually prepared to use it in real life: the GSh-18, MP-443 Grach, and PP-2000. The Gepard and the PP-90M1 too, if we had mods for them.
+This patch will make it so all guns, vanilla and modded, follow the same limitation.
+PLEASE UNDERSTAND_SatoruIwata.gif, this is not quite balanced for gameplay, as it makes an entire ammunition useless (or purely loot cash), unless you specifically choose to use those three weapons.
+On the other hand, you may consider this an edge to use those weapons over others.
+Do not use with the Arti's Ballistics patch below.
+
+
 --Arti's Ballistics patch
 It does two things:
 -Adds crafting recipes for the ammo.
--Some of the ammo both RAE and AB provide are redundant: 9x18 7N25, 9x19 7N31, 7.62x39 7N23 and 57-BZ-231 (the same as AB's BZ API if with a different name), and 9x39 PAB-9.
+-Some of the ammo both RAE and AB provide are redundant: 9x18 7N25, 7.62x39 7N23 and 57-BZ-231 (the same as AB's BZ API if with a different name), and 9x39 PAB-9.
 The ones in RAE are disabled in favor of AB, to prevent this redundancy.
 
 Still need to properly integrate the ammo itself into AB.

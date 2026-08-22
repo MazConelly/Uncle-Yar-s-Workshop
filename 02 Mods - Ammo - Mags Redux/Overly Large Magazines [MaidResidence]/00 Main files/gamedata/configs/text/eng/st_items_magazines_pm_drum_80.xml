@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- mags -->
+<!-- These can technicallby be usable by most vanilla weapons -->
+
+	<string id="st_mag_pm_9x18_drum_80">
+		<text>9x18 PM Drum Magazine</text>
+	</string>
+	<string id="st_mag_pm_9x18_drum_80_descr">
+		<text>80 round Magazine for the PM pistol. Intended to be used one-handed, alongside a shield in a police role, where a continuous volumes of fire is needed, without the ability to constantly reload.</text>
+	</string>
+
+	<string id="st_mag_pm_9x19_drum_80">
+		<text>Modified 9x19 PM Drum Magazine</text>
+	</string>
+	<string id="st_mag_pm_9x19_drum_80_descr">
+		<text>Modified 80 round drum magazine for the PM pistol. Allows the PM to provide volumes of fire it probably doesn't need to, in most situations.</text>
+	</string>
+
+</string_table>

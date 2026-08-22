@@ -16,6 +16,7 @@ ATHIS' edit is a proper rework of the TAZ Mateba that I already patched for Diph
 It adds duplicates of each version chambered in .44, though do note I nerf the range and weight of all (four in total) revolvers.
 
 Integration into:
+Armor Modkits addon. The specialized mod kit turns the base Mateba of either caliber into their Custom version.
 Grok's Stash Overhaul
 PDA Interactive
 Weapon Parts Overhaul
@@ -25,9 +26,6 @@ Weapon Parts Overhaul
 
 Revolver Parts
 Grants each gun the appropiate parts, as available.
-
-Armor Modkits addon
-The specialized mod kit turns the base Mateba of either caliber into their Custom version.
 
 ----------------------------------------------------------
 -Known issues:

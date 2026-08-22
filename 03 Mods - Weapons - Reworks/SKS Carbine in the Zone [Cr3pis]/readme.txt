@@ -21,11 +21,6 @@ Mags Redux patch has been integrated.
 ----------------------------------------------------------
 -Patches:
 
-2D Scope Overhaul
-Requested by Rambito
-Allows the basic SKS to use the PU scope, with appropiate aiming texture. Hacky, but it works.
-
-
 The following patches are mere retweaks of the original ones the mod already included, to comply with some of the changes in the main files.
 
 NPC Loadouts and Traders - Scopes

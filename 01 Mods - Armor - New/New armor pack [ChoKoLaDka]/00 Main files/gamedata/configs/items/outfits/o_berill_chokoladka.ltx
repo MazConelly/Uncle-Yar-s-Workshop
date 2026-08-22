@@ -1,136 +1,269 @@
 ;; Berill
-[army_2_outfit]:army_outfit
-$spawn			= "outfit\army_2_outfit"
-actor_visual	= actors\stalker_soldier\stalker_soldier_1_helm_tactic_nogas
-npc_visual		= actors\stalker_soldier\stalker_soldier_1_helm_tactic_nogas
+[army_2_outfit]:outfit_base
+$spawn						= "outfit\army_2_outfit"
+class						= EQU_STLK
+ef_equipment_type			= 3
+visual						= dynamics\outfit\army_outfit
+actor_visual				= actors\stalker_soldier\stalker_soldier_1_helm_tactic_nogas
+npc_visual					= actors\stalker_soldier\stalker_soldier_1_helm_tactic_nogas
+player_hud_section			= actor_hud_military_novice
+character_portrait			= ui_inGame2_soldier_1_camo_paint
+full_icon_name				= npc_icon_svoboda_light_outfit
+full_scale_icon				= 10, 11
 
-inv_name		= army_2_outfit_name
-inv_name_short	= army_2_outfit_name_s
-description		= army_2_outfit_description
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 3
-inv_grid_x		= 4
-inv_grid_y		= 0
+inv_name					= army_2_outfit_name
+inv_name_short				= army_2_outfit_name_s
+description					= army_2_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_width				= 2
+inv_grid_height				= 3
+inv_grid_x					= 4
+inv_grid_y					= 0
+upgr_icon_x					= 3440
+upgr_icon_y					= 896
+upgr_icon_width				= 309
+upgr_icon_height			= 135
+upgrades					= up_gr_firstab_novice_1, up_gr_seconab_novice_1, up_gr_thirdab_novice_1
+installed_upgrades			=
+upgrade_scheme				= up_scheme_novice_1
 
+community					= army
+kind						= o_light
+cost						= 20530
+inv_weight					= 8
 additional_inventory_weight	= 13
 additional_inventory_weight2= 13
+artefact_count				= 1
+immunities_sect				= sect_army_outfit_immunities
+repair_type					= outfit_novice
+;repair_part_bonus			= 0.17
 hit_fraction_actor			= 0.80
+bones_koeff_protection		= actor_armor_cs1
+control_inertion_factor		= 1.2
+power_loss					= 0.05
 
-strike_protection		= 0.011
-explosion_protection	= 0.20
-wound_protection		= 0.40
+burn_protection				= 0.04
+shock_protection			= 0.25
+radiation_protection		= 0
+chemical_burn_protection	= 0.02
+telepatic_protection		= 0
+strike_protection			= 0.011
+explosion_protection		= 0.20
+wound_protection			= 0.40
+fire_wound_protection		= 0.25
 
-[army_3_outfit]:army_outfit
-$spawn			= "outfit\army_3_outfit"
-actor_visual	= actors\stalker_soldier\soldier_balaklava.ogf
-npc_visual		= actors\stalker_soldier\soldier_balaklava.ogf
+;--------------------------------------------------------------------------
+[army_3_outfit]:outfit_base
+$spawn						= "outfit\army_3_outfit"
+class						= EQU_STLK
+ef_equipment_type			= 3
+visual						= dynamics\outfit\army_outfit
+actor_visual				= actors\stalker_soldier\soldier_balaklava.ogf
+npc_visual					= actors\stalker_soldier\soldier_balaklava.ogf
+player_hud_section			= actor_hud_military_novice
+character_portrait			= ui_inGame2_soldier_1_camo_paint
+full_icon_name				= npc_icon_svoboda_light_outfit
+full_scale_icon				= 10, 11
 
-inv_name		= army_3_outfit_name
-inv_name_short	= army_3_outfit_name_s
-description		= army_3_outfit_description
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 2
-inv_grid_x		= 0
-inv_grid_y		= 8
+inv_name					= army_3_outfit_name
+inv_name_short				= army_3_outfit_name_s
+description					= army_3_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_width				= 2
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 8
+upgr_icon_x					= 3440
+upgr_icon_y					= 896
+upgr_icon_width				= 309
+upgr_icon_height			= 135
+upgrades					= up_gr_firstab_novice_1, up_gr_seconab_novice_1, up_gr_thirdab_novice_1
+installed_upgrades			=
+upgrade_scheme				= up_scheme_novice_1
 
+community					= army
+kind						= o_light
 cost						= 38571
+inv_weight					= 8
 additional_inventory_weight	= 13
 additional_inventory_weight2= 13
+artefact_count				= 1
+immunities_sect				= sect_army_outfit_immunities
+repair_type					= outfit_novice
+;repair_part_bonus			= 0.17
+hit_fraction_actor			= 0.75
+bones_koeff_protection		= actor_armor_cs1
+control_inertion_factor		= 1.2
+power_loss					= 0.05
 
-burn_protection			= 0.05
-shock_protection		= 0.30
-radiation_protection	= 0.0010
-strike_protection		= 0.13
-explosion_protection	= 0.34
-wound_protection		= 0.44
+burn_protection				= 0.05
+shock_protection			= 0.30
+radiation_protection		= 0.0010
+chemical_burn_protection	= 0.02
+telepatic_protection		= 0
+strike_protection			= 0.13
+explosion_protection		= 0.34
+wound_protection			= 0.44
+fire_wound_protection		= 0.25
 
-[army_general_outfit]:army_outfit
-$spawn			= "outfit\army_general_outfit"
-actor_visual	= actors\stalker_soldier\stalker_soldier5a_beret.ogf
-npc_visual		= actors\stalker_soldier\stalker_soldier5a_beret.ogf
+;--------------------------------------------------------------------------
+[army_general_outfit]:outfit_base
+$spawn						= "outfit\army_general_outfit"
+class						= EQU_STLK
+ef_equipment_type			= 3
+visual						= dynamics\outfit\army_outfit
+actor_visual				= actors\stalker_soldier\stalker_soldier5a_beret.ogf
+npc_visual					= actors\stalker_soldier\stalker_soldier5a_beret.ogf
+player_hud_section			= actor_hud_military_novice
+character_portrait			= ui_inGame2_soldier_1_camo_paint
+full_icon_name				= npc_icon_svoboda_light_outfit
+full_scale_icon				= 10, 11
 
-inv_name		= army_general_outfit_name
-inv_name_short	= army_general_outfit_name_s
-description		= army_general_outfit_description
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 3
-inv_grid_x		= 4
-inv_grid_y		= 3
+inv_name					= army_general_outfit_name
+inv_name_short				= army_general_outfit_name_s
+description					= army_general_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_width				= 2
+inv_grid_height				= 3
+inv_grid_x					= 4
+inv_grid_y					= 3
+upgr_icon_x					= 3440
+upgr_icon_y					= 896
+upgr_icon_width				= 309
+upgr_icon_height			= 135
+upgrades					= up_gr_firstab_novice_1, up_gr_seconab_novice_1, up_gr_thirdab_novice_1
+installed_upgrades			=
+upgrade_scheme				= up_scheme_novice_1
 
-cost	= 48378
+community					= army
+kind						= o_light
+cost						= 48378
+inv_weight					= 8
 additional_inventory_weight	= 17
 additional_inventory_weight2= 17
+artefact_count				= 1
+immunities_sect				= sect_army_outfit_immunities
+repair_type					= outfit_novice
+;repair_part_bonus			= 0.17
+hit_fraction_actor			= 0.75
+bones_koeff_protection		= actor_armor_cs1
+control_inertion_factor		= 1.2
+power_loss					= 0.05
 
-burn_protection			= 0.08
-shock_protection		= 0.30
-radiation_protection	= 0.0010
-chemical_burn_protection= 0.06
-strike_protection		= 0.23
-explosion_protection	= 0.4
-wound_protection		= 0.65
-fire_wound_protection	= 0.40
+burn_protection				= 0.08
+shock_protection			= 0.30
+radiation_protection		= 0.0010
+chemical_burn_protection	= 0.06
+telepatic_protection		= 0
+strike_protection			= 0.23
+explosion_protection		= 0.4
+wound_protection			= 0.65
+fire_wound_protection		= 0.40
 
-[specops_bandit_raider_outfit]:specops_outfit
-$spawn			= "outfit\specops_bandit_raider_outfit"
-actor_visual	= actors\stalker_bandit\stalker_bandit_reider.ogf
-npc_visual		= actors\stalker_bandit\stalker_bandit_reider.ogf
-player_hud_section	= actor_hud_bandit_military
+;--------------------------------------------------------------------------
+[specops_bandit_raider_outfit]:outfit_base, outfit_restrictions_1
+$spawn						= "outfit\specops_bandit_raider_outfit"
+class						= EQU_STLK
+ef_equipment_type			= 3
+visual						= dynamics\outfit\specops_outfit
+actor_visual				= actors\stalker_bandit\stalker_bandit_reider.ogf
+npc_visual					= actors\stalker_bandit\stalker_bandit_reider.ogf
+player_hud_section			= actor_hud_bandit_military
+character_portrait			= ui_inGame2_Soldier_2
+full_icon_name				= npc_icon_specops_outfit
+full_scale_icon				= 4, 6
 
-inv_name		= specops_bandit_raider_outfit_name
-inv_name_short	= specops_bandit_raider_outfit_name
-description		= specops_bandit_raider_outfit_description
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 3
-inv_grid_x		= 4
-inv_grid_y		= 6
+inv_name					= specops_bandit_raider_outfit_name
+inv_name_short				= specops_bandit_raider_outfit_name
+description					= specops_bandit_raider_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_width				= 2
+inv_grid_height				= 3
+inv_grid_x					= 4
+inv_grid_y					= 6
+upgr_icon_x					= 309
+upgr_icon_y					= 158
+upgr_icon_width				= 317
+upgr_icon_height			= 137
+upgrades					= up_gr_firstab_berill_1, up_gr_seconab_berill_1, up_gr_thirdab_berill_1
+installed_upgrades			=
+upgrade_scheme				= up_scheme_berill_1
 
-community	= bandit
-cost		= 43600
+community					= bandit
+kind						= o_medium
+cost						= 43600
+inv_weight					= 12
+additional_inventory_weight	= 16
+additional_inventory_weight2= 16
+artefact_count				= 1
+immunities_sect				= sect_specops_outfit_immunities
+repair_type					= outfit_medium
+;repair_part_bonus			= 0.24
+hit_fraction_actor			= 0.4
+bones_koeff_protection		= actor_armor_berill
+control_inertion_factor		= 1.48
+power_loss					= 0.05
 
-strike_protection		= 0.18
-explosion_protection	= 0.45
-wound_protection		= 0.70
+burn_protection				= 0.07
+shock_protection			= 0.34
+radiation_protection		= 0.0055
+chemical_burn_protection	= 0.02
+telepatic_protection		= 0
+strike_protection			= 0.18
+explosion_protection		= 0.45
+wound_protection			= 0.70
+fire_wound_protection		= 0.31
 
-[specops_gray_outfit]:specops_outfit,outfit_restrictions_1
-$spawn			= "outfit\specops_gray_outfit"
-actor_visual	= actors\stalker_soldier\stalker_soldier_black.ogf
-npc_visual		= actors\stalker_soldier\stalker_soldier_black.ogf
-player_hud_section	= actor_hud_merc_military
+;--------------------------------------------------------------------------
+[specops_gray_outfit]:outfit_base,outfit_restrictions_1
+$spawn						= "outfit\specops_gray_outfit"
+class						= EQU_STLK
+ef_equipment_type			= 3
+visual						= dynamics\outfit\specops_outfit
+actor_visual				= actors\stalker_soldier\stalker_soldier_black.ogf
+npc_visual					= actors\stalker_soldier\stalker_soldier_black.ogf
+player_hud_section			= actor_hud_merc_military
+character_portrait			= ui_inGame2_Soldier_2
+full_icon_name				= npc_icon_specops_outfit
+full_scale_icon				= 4, 6
 
-inv_name		= specops_gray_outfit_name
-inv_name_short	= specops_gray_outfit_name_s
-description		= specops_gray_outfit_description
+inv_name					= specops_gray_outfit_name
+inv_name_short				= specops_gray_outfit_name_s
+description					= specops_gray_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_width				= 2
+inv_grid_height				= 3
+inv_grid_x					= 6
+inv_grid_y					= 0
+upgr_icon_x					= 716
+upgr_icon_y					= 824
+upgr_icon_width				= 198
+upgr_icon_height			= 129
+upgrades					= up_gr_firstab_berill_2, up_gr_seconab_berill_2, up_gr_thirdab_berill_2
+installed_upgrades			=
+upgrade_scheme				= up_scheme_berill_1
 
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 3
-inv_grid_x		= 6
-inv_grid_y		= 0
-
-upgr_icon_x		= 716
-upgr_icon_y		= 824
-upgr_icon_width	= 198
-upgr_icon_height= 129
-upgrades		= up_gr_firstab_berill_2, up_gr_seconab_berill_2, up_gr_thirdab_berill_2
-
-; kind					= o_sci
-cost					= 52962
-inv_weight				= 14
+community					= army
+kind						= o_medium
+cost						= 52962
+inv_weight					= 14
 additional_inventory_weight	= 19
 additional_inventory_weight2= 19
-;repair_part_bonus		= 0.40
-control_inertion_factor	= 1.38
-power_loss				= 0.06
+artefact_count				= 1
+immunities_sect				= sect_specops_outfit_immunities
+repair_type					= outfit_medium
+;repair_part_bonus			= 0.40
+hit_fraction_actor			= 0.4
+bones_koeff_protection		= actor_armor_berill
+control_inertion_factor		= 1.38
+power_loss					= 0.06
 
-shock_protection		= 0.31
-radiation_protection	= 0.03
-chemical_burn_protection= 0.03
-telepatic_protection	= 0.01
-strike_protection		= 0.53
-explosion_protection	= 0.7
-wound_protection		= 0.80
-fire_wound_protection	= 0.47
+burn_protection				= 0.07
+shock_protection			= 0.31
+radiation_protection		= 0.03
+chemical_burn_protection	= 0.03
+telepatic_protection		= 0.01
+strike_protection			= 0.53
+explosion_protection		= 0.7
+wound_protection			= 0.80
+fire_wound_protection		= 0.47

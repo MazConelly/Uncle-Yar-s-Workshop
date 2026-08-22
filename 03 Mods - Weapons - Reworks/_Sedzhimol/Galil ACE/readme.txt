@@ -14,7 +14,8 @@ Use one or the other.
 
 The Main files folder only has a "cleaned up" file for the ACE 21 rework. Which is something I've ben doing for all mods, but not really the meat of this module, that's the folder for the ACE 32.
 
-ACE 32 files merged into those of the 21. It was already inheriting its data from it anyway.
+ACE 32 files split to their own folder and files.
+
 NPC loadouts file moved to proper directory.
 Fixed the gun using the wrong bolt carrier part.
 Added configs for actor effects.

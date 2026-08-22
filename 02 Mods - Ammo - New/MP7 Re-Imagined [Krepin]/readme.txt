@@ -7,6 +7,8 @@ https://www.moddb.com/mods/stalker-anomaly/addons/mp7-reimagined
 
 ----------------------------------------------------------
 -Explanation:
+
+4.6x30mm option - Main files:
 Integration into the vanilla corpse, reward, and stash systems.
 
 Integration into:

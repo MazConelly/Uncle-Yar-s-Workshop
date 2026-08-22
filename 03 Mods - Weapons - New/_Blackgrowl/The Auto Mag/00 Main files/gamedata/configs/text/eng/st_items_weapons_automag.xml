@@ -5,7 +5,9 @@
 		<text>Auto Mag</text>
 	</string>
 	<string id="st_wpn_automag_descr">
-		<text>Auto Mag Pistol, AMP for short, is a large caliber semi-automatic pistol designed between 1966 and 1971 by the Auto Mag Corporation to make a semi-automatic pistol chambered in .44 AMP, this variant instead uses the less powerful but more manageable .357 Magnum. The pistol offers magnificent accuracy and somewhat manageable recoil, although it lacks heavily on its handling and firerate, finding such a weapon in the zone is a much bigger rarity by default. No doubt any collector would like to keep it, be it the current user or the next.</text>
+		<text>Auto Mag Pistol, AMP for short, is a large caliber semi-automatic pistol designed between 1966 and 1971 by the Auto Mag Corporation to make a semi-automatic pistol chambered in .44 AMP, this variant instead uses the less powerful but more manageable .357 Magnum. The pistol offers magnificent accuracy and somewhat manageable recoil, although it lacks heavily on its handling and firerate, finding such a weapon in the zone is a much bigger rarity by default. No doubt any collector would like to keep it, be it the current user or the next.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
 	</string>
 	
 	<string id="st_wpn_automagstock">

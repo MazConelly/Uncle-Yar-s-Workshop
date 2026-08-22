@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_pm_drum">
+		<text>PM Makarov Drum Magazine</text>
+	</string>
+	<string id="st_mag_pm_drum_descr">
+		<text>Drum magazine for the PM Makarov pistol, houses 80 rounds of 9x18mm ammunition.</text>
+	</string>
+
+</string_table>

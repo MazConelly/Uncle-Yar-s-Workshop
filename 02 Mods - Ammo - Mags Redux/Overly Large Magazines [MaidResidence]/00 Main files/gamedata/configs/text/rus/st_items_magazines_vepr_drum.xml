@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_vepr_12x70_drum">
+		<text>Магазин MaxRounds Powermag на 20 патронов</text>
+	</string>
+	<string id="st_mag_vepr_12x70_drum_descr">
+		<text>Магазин MaxRounds Powermag на 20 патронов, совместимый с ружьем Вепрь-12.</text>
+	</string>
+
+</string_table>

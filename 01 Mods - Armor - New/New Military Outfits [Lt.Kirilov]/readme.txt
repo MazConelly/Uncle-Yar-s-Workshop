@@ -15,12 +15,12 @@ To begin with, the Military Exoseva and the ACE Exoseva are actually the Hybrid 
 And the (outdated?) changes to everything else is summarily thrown out of the window.
 
 This leaves us with:
--Military P1 Combat Jacket (Novice)
--Military P2 Service Outfit (Berill)
--Berill-5N 'Explorer' suit (Berill)
--"Avalanche" Military Stalker Suit (Sunrise)
--SSP-99R Ranger suit (SPP)
--Skat-10 ABR suit (Skat-9)
+	- Military P1 Combat Jacket (Berill, kinda novice jacket level)
+	- Military P2 Service Outfit (Berill)
+	- Berill-5N 'Explorer' suit (Berill)
+	- "Avalanche" Military Stalker Suit (Sunrise)
+	- SSP-99R Ranger suit (SPP)
+	- Skat-10 ABR suit (Skat-9)
 
 Files have been independized and DLTX'd, to avoid overwrites.
 Internal IDs have been renamed to both fith better with vanilla ones, and to not overlap with other similar mod outfits (ie: Chokoladka's).
@@ -48,3 +48,5 @@ Nav's Masks
 
 ----------------------------------------------------------
 -Known issues:
+
+At the moment, the outfits lack models. This means they cannot be assigned their own NPC protection or be added to the loot table.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- mags -->
+
+    <string id="st_mag_ppsh41_stick_7.62x25_p">
+		<text>Стандартный магазин для ППШ-41 калибра 7.62x25</text>
+	</string>
+	<string id="st_mag_ppsh41_stick_7.62x25_p_descr">
+		<text>
+			Магазин на 35 патронов для ППШ-41 smg. По сравнению с барабаном, палочные магазины ППШ считаются более простыми и быстрыми в зарядке, а также более надежными. Барабан, однако, более увлекателен.
+		</text>
+	</string>
+
+</string_table>

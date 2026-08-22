@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_nato_5.56x45_cmag">
+		<text>100 патронов 5.56x45 Beta C-Mag</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_cmag_descr">
+		<text>
+			Двухбарабанный магазин на 100 патронов, совместимый с винтовками STANAG. Обеспечивает большую огневую мощь, но чрезвычайно тяжел и требует много времени для заряжания.
+		</text>
+	</string>
+
+	<string id="st_mag_aug_5.56x45_cmag">
+		<text>100 патронов 5.56x45 Beta C-Mag</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_cmag_descr">
+		<text>
+			Двухбарабанный магазин на 100 патронов, совместимый с винтовками AUG. Обеспечивает большую огневую мощь, но чрезвычайно тяжел и требует много времени для заряжания.
+		</text>
+	</string>
+
+	<string id="st_mag_famas_5.56x45_cmag">
+		<text>100 патронов 5.56x45 Beta C-Mag</text>
+	</string>
+	<string id="st_mag_famas_5.56x45_cmag_descr">
+		<text>
+			Двухбарабанный магазин на 100 патронов, совместимый с винтовками FAMAS. Обеспечивает большую огневую мощь, но чрезвычайно тяжел и требует много времени для заряжания.
+		</text>
+	</string>
+
+	<string id="st_mag_g36_5.56x45_cmag">
+		<text>100 патронов 5.56x45 Beta C-Mag</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_cmag_descr">
+		<text>
+			Двухбарабанный магазин на 100 патронов, совместимый с винтовками G36. Обеспечивает большую огневую мощь, но чрезвычайно тяжел и требует много времени для заряжания.
+		</text>
+	</string>
+
+	<string id="st_mag_sig_5.56x45_cmag">
+		<text>100 патронов 5.56x45 Beta C-Mag</text>
+	</string>
+	<string id="st_mag_sig_5.56x45_cmag_descr">
+		<text>
+			Двухбарабанный магазин на 100 патронов, совместимый с винтовками SIG. Обеспечивает большую огневую мощь, но чрезвычайно тяжел и требует много времени для заряжания.
+		</text>
+	</string>
+
+</string_table>

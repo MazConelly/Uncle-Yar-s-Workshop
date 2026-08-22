@@ -34,6 +34,9 @@ Gathers the icons in a single DX8-9 compliant file.
 Sound performance patch
 Reduces the number of layers used, in case they cause lag for you when shooting.
 
+HD icons
+Made optional.
+
 ----------------------------------------------------------
 -Known issues:
 

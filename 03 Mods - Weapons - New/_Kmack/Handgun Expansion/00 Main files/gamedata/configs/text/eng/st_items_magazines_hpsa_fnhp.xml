@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_hpsa_hpfn_9x19_default">
+		<text>17-round Standard 9x19 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x19_default_descr">
+		<text>Standard magazine for the FN High Power pistol, with a capacity for 17 rounds. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.</text>
+	</string>
+
+	<string id="st_mag_hpsa_hpfn_9x18_alt">
+		<text>17-round Modified 9x18 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x18_alt_descr">
+		<text>Modified magazine for the FN High Power pistol, with a capacity for 17 rounds, and rechambered for 9x18. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.</text>
+	</string>
+
+
+	<string id="st_mag_hpsa_hpfn_9x19_default_13">
+		<text>13-round Standard 9x19 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x19_default_13_descr">
+		<text>Standard magazine for the FN High Power pistol, with a capacity for 13 rounds. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.</text>
+	</string>
+
+	<string id="st_mag_hpsa_hpfn_9x18_alt_13">
+		<text>13-round Modified 9x18 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x18_alt_13_descr">
+		<text>Modified magazine for the FN High Power pistol, with a capacity for 13 rounds, and rechambered for 9x18. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.</text>
+	</string>
+
+
+	<string id="st_mag_hpsa_hpfn_9x19_extended_32">
+		<text>32-round Extended 9x19 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x19_extended_32_descr">
+		<text>Extended magazine for the FN High Power pistol, with a capacity for 32 rounds. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.</text>
+	</string>
+
+	<string id="st_mag_hpsa_hpfn_9x18_extended_32">
+		<text>32-round Modified 9x18 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x18_extended_32_descr">
+		<text>Modified magazine for the FN High Power pistol, with a capacity for 32 rounds, and rechambered for 9x18. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.</text>
+	</string>
+
+</string_table>

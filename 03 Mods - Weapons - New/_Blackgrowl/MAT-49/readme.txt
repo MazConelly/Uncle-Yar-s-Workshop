@@ -6,7 +6,8 @@ https://www.moddb.com/mods/stalker-anomaly/addons/mat49frenchsubmachinegun
 -Compatibility:
 NOTE: You still need the original mod. Disable the gamedata/configs folder.
 
-You can still use its included patches, except the Mags Redux one.
+You can still use its included patches.
+You may install the Mags Redux patch, but also disable its gamedata/configs folder.
 
 ----------------------------------------------------------
 -Explanation:

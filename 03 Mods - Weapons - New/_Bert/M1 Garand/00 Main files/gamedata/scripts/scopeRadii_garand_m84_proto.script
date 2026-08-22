@@ -1,0 +1,4 @@
+if scopeRadii and scopeRadii.scopeRadii then
+	scopeRadii.scopeRadii.wpn_crosshair_garand_m84 = 0.29
+	scopeRadii.scopeRadii.wpn_crosshair_garand_proto = 0.29
+end

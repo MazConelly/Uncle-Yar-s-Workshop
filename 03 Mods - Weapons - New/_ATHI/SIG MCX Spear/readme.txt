@@ -14,6 +14,7 @@ Fixed inheritance assignment for sounds configs.
 Consolidated trade files. Some traders will also sell both versions of the rifles, others only the black or tan version.
 
 Integration into:
+Arszi's Mutant Bleeding + Optimized Patch
 Enhanced Recoil - Gold Edition
 FireModeCheck
 GBOOBS
@@ -24,11 +25,6 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
-
-Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
-Makes the rifle use the vanilla SR-25 silencer.
-
-Arszi's Mutant Bleeding + Optimized Patch
 
 ----------------------------------------------------------
 -Known issues:

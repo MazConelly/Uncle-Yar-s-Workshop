@@ -2,7 +2,7 @@
 GroupControlSection				= spawn_group
 discovery_dependency			=
 $prefetch						= 128
-$spawn							= "weapons\grenades\gd-05"
+$spawn							= "weapons\grenades\m18"
 cform							= skeleton
 parent_section					= grenade_m18
 
@@ -15,7 +15,7 @@ single_handed					= 1
 default_to_ruck					= false
 sprint_allowed					= true
 
-icons_texture					= ui\actor_items\ui_icons_urban_tactics
+icons_texture					= ui\ui_icons_urban_tactics
 inv_grid_height					= 1
 inv_grid_width					= 1
 inv_grid_x						= 0
@@ -92,6 +92,8 @@ on_explode						= bind_smoke.on_explode
 on_explode_spawn				= smoke_object_grenade_m18
 explode_effector_sect_name		= $no_effector
 
+inv_grid_scale			= 1
+
 [grenade_m18_hud]:hud_base
 item_visual						= anomaly_weapons\wpn_grenades\wpn_m18_hud.ogf
 attach_place_idx				= 0
@@ -151,6 +153,8 @@ destroy_time	= 3500
 snd_checkout		= weapons\explo\smoke\rgd2_throw_ignite_01,1.0,0.4
 
 on_explode_spawn	= smoke_object_grenade_rdg2
+
+inv_grid_scale		= 1
 
 [grenade_rdg2_hud]:grenade_m18_hud
 item_visual	= anomaly_weapons\wpn_grenades\wpn_rdg2_hud.ogf

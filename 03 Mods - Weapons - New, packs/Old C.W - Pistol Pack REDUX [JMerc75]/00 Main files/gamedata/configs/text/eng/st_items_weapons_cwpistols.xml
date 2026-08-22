@@ -313,25 +313,4 @@
 		<text>The USP Match (9 mm Parabellum, .40 S&amp;W, .45 ACP) has the same features offered on the Expert, except for a barrel weight that replaces the elongated slide found on the Expert. This weight is said to provide a recoil counterbalance to aid in target tracking.It was discontinued in 1999. The USP was originally built around the .40 S&amp;W cartridge, but a 9×19mm Parabellum was introduced at the same time. In May 1995, Heckler &amp; Koch introduced a .45 ACP variant. The USP Compact series was introduced in 1996 and is available in 9 mm Parabellum, .40 S&amp;W, .45 ACP, and, exclusively to the Compact model, .357 SIG. Other variants of the standard USP include the USP Tactical, USP Expert, USP Match, USP Elite and the standard sidearm of the German Armed Forces (Bundeswehr)—the P8. The USP Tactical .45 ACP variant is also in limited use by the Bundeswehr, designated as the P12.\n</text>
 	</string>
 
-	<string id="st_mag_colt_357">
-		<text>Colt 1911 .357 Magazine</text>
-	</string>
-	<string id="st_mag_colt_357_descr">
-		<text>Magazine for the Colt "Long Barrel" Chambered in .357, houses 10 rounds.</text>
-	</string>
-
-	<string id="st_mag_fn57_ext">
-		<text>FN57 Extended Magazine</text>
-	</string>
-	<string id="st_mag_fn57_ext_descr">
-		<text>Extended magazine for the FN-57 Pistol, houses 30 rounds of 5.7 ammunition.</text>
-	</string>
-
-	<string id="st_mag_pm_drum">
-		<text>PM Makarov Drum Magazine</text>
-	</string>
-	<string id="st_mag_pm_drum_descr">
-		<text>Drum magazine for the PM Makarov pistol, houses 80 rounds of 9x18mm ammunition.</text>
-	</string>
-
 </string_table>

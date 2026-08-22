@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_lancer">
+		<text>7.62x51 Lancer L7AWM 25-round magazine</text>
+	</string>
+	<string id="st_mag_lancer_descr">
+		<text>A 25-round double-stack L7AWM 25 magazine for 7.62x51 NATO ammunition. Manufactured by Lancer Systems.</text>
+	</string>
+
+</string_table>

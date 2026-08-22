@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_p90_extended_70">
+		<text>Extended 5.7x28 P90 Magazine</text>
+	</string>
+	<string id="st_mag_p90_extended_70_descr">
+		<text>Extended 70-round helical magazine used in the P90. Slightly bulkier than the standard magazine, but still fits in the limited space of the P90.</text>
+	</string>
+
+</string_table>

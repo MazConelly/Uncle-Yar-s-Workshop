@@ -1,24 +1,46 @@
 ;;Exo
-[cs_extraexoseva_skydome_outfit]:cs_exo_outfit,outfit_restrictions_2
-$spawn			= "outfit\cs_extraexoseva_skydome_outfit"
-actor_visual	= actors\stalker_nebo\stalker_nebo_exoseva_nauch.ogf
-npc_visual		= actors\stalker_nebo\stalker_nebo_exoseva_nauch.ogf
+[cs_extraexoseva_skydome_outfit]:outfit_base,outfit_restrictions_2
+$spawn						= "outfit\cs_extraexoseva_skydome_outfit"
+class						= E_STLK
+ef_equipment_type			= 5
+visual						= dynamics\outfit\cs_exo_outfit
+actor_visual				= actors\stalker_nebo\stalker_nebo_exoseva_nauch.ogf
+npc_visual					= actors\stalker_nebo\stalker_nebo_exoseva_nauch.ogf
+player_hud_section			= actor_hud_cs_exo
+character_portrait			= ui_inGame2_csky_exo
+full_icon_name				= npc_icon_exo_outfit
+full_scale_icon				= 2, 11
 
-inv_name		= cs_extraexoseva_skydome_outfit_name
-inv_name_short	= cs_extraexoseva_skydome_outfit_name
-description		= cs_extraexoseva_skydome_outfit_description
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 3
-inv_grid_x		= 16
-inv_grid_y		= 0
+inv_name					= cs_extraexoseva_skydome_outfit_name
+inv_name_short				= cs_extraexoseva_skydome_outfit_name
+description					= cs_extraexoseva_skydome_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_width				= 2
+inv_grid_height				= 3
+inv_grid_x					= 16
+inv_grid_y					= 0
+upgr_icon_x					= 959
+upgr_icon_y					= 0
+upgr_icon_width				= 300
+upgr_icon_height			= 159
+upgrades					= up_gr_firstab_exolight_2, up_gr_seconab_exolight_2, up_gr_thirdab_exolight_2, up_gr_fourtab_exolight_2, up_gr_fifthab_exo_2
+installed_upgrades			=
+upgrade_scheme				= up_scheme_exo_1
 
-cost							= 200000
-inv_weight						= 50
-additional_inventory_weight		= 150
-additional_inventory_weight2	= 150
-artefact_count					= 3
-immunities_sect					= sect_cs_extraexoseva_skydome_outfit_immunities
+community					= csky
+kind						= o_heavy
+cost						= 200000
+inv_weight					= 50
+additional_inventory_weight	= 150
+additional_inventory_weight2= 150
+artefact_count				= 3
+immunities_sect				= sect_cs_extraexoseva_skydome_outfit_immunities
+repair_type					= outfit_exo
+;repair_part_bonus			= 0.45
+hit_fraction_actor			= 0.2
+bones_koeff_protection		= actor_armor_exo
+control_inertion_factor		= 1.76
+power_loss					= 0.1
 
 burn_protection				= 0.12
 shock_protection			= 1.9

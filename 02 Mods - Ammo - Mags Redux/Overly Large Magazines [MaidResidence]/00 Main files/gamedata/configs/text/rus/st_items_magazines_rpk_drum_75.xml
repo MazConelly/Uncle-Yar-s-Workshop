@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_rpk_7.62x39_drum_75">
+		<text>Барабанный магазин RPK на 75 патронов 5.45x39</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_75_descr">
+		<text>
+			Модифицированный барабанный магазин RPK на 75 патронов под патрон 5.45x39. Тяжелый и непрактичный, но очень забавный.
+		</text>
+	</string>
+
+    <string id="st_mag_rpk_5.56x45_drum_75">
+		<text>Барабанный магазин на 75 патронов 7.62x39 RPK</text>
+	</string>
+	<string id="st_mag_rpk_5.56x45_drum_75_descr">
+		<text>
+			Барабанный магазин на 75 патронов 7.62x39 RPK. Тяжелый и непрактичный, но очень забавный.
+		</text>
+	</string>
+
+</string_table>

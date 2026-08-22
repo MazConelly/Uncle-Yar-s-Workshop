@@ -2,15 +2,25 @@
 <string_table>
 
 	<string id="st_wpn_grot">
-		<text>MSBS Grot C16A2</text>
+		<text>MSBS Grot C16A2 - 5.56</text>
 	</string>
 	<string id="st_wpn_grot_s">
-		<text>Grot C16A2</text>
+		<text>MSBS-C16A2</text>
 	</string>
 	<string id="st_wpn_grot_descr">
-		<text>The MSBS Grot is a family of selective fire modular assault rifles capable of semi-automatic, 3-round burst and fully automatic fire, with a cyclic rate of fire of around 700–900 rounds per minute, and available in both standard (Grot C) and bullpup (Grot B) designs. It was developed and manufactured by FB Radom since 2007, currently in service with the Polish Territorial Defence Forces, and scheduled to replace the FB Beryl as the primary infantry weapon and service rifle of the Polish Armed Forces.\n
-		This particular variant, the C16A2, comes equipped with a 16-inch barrel and when compared to its older iterations: a longer handguard, reinforced firing pin, improved pistol grip and stock.\n
-		Looks like the previous owner attatched a foregrip and a laser device to it as well.</text>
+		<text>The MSBS Grot is a family of modular rifles developed and manufactured by FB Radom, chambered for 5.56x45 NATO, but conversion kits for 7.62x39 are available. Currently, the rifle is in service with the Polish Territorial Defence Forces and is scheduled to replace FB Beryl as the primary infantry weapon and service rifle of the Polish Armed Forces.\n
+		This particular variant, designated C16A2 comes equipped with a 16-inch barrel and when compared to its older iterations: a longer handguard, reinforced firing pin, improved pistol grip and stock. It appears the previous owner replaced the factory stock with a Magpul CTR stock and also added a laser device and a handgrip.\n</text>
+	</string>
+
+	<string id="st_wpn_grot_short">
+		<text>MSBS Grot C10A2 - 5.56</text>
+	</string>
+	<string id="st_wpn_grot_short_s">
+		<text>MSBS-C10A2</text>
+	</string>
+	<string id="st_wpn_grot_short_descr">
+		<text>The MSBS Grot is a family of modular rifles developed and manufactured by FB Radom, chambered for 5.56x45 NATO, but conversion kits for 7.62x39 are available. Currently, the rifle is in service with the Polish Territorial Defence Forces and is scheduled to replace FB Beryl as the primary infantry weapon and service rifle of the Polish Armed Forces.\n
+		This particular variant, designated C10A2 comes equipped with a 10-inch barrel and shortened handguard to increase ergonomics as well as to decrease weight and its length for use in CQB environments at the cost of more recoil and slower bullet velocity.\n</text>
 	</string>
 
 </string_table>

@@ -11,15 +11,15 @@
 		<text>The Desert Tech MDR (Micro Dynamic Rifle) is a family of gas operated, conventional rotary bolt bullpup semi-automatic rifles designed by Desert Tech in 2014. The rifle is compatible with Desert Tech caliber conversion kits that allow the rifle to change caliber. This provides a unique feature in which the rifle chassis can accept both intermediate cartridges and full-powered rifle cartridges on the same serial number platform.\n
 		This particular rifle has been converted for 5.56x45, with full automatic fire and a tan polymer body.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[0,93,0,116] • %c[0,140,140,140] Scopes for Picatinny rail
+		%c[0,93,0,116] • %c[0,140,140,140] Scopes for Picatinny rail\n
 		%c[0,93,0,116] • %c[0,140,140,140] NATO silencer\n
-		%c[0,93,0,116] • %c[0,140,140,140] This weapon can be permanently upgraded with the Special Upgrade Pack.\n</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
 	</string>
 	
 	<string id="st_MDR_up_descr">
 		<text>The Desert Tech MDR (Micro Dynamic Rifle) is a family of gas operated, conventional rotary bolt bullpup semi-automatic rifles designed by Desert Tech in 2014. The rifle is compatible with Desert Tech caliber conversion kits that allow the rifle to change caliber. This provides a unique feature in which the rifle chassis can accept both intermediate cartridges and full-powered rifle cartridges on the same serial number platform.\n
 		This particular rifle has been converted for 5.56x45, with full automatic fire and a tan polymer body.\n
-		This weapon has been permanently upgraded with the Special Upgrade Pack.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[0,93,0,116] • %c[0,140,140,140] NATO silencer\n
 		%c[0,93,0,116] • %c[0,140,140,140] Spectre 1-4x Scope with Deltapoint low profile sight on a 45 degree canted mount, and 60 round PMAG drum magazine\n</text>
@@ -35,15 +35,15 @@
 		<text>The Desert Tech MDR (Micro Dynamic Rifle) is a family of gas operated, conventional rotary bolt bullpup semi-automatic rifles designed by Desert Tech in 2014. The rifle is compatible with Desert Tech caliber conversion kits that allow the rifle to change caliber. This provides a unique feature in which the rifle chassis can accept both intermediate cartridges and full-powered rifle cartridges on the same serial number platform.\n
 		This version is chambered in 7.62x51 with a black polymer body.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[0,93,0,116] • %c[0,140,140,140] Scopes for Picatinny rail
+		%c[0,93,0,116] • %c[0,140,140,140] Scopes for Picatinny rail\n
 		%c[0,93,0,116] • %c[0,140,140,140] NATO silencer\n
-		%c[0,93,0,116] • %c[0,140,140,140] This weapon can be permanently upgraded with the Special Upgrade Pack.\n</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_MDR_black_up_descr">
 		<text>The Desert Tech MDR (Micro Dynamic Rifle) is a family of gas operated, conventional rotary bolt bullpup semi-automatic rifles designed by Desert Tech in 2014. The rifle is compatible with Desert Tech caliber conversion kits that allow the rifle to change caliber. This provides a unique feature in which the rifle chassis can accept both intermediate cartridges and full-powered rifle cartridges on the same serial number platform.\n
 		This version is chambered in 7.62x51 with a black polymer body.\n
-		This weapon has been permanently upgraded with the Special Upgrade Pack.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[0,93,0,116] • %c[0,140,140,140] NATO silencer\n
 		%c[0,93,0,116] • %c[0,140,140,140] Spectre 1-4x Scope with Deltapoint low profile sight on a 45 degree canted mount, and 30 round extended magazine\n</text>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_m249_5.56x45_large_200">
+		<text>200-round 5.56x45 M249 Box</text>
+	</string>
+	<string id="st_mag_m249_5.56x45_large_200_descr">
+		<text>Box containing a belt with capacity for 200 5.56x45 rounds. The M249 is a common sight at Freedom foreposts, providing a high volume of suppressive fire against Monolith encroachers.</text>
+	</string>
+
+	<string id="st_mag_pkp_pkm_large_200">
+		<text>200-round 7.62x54 PKM Box</text>
+	</string>
+	<string id="st_mag_pkp_pkm_large_200_descr">
+		<text>Heavy box that holds 200 rounds of 7.62x54R ammunition in a belt, for use with the PKM. It is advised to bring a few of these if you plan on hunting Pseudogiants or Chimeras.</text>
+	</string>
+
+</string_table>

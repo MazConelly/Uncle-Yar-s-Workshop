@@ -4,7 +4,7 @@ https://www.moddb.com/mods/stalker-anomaly/addons/escape-from-tarkov-mts-255-rev
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the original mod. Let this overwrite it.
+NOTE: You need the original mod. Disable its configs folder.
 
 IMPORTANT: A new game is required if you were already using the mod.
 
@@ -27,13 +27,13 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Boomsticks and Sharpsticks
+Boomsticks and Sharpsticks 20x70 ammo clone
 If you use BaS Lite, you need the 20x70 ammo module.
 Adds a lighter, cheaper clone in 20x70 gauge, now this one intended for novices, and can be picked in the new game loadouts. It won't accept sights (technically the 12 gauge version shouldn't either, the MTs255-12 variant has Pic rails but it's all plastic furniture).
 
 Revolver Parts
 Reworks the patch already included in that mod to acknowledge the changed ID.
-Includes option for the BaS patch above, though there are no 20x70 cylinder, so the 12 one is used for now.
+Also works for the BaS patch above, though there are no 20x70 cylinder, so the 12 one is used for now.
 
 ----------------------------------------------------------
 -Known issues:

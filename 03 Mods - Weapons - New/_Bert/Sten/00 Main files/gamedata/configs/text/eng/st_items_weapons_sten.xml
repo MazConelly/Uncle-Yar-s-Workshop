@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sten">
+		<text>Sten Mk II</text>
+	</string>
+	<string id="st_wpn_sten_s">
+		<text>Sten MkII</text>
+	</string>
+	<string id="st_wpn_sten_descr">
+		<text>The Sten is a select fire, blowback-operated weapon with a side-mounted magazine which was used extensively by British and Commonwealth forces throughout World War II and during the Korean War. The Sten paired a simple design with a low production cost, facilitating mass production to meet the demand for submachine guns.</text>
+	</string>
+
+	<string id="st_mag_sten">
+		<text>Sten Box Magazine</text>
+	</string>
+	<string id="st_mag_sten_descr">
+		<text>32-round 9x19 magazine for Sten.</text>
+	</string>
+
+	<string id="st_addon_sil_sten">
+		<text>Sten Suppressed Barrel</text>
+	</string>
+	<string id="st_addon_sil_sten_descr">
+		<text>Barrel replacement for the Sten submachine gun incorporating an integral suppressor.</text>
+	</string>
+
+</string_table>

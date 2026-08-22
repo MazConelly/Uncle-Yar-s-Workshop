@@ -125,6 +125,8 @@ function actor_on_first_update()
         "wpn_remington700_aac_triji",
 		"wpn_rossmk3_j",
 		"wpn_rossmk3_j_wpn_addon_scope_zf4",
+		"wpn_steyr_scout",
+		"wpn_steyr_scout_big",
     }
     function Set2 (k98_weapon_list)
         local set2 = {}

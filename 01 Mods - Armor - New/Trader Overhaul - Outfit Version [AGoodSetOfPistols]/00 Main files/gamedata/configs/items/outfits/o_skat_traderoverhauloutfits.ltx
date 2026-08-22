@@ -1,0 +1,59 @@
+;SKAT
+[military_hellhound_outfit]:outfit_base
+$spawn                        = "outfit\military_hellhound_outfit"
+class                         = EQU_STLK
+ef_equipment_type             = 4
+visual                        = dynamics\outfit\military_outfit
+actor_visual                  = actors\stalker_soldier\stalker_soldier_4.ogf
+npc_visual                    = actors\stalker_soldier\stalker_soldier_4.ogf
+player_hud_section            = actor_hud_military_skat9
+character_portrait            = ui_inGame2_Soldier_4
+full_icon_name                = npc_icon_military_outfit
+full_scale_icon               = 10, 6
+
+inv_name						= military_hellhound_outfit_name
+inv_name_short					= military_hellhound_outfit_name
+description						= military_hellhound_outfit_description
+icons_texture					= ui\ui_icon_to_outfits
+inv_grid_x						= 6
+inv_grid_y						= 0
+upgr_icon_x                   = 643
+upgr_icon_y                   = 348
+upgr_icon_width               = 288
+upgr_icon_height              = 155
+upgrades                      = up_gr_firstab_skat_1, up_gr_seconab_skat_1, up_gr_thirdab_skat_1, up_gr_fourtab_skat_1
+installed_upgrades            =
+upgrade_scheme                = up_scheme_skat_1
+
+community                     = army
+kind                          = o_heavy
+cost							= 475000
+inv_weight						= 12
+additional_inventory_weight		= 40
+additional_inventory_weight2	= 40
+artefact_count					= 4
+immunities_sect					= sect_military_hellhound_outfit_immunities
+repair_type                   = outfit_heavy
+;repair_part_bonus             = 0.27
+hit_fraction_actor            = 0.25
+bones_koeff_protection			= actor_armor_skat
+control_inertion_factor       = 1.54
+power_loss						= 0.02
+
+burn_protection					= 0.82
+shock_protection				= 3.1
+radiation_protection			= 0.036
+chemical_burn_protection		= 0.152
+telepatic_protection			= 0.19
+strike_protection				= 0.65
+explosion_protection			= 1.05
+wound_protection				= 1.25
+fire_wound_protection			= 1.25
+
+[sect_military_hellhound_outfit_immunities]:sect_military_outfit_immunities
+burn_immunity					= 0.020
+chemical_burn_immunity			= 0.010
+explosion_immunity				= 0.010
+fire_wound_immunity				= 0.005
+shock_immunity					= 0.010
+wound_immunity					= 0.009

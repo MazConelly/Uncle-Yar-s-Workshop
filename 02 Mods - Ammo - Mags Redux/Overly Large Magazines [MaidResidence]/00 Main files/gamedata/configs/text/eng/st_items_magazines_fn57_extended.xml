@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_fn57_extended_30">
+		<text>FN57 Extended Magazine</text>
+	</string>
+	<string id="st_mag_fn57_extended_30_descr">
+		<text>Extended magazine for the FN-57 Pistol, houses 30 rounds of 5.7 ammunition.</text>
+	</string>
+
+</string_table>

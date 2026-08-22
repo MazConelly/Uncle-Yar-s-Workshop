@@ -15,7 +15,8 @@ Minor fixes. Its changes seem to answer to a much older version of Anomaly. Trie
 ----------------------------------------------------------
 -Patches:
 
-Separated Helmets 1.5.2
+Separated Helmets
+Compatible with either Vintar0's original, Laconeko's 1.5.2 update, or MazConnelly's 1.5.3 update.
 
 ----------------------------------------------------------
 -Known issues:

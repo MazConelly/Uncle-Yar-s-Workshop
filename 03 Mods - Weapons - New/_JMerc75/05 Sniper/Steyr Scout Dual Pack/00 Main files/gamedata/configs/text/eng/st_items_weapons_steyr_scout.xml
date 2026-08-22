@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_steyr_scout">
+		<text>Steyr Scout - 5.56x45mm</text>
+	</string>
+	<string id="st_wpn_steyr_scout_s">
+		<text>Steyr Scout (5.56)</text>
+	</string>
+	<string id="st_wpn_steyr_scout_descr">
+		<text>The Steyr Scout is a bolt-action rifle manufactured by Steyr Mannlicher, intended to fill the role of a versatile, lightweight all-around rifle. Apart from the barrel and action, the gun is made primarily of polymers and is designed to be accurate to at least 800 m (870 yd).\n
+		This is the 5.56 model.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+        %c[d_purple] - %c[ui_gray_2] Surefire SOCOM556-MONSTER suppressor\n \n</text>
+	</string>
+
+	<string id="st_wpn_steyr_scout_big">
+		<text>Steyr Elite - 7.62x51mm</text>
+	</string>
+	<string id="st_wpn_steyr_scout_big_s">
+		<text>Steyr Elite (7.62)</text>
+	</string>
+	<string id="st_wpn_steyr_scout_big_descr">
+		<text>The Steyr Scout is a bolt-action rifle manufactured by Steyr Mannlicher, intended to fill the role of a versatile, lightweight all-around rifle. Apart from the barrel and action, the gun is made primarily of polymers and is designed to be accurate to at least 800 m (870 yd).\n
+		The Steyr Elite is a sniper rifle variant and successor of the Scout, with a more robust construction and designed for an urban tactical role. This is the 7.62 model.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+        %c[d_purple] - %c[ui_gray_2] Daniel Defence Wave QD suppressor\n \n</text>
+	</string>
+
+	<string id="st_mag_steyr_556">
+		<text>Steyr Scout 5.56 magazine</text>
+	</string>
+	<string id="st_mag_steyr_556_descr">
+		<text>Standard magazine for the Steyr Scout 5.56 rifle, with capacity for 10 rounds.\n \n</text>
+	</string>
+
+	<string id="st_mag_steyr_762">
+		<text>Steyr Elite 7.62 magazine</text>
+	</string>
+	<string id="st_mag_steyr_762_descr">
+		<text>Standard magazine for the Steyr Elite 7.62 rifle, with capacity for 5 rounds.\n \n</text>
+	</string>
+
+</string_table>

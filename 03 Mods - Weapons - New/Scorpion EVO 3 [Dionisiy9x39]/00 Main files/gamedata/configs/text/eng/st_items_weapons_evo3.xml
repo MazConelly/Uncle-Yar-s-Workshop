@@ -9,9 +9,24 @@
 	</string>
 	<string id="st_wpn_evo_descr">
 		<text>The Scorpion EVO 3 is a modern Czech submachine gun developed by Ceska Zbrojovka in 2009. Its name is a reference to the old vz submachine gun. 61 is called Skorpion (spelled with a "k"), but it is not mechanically similar and does not belong to the same category, being closer to MP5 or UMP submachine guns. The Scorpion EVO is considered one of the best modern submachine guns. It is made of very high quality materials, very light, compact and easy to shoot, which allows you to shoot even long bursts with minimal recoil. Several countries have implemented EVO in their police, counter-terrorism and special units, including the Czech Republic, Finland, Poland, Serbia and Argentina. In the Zone, EVO is used mainly by mercenaries and those who need light and compact weapons when they need to carry heavy weight and loot, or those who carry bulky main weapons such as heavy sniper rifles and need something to protect at close range.\n\n
+		This particular model is chambered for 9x19mm.\n\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Sights: All Picatinny sights\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: 9mm</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: 9mm\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Gunsmith, Specialized weapon mod kits</text>
+	</string>
+
+	<string id="st_wpn_evo_5c_tik">
+		<text>CZ Scorpion EVO 3 A1 Tactical - 9x19mm</text>
+	</string>
+	<string id="st_wpn_evo_5c_tik_descr">
+		<text>The Scorpion EVO 3 is a modern Czech submachine gun developed by Ceska Zbrojovka in 2009. Its name is a reference to the old vz submachine gun. 61 is called Skorpion (spelled with a "k"), but it is not mechanically similar and does not belong to the same category, being closer to MP5 or UMP submachine guns. The Scorpion EVO is considered one of the best modern submachine guns. It is made of very high quality materials, very light, compact and easy to shoot, which allows you to shoot even long bursts with minimal recoil. Several countries have implemented EVO in their police, counter-terrorism and special units, including the Czech Republic, Finland, Poland, Serbia and Argentina. In the Zone, EVO is used mainly by mercenaries and those who need light and compact weapons when they need to carry heavy weight and loot, or those who carry bulky main weapons such as heavy sniper rifles and need something to protect at close range.\n
+		This particular model is chambered for 9x19mm, and has been upgraded with a LA5 LAM and Leupold LCO+D'evo scopes.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: 9mm\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Gunsmith weapon mod kit</text>
 	</string>
 
 </string_table>

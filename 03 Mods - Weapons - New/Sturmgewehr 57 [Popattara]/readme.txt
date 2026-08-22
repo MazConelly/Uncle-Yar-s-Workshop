@@ -28,9 +28,6 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
-The SR25 silencer will be used instead of a BaS one, for those who play without BaS.
-
 DLTX distribution
 Disables the scripted methods of distribution (ie: trader_autoinject) in favor of DLTX.
 

@@ -1,0 +1,26 @@
+; Fields:
+; 3ds_reticle_size - reticle size multiplier
+; 3ds_shadow_project - distance from scope lens to projected shadow, in other words, eye relief
+; 3ds_ffp_min_zoom - for FFP scopes, minimal magnification FOV
+; 3ds_type - custom type, see description
+; ms_count - number of different marks (should be supported by custom type)
+; ms_colors - list of colors for illumination
+;
+; Custom types:
+; 3ds_type = 1 - NV scope (nightvision shader is applied to main image)
+; 3ds_type = 2 - 1P59 Giperon scope (red channel at first focal plane, green channel at second focal plane, blue channel rotated by zoom), has LED illumination
+; 3ds_type = 3 - ACOG, sun illuminated scope (red channel is regular black reticle, green channel is illuminated area, blue channel is gray text)
+; 3ds_type = 4 - LED illuminated scope
+; 3ds_type = 5 - Masked LED illuminated scope (red channel is regular black reticle, green channel is illuminated area)
+; 3ds_type = 6 - PKA ssetting to get rid of awful pip. The scope is too narrow to turn it into a proper red dot
+;
+; Use this ltx to modify scope parameters and universal magnification. Magnification can also be set in weapon section for guns with integrated scopes.
+
+;----------------------------------VANILLA SCOPES---------------------------------
+	
+![ac11090]
+	3ds_reticle_size = 3.4
+	3ds_shadow_project = 4.5
+	magnification = 2
+
+	

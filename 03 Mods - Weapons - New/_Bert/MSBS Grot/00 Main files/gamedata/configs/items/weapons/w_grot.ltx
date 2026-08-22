@@ -1,170 +1,171 @@
 [wpn_grot]:identity_immunities,weapon_probability,default_weapon_params
-GroupControlSection				= spawn_group
-$npc							= on
-$prefetch						= 8
-$spawn							= "weapons\grot"
-scheduled						= off
-cform							= skeleton
-parent_section					= wpn_grot
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\grot"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_grot
 
-class							= WP_AK74
-slot							= 2
-animation_slot					= 2
-ef_main_weapon_type				= 2
-ef_weapon_type					= 8
-hand_dependence					= 1
-single_handed					= 0
+class								= WP_AK74
+slot								= 2
+animation_slot						= 2
+ef_main_weapon_type					= 2
+ef_weapon_type						= 8
+hand_dependence						= 1
+single_handed						= 0
 
-default_to_ruck					= false
-sprint_allowed					= true
+default_to_ruck						= false
+sprint_allowed						= true
 
-icons_texture					= ui\grot_icons
-inv_grid_width					= 5
-inv_grid_height					= 2
-inv_grid_x						= 0
-inv_grid_y						= 0
-inv_name						= st_wpn_grot
-inv_name_short					= st_wpn_grot_s
-description						= st_wpn_grot_descr
+icons_texture						= ui\ui_icons_grot
+inv_grid_width						= 5
+inv_grid_height						= 2
+inv_grid_x							= 0
+inv_grid_y							= 0
+inv_name							= st_wpn_grot
+inv_name_short						= st_wpn_grot_s
+description							= st_wpn_grot_descr
 
-laser_status					= true
-use_alt_aim_hud					= true
+kind								= w_rifle
+inv_weight							= 4.01
+cost								= 76400
+repair_type							= rifle_5
+weapon_class						= assault_rifle
 
-kind							= w_rifle
-inv_weight						= 3.4
-cost							= 76400
-repair_type						= rifle_5
-weapon_class					= assault_rifle
+hud									= wpn_grot_hud
+visual								= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
+orientation							= -4.642132, -0.625206, 0.001138
+position							= -0.013116, 0.041121, 0.125853
+fire_point							= -0.004593, 0.003311, 0.241926
+fire_point2							= 0, 0, 0
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_position						= -0.150811, -0.155392, 0.186452
+ph_mass								= 4
 
-hud								= wpn_grot_hud
-visual							= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
-orientation						= -4.642132, -0.625206, 0.001138
-position						= -0.029434, 0.039912, 0.113834
-fire_point						= 0.006304, 0.001332, 0.326038
-fire_point2						= 0, 0, 0
-strap_bone0						= bip01_spine2
-strap_bone1						= bip01_spine1
-strap_orientation				= -2.254001, -14.641893, 88.55738
-strap_position					= -0.183096, -0.148997, 0.186452
-ph_mass							= 3
+flame_particles						= weapons\generic_weapon03
+smoke_particles						= weapons\generic_shoot_00
+grenade_flame_particles				= weapons\generic_weapon01
 
-flame_particles					= weapons\generic_weapon03
-smoke_particles					= weapons\generic_shoot_00
-grenade_flame_particles			= weapons\generic_weapon01
+shell_point							= 0, 0, 0
+shell_dir							= 0, 0, 0
+shell_particles						= 
 
-shell_point						= 0, 0, 0
-shell_dir						= 0, 0, 0
-shell_particles					= 
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
 
-light_disabled					= false
-light_color						= 0.6, 0.5, 0.3
-light_range						= 5
-light_time						= 0.2
-light_var_color					= 0.05
-light_var_range					= 0.5
+upgrades							= up_gr_firstab_g36, up_gr_seconab_g36, up_gr_thirdab_g36, up_gr_fourtab_g36, up_gr_fourtcd_g36, up_gr_fourtef_g36
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_g36
+upgr_icon_path						= ui\ui_icons_grot
+upgr_icon_x							= 0
+upgr_icon_y							= 100
+upgr_icon_width						= 300
+upgr_icon_height					= 150
 
-upgrades						= up_gr_firstab_g36, up_gr_seconab_g36, up_gr_thirdab_g36, up_gr_fourtab_g36, up_gr_fourtcd_g36, up_gr_fourtef_g36
-installed_upgrades				=
-upgrade_scheme					= upgrade_scheme_g36
-upgr_icon_path					= ui\grot_icons
-upgr_icon_x						= 0
-upgr_icon_y						= 100
-upgr_icon_width					= 300
-upgr_icon_height				= 150
+fire_modes							= 1, -1
+ammo_class							= ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_elapsed						= 30
+ammo_mag_size						= 30
+startup_ammo						= 90
 
-fire_modes						= 1, -1
-ammo_class						= ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
-ammo_elapsed					= 30
-ammo_mag_size					= 30
-startup_ammo					= 90
+scopes								= ac10632, acog, eot, c-more, specter, leupold, aimpoint, e0t2, compm4s, marchf, ekp8_18, gauss_sight, pn23, 0kp2, d0cter, deltapoint, kemper, rmr
+scope_status						= 0
+scope_zoom_factor					= 0
 
-scopes							= ac10632, acog, eot, c-more, specter, leupold, aimpoint, e0t2, compm4s, marchf, ekp8_18, gauss_sight, pn23, 0kp2, d0cter, deltapoint, kemper, rmr
-scope_status					= 0
-scope_zoom_factor				= 0
+silencer_name						= wpn_sil_nato
+silencer_status						= 2
+silencer_x							= 226
+silencer_y							= 4
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= weapons\generic_shoot_00
 
-silencer_name					= wpn_sil_m42k
-silencer_status					= 2
-silencer_x						= 232
-silencer_y						= 5
-silencer_light_color			= 0.6, 0.5, 0.3
-silencer_light_range			= 0.01
-silencer_light_time				= 0.2
-silencer_light_var_color		= 0.05
-silencer_light_var_range		= 0.5
-silencer_smoke_particles		= weapons\generic_shoot_00
+grenade_class						= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name				= wpn_addon_grenade_launcher
+grenade_launcher_status				= 0
+grenade_launcher_x					= 126
+grenade_launcher_y					= 24
+launch_speed						= 0
 
-grenade_class					= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
-grenade_launcher_name			= wpn_addon_grenade_launcher
-grenade_launcher_status			= 0
-grenade_launcher_x				= 126
-grenade_launcher_y				= 24
-launch_speed					= 0
+hit_impulse							= 25
+hit_power							= 0.5, 0.5, 0.5, 0.5
+hit_type							= fire_wound
+fire_distance						= 900
+bullet_speed						= 890
+rpm									= 850
+rpm_empty_click						= 200
 
-hit_impulse						= 25
-hit_power						= 0.5, 0.5, 0.5, 0.5
-hit_type						= fire_wound
-fire_distance					= 1000
-bullet_speed					= 890
-rpm								= 750
-rpm_empty_click					= 200
+use_aim_bullet						= false
+time_to_aim							= 0.0 ;	2.0
+zoom_dof							= 0.5, 1.0, 180
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0.0, 0.5, 5, 2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 5.3
+fire_dispersion_base				= 0.17
+fire_dispersion_condition_factor	= 0.001
 
-use_aim_bullet					= false
-time_to_aim						= 0.0 ; 2.0
-zoom_dof						= 0.5, 1.0, 180
-zoom_enabled					= true
-zoom_rotate_time				= 0.25
-reload_dof						= 0.0, 0.5, 5, 2
-control_inertion_factor			= 1.0f
-crosshair_inertion				= 5.3
-fire_dispersion_base			= 0.17
-fire_dispersion_condition_factor= 0.001
+misfire_probability					= 0.004
+misfire_start_condition				= 0.83
+misfire_start_prob					= 0.004
+misfire_end_condition				= 0.1
+misfire_end_prob					= 0.1
 
-misfire_probability				= 0.004
-misfire_start_condition			= 0.83
-misfire_start_prob				= 0.004
-misfire_end_condition			= 0.1
-misfire_end_prob				= 0.1
+condition_queue_shot_dec			= 0.001
+condition_shot_dec					= 0.001
 
-condition_queue_shot_dec		= 0.001
-condition_shot_dec				= 0.001
+cam_return							= 0
+cam_relax_speed						= 10
+cam_dispersion						= 0.2
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.0675
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 0.9
+zoom_cam_relax_speed				= 10
+zoom_cam_dispersion					= 0.466
+zoom_cam_dispersion_frac			= 1.0
+zoom_cam_dispersion_inc				= 0.0525
+zoom_cam_max_angle					= 50.0
+zoom_cam_max_angle_horz				= 50.0
+zoom_cam_step_angle_horz			= 0.85
 
-cam_return						= 0
-cam_relax_speed					= 10
-cam_dispersion					= 0.2
-cam_dispersion_frac				= 1.0
-cam_dispersion_inc				= 0.0675
-cam_max_angle					= 50.0
-cam_max_angle_horz				= 50.0
-cam_step_angle_horz				= 0.9
-zoom_cam_relax_speed			= 10
-zoom_cam_dispersion				= 0.466
-zoom_cam_dispersion_frac		= 1.0
-zoom_cam_dispersion_inc			= 0.0525
-zoom_cam_max_angle				= 50.0
-zoom_cam_max_angle_horz			= 50.0
-zoom_cam_step_angle_horz		= 0.85
+PDM_disp_accel_factor				= 2.3
+PDM_disp_base						= 1
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 2.3
 
-PDM_disp_accel_factor			= 2.3
-PDM_disp_base					= 0.8
-PDM_disp_crouch					= 1.0
-PDM_disp_crouch_no_acc			= 1.0
-PDM_disp_vel_factor				= 2.3
+cam_relax_speed_ai					= 360
+zoom_cam_relax_speed_ai				= 360
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
 
-cam_relax_speed_ai				= 360
-zoom_cam_relax_speed_ai			= 360
-holder_fov_modifier				= 1.0
-holder_range_modifier			= 1.0
-min_radius						= 0
-max_radius						= 500
-hit_probability_gd_novice		= 1.00
-hit_probability_gd_stalker		= 1.00
-hit_probability_gd_veteran		= 1.00
-hit_probability_gd_master		= 1.00
+kill_msg_x							= 175
+kill_msg_y							= 0
+kill_msg_width						= 82
+kill_msg_height						= 28
 
-kill_msg_x						= 175
-kill_msg_y						= 0
-kill_msg_width					= 82
-kill_msg_height					= 28
+laser_status						= true
+use_alt_aim_hud						= true
+
+script_binding						= hidebone_grot_silencer.bind
 
 snd_draw				= weapons\grot\grot_draw
 snd_holster				= weapons\grot\grot_hide
@@ -172,14 +173,15 @@ snd_shoot				= wpn_grot_snd_shoot
 snd_shoot_actor			= wpn_grot_snd_shoot_actor
 snd_silncer_shot		= wpn_grot_snd_silenced
 snd_silncer_shot_actor	= wpn_grot_snd_silenced_actor
+
 snd_empty				= weapons\grot\fire\grot_empty
 snd_reload				= weapons\grot\grot_reload
 snd_reload_empty		= weapons\grot\grot_reload_empty
 snd_reload_misfire		= $no_sound
 snd_switch_mode			= weapons\grot\grot_firemode
+scripted_snd_bore		= weapons\grot\grot_inspect
+scripted_snd_bore_empty	= weapons\grot\grot_inspect
 
-scripted_snd_bore						= weapons\grot\grot_inspect
-scripted_snd_bore_empty					= weapons\grot\grot_inspect
 scripted_snd_reload_misfire				= weapons\grot\grot_unjam
 scripted_snd_reload_misfire_aim			= weapons\grot\grot_unjam
 scripted_snd_reload_misfire_empty		= weapons\grot\grot_unjam
@@ -226,30 +228,29 @@ scripted_snd_ammo_check_aim_ammo24	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_ammo26	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_ammo28	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_ammo30	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_empty_aim	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_empty		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_empty_aim	= weapons\grot\grot_magcheck
 
-scripted_snd_ammo_check_jammed			= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo1	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo2	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo3	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo4	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo5	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo6	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo7	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo8	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo10	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo12	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo14	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo16	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo18	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo20	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo22	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo24	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo26	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo28	= weapons\grot\grot_magcheck
-scripted_snd_ammo_check_jammed_ammo30	= weapons\grot\grot_magcheck
-
+scripted_snd_ammo_check_jammed				= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo1		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo2		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo3		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo4		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo5		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo6		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo7		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo8		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo10		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo12		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo14		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo16		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo18		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo20		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo22		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo24		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo26		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo28		= weapons\grot\grot_magcheck
+scripted_snd_ammo_check_jammed_ammo30		= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_jammed			= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_jammed_ammo1	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_jammed_ammo2	= weapons\grot\grot_magcheck
@@ -270,11 +271,10 @@ scripted_snd_ammo_check_aim_jammed_ammo24	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_jammed_ammo26	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_jammed_ammo28	= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_aim_jammed_ammo30	= weapons\grot\grot_magcheck
-
 scripted_snd_ammo_check_empty_jammed		= weapons\grot\grot_magcheck
 scripted_snd_ammo_check_empty_aim_jammed	= weapons\grot\grot_magcheck
 
-snd_idle_sprint	= rattle\sprint\sprint_rifle
+snd_idle_sprint				= rattle\sprint\sprint_rifle
 
 
 [wpn_grot_hud]:hud_base
@@ -285,10 +285,10 @@ zoom_hide_crosshair	= true
 item_position		= 0, 0, 0
 item_orientation	= 0, 0, 0
 
-aim_hud_offset_pos		= -0.061062, 0.013948, -0.04407
-aim_hud_offset_pos_16x9	= -0.061062, 0.013948, -0.04407
-aim_hud_offset_rot		= 0.004899, 0.007298, -0.021546
-aim_hud_offset_rot_16x9	= 0.004899, 0.007298, -0.021546
+aim_hud_offset_pos		= -0.0597, 0.01716, -0.037908
+aim_hud_offset_pos_16x9	= -0.0597, 0.01716, -0.037908
+aim_hud_offset_rot		= 0.004544, 0.007351, -0.031278
+aim_hud_offset_rot_16x9	= 0.004544, 0.007351, -0.031278
 
 hands_orientation		= 0.028606, -0.151352, 0.051772
 hands_orientation_16x9	= 0.028606, -0.151352, 0.051772
@@ -327,7 +327,7 @@ anm_idle_jammed			= hand_grot_idle, idle_jammed
 anm_idle_empty_jammed	= hand_grot_idle, idle_jammed_empty
 
 ;------------------------------------------------------------------------------------
-;IDLE	AIM
+;IDLE AIM
 anm_idle_aim				= hand_grot_idle_aim, idle
 anm_idle_aim_empty			= hand_grot_idle_aim, idle_empty
 anm_idle_aim_jammed			= hand_grot_idle_aim, idle_jammed
@@ -341,7 +341,7 @@ anm_idle_moving_jammed			= hand_grot_walk, idle_jammed
 anm_idle_moving_jammed_empty	= hand_grot_walk, idle_jammed_empty
 
 ;------------------------------------------------------------------------------------
-;WALK	AIM
+;WALK AIM
 anm_idle_aim_moving					= hand_grot_walk, idle
 anm_idle_aim_moving_empty			= hand_grot_walk, idle_empty
 anm_idle_aim_moving_jammed			= hand_grot_walk, idle_jammed
@@ -355,7 +355,7 @@ anm_idle_moving_crouch_jammed		= hand_grot_walk, idle_jammed, 0.75
 anm_idle_moving_crouch_jammed_empty	= hand_grot_walk, idle_jammed_empty, 0.75
 
 ;------------------------------------------------------------------------------------
-;CROUCH	AIM
+;CROUCH AIM
 anm_idle_aim_moving_crouch				= hand_grot_walk, idle, 0.75
 anm_idle_aim_moving_crouch_empty		= hand_grot_walk, idle_empty, 0.75
 anm_idle_aim_moving_crouch_jammed		= hand_grot_walk, idle_jammed, 0.75
@@ -393,7 +393,7 @@ anm_reload_ammo30	= hand_grot_reload, grot_reload_left
 anm_reload_empty	= hand_grot_reload_empty, grot_reload_empty
 
 ;------------------------------------------------------------------------------------
-;RELOAD	AIM
+;RELOAD AIM
 anm_reload_aim			= hand_grot_reload_aim, grot_reload_aim
 anm_reload_aim_ammo1	= hand_grot_reload_aim, grot_reload_aim_0
 anm_reload_aim_ammo2	= hand_grot_reload_aim, grot_reload_aim_1
@@ -444,28 +444,27 @@ anm_reload_misfire_empty	= hand_grot_unjam, grot_unjam_empty
 
 ;------------------------------------------------------------------------------------
 ;MAGCHECK
-anm_ammo_check			= hand_grot_magcheck, grot_magcheck
-anm_ammo_check_ammo1	= hand_grot_magcheck, grot_magcheck_0
-anm_ammo_check_ammo2	= hand_grot_magcheck, grot_magcheck_1
-anm_ammo_check_ammo3	= hand_grot_magcheck, grot_magcheck_2
-anm_ammo_check_ammo4	= hand_grot_magcheck, grot_magcheck_3
-anm_ammo_check_ammo5	= hand_grot_magcheck, grot_magcheck_4
-anm_ammo_check_ammo6	= hand_grot_magcheck, grot_magcheck_5
-anm_ammo_check_ammo7	= hand_grot_magcheck, grot_magcheck_6
-anm_ammo_check_ammo8	= hand_grot_magcheck, grot_magcheck_7
-anm_ammo_check_ammo10	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo12	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo14	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo16	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo18	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo20	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo22	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo24	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo26	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo28	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_ammo30	= hand_grot_magcheck, grot_magcheck_left
-anm_ammo_check_empty	= hand_grot_magcheck, grot_magcheck_empty
-
+anm_ammo_check					= hand_grot_magcheck, grot_magcheck
+anm_ammo_check_ammo1			= hand_grot_magcheck, grot_magcheck_0
+anm_ammo_check_ammo2			= hand_grot_magcheck, grot_magcheck_1
+anm_ammo_check_ammo3			= hand_grot_magcheck, grot_magcheck_2
+anm_ammo_check_ammo4			= hand_grot_magcheck, grot_magcheck_3
+anm_ammo_check_ammo5			= hand_grot_magcheck, grot_magcheck_4
+anm_ammo_check_ammo6			= hand_grot_magcheck, grot_magcheck_5
+anm_ammo_check_ammo7			= hand_grot_magcheck, grot_magcheck_6
+anm_ammo_check_ammo8			= hand_grot_magcheck, grot_magcheck_7
+anm_ammo_check_ammo10			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo12			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo14			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo16			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo18			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo20			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo22			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo24			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo26			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo28			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_ammo30			= hand_grot_magcheck, grot_magcheck_left
+anm_ammo_check_empty			= hand_grot_magcheck, grot_magcheck_empty
 anm_ammo_check_jammed			= hand_grot_magcheck, grot_magcheck_jammed
 anm_ammo_check_jammed_ammo1		= hand_grot_magcheck, grot_magcheck_0_jammed
 anm_ammo_check_jammed_ammo2		= hand_grot_magcheck, grot_magcheck_1_jammed
@@ -489,30 +488,28 @@ anm_ammo_check_jammed_ammo30	= hand_grot_magcheck, grot_magcheck_left_jammed
 anm_ammo_check_empty_jammed		= hand_grot_magcheck, grot_magcheck_jammed_empty
 
 ;------------------------------------------------------------------------------------
-;MAGCHECK	AIM
-anm_ammo_check_aim			= hand_grot_magcheck_aim, grot_magcheck_aim
-anm_ammo_check_aim_ammo1	= hand_grot_magcheck_aim, grot_magcheck_0_aim
-anm_ammo_check_aim_ammo2	= hand_grot_magcheck_aim, grot_magcheck_1_aim
-anm_ammo_check_aim_ammo3	= hand_grot_magcheck_aim, grot_magcheck_2_aim
-anm_ammo_check_aim_ammo4	= hand_grot_magcheck_aim, grot_magcheck_3_aim
-anm_ammo_check_aim_ammo5	= hand_grot_magcheck_aim, grot_magcheck_4_aim
-anm_ammo_check_aim_ammo6	= hand_grot_magcheck_aim, grot_magcheck_5_aim
-anm_ammo_check_aim_ammo7	= hand_grot_magcheck_aim, grot_magcheck_6_aim
-anm_ammo_check_aim_ammo8	= hand_grot_magcheck_aim, grot_magcheck_7_aim
-anm_ammo_check_aim_ammo10	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo12	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo14	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo16	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo18	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo20	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo22	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo24	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo26	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo28	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-anm_ammo_check_aim_ammo30	= hand_grot_magcheck_aim, grot_magcheck_left_aim
-
-anm_ammo_check_empty_aim	= hand_grot_magcheck_aim, grot_magcheck_empty_aim
-
+;MAGCHECK AIM
+anm_ammo_check_aim					= hand_grot_magcheck_aim, grot_magcheck_aim
+anm_ammo_check_aim_ammo1			= hand_grot_magcheck_aim, grot_magcheck_0_aim
+anm_ammo_check_aim_ammo2			= hand_grot_magcheck_aim, grot_magcheck_1_aim
+anm_ammo_check_aim_ammo3			= hand_grot_magcheck_aim, grot_magcheck_2_aim
+anm_ammo_check_aim_ammo4			= hand_grot_magcheck_aim, grot_magcheck_3_aim
+anm_ammo_check_aim_ammo5			= hand_grot_magcheck_aim, grot_magcheck_4_aim
+anm_ammo_check_aim_ammo6			= hand_grot_magcheck_aim, grot_magcheck_5_aim
+anm_ammo_check_aim_ammo7			= hand_grot_magcheck_aim, grot_magcheck_6_aim
+anm_ammo_check_aim_ammo8			= hand_grot_magcheck_aim, grot_magcheck_7_aim
+anm_ammo_check_aim_ammo10			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo12			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo14			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo16			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo18			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo20			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo22			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo24			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo26			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo28			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_aim_ammo30			= hand_grot_magcheck_aim, grot_magcheck_left_aim
+anm_ammo_check_empty_aim			= hand_grot_magcheck_aim, grot_magcheck_empty_aim
 anm_ammo_check_aim_jammed			= hand_grot_magcheck_aim, grot_magcheck_jammed_aim
 anm_ammo_check_aim_jammed_ammo1		= hand_grot_magcheck_aim, grot_magcheck_0_jammed_aim
 anm_ammo_check_aim_jammed_ammo2		= hand_grot_magcheck_aim, grot_magcheck_1_jammed_aim
@@ -535,109 +532,43 @@ anm_ammo_check_aim_jammed_ammo28	= hand_grot_magcheck_aim, grot_magcheck_left_ja
 anm_ammo_check_aim_jammed_ammo30	= hand_grot_magcheck_aim, grot_magcheck_left_jammed_aim
 anm_ammo_check_empty_aim_jammed		= hand_grot_magcheck_aim, grot_magcheck_jammed_empty_aim
 
-fire_bone	= muzzle
-fire_bone2	= wpn_body
-fire_point	= 0, 0, 0
-fire_point2	= 0, 0, 0
+fire_bone				= muzzle
+fire_bone2				= wpn_body
+fire_point				= 0, 0, 0
+fire_point2				= 0, 0, 0
 
-freelook_z_offset_mul	= 0
+freelook_z_offset_mul	= 0.3
 
 ;---------------------------------------------------------------------------------------------------------------------------
-
-[wpn_grot_snd_shoot]
-snd_1_layer		= weapons\grot\fire\grot_fire1_m
-snd_1_layer1	= weapons\grot\fire\grot_fire2_m
-snd_1_layer2	= weapons\grot\fire\grot_fire3_m
-snd_1_layer3	= weapons\grot\fire\grot_fire4_m
-snd_2_layer		= weapons\_gunfire\mono\m4\Close_Distance
-snd_3_layer		= weapons\_gunfire\mono\m4\Medium_Distance
-snd_4_layer		= weapons\_shared\mono\Reflectors\556\Reflector_1, 0.5
-snd_4_layer1	= weapons\_shared\mono\Reflectors\556\Reflector_2, 0.5
-snd_4_layer2	= weapons\_shared\mono\Reflectors\556\Reflector_3, 0.5
-snd_4_layer3	= weapons\_shared\mono\Reflectors\556\Reflector_4, 0.5
-snd_5_layer		= weapons\_cracks\mono\Crack_far\Crack_1
-snd_5_layer1	= weapons\_cracks\mono\Crack_far\Crack_6
-snd_5_layer2	= weapons\_cracks\mono\Crack_far\Crack_9
-snd_6_layer		= weapons\_shared\mono\556\Far_1
-snd_6_layer1	= weapons\_shared\mono\556\Far_3
-snd_7_layer		= weapons\_shared\mono\556\tail_1, 0.5
-snd_7_layer1	= weapons\_shared\mono\556\tail_2, 0.5
-snd_8_layer		= weapons\_shared\mono\556\mid_556
-
-[wpn_grot_snd_shoot_actor]
-snd_1_layer		= weapons\grot\fire\grot_fire1_s
-snd_1_layer1	= weapons\grot\fire\grot_fire2_s
-snd_1_layer2	= weapons\grot\fire\grot_fire3_s
-snd_1_layer3	= weapons\grot\fire\grot_fire4_s
-snd_2_layer		= weapons\_shared\stereo\reflectors\556\Reflector_1, 0.5
-snd_2_layer1	= weapons\_shared\stereo\reflectors\556\Reflector_2, 0.5
-snd_2_layer2	= weapons\_shared\stereo\reflectors\556\Reflector_3, 0.5
-snd_2_layer3	= weapons\_shared\stereo\reflectors\556\Reflector_4, 0.5
-snd_3_layer		= weapons\_shared\stereo\echo_1, 0.25
-snd_3_layer1	= weapons\_shared\stereo\echo_2, 0.25
-snd_3_layer2	= weapons\_shared\stereo\echo_3, 0.25
-snd_3_layer3	= weapons\_shared\stereo\echo_4, 0.25
-snd_4_layer		= weapons\_bass\bass_mid
-
-[wpn_grot_snd_silenced]
-snd_1_layer		= weapons\grot\fire\grot_fire1_sil_m
-snd_1_layer1	= weapons\grot\fire\grot_fire2_sil_m
-snd_1_layer2	= weapons\grot\fire\grot_fire3_sil_m
-snd_1_layer3	= weapons\grot\fire\grot_fire4_sil_m
-snd_2_layer		= weapons\_sd\mono\556\tail_sd_1, 0.5
-snd_2_layer1	= weapons\_sd\mono\556\tail_sd_2, 0.5
-snd_2_layer2	= weapons\_sd\mono\556\tail_sd_3, 0.5
-snd_2_layer3	= weapons\_sd\mono\556\tail_sd_4, 0.5
-snd_3_layer		= weapons\_bass\bass_mid_sd
-snd_4_layer		= weapons\_sd\mono\Distance\556mm_distance
-snd_5_layer		= weapons\_cracks\mono\crack_far\crack_1
-snd_5_layer1	= weapons\_cracks\mono\crack_far\crack_2
-snd_5_layer2	= weapons\_cracks\mono\crack_far\crack_3
-snd_5_layer3	= weapons\_cracks\mono\crack_far\crack_4
-
-[wpn_grot_snd_silenced_actor]
-snd_1_layer		= weapons\grot\fire\grot_fire1_sil_s
-snd_1_layer1	= weapons\grot\fire\grot_fire2_sil_s
-snd_1_layer2	= weapons\grot\fire\grot_fire3_sil_s
-snd_1_layer3	= weapons\grot\fire\grot_fire4_sil_s
-snd_2_layer		= weapons\_sd\stereo\556\tail_sd_1, 0.5
-snd_2_layer1	= weapons\_sd\stereo\556\tail_sd_2, 0.5
-snd_2_layer2	= weapons\_sd\stereo\556\tail_sd_3, 0.5
-snd_2_layer3	= weapons\_sd\stereo\556\tail_sd_4, 0.5
-snd_3_layer		= weapons\_shared\stereo\echo_9, 0.25
-snd_3_layer1	= weapons\_shared\stereo\echo_2, 0.25
-snd_3_layer2	= weapons\_shared\stereo\echo_3, 0.25
-snd_3_layer3	= weapons\_shared\stereo\echo_4, 0.25
-snd_4_layer		= weapons\_bass\bass_mid_sd
-
 [wpn_grot_ac10632]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_ac10632_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_ac10632_hud
 
 1icon_layer		= ac10632
-1icon_layer_x	= 90
-1icon_layer_y	= -12
+1icon_layer_x	= 77
+1icon_layer_y	= -11
 inv_grid_x		= 5
 
-inv_weight		= 3.52
+inv_weight		= 4.13
 
 [wpn_grot_ac10632_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_ac10632_hud.ogf
-aim_hud_offset_pos		= -0.061005, 0.012741, -0.054586
-aim_hud_offset_pos_16x9	= -0.061005, 0.012741, -0.054586
+
+aim_hud_offset_pos		= -0.060316, 0.015936, -0.054586
+aim_hud_offset_pos_16x9	= -0.060316, 0.015936, -0.054586
 aim_hud_offset_rot		= 0.004828, 0.007457, -0.021546
 aim_hud_offset_rot_16x9	= 0.004828, 0.007457, -0.021546
 
 [wpn_grot_acog]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_acog_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_acog_hud
 
 1icon_layer		= acog
-1icon_layer_x	= 80
-1icon_layer_y	= -13
+1icon_layer_x	= 77
+1icon_layer_y	= -11
 inv_grid_x		= 5
 
-inv_weight		= 3.75
+inv_weight		= 4.52
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_acog
@@ -647,39 +578,41 @@ scope_dynamic_zoom	= off
 
 [wpn_grot_acog_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_acog_hud.ogf
-aim_hud_offset_pos		= -0.060479, 0.009333, -0.0631
-aim_hud_offset_pos_16x9	= -0.060479, 0.009333, -0.0631
+
+aim_hud_offset_pos		= -0.065811, 0.017333, -0.0631
+aim_hud_offset_pos_16x9	= -0.065811, 0.017333, -0.0631
 aim_hud_offset_rot		= 0.01463, 0.003794, -0.021546
 aim_hud_offset_rot_16x9	= 0.01463, 0.003794, -0.021546
 
 [wpn_grot_eot]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_eot_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_eot_hud
 
 1icon_layer		= eot
-1icon_layer_x	= 90
-1icon_layer_y	= -12
+1icon_layer_x	= 86
+1icon_layer_y	= -9
 inv_grid_x		= 5
 
-inv_weight		= 3.7
+inv_weight		= 4.36
 
 [wpn_grot_eot_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_eot_hud.ogf
-aim_hud_offset_pos		= -0.061221, 0.006919, -0.045916
-aim_hud_offset_pos_16x9	= -0.061221, 0.006919, -0.045916
+
+aim_hud_offset_pos		= -0.059629, 0.009475, -0.013269
+aim_hud_offset_pos_16x9	= -0.059629, 0.009475, -0.013269
 aim_hud_offset_rot		= 0.006035, 0.007934, -0.021546
 aim_hud_offset_rot_16x9	= 0.006035, 0.007934, -0.021546
 
 [wpn_grot_specter]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_specter_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_specter_hud
 
 1icon_layer		= specter
-1icon_layer_x	= 67
-1icon_layer_y	= -16
+1icon_layer_x	= 49
+1icon_layer_y	= -15
 inv_grid_x		= 5
 
-inv_weight		= 4.07
+inv_weight		= 4.67
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_specter
@@ -691,26 +624,27 @@ scope_zoom_factor_alt	= 0
 
 [wpn_grot_specter_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_specter_hud.ogf
-aim_hud_offset_pos		= -0.060477, 0.011108, -0.070726
-aim_hud_offset_pos_16x9	= -0.060477, 0.011108, -0.070726
-aim_hud_offset_rot		= 0.008307, 0.004589, -0.021546
-aim_hud_offset_rot_16x9	= 0.008307, 0.004589, -0.021546
 
-aim_hud_offset_alt_pos		= -0.060796, -0.006087, -0.033821
-aim_hud_offset_alt_pos_16x9	= -0.060796, -0.006087, -0.033821
+aim_hud_offset_alt_pos		= -0.059576, -0.002892, -0.033821
+aim_hud_offset_alt_pos_16x9	= -0.059576, -0.002892, -0.033821
+aim_hud_offset_alt_rot		= 0.0114, 0.007544, -0.021546
+aim_hud_offset_alt_rot_16x9	= 0.0114, 0.007544, -0.021546
+
+aim_hud_offset_pos		= -0.064171, 0.019079, -0.070726
+aim_hud_offset_pos_16x9	= -0.064171, 0.019079, -0.070726
 aim_hud_offset_alt_rot		= 0.0125, 0.00765, -0.021546
 aim_hud_offset_alt_rot_16x9	= 0.0125, 0.00765, -0.021546
 
 [wpn_grot_leupold]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_leupold_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_leupold_hud
 
 1icon_layer		= leupold
-1icon_layer_x	= 60
-1icon_layer_y	= -17
+1icon_layer_x	= 59
+1icon_layer_y	= -14
 inv_grid_x		= 5
 
-inv_weight		= 4.06
+inv_weight		= 4.67
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_leupold
@@ -720,13 +654,14 @@ scope_dynamic_zoom	= on
 
 [wpn_grot_leupold_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_leupold_hud.ogf
-aim_hud_offset_pos		= -0.060532, 0.010885, -0.043431
-aim_hud_offset_pos_16x9	= -0.060532, 0.010885, -0.043431
+
+aim_hud_offset_pos		= -0.064, 0.013234, -0.043431
+aim_hud_offset_pos_16x9	= -0.064, 0.013234, -0.043431
 aim_hud_offset_rot		= 0.008804, 0.003205, -0.021546
 aim_hud_offset_rot_16x9	= 0.008804, 0.003205, -0.021546
 
 [wpn_grot_aimpoint]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_aimpoint_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_aimpoint_hud
 
 1icon_layer		= aimpoint
@@ -738,57 +673,60 @@ inv_weight		= 3.53
 
 [wpn_grot_aimpoint_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_aimpoint_hud.ogf
-aim_hud_offset_pos		= -0.061371, 0.009688, -0.058214
-aim_hud_offset_pos_16x9	= -0.061371, 0.009688, -0.058214
+
+aim_hud_offset_pos		= -0.059987, 0.013167, -0.058214
+aim_hud_offset_pos_16x9	= -0.059987, 0.013167, -0.058214
 aim_hud_offset_rot		= 0.005254, 0.008531, -0.021546
 aim_hud_offset_rot_16x9	= 0.005254, 0.008531, -0.021546
 
 [wpn_grot_e0t2]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_e0t2_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_e0t2_hud
 
 1icon_layer		= e0t2
-1icon_layer_x	= 90
-1icon_layer_y	= -16
+1icon_layer_x	= 87
+1icon_layer_y	= -13
 inv_grid_x		= 5
 
-inv_weight		= 3.63
+inv_weight		= 4.27
 
 [wpn_grot_e0t2_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_e0t2_hud.ogf
-aim_hud_offset_pos		= -0.061168, 0.010327, -0.057134
-aim_hud_offset_pos_16x9	= -0.061168, 0.010327, -0.057134
+
+aim_hud_offset_pos		= -0.059631, 0.013167, -0.02919
+aim_hud_offset_pos_16x9	= -0.059631, 0.013167, -0.02919
 aim_hud_offset_rot		= 0.003408, 0.007563, -0.021546
 aim_hud_offset_rot_16x9	= 0.003408, 0.007563, -0.021546
 
 [wpn_grot_compm4s]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_compm4s_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_compm4s_hud
 
 1icon_layer		= compm4s
-1icon_layer_x	= 90
-1icon_layer_y	= -20
+1icon_layer_x	= 77
+1icon_layer_y	= -18
 inv_grid_x		= 5
 
-inv_weight		= 3.78
+inv_weight		= 4.28
 
 [wpn_grot_compm4s_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_compm4s_hud.ogf
-aim_hud_offset_pos		= -0.061273, 0.011463, -0.044567
-aim_hud_offset_pos_16x9	= -0.061273, 0.011463, -0.044567
+
+aim_hud_offset_pos		= -0.060129, 0.014658, -0.044567
+aim_hud_offset_pos_16x9	= -0.060129, 0.014658, -0.044567
 aim_hud_offset_rot		= 0.004686, 0.007775, -0.021546
 aim_hud_offset_rot_16x9	= 0.004686, 0.007775, -0.021546
 
 [wpn_grot_marchf]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_marchf_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_marchf_hud
 
 1icon_layer		= marchf
 1icon_layer_x	= 60
-1icon_layer_y	= -12
+1icon_layer_y	= -9
 inv_grid_x		= 5
 
-inv_weight		= 4.04
+inv_weight		= 4.63
 
 scope_status		= 1
 scope_dynamic_zoom	= on
@@ -797,39 +735,41 @@ scope_zoom_factor	= 6
 
 [wpn_grot_marchf_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_marchf_hud.ogf
-aim_hud_offset_pos		= -0.061325, 0.011196, -0.01784
-aim_hud_offset_pos_16x9	= -0.061325, 0.011196, -0.01784
+
+aim_hud_offset_pos		= -0.065061, 0.014667, -0.01784
+aim_hud_offset_pos_16x9	= -0.065061, 0.014667, -0.01784
 aim_hud_offset_rot		= 0.00781, 0.00433, -0.021546
 aim_hud_offset_rot_16x9	= 0.00781, 0.00433, -0.021546
 
 [wpn_grot_ekp8_18]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_ekp8_18_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_ekp8_18_hud
 
 1icon_layer		= ekp8_18
-1icon_layer_x	= 85
-1icon_layer_y	= -3
+1icon_layer_x	= 79
+1icon_layer_y	= -2
 inv_grid_x		= 5
 
-inv_weight		= 3.74
+inv_weight		= 4.39
 
 [wpn_grot_ekp8_18_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_ekp8_18_hud.ogf
-aim_hud_offset_pos		= -0.061168, 0.006777, -0.049182
-aim_hud_offset_pos_16x9	= -0.061168, 0.006777, -0.049182
+
+aim_hud_offset_pos		= -0.060108, 0.010256, -0.049182
+aim_hud_offset_pos_16x9	= -0.060108, 0.010256, -0.049182
 aim_hud_offset_rot		= -0.006177, 0.008199, -0.021546
 aim_hud_offset_rot_16x9	= -0.006177, 0.008199, -0.021546
 
 [wpn_grot_gauss_sight]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_gauss_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_gauss_sight_hud
 
 1icon_layer		= gauss_sight
-1icon_layer_x	= 65
-1icon_layer_y	= -10
+1icon_layer_x	= 71
+1icon_layer_y	= -9
 inv_grid_x		= 5
 
-inv_weight		= 4.8
+inv_weight		= 5.41
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_gauss
@@ -839,21 +779,22 @@ scope_dynamic_zoom	= on
 
 [wpn_grot_gauss_sight_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_gauss_hud.ogf
-aim_hud_offset_pos		= -0.060956, 0.012528, -0.074016
-aim_hud_offset_pos_16x9	= -0.060956, 0.012528, -0.074016
+
+aim_hud_offset_pos		= -0.06336, 0.023198, -0.074016
+aim_hud_offset_pos_16x9	= -0.06336, 0.023198, -0.074016
 aim_hud_offset_rot		= 0.008591, 0.00576, -0.021546
 aim_hud_offset_rot_16x9	= 0.008591, 0.00576, -0.021546
 
 [wpn_grot_pn23]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_pn23_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_pn23_hud
 
 1icon_layer		= pn23
-1icon_layer_x	= 55
-1icon_layer_y	= -17
+1icon_layer_x	= 49
+1icon_layer_y	= -16
 inv_grid_x		= 5
 
-inv_weight		= 4.05
+inv_weight		= 4.33
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_pn23
@@ -862,113 +803,120 @@ zoom_rotate_time	= 0.25
 
 [wpn_grot_pn23_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_pn23_hud.ogf
+
 aim_hud_offset_pos		= -0.06122, 0.000943, -0.051087
 aim_hud_offset_pos_16x9	= -0.06122, 0.000943, -0.051087
 aim_hud_offset_rot		= 0.008591, 0.005277, -0.021546
 aim_hud_offset_rot_16x9	= 0.008591, 0.005277, -0.021546
 
 [wpn_grot_c-more]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_c-more_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_c-more_hud
 
 1icon_layer		= c-more
-1icon_layer_x	= 90
-1icon_layer_y	= -10
+1icon_layer_x	= 84
+1icon_layer_y	= -8
 inv_grid_x		= 5
 
-inv_weight		= 3.7
+inv_weight		= 4.15
 
 [wpn_grot_c-more_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_c-more_hud.ogf
-aim_hud_offset_pos		= -0.061646, 0.015581, -0.054175
-aim_hud_offset_pos_16x9	= -0.061646, 0.015581, -0.054175
+
+aim_hud_offset_pos		= -0.060162, 0.019273, -0.054175
+aim_hud_offset_pos_16x9	= -0.060162, 0.019273, -0.054175
 aim_hud_offset_rot		= 0.005254, 0.008305, -0.021546
 aim_hud_offset_rot_16x9	= 0.005254, 0.008305, -0.021546
 
 [wpn_grot_0kp2]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_0kp2_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_0kp2_hud
 
 1icon_layer		= 0kp2
-1icon_layer_x	= 90
-1icon_layer_y	= -6
+1icon_layer_x	= 81
+1icon_layer_y	= -4
 inv_grid_x		= 5
 
-inv_weight		= 3.6
+inv_weight		= 4.28
 
 [wpn_grot_0kp2_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_0kp2_hud.ogf
+
 aim_hud_offset_rot		= -0.001704, 0.010637, -0.021546
 aim_hud_offset_rot_16x9	= -0.001704, 0.010637, -0.021546
 
 [wpn_grot_d0cter]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_d0cter_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_d0cter_hud
 
 1icon_layer		= d0cter
-1icon_layer_x	= 90
-1icon_layer_y	= -12
+1icon_layer_x	= 80
+1icon_layer_y	= -11
 inv_grid_x		= 5
 
-inv_weight		= 3.43
+inv_weight		= 4.04
 
 [wpn_grot_d0cter_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_d0cter_hud.ogf
-aim_hud_offset_pos		= -0.061426, 0.024814, -0.047618
-aim_hud_offset_pos_16x9	= -0.061426, 0.024814, -0.047618
+
+aim_hud_offset_pos		= -0.059882, 0.029074, -0.047618
+aim_hud_offset_pos_16x9	= -0.059882, 0.029074, -0.047618
 aim_hud_offset_rot		= -0.001136, 0.007987, -0.021546
 aim_hud_offset_rot_16x9	= -0.001136, 0.007987, -0.021546
 
 [wpn_grot_deltapoint]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_deltapoint_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_deltapoint_hud
 
 1icon_layer		= deltapoint
-1icon_layer_x	= 90
-1icon_layer_y	= -7
+1icon_layer_x	= 76
+1icon_layer_y	= -6
 inv_grid_x		= 5
 
-inv_weight		= 3.44
+inv_weight		= 4.06
 
 [wpn_grot_deltapoint_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_deltapoint_hud.ogf
-aim_hud_offset_pos		= -0.061274, 0.019841, -0.04407
-aim_hud_offset_pos_16x9	= -0.061274, 0.019841, -0.04407
+
+aim_hud_offset_pos		= -0.059998, 0.022894, -0.04407
+aim_hud_offset_pos_16x9	= -0.059998, 0.022894, -0.04407
 aim_hud_offset_rot		= 0.002343, 0.008305, -0.021546
 aim_hud_offset_rot_16x9	= 0.002343, 0.008305, -0.021546
 
 [wpn_grot_kemper]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_kemper_world.ogf
-hud				= wpn_grot_kemper_hud
 
 1icon_layer		= kemper
-1icon_layer_x	= 90
-1icon_layer_y	= -14
+1icon_layer_x	= 83
+1icon_layer_y	= -13
 inv_grid_x		= 5
 
-inv_weight		= 3.67
+inv_weight		= 4.28
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
+hud				= wpn_grot_kemper_hud
 
 [wpn_grot_kemper_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_kemper_hud.ogf
-aim_hud_offset_pos		= -0.061804, 0.007842, -0.04407
-aim_hud_offset_pos_16x9	= -0.061804, 0.007842, -0.04407
+
+aim_hud_offset_pos		= -0.059988, 0.012883, -0.04407
+aim_hud_offset_pos_16x9	= -0.059988, 0.012883, -0.04407
 aim_hud_offset_rot		= 0.00426, 0.008146, -0.021546
 aim_hud_offset_rot_16x9	= 0.00426, 0.008146, -0.021546
 
 [wpn_grot_rmr]:wpn_grot
-visual			= dynamics\weapons\wpn_grot\wpn_grot_rmr_world.ogf
+visual			= dynamics\weapons\wpn_grot\wpn_grot_world.ogf
 hud				= wpn_grot_rmr_hud
 
 1icon_layer		= rmr
-1icon_layer_x	= 90
-1icon_layer_y	= -8
+1icon_layer_x	= 76
+1icon_layer_y	= -6
 inv_grid_x		= 5
 
-inv_weight		= 3.43
+inv_weight		= 4.04
 
 [wpn_grot_rmr_hud]:wpn_grot_hud
 item_visual	= dynamics\weapons\wpn_grot\wpn_grot_rmr_hud.ogf
-aim_hud_offset_pos		= -0.061009, 0.022967, -0.055294
-aim_hud_offset_pos_16x9	= -0.061009, 0.022967, -0.055294
+
+aim_hud_offset_pos		= -0.059572, 0.026233, -0.055294
+aim_hud_offset_pos_16x9	= -0.059572, 0.026233, -0.055294
 aim_hud_offset_rot		= 0.001775, 0.007881, -0.021546
 aim_hud_offset_rot_16x9	= 0.001775, 0.007881, -0.021546

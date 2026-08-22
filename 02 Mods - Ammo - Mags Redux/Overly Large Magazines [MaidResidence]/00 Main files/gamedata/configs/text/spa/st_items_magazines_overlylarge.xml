@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_ak_5.45x39_drum">
+		<text>Cargador de tambor de 75 cartuchos 5.45x39 de AK</text>
+	</string>
+	<string id="st_mag_ak_5.45x39_drum_descr">
+		<text>Cargador metбlico de 75 cartuchos para municiуn 5.45x39.</text>
+	</string>
+
+	<string id="st_mag_ak_5.45x39_drum_100">
+		<text>Cargador de tambor de 100 cartuchos 5.45x39 de AK</text>
+	</string>
+	<string id="st_mag_ak_5.45x39_drum_100_descr">
+		<text>Cargador metбlico de 100 cartuchos para municiуn 5.45x39.</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39_drum">
+		<text>Cargador de tambor de 75 cartuchos 7.62x39 de AK</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_drum_descr">
+		<text>Cargador metбlico de 75 cartuchos para municiуn 7.62x39.</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39_drum_100">
+		<text>Cargador de tambor de 100 cartuchos 7.62x39 de AK</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_drum_100_descr">
+		<text>Cargador metбlico de 100 cartuchos para municiуn 7.62x39.</text>
+	</string>
+
+
+	<string id="st_mag_rpk_5.45x39_drum_95">
+		<text>RPK-16 5.45x39 cargador de tambor de 95 cartuchos</text>
+	</string>
+	<string id="st_mag_rpk_5.45x39_drum_95_descr">
+		<text>Cargador Izhmash de polнmero de 95 cartuchos para municiуn de 5,45x39.</text>
+	</string>
+	
+	<string id="st_mag_rpk_5.56x45_drum_95">
+		<text>Cargador de tambor de 95 cartuchos para RPK-16 5.56x45</text>
+	</string>
+	<string id="st_mag_rpk_5.56x45_drum_95_descr">
+		<text>Cargador Izhmash de polнmero de 95 cartuchos recargado para municiуn de 5,56x45.</text>
+	</string>
+
+	<string id="st_mag_rpk_7.62x39_drum_95">
+		<text>Cargador de tambor de 95 cartuchos para RPK 7.62x39</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_95_descr">
+		<text>Cargador Izhmash de polнmero de 95 cartuchos recargado para municiуn de 7.62x39.</text>
+	</string>
+
+
+	<string id="st_mag_hinge_7.62x51_drum">
+		<text>Cargador de tambor SA58 7.62x51 de 50 cartuchos</text>
+	</string>
+	<string id="st_mag_hinge_7.62x51_drum_descr">
+		<text>Cargador de tambor de 50 rondas 7.62x51.</text>
+	</string>
+	
+	<string id="st_mag_stanag_762x51_drum">
+		<text>Cargador de tambor de 50 cartuchos SA58 7.62x51 modificado</text>
+	</string>
+	<string id="st_mag_stanag_762x51_drum_descr">
+		<text>Cargador de tambor de 50 rondas 7.62x51 modificado para adaptarse a los rifles SCAR.</text>
+	</string>
+
+
+	<string id="st_mag_nato_5.56x45_casket_80">
+		<text>5.56x45 STANAG 100-round magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_casket_80_descr">
+		<text>100-round metal high capacity magazine for 5.56x45 ammo.</text>
+	</string>
+
+	<string id="st_mag_aug_5.56x45_casket_80">
+		<text>Modified 5.56x45 AUG 100-round magazine</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_casket_80_descr">
+		<text>100-round metal high capacity magazine for 5.56x45 ammo, modified to fit AUG systems.</text>
+	</string>
+
+	<string id="st_mag_g36_5.56x45_casket_80">
+		<text>Modified 5.56x45 G36 100-round magazine</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_casket_80_descr">
+		<text>100-round metal high capacity magazine for 5.56x45 ammo, modified to fit G36 systems.</text>
+	</string>
+
+	<string id="st_mag_sig_5.56x45_casket_80">
+		<text>Modified 5.56x45 SIG 100-round magazine</text>
+	</string>
+	<string id="st_mag_sig_5.56x45_casket_80_descr">
+		<text>100-round metal high capacity magazine for 5.56x45 ammo, modified to fit SIG systems.</text>
+	</string>
+
+
+	<string id="st_mag_aug_5.56x45_short">
+		<text>STEYR AUG 10 round mag</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_short_descr">
+		<text>Proprietary 10-round (or 9+1) magazine for AUG rifles. Made of a translucent polymer. Made in Austria. \n
+		Not sure who has had interest in importing “California legal” magazines into the Zone but like anything gun related they will surely find a use here. On the plus side, they fit into small pockets.</text>
+	</string>
+
+
+	<string id="st_mag_pm_9x18_drum_84">
+		<text>PM 9x18PM 84-round makeshift drum magazine</text>
+	</string>
+	<string id="st_mag_pm_9x18_drum_84_descr">
+		<text>Makeshift 84-round PM magazine.</text>
+	</string>
+	
+	<string id="st_mag_pm_9x19_drum_84">
+		<text>PM 9x19PM 84-round makeshift drum magazine</text>
+	</string>
+	<string id="st_mag_pm_9x19_drum_84_descr">
+		<text>Makeshift 84-round PM magazine.</text>
+	</string>
+
+
+	<string id="st_mag_glock_9x19_drum_50">
+		<text>Glock 9x19 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_glock_9x19_drum_50_descr">
+		<text>High capacity magazine for Glock family of pistols holding up to 50 rounds.</text>
+	</string>
+	
+	<string id="st_mag_glock_9x18_drum_50">
+		<text>Glock 9x18 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_glock_9x18_drum_50_descr">
+		<text>High capacity magazine for Glock family of pistols holding up to 50 rounds.</text>
+	</string>
+
+
+	<string id="st_mag_mp5_9x19_extended_40">
+		<text>Extended 9x19 MP5 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_9x19_extended_40_descr">
+		<text>Lightweight, impact resistant and highly reliable magazine compatible with all 9x19 mm HK MP5 permutations (and clones) taking standard MP5 magazines. Offers enhanced 40-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer-resin/granulate with clear windows on both sides allowing to see the rounds left. Made in Bosnia.</text>
+	</string>
+
+	<string id="st_mag_mp5_9x18_extended_40">
+		<text>Modified Extended 9x18 MP5 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_9x18_extended_40_descr">
+		<text>Lightweight, impact resistant and highly reliable magazine compatible with all 9x18 mm Zone modified HK MP5 permutations (and clones) taking standard MP5 magazines. Offers enhanced 40-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer-resin/granulate with clear windows on both sides allowing to see the rounds left. Made in Bosnia.</text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_extended_40">
+		<text>Modified Extended .45 ACP MP5 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_extended_40_descr">
+		<text>Lightweight, impact resistant and highly reliable magazine compatible with the .45 ACP chambered MP5 Frasier. Offers enhanced 40-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer-resin/granulate with clear windows on both sides allowing to see the rounds left. Made in Bosnia.</text>
+	</string>
+
+
+	<string id="st_mag_mp5_9x19_drum_50">
+		<text>HK MP5 9x19 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_mp5_9x19_drum_50_descr">
+		<text>50-round 9x19 magazine for MP5.</text>
+	</string>
+	
+	<string id="st_mag_mp5_9x18_drum_50">
+		<text>HK MP5 9x18 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_mp5_9x18_drum_50_descr">
+		<text>Rechambered 50-round 9x18 magazine for MP5.</text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_drum_50">
+		<text>HK MP5 .45 ACP 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_drum_50_descr">
+		<text>Lightweight, impact resistant and highly reliable drum magazine compatible with the .45 ACP chambered MP5 Frasier. Offers enhanced 50-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer with a clear window on the rear facing side, allowing to see the number of rounds left. Made in the USA.</text>
+	</string>
+
+
+	<string id="st_mag_mp7_9x19_extended_60">
+		<text>HK MP7 9x19 extended magazine</text>
+	</string>
+	<string id="st_mag_mp7_9x19_extended_60_descr">
+		<text>60-round 9x19 extended magazine for MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_4.6x30_extended_60">
+		<text>HK MP7 4.6x30 extended magazine</text>
+	</string>
+	<string id="st_mag_mp7_4.6x30_extended_60_descr">
+		<text>60-round 4.6x30 extended magazine for MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_extended_60">
+		<text>HK MP7 9x18 extended magazine</text>
+	</string>
+	<string id="st_mag_mp7_9x18_extended_60_descr">
+		<text>Rechambered 60-round extended magazine for MP7 to fit 9x18 ammo.</text>
+	</string>
+
+	<string id="st_mag_mp7_9x19_compact">
+		<text>HK MP7 9x19 compact magazine</text>
+	</string>
+	<string id="st_mag_mp7_9x19_compact_descr">
+		<text>20-round 9x19 compact magazine for MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_4.6x30_compact">
+		<text>HK MP7 4.6x30 compact magazine</text>
+	</string>
+	<string id="st_mag_mp7_4.6x30_compact_descr">
+		<text>20-round 4.6x30 compact magazine for MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_compact">
+		<text>HK MP7 9x18 compact magazine</text>
+	</string>
+	<string id="st_mag_mp7_9x18_compact_descr">
+		<text>Rechambered 20-round compact magazine for MP7 to fit 9x18 ammo.</text>
+	</string>
+
+
+	<string id="st_mag_saiga12_12x70_drum">
+		<text>MaxRounds Powermag 20-round magazine</text>
+	</string>
+	<string id="st_mag_saiga12_12x70_drum_descr">
+		<text>MaxRounds Powermag 20-round magazine, compatible with the Saiga-12 shotgun.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- mags -->
+
+    <string id="st_mag_ppsh41_stick_7.62x25_p">
+		<text>Standard PPSh-41 Stick Magazine calibre 7.62x25</text>
+	</string>
+	<string id="st_mag_ppsh41_stick_7.62x25_p_descr">
+		<text>35 round magazine for the PPSh-41 smg. Compared to the drum, stick PPsh mags are considered easier and quicker to load, as well as more reliable. The drum is, however, more fun.</text>
+	</string>
+
+</string_table>

@@ -18,6 +18,9 @@ Icon texture trimmed.
 Added crafting recipes: you need 1 grenade and one artifact.
 
 Integrated into:
+AlifePlus. This support is experimental.
+	With AP, veterans are expected to trade grenades, buying one and selling excedents of 3, but rookies won't trade them in either way.
+	Veterans will buy but not sell the anomalous grenades.
 Lootboxes
 
 ----------------------------------------------------------

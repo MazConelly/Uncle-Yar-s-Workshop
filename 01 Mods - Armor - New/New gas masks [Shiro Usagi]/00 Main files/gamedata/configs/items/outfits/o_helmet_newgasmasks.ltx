@@ -30,8 +30,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
-
+; 3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.0005
 shock_protection				= 0.01
@@ -76,7 +75,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.085
 shock_protection				= 0.075
@@ -121,7 +120,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_us ; Random Pile of Addons's 3D Mask Overlay 
+; 3d_overlay						= liz\3d_overlays\bc_bs_us ; Random Pile of Addons's 3D Mask Overlay 
 
 burn_protection					= 0.008
 shock_protection				= 0.06
@@ -167,7 +166,7 @@ power_loss						= 0.1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.0099
 shock_protection				= 0.090
@@ -213,7 +212,7 @@ power_loss						= 0.1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_us ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs_us ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.0016
 shock_protection				= 0.0098
@@ -258,7 +257,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.010
 shock_protection				= 0.07
@@ -303,7 +302,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.005
 shock_protection				= 0.07
@@ -316,54 +315,93 @@ wound_protection				= 0.019
 
 ;--------------------------------------------------------------------------
 
-[helm_respirator_gp5_black]:helm_respirator_gp5
-$spawn							= "outfit\helm_respirator_gp5_black"
+[helm_respirator_gp5_black]:tch_helmet
+$spawn						= "outfit\helm_respirator_gp5_black"
+class						= E_HLMET
+visual						= dynamics\outfit\helm_respirator_gp5
 
-inv_name						= st_helm_respirator_gp5_black
-inv_name_short					= st_helm_respirator_gp5_black
-description						= st_helm_respirator_gp5_black_descr
-icons_texture					= ui\ui_icon_newgasmasks
-inv_grid_x						= 8
-inv_grid_y						= 0
+inv_name					= st_helm_respirator_gp5_black
+inv_name_short				= st_helm_respirator_gp5_black
+description					= st_helm_respirator_gp5_black_descr
+icons_texture				= ui\ui_icon_newgasmasks
+inv_grid_x					= 8
+inv_grid_y					= 0
+upgr_icon_x					= 921
+upgr_icon_y					= 1381
+upgr_icon_width				= 162
+upgr_icon_height			= 143
+upgrades					= up_gr_firstab_helm_resp_2
+upgrade_scheme				= up_scheme_helm_resp_2
 
-cost							= 10000
-inv_weight						= 1.48
+kind						= o_helmet
+cost						= 10000
+inv_weight					= 1.48
+additional_inventory_weight	= 0
+additional_inventory_weight2= 0
+immunities_sect				= sect_helm_respirator_gp5_immunities
+repair_type					= helmet_light
+;repair_part_bonus			= 0.11
+hit_fraction_actor			= 0.9
+bones_koeff_protection		= actor_helm_respirator
+control_inertion_factor		= 1
 
-helmet_type						= basic ; helmet restriction compatibility
+helmet_type					= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay					= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
-radiation_protection			= 0.0230
-chemical_burn_protection		= 0.016
-telepatic_protection			= 0.005
-explosion_protection			= 0.028
-wound_protection				= 0.035
+burn_protection				= 0.007
+shock_protection			= 0.08
+radiation_protection		= 0.0230
+chemical_burn_protection	= 0.016
+telepatic_protection		= 0.005
+strike_protection			= 0
+explosion_protection		= 0.028
+wound_protection			= 0.035
 
 ;--------------------------------------------------------------------------
 
-[helm_respirator_gp5_old]:helm_respirator_gp5
-$spawn							= "outfit\helm_respirator_gp5_old"
+[helm_respirator_gp5_old]:tch_helmet
+$spawn						= "outfit\helm_respirator_gp5_old"
+class						= E_HLMET
+visual						= dynamics\outfit\helm_respirator_gp5
 
-inv_name						= st_helm_respirator_gp5_old
-inv_name_short					= st_helm_respirator_gp5_old
-description						= st_helm_respirator_gp5_old_descr
-icons_texture					= ui\ui_icon_newgasmasks
-inv_grid_x						= 6
-inv_grid_y						= 0
+inv_name					= st_helm_respirator_gp5_old
+inv_name_short				= st_helm_respirator_gp5_old
+description					= st_helm_respirator_gp5_old_descr
+icons_texture				= ui\ui_icon_newgasmasks
+inv_grid_x					= 6
+inv_grid_y					= 0
+upgr_icon_x					= 921
+upgr_icon_y					= 1381
+upgr_icon_width				= 162
+upgr_icon_height			= 143
+upgrades					= up_gr_firstab_helm_resp_2
+upgrade_scheme				= up_scheme_helm_resp_2
 
-cost							= 8920
-inv_weight						= 1.6
-immunities_sect					= sect_helm_respirator_gp5_old_immunities
+kind						= o_helmet
+cost						= 8920
+inv_weight					= 1.6
+additional_inventory_weight	= 0
+additional_inventory_weight2= 0
+immunities_sect				= sect_helm_respirator_gp5_old_immunities
+repair_type					= helmet_light
+;repair_part_bonus			= 0.11
+hit_fraction_actor			= 0.9
+bones_koeff_protection		= actor_helm_respirator
+control_inertion_factor		= 1
 
-helmet_type						= basic ; helmet restriction compatibility
+helmet_type					= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay					= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
-burn_protection					= 0.005
-shock_protection				= 0.07
-radiation_protection			= 0.0205
-chemical_burn_protection		= 0.039
-telepatic_protection			= 0.002
+burn_protection				= 0.005
+shock_protection			= 0.07
+radiation_protection		= 0.0205
+chemical_burn_protection	= 0.039
+telepatic_protection		= 0.002
+strike_protection			= 0
+explosion_protection		= 0.027
+wound_protection			= 0.032
 
 [sect_helm_respirator_gp5_old_immunities]:sect_helm_respirator_gp5_immunities
 burn_immunity					= 0.1
@@ -405,7 +443,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.01
 shock_protection				= 0.06
@@ -450,7 +488,7 @@ control_inertion_factor			= 1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.009
 shock_protection				= 0.09
@@ -496,7 +534,7 @@ power_loss						= 0.1
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.0015
 shock_protection				= 0.0093
@@ -519,7 +557,7 @@ inv_grid_x						= 4
 cost							= 25820
 inv_weight						= 1.4
 
-3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 radiation_protection			= 0.0310
 chemical_burn_protection		= 0.091
@@ -560,7 +598,7 @@ control_inertion_factor			= 2
 
 helmet_type						= basic ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_us ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay						= liz\3d_overlays\bc_bs_us ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection					= 0.023
 shock_protection				= 0.099
@@ -585,26 +623,39 @@ wound_immunity					= 0.0
 
 ;--------------------------------------------------------------------------
 
-[helm_tactic_23m]:helm_tactic
+[helm_tactic_23m]:tch_helmet
 $spawn						= "outfit\helm_s23m"
+class						= E_HLMET
+visual						= dynamics\outfit\helm_tactic
 
-inv_name					= st_helm_s23m
-inv_name_short				= st_helm_s23m
-description					= st_helm_s23m_descr
+inv_name					= st_helm_tactic_23m
+inv_name_short				= st_helm_tactic_23m
+description					= st_helm_tactic_23m_descr
 inv_grid_x					= 80
 inv_grid_y					= 14
 upgr_icon_x					= 716
 upgr_icon_y					= 824
 upgr_icon_width				= 198
 upgr_icon_height			= 129
+upgrades					= up_gr_firstab_helm_resp_4
+upgrade_scheme				= up_scheme_helm_resp_4
 
+kind						= o_helmet
 cost						= 16400
 inv_weight					= 1.89
+additional_inventory_weight	= 0
+additional_inventory_weight2= 0
+immunities_sect				= sect_helm_tactic_immunities
+repair_type					= helmet
 ;repair_part_bonus			= 0.17
+hit_fraction_actor			= 0.7
+bones_koeff_protection		= actor_helm_tactic
+control_inertion_factor		= 1
+power_loss					= 0.1
 
 helmet_type					= medium ; helmet restriction compatibility
 
-3d_overlay						= liz\3d_overlays\bc_bs_us_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
+; 3d_overlay					= liz\3d_overlays\bc_bs_us_uc ; Random Pile of Addons's 3D Mask Overlay compatibility
 
 burn_protection				= 0.010
 shock_protection			= 0.15

@@ -2,10 +2,11 @@
 <string_table>
 
 	<string id="st_wpn_garand">
-		<text>M1 Garand</text>
+		<text>M1 Garand Mod 1</text>
 	</string>
 	<string id="st_wpn_garand_descr">
-		<text>The M1 Garand or M1 rifle is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War. The rifle is chambered for the .30-06 Springfield cartridge, however this model have been converted to use 7.62x51mm NATO. It was the first standard-issue autoloading rifle for the United States. By most accounts, the M1 rifle performed well. General George S. Patton called it "the greatest battle implement ever devised". The M1 replaced the (bolt-action) M1903 Springfield as the U.S. service rifle in 1936, and was itself replaced by the (selective-fire) M14 rifle on 26 March 1958.</text>
+		<text>The M1 Garand or M1 rifle is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War. It was the first standard-issue autoloading rifle for the United States. By most accounts, the M1 rifle performed well. General George S. Patton called it "the greatest battle implement ever devised". The M1 replaced the (bolt-action) M1903 Springfield as the U.S. service rifle in 1936, and was itself replaced by the (selective-fire) M14 rifle on 26 March 1958.\n
+		The M1 rifle was chambered in .30-06 Springfield round (7.62x63mm), which was standard cartridge back then, but the U.S. Navy rechambered it for the 7.62?51mm NATO round. The Mod 1 model fixed issues the previous Mod 0 had with the barrel, and added a piece of plastic to make sure the user didn't put the original 30-06 cartridge in the gun.</text>
 	</string>
 
 	<string id="st_addon_sil_garand">

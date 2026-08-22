@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_grach_descr">
+		<text>The MP-443 is a short recoil operated, locked breech pistol that was developed for the Russian Army trials, codenamed "Grach" (rook). These trials were started by issuing initial requirements for a new military pistol in 1993. Several designs were submitted to the trials and the winner was the pistol designed at the state Izhevsk Mechanical Plant by Vladimir Yarygin. This pistol, initially known as the 6P35 military index during trials or the MP-443 "Grach" manufacturer's designation, is adopted by the Russian Government for military and law enforcement use under the PYa designation, and already issued to some Russian Army units. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor</text>
+	</string>
+
+	<string id="st_wpn_grach_stx">
+		<text>MP-443 Grach "STX" (camouflaged)</text>
+	</string>
+	<string id="st_wpn_grach_stx_descr">
+		<text>The MP-443 is a short recoil operated, locked breech pistol that was developed for the Russian Army trials, codenamed "Grach" (rook). These trials were started by issuing initial requirements for a new military pistol in 1993. Several designs were submitted to the trials and the winner was the pistol designed at the state Izhevsk Mechanical Plant by Vladimir Yarygin. This pistol, initially known as the 6P35 military index during trials or the MP-443 "Grach" manufacturer's designation, is adopted by the Russian Government for military and law enforcement use under the PYa designation, and already issued to some Russian Army units. \n
+		This unique variant of the MP-443 is painted in a "MVD Gorod" camo pattern and was found in a secret cache located in an appartment in Pripyat. Rumours said it belonged to a Stalker named "Semtex". \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor</text>
+	</string>
+
+</string_table>

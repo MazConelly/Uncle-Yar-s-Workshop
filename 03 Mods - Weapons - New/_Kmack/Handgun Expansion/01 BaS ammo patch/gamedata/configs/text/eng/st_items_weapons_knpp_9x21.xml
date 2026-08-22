@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_walther_pdp_9x21">
+		<text>Walther PDP - 9x21</text>
+	</string>
+	<string id="st_wpn_walther_pdp_9x21_descr">
+		<text>The Walther PDP, a modern German sidearm known for its precision and ergonomics, found its way into the Zone through black market arms deals catering to mercenaries and well-equipped stalkers seeking reliable firepower.\n
+		This particular model is chambered for 9x21mm.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 9x21mm compatible suppressor</text>
+	</string>
+
+	<string id="st_wpn_walther_ppq5_9x21">
+		<text>Walther PPQ Q5 Match - 9x21</text>
+	</string>
+	<string id="st_wpn_walther_ppq5_9x21_descr">
+		<text>The Walther PPQ Q5 Match is a precision-engineered 9mm competition pistol known for its excellent ergonomics, crisp trigger, and accuracy. It likely found its way into the Zone through military or private contractor use, black market trade, or as part of experimental loadouts tested in the lawless and dangerous environment of the Zone.\n
+		This particular model is chambered for 9x21mm.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 9x21mm compatible suppressor</text>
+	</string>
+
+</string_table>

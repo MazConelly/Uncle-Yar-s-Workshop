@@ -37,6 +37,10 @@ Disable 3D scopes
 DLTX conversion of kda2495's addon. It will force the use of 2D scoping textures for PKA scopes and those weapons with integrated PIP scopes: AK5C with ISG kit, AUG 1 and custom, and SCAR-H Specialist Operator.
 Use this if PIP scopes cause performance drops for you, or to avoid seeing certain weapons using those jump like crazy when shooting.
 
+Proper 2D binoc DDS texture
+Bas includes its own texture for using (aiming) the binoculars, but it's a .PNG file hidden behind a .dds extension.
+This resaves it as a proper .dds texture.
+
 Knife skinning monkey patch
 The vanilla item_knife.script file works out skinning, and it has a list of knives that can skin mutants, and another about which mutants are too hard for weak knifes. BaS has a copy including its knifes.
 If another mod includes its own copy, you may not be able to use the BaS knifes anymore.

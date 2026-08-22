@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_colt_357">
+		<text>Colt 1911 .357 Magazine</text>
+	</string>
+	<string id="st_mag_colt_357_descr">
+		<text>Magazine for the Colt "Long Barrel" Chambered in .357, houses 10 rounds.</text>
+	</string>
+
+</string_table>

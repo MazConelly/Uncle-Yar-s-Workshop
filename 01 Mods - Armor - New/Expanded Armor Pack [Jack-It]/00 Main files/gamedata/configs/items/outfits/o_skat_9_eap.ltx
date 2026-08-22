@@ -1,28 +1,45 @@
-[military_loner_strider_outfit]:military_outfit, outfit_restrictions_1
+[military_loner_strider_outfit]:outfit_base, outfit_restrictions_1
 $spawn							= outfit\military_loner_strider_outfit
+class							= EQU_STLK
+ef_equipment_type				= 4
+visual							= dynamics\outfit\military_outfit
 actor_visual					= actors\stalker_neutral\military_loner_strider_outfit.ogf
 npc_visual						= actors\stalker_neutral\military_loner_strider_outfit.ogf
+player_hud_section				= actor_hud_military_skat9
 character_portrait				= ui_inGame2_neutral_2
-inv_name						= st_military_loner_name
-inv_name_short					= st_military_loner_name
-description						= st_military_loner_description
+full_icon_name					= npc_icon_military_outfit
+full_scale_icon					= 10, 6
 
+inv_name						= st_military_loner_name
+inv_name_short					= st_military_loner_name_s
+description						= st_military_loner_description
 icons_texture					= ui\ui_icon_eap
 inv_grid_width					= 2
 inv_grid_height					= 3
 inv_grid_x						= 2
 inv_grid_y						= 3
+upgr_icon_x						= 643
+upgr_icon_y						= 348
+upgr_icon_width					= 288
+upgr_icon_height				= 155
 upgrades						= up_gr_firstab_lonerpack_1, up_gr_seconab_lonerpack_1, up_gr_thirdab_lonerpack_1, up_gr_fourtab_lonerpack_1
+installed_upgrades				=
 upgrade_scheme					= up_scheme_seva_1
 
 community						= stalker
+kind							= o_heavy
 cost							= 66820
 inv_weight						= 17.18
 additional_inventory_weight		= 25
 additional_inventory_weight2	= 25
+artefact_count					= 0
 immunities_sect					= sect_military_outfit_immunities
+repair_type						= outfit_heavy
+;repair_part_bonus				= 0.27
 hit_fraction_actor				= 0.4
 bones_koeff_protection			= actor_armor_skat_respirator
+control_inertion_factor			= 1.54
+power_loss						= 0.05
 
 burn_protection					= 0.3
 shock_protection				= 1.1
@@ -30,25 +47,53 @@ radiation_protection			= 0.021
 chemical_burn_protection		= 0.05
 telepatic_protection			= 0.1
 strike_protection				= 0.45
+explosion_protection			= 0.70
+wound_protection				= 0.43
+fire_wound_protection			= 0.38
 
-[military_loner_knife_outfit]:military_outfit, outfit_restrictions_1
+[military_loner_knife_outfit]:outfit_base,outfit_restrictions_1
 $spawn							= outfit\military_loner_knife_outfit
+class							= EQU_STLK
+ef_equipment_type				= 4
+visual							= dynamics\outfit\military_outfit
 actor_visual					= actors\stalker_neutral\military_loner_knife_outfit.ogf
 npc_visual						= actors\stalker_neutral\military_loner_knife_outfit.ogf
-inv_name						= st_military_loner2_name
-inv_name_short					= st_military_loner2_name
-description						= st_military_loner2_description
+player_hud_section				= actor_hud_military_skat9
+character_portrait				= ui_inGame2_Soldier_4
+full_icon_name					= npc_icon_military_outfit
+full_scale_icon					= 10, 6
 
+inv_name						= st_military_loner2_name
+inv_name_short					= st_military_loner2_name_s
+description						= st_military_loner2_description
 icons_texture					= ui\ui_icon_eap
 inv_grid_width					= 2
 inv_grid_height					= 3
 inv_grid_x						= 4
 inv_grid_y						= 3
+upgr_icon_x						= 643
+upgr_icon_y						= 348
+upgr_icon_width					= 288
+upgr_icon_height				= 155
+upgrades						= up_gr_firstab_skat_1, up_gr_seconab_skat_1, up_gr_thirdab_skat_1, up_gr_fourtab_skat_1
+; upgrades						= up_gr_firstab_lonerpack_1, up_gr_seconab_lonerpack_1, up_gr_thirdab_lonerpack_1, up_gr_fourtab_lonerpack_1
+installed_upgrades				=
+upgrade_scheme					= up_scheme_skat_1
+; upgrade_scheme					= up_scheme_seva_1
 
 community						= stalker
+kind							= o_heavy
 cost							= 98220
 inv_weight						= 22.87
+additional_inventory_weight		= 15
+additional_inventory_weight2	= 15
+artefact_count					= 0
+immunities_sect					= sect_military_outfit_immunities
+repair_type						= outfit_heavy
+;repair_part_bonus				= 0.27
+hit_fraction_actor				= 0.25
 bones_koeff_protection			= actor_armor_skat_battlehelm
+control_inertion_factor			= 1.54
 power_loss						= 0.06
 npc_blindness_koeff				= 15
 

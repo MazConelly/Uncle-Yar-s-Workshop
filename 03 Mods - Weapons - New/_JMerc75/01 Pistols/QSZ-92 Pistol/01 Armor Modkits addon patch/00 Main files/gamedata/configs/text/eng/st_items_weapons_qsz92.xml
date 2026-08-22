@@ -6,25 +6,23 @@
 	<string id="st_wpn_qsz92_descr">
 		<text>
 		The QSZ-92, is a recoil-operated, locked-breech semi-automatic pistol designed by the Chinese Norinco for the People's Liberation Army's, with development beggining in 1992 and adopted in 1998. It has two main variants: QSZ-92-9 for 9x19mm, and QSZ-92-5.8 for the Chinese-made 5.8x21mm AP rounds, similar to the Belgian 5.7x28mm.\n
-		Both variants have been in use by the PLA, People's Armed Police and the People's Police as one of their standard sidearms. Different variants, particularly the CF-98 export version, have been seen, adopted, and licensed abroad from Hong Kong, Iraq, and Bangladesh, to Africa. And due to the cheap nature of it's manufacture process, it was able to flood the Zone at a low price.\n
+		Both variants have been in use by the PLA, People's Armed Police and the People's Police as one of their standard sidearms. Different variants, particularly the CF-98 export version, have been seen, adopted, and licensed abroad from Hong Kong, Iraq, and Bangladesh, to Africa. And due to the cheap nature of it's manufacture process, it was able to flood the Zone at a low price.\n\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] - %c[ui_gray_2] 9mm Suppressor\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
 		%c[d_purple] • %c[ui_gray_2] Gunsmith weapon mod kit</text>
 	</string>
 
-
-	<string id="st_wpn_qsz92">
+	<string id="st_wpn_qsz92_57">
 		<text>QSZ-92 - 5.7x28</text>
 	</string>
-	<string id="st_wpn_qsz92_s">
+	<string id="st_wpn_qsz92_57_s">
 		<text>QSZ-92 5.7</text>
 	</string>
-	<string id="st_wpn_qsz92_descr">
-		<text>
-		The QSZ-92, is a recoil-operated, locked-breech semi-automatic pistol designed by the Chinese Norinco for the People's Liberation Army's, with development beggining in 1992 and adopted in 1998. It has two main variants: QSZ-92-9 for 9x19mm, and QSZ-92-5.8 for the Chinese-made 5.8x21mm AP rounds, similar to the Belgian 5.7x28mm.\n
+	<string id="st_wpn_qsz92_57_descr">
+		<text>The QSZ-92, is a recoil-operated, locked-breech semi-automatic pistol designed by the Chinese Norinco for the People's Liberation Army's, with development beggining in 1992 and adopted in 1998. It has two main variants: QSZ-92-9 for 9x19mm, and QSZ-92-5.8 for the Chinese-made 5.8x21mm AP rounds, similar to the Belgian 5.7x28mm.\n
 		Both variants have been in use by the PLA, People's Armed Police and the People's Police as one of their standard sidearms. Different variants, particularly the CF-98 export version, have been seen, adopted, and licensed abroad from Hong Kong, Iraq, and Bangladesh, to Africa. And due to the cheap nature of it's manufacture process, it was able to flood the Zone at a low price.\n
-		Considering the similarity of the 5.8x21 and 5.7x28 rounds, this conversion is not that wild of an idea if you want some anti-armor capability. But given this was not a planned design of the handgun, you should expect it to deteriorate faster than normal. Somewhere, a Norico engineer laughs at your hubris.\n
+		Considering the similarity of the 5.8x21 and 5.7x28 rounds, this conversion is not that wild of an idea if you want some anti-armor capability. But given this was not a planned design of the handgun, you should expect it to deteriorate faster than normal. Somewhere, a Norico engineer laughs at your hubris.\n\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] - %c[ui_gray_2] 5.7x28mm compatible Suppressor\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS:\n

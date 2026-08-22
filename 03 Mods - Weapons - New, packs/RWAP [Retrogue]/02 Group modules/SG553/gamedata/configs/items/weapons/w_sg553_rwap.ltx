@@ -2,10 +2,11 @@
 GroupControlSection			= spawn_group
 $npc						= on
 $prefetch					= 8
-$spawn						= "weapons\ak-74"
+$spawn						= "weapons\sg553_rwap"
 scheduled					= off
 cform						= skeleton
 parent_section				= wpn_sg553_rwap
+
 class						= WP_AK74
 slot						= 2
 animation_slot				= 2
@@ -16,10 +17,10 @@ single_handed				= 0
 default_to_ruck				= false
 sprint_allowed				= true
 
-icons_texture				= ui\rwapar_weapon_icons
+icons_texture				= ui\ui_icons_rwap_sg553
 inv_grid_height				= 2
 inv_grid_width				= 5
-inv_grid_x					= 5
+inv_grid_x					= 0
 inv_grid_y					= 0
 
 inv_name					= st_wpn_sg553rsbr
@@ -787,10 +788,11 @@ aim_hud_offset_alt_rot_16x9	= 0.000923, 0.013963, 0.558621
 ;---------------------------------------------------------------------
 ;---------------------------------------------------------------------
 [wpn_sg553tac_rwap]:wpn_sg553_rwap
+$spawn			= "weapons\sg553tac_rwap"
 parent_section	= wpn_sg553tac_rwap
 
-inv_grid_x		= 0
-inv_grid_y		= 34
+inv_grid_x		= 5
+inv_grid_y		= 0
 
 inv_name		= st_wpn_sg553rsbrtac
 inv_name_short	= st_wpn_sg553rsbrtac_s

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_rpk_7.62x39_drum_75">
+		<text>75-round 7.62x39 RPK Drum Magazine</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_75_descr">
+		<text>75-round 7.62x39 RPK drum magazine. Heavy and impractical, but very fun.</text>
+	</string>
+
+    <string id="st_mag_rpk_5.56x45_drum_75">
+		<text>75-round 5.45x39 RPK Drum Magazine</text>
+	</string>
+	<string id="st_mag_rpk_5.56x45_drum_75_descr">
+		<text>Modified 75-round RPK drum magazine to accept 5.45x39. Heavy and impractical, but very fun.</text>
+	</string>
+
+</string_table>

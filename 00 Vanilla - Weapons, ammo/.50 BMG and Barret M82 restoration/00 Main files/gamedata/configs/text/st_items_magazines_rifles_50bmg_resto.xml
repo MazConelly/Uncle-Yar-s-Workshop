@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_mag_m82_12.7x55">
+		<text>10-round .50 BGM M82 Magazine</text>
+	</string>
+	<string id="st_mag_m82_12.7x55_descr">
+		<text>10-round magazine chambered for .50 BGM for the Barrett M82 rifle. The first stalker to bring such a monster of a weapon discarded it after running out of ammunition. Perhaps a lesson for prospective users.</text>
+	</string>
+</string_table>

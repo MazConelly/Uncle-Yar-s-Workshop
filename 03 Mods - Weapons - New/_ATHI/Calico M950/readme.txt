@@ -4,7 +4,7 @@ Calico M950 [ATHI]
 ----------------------------------------------------------
 -Compatibility:
 
-NOTE: You still need the original mod. Let this overwrite it.
+NOTE: You still need the original mod. Disable its configs folder.
 
 ----------------------------------------------------------
 -Explanation:

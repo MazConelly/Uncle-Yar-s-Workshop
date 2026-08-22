@@ -61,22 +61,13 @@ Weapon Parts Overhaul
 
 The Compensator, Non-BaS and 0.4 HUD patches in the original mod have been recreated.
 
-
-Mags Redux - Glocked Kriss mags
-The mod's original MR support is actually a set of Kriss Vector magazines, due to MR only having one standard Glock based magazine.
-However, this set of magazines are coded as being "kriss" base type. Issue being that if you don't have any mod adding a Kriss Vector in 9x19 or .45 ACP, they're just bloat only used for the RONI.
-And I understand Kriss Vector systems use the Glock magazine design. Of the two Kriss mods in Moddb, Lewdnatic's use the UMP45's mag base type, and Yukiz *HOW MANY MATERIALS DO THE MODELS HAVE?* forget about Yukiz. OK well, it uses the same files as this.
-This version of the patch changes the base type of the mags to Glock both for 9x19 and 45 ACP, and assigns those types to the RONI carbines and the various Kriss Vectors around (Lewdnatic's, Yukiz's, Nullpath_01's).
-This way, the RONI carbines will be allowed to use any other Glock based magazines around, and any Glock based weapons to use these mags.
-
-
 Misc. Weapon Pack + Hisalute's Packs - Fixes and Tweaks
-Requires both of "00 Main files - Glock 18" and "02 RONI" folders. Currently only compatible 
+Requires both of "00 Main files - Glock 18" and "02 RONI" folders.
 This patch will have MWP's Glock 18C use this mod's model, and its own version of the RONI carbine.
 The 18C has an advantage over the 18 in fire rate, muzzle velocity, recoil control, and expanded magazine. Its rarity won't be touched, but the carbine will be a little more hard to find.
 It will also use the PPP Sig 320 upgrade as Pillii's Glock 18 does, so it's not recommended to apply this patch in a current save with a Glock 18C already upgraded.
 The Compensator option won't cover it, as the 18C already has an integrated one (the C stands for Compensated, yadda yadda).
-NOTE 1: Currently only compatible with "Hisalute's Packs - Fixes and Tweaks" at the moment. Make sure to pick the Glock 18C module.
+NOTE 1: Currently only compatible with "Hisalute's Packs Repacked" at the moment. Make sure to pick the Glock 18C module.
 NOTE 2: Despite the increased ammo load, the model will still use the normal 17 rounds magazine. I'm attempting to fix this inconsistency, but I'm not having much success with the animation working correctly.
 
 ----------------------------------------------------------

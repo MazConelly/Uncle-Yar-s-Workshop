@@ -14,11 +14,4 @@
 		%c[d_purple] Х %c[ui_gray_2] глушитель .57\n \n</text>
     </string>
 
-	<string id="st_mag_p90_5.7x28_extended">
-		<text>Extended 5.7x28 P90 Magazine</text>
-	</string>
-	<string id="st_mag_p90_5.7x28_extended_descr">
-		<text>Extended 70-round helical magazine used in the P90. Slightly bulkier than the standard magazine, but still fits in the limited space of the P90.</text>
-	</string>
-
 </string_table>

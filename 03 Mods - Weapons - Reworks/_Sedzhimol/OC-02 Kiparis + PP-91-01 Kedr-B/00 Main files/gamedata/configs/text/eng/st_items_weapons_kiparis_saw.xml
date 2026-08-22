@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_kiparis_saw">
+		<text>OTs-02 Kiparis "Saw"</text>
+	</string>
+	<string id="st_wpn_kiparis_saw_descr">
+		<text>A special modification for the southern frontiers of Duty. Ideal for clearing areas of packs of small mutants and engaging lightly armored enemies.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] The weapon is equipped with: a Picatinny rail for small-sized optics, a tactical foregrip, and a laser designator. Comes with multiple 50-round drum magazines.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog and Red Dot Sights for Picatinny
+		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm suppressor (The package includes a thermal case for the suppressor)</text>
+	</string>
+
+	<string id="st_mag_kiparis_9x18_drum_50">
+		<text>50-round 9x18 Kiparis Drum</text>
+	</string>
+	<string id="st_mag_kiparis_9x18_drum_50_descr">
+		<text>Drum 9x18 Kiparis Magazine with a capacity of 50 rounds.</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_drum_50">
+		<text>50-round 9x19 Kiparis Drum</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_drum_50_descr">
+		<text>Drum 9x19 Kiparis Magazine with a capacity of 50 rounds.</text>
+	</string>
+
+</string_table>

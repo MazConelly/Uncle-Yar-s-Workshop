@@ -32,10 +32,6 @@ Weapon Parts Overhaul
 Boomsticks and Sharpsticks
 Cleaned up files to use the BaS scopes.
 
-Mags Redux Standalone
-If you don't want the weapon (say because you don't want bloat in your game), this will add the extended P90 mag in the mod and nothing more.
-They're not assigned to guns carried by NPCs, and must be bought.
-
 Luna's Master Disassembly List and Parts Fix
 Assigns Luna's 5.7x28mm barrel.
 

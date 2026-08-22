@@ -25,9 +25,5 @@ Weapon Parts Overhaul
 Sound performance patch
 This will reduce the number of sound layers used, in case shooting the gun cause a performance drop for you.
 
-2D Scope Overhaul [Iront_Mesdents]
-Requested by Rambito.
-It observes the PU scope changes by 2DSO, an assigns a proper aiming texture to the guns.
-
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_overlylarge_sks_75_762x39_drum">
+		<text>Cargador de tambor de 75 cartuchos 7,62x39 para SCAR</text>
+	</string>
+	<string id="st_mag_sks_7.62x39_drum_descr">
+		<text>El cargador de acero pavonado de 75 cartuchos estб diseсado para su uso con las carabinas SKS que aceptan cargadores externos.</text>
+	</string>
+		
+	<string id="st_mag_sks_7.62x54_drum">
+		<text>Cargador de tambor de 75 cartuchos para la SKS 7.62x54</text>
+	</string>
+	<string id="st_mag_sks_7.62x54_drum_descr">
+		<text>El cargador recargado de 75 cartuchos de acero pavonado estб diseсado para su uso con las carabinas SKS que aceptan cargadores externos.</text>
+	</string>
+
+</string_table>

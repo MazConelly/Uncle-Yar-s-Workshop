@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_rem7615">
+		<text>Remington 7615</text>
+	</string>
+	<string id="st_wpn_rem7615_descr">
+		<text>Remington Model 7600 - это серия помповых ружей производства Remington Arms. Модель 7600 является продолжением оригинальной помповой винтовки Model 760, которую Remington выпускала с 1952 по 1981 год. Модель 7615P выпускается в 223-м калибре Remington, использует стандартные магазины STANAG в стиле M16/AR-15 и имеет ствол диаметром 16,5 дюйма. Как и модель 7600P, 7615P разработана как малозаметное и удобное в использовании огнестрельное оружие для сотрудников полиции, которое можно использовать вместе с дробовиком Remington Model 870. \n \n
+		%c[ui_gray_2]Аддоны: \n
+		%c[d_purple] - %c[ui_gray_2] Большинство прицелов для системы Picatinny/Weaver. \n \n</text>
+	</string>
+</string_table>

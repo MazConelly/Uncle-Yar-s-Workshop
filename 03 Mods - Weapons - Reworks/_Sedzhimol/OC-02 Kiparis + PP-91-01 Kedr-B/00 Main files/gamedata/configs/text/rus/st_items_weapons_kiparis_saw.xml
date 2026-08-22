@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_kiparis_saw">
+		<text>ОЦ-02 "Пила"</text>
+	</string>
+	<string id="st_wpn_kiparis_saw_descr">
+		<text>Специальная модификация для южных рубежей «Долга». Идеальна для зачистки территорий от стай мелких тварей и борьбы с легкобронированными противниками.\n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+	    %c[d_purple] • %c[ui_gray_2] На оружие установлены: планка пикатини для крепления некоторых небольших прицелов, передняя тактическая рукоять, лазерный целеуказатель. В комплекте несколько барабанных магазинов на 50 патрон.\n 		
+		%c[d_purple] • %c[ui_gray_2] прицелы: Trijicon Acog, все коллиматорные для пикатинни, кроме прицелов с длинным креплением.\n
+		%c[d_purple] • %c[ui_gray_2] глушитель: Глушитель 9мм(В комплекте идет термочехол для глушителя)\n</text>
+	</string>
+
+	<string id="st_mag_kiparis_9x18_drum_50">
+		<text>50-round 9x18 Kiparis Drum</text>
+	</string>
+	<string id="st_mag_kiparis_9x18_drum_50_descr">
+		<text>Drum 9x18 Kiparis Magazine with a capacity of 50 rounds.</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_drum_50">
+		<text>50-round 9x19 Kiparis Drum</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_drum_50_descr">
+		<text>Drum 9x19 Kiparis Magazine with a capacity of 50 rounds.</text>
+	</string>
+
+</string_table>

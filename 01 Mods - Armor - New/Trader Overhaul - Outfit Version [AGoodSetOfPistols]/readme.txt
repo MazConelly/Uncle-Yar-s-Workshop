@@ -32,3 +32,5 @@ Recreated a patch originally included in New High End Outfits, adapted as needed
 
 ----------------------------------------------------------
 -Known issues:
+
+At the moment, the outfits lack models. This means they cannot be assigned their own NPC protection or be added to the loot table.

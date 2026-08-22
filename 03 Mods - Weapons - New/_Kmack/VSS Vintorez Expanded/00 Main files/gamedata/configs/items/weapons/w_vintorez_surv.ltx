@@ -278,7 +278,7 @@ ts_strict_aim2sprint	= anm_idle_aim, anm_idle_sprint, anm_walk2sprint
 ts_strict_sprint2inspect		= anm_idle_sprint, anm_bore, anm_sprint2walk
 ts_strict_walk2sprint_inspect	= anm_walk2sprint, anm_bore, anm_sprint2walk
 
-; ts_pattern_reload_interrupt		= anm_add_cartridge, ^anm_idle.*, anm_close	
+; ts_pattern_reload_interrupt		= anm_add_cartridge, ^anm_idle.*, anm_close
 ; ts_pattern_reload_empty_interrupt	= anm_add_cartridge_empty, ^anm_idle.*, anm_close
 
 ;firebone	stuff
@@ -287,14 +287,14 @@ fire_point	= 0, 0, 0
 
 ;------------------------------------------------------------------------------------------------
 [wpn_vintorez_surv_1p29]:wpn_vintorez_surv
+hud				= wpn_vintorez_surv_1p29_hud
+visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
+
 1icon_layer		= 1p29
 1icon_layer_x	= 68
 1icon_layer_y	= 5
 
 inv_weight		= 3.41
-
-hud				= wpn_vintorez_surv_1p29_hud
-visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_1p29
@@ -318,14 +318,14 @@ aim_hud_offset_alt_rot_16x9	= 0.000213, -0.021603, 0
 anm_reload_empty	= vss_new_reload_empty_scope, reload_empty_scope
 ;------------------------------------------------------------------------------------------------
 [wpn_vintorez_surv_kobra]:wpn_vintorez_surv
+hud				= wpn_vintorez_surv_kobra_hud
+visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
+
 1icon_layer		= kobra
 1icon_layer_x	= 79
 1icon_layer_y	= 8
 
 inv_weight		= 2.98
-
-hud				= wpn_vintorez_surv_kobra_hud
-visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
 
 scope_status		= 0
 scope_dynamic_zoom	= off
@@ -344,13 +344,13 @@ aim_hud_offset_rot		= 0.012212, -0.024784, 0
 aim_hud_offset_rot_16x9	= 0.012212, -0.024784, 0
 ;------------------------------------------------------------------------------------------------
 [wpn_vintorez_surv_ps01]:wpn_vintorez_surv
+hud				= wpn_vintorez_surv_ps01_hud
+
 1icon_layer		= ps01
 1icon_layer_x	= 56
 1icon_layer_y	= 7
 
 inv_weight		= 3.22
-
-hud				= wpn_vintorez_surv_ps01_hud
 
 scope_status		= 1
 scope_dynamic_zoom	= on
@@ -436,14 +436,14 @@ aim_hud_offset_alt_rot_16x9	= 0.000213, -0.021603, 0
 ;-------------------------------New	Optics-------------------------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_vintorez_surv_okp]:wpn_vintorez_surv
+hud				= wpn_vintorez_surv_okp_hud
+visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
+
 1icon_layer		= okp
 1icon_layer_x	= 79
 1icon_layer_y	= 8
 
 inv_weight		= 2.98
-
-hud				= wpn_vintorez_surv_okp_hud
-visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
 
 scope_status		= 0
 scope_dynamic_zoom	= off
@@ -462,15 +462,14 @@ aim_hud_offset_rot		= 0.012212, -0.024784, 0
 aim_hud_offset_rot_16x9	= 0.012212, -0.024784, 0
 ;--------------------------------------------------------------------------------------------
 [wpn_vintorez_surv_1pn93]:wpn_vintorez_surv
-inv_weight		= 4.02
-
 hud				= wpn_vintorez_surv_1pn93_hud
+visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
+
+inv_weight		= 4.02
 
 1icon_layer		= 1pn93
 1icon_layer_x	= 54
 1icon_layer_y	= -4
-
-visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
 
 nv_scope_status	= 1
 
@@ -505,19 +504,19 @@ aim_hud_offset_pos_16x9	= -0.0811, 0.0112, -0.11
 aim_hud_offset_rot		= 0.004, 0.016, 0
 aim_hud_offset_rot_16x9	= 0.004, 0.016, 0
 ;--------------------------------------------------------------------------------------------
-[wpn_vintorez_surv_usp1]:wpn_vintorez_surv																	
+[wpn_vintorez_surv_usp1]:wpn_vintorez_surv
+hud				= wpn_vintorez_surv_usp1_hud
+visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
+
 1icon_layer		= usp1
 1icon_layer_x	= 68
 1icon_layer_y	= 0
 
 inv_weight		= 3.900
 
-hud				= wpn_vintorez_surv_usp1_hud
-visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
-
 scope_status		= 1
 scope_dynamic_zoom	= off
-scope_texture		= 
+scope_texture		= wpn_crosshair_1p29
 scope_zoom_factor	= 25
 
 [wpn_vintorez_surv_usp1_hud]:wpn_vintorez_surv_hud
@@ -534,18 +533,17 @@ aim_hud_offset_alt_rot		= -0.002, 0.04, 0.78
 aim_hud_offset_alt_rot_16x9	= -0.002, 0.04, 0.78
 ; ------------------------------------------------------------------------------------
 [wpn_vintorez_surv_pso2]:wpn_vintorez_surv
-inv_weight		= 3.7
-
 hud				= wpn_vintorez_surv_pso2_hud
+visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
+
+inv_weight		= 3.7
 
 1icon_layer		= pso2
 1icon_layer_x	= 56
 1icon_layer_y	= -2
 
-visual			= dynamics\weapons\wpn_k_vintorez\wpn_k_vintorez.ogf
-
 scope_status		= 1
-scope_texture		= wpn_crosshair_pso2_vss
+scope_texture		= wpn_crosshair_pso1
 scope_zoom_factor	= 25
 
 ;I Have no Idea if the below works in Anomaly

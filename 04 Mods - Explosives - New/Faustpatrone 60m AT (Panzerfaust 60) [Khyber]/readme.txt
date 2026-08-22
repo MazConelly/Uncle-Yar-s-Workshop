@@ -18,6 +18,9 @@ Added default actor effects. Basically the same as the M79.
 Original PDA Interactive integration classified the Panzerfaust under "ammo". Moved under "explosives". Do tell if you disagree with this change.
 
 Integration into:
+AlifePlus. This support is experimental.
+	With AP, veterans are expected to trade grenades, buying one and selling excedents of 3, but rookies won't trade them in either way.
+	With the Faustpatrone, I've set it so rookies are the ones to buy, and veterans only sell it.
 Enhanced Recoil - Gold Edition
 GBOOBS
 Grok's Stash Overhaul

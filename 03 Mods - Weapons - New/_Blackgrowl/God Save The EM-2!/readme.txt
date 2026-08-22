@@ -17,6 +17,7 @@ Integrated into:
 FireModeCheck
 Lootboxes
 PDA Interactive
+Shader Based 2D Scopes
 Weapon Parts Overhaul
 
 Given the intended rarity, Grok's Stash Overhaul support seemed too much. Lootbox chance is very rare, and PDA Interactive ordering is unreliable.

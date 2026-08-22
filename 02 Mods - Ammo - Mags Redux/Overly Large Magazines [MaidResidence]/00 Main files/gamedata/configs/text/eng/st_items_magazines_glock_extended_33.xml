@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_glock_9x19_extended_33">
+		<text>Extended 9x19 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_9x19_extended_33_descr">
+		<text>Extended Glock magazine compatible with all standard 9x19mm Glock variants. Offers enhanced 33-round capacity over default Glock magazines, originally intended for the Glock 18 machine pistol variants. Made in Austria.</text>
+	</string>
+
+	<string id="st_mag_glock_9x18_extended_33">
+		<text>Modified Extended 9x18 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_9x18_extended_33_descr">
+		<text>Extended Glock magazine compatible with all Zone modified 9x18mm Glock variants. Offers enhanced 33-round capacity over default Glock magazines, originally intended for the Glock 18 machine pistol variants. Made in Austria.</text>
+	</string>
+
+</string_table>

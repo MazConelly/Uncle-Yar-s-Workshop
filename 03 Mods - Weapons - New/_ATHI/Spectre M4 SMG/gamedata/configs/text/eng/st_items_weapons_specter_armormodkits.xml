@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_spectre_descr">
+		<text>The Spectre M4 is a 9x19mm submachine gun developed in 1980s by Italian manufacturer SITES for use by counter-terrorist and police units. It has a compact design which makes it similar to the kiparis or MP5K and a high rate of fire. In The Zone, Spectre submachine guns are well liked for their great handling, low weight and compact size, making it a very good weapon for scavengers and artifact hunters who don't need a fighting weapon, and just want something light to carry on them for personal defense from mutants and bandits at close range.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+</string_table>

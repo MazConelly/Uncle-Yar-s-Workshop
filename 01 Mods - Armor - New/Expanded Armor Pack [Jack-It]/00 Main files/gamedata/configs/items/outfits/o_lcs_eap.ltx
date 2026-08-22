@@ -1,10 +1,17 @@
-[isg_lcs_operator_outfit]:isg_lcs_urban_outfit,outfit_restrictions_1
+[isg_lcs_operator_outfit]:outfit_base,outfit_restrictions_1
 $spawn							= outfit\isg_lcs_operator_outfit
+class							= EQU_STLK
+ef_equipment_type				= 3
+visual							= dynamics\outfit\isg_outfit
 actor_visual					= actors\stalker_isg\isg_lcs_operator_outfit.ogf
 npc_visual						= actors\stalker_isg\isg_lcs_operator_outfit.ogf
+player_hud_section				= actor_hud_isg_suit
+character_portrait				= ui_inGame2_merc_2
+full_icon_name					= npc_icon_exo_outfit
+full_scale_icon					= 2, 11
 
 inv_name						= st_isg_lcs_operator_outfit_name
-inv_name_short					= st_isg_lcs_operator_outfit_name
+inv_name_short					= st_isg_lcs_operator_outfit_name_s
 description						= st_isg_lcs_operator_outfit_description
 icons_texture					= ui\ui_icon_eap
 inv_grid_width					= 2
@@ -12,17 +19,27 @@ inv_grid_height					= 3
 inv_grid_x						= 4
 inv_grid_y						= 6
 upgr_icon_x						= 0
+upgr_icon_y						= 1099
+upgr_icon_width					= 301
+upgr_icon_height				= 141
 upgrades						= up_gr_firstab_lonerpack_1, up_gr_seconab_lonerpack_1, up_gr_thirdab_lonerpack_1, up_gr_fourtab_lonerpack_1
+installed_upgrades				=
+upgrade_scheme					= up_scheme_lcs_1
 
+community						= isg
+kind							= o_medium
 cost							= 70700
 inv_weight						= 18
 additional_inventory_weight		= 25
 additional_inventory_weight2	= 25
 artefact_count					= 3
 immunities_sect					= sect_isg_lcs_operator_outfit_immunities
+repair_type						= outfit_medium
+;repair_part_bonus				= 0.23
 hit_fraction_actor				= 0.4
 bones_koeff_protection			= actor_armor_lcs_operator
 control_inertion_factor			= 1.54
+power_loss						= 0.05
 npc_blindness_koeff				= 20
 
 burn_protection				= 0.0767 ; 0.0327+0.044

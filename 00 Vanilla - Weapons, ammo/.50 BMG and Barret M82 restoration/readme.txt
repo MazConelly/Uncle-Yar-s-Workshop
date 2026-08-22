@@ -26,7 +26,7 @@ The following mod weapons are covered by the same changes:
 	-Sedzhimol's Gepard Model 6
 
 You can loot the ammo from corpses, but do note that it remains highly scarce and it's not added to stashes, dynamic item spawns, or rewards. All this makes using the M82 a more difficult and focused task. It's overkill for the Zone after all.
-That said, files have been made to integrate it into those systems. They're just disabled, as I'm unsure of how they'll affect the balance.
+That said, files have been made to integrate it into those systems. They're just disabled, as I'm wary of how they'll affect the balance.
 If you want to enable them, go to gamedata/configs/items/settings, and remove the .mohidden extension from the filename of these files:
 
 mod_dynamic_item_spawn_ammo50bgmresto.ltx.mohidden
@@ -44,13 +44,17 @@ PDA Interactive
 ----------------------------------------------------------
 -Patches:
 
-Arti's Ballistics patch
-The AP ammo is also craftable and added to traders at very high goodwill, with AB's new descriptions applied properly.
-I left AB to set the stats, as I assume there's a game plan there. I may be wrong and the work it's simply incomplete; I'm not a ballistics guy, so feel free to mention anything that should be changed.
-
 Barrel part
 Adds a .50 BMG barrel part, and assigns it to all covered weapons.
-Mostly made to screw around, you can skip this if you prefer not contributing to the item bloat.
+Mostly made to screw around, you can skip this if you prefer not adding to the item bloat pile.
+
+Arti's Ballistics
+Minimal but important adjustments for consistency with Arti's Ballistics. I let AB to take the lead in setting the stats, as I assume there's a game plan there. I may be wrong and the work it's simply incomplete; I'm not a ballistics guy, so feel free to mention anything that should be changed.
+The AP ammo is also craftable and added to traders at very high goodwill, with AB's new descriptions applied properly.
+
+GT - Emplacement
+Consistency patch. Covers price, weight, box size, and trader tresholds.
+With auxiliary patch for Arti's Ballistics (it needs both patches above).
 
 ----------------------------------------------------------
 -Known issues:

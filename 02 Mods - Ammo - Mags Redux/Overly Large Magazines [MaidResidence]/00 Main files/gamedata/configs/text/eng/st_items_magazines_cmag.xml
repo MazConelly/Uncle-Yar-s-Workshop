@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_nato_5.56x45_cmag">
+		<text>100-round C-Mag 5.56x45 STANAG magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_cmag_descr">
+		<text>100-round dual drum magazine compatible with STANAG rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.</text>
+	</string>
+
+	<string id="st_mag_aug_5.56x45_cmag">
+		<text>100-round C-Mag 5.56x45 AUG magazine</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_cmag_descr">
+		<text>100-round dual drum magazine compatible with AUG rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.</text>
+	</string>
+
+	<string id="st_mag_famas_5.56x45_cmag">
+		<text>100-round C-Mag 5.56x45 FAMAS magazine</text>
+	</string>
+	<string id="st_mag_famas_5.56x45_cmag_descr">
+		<text>100-round dual drum magazine compatible with FAMAS rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.</text>
+	</string>
+
+	<string id="st_mag_g36_5.56x45_cmag">
+		<text>100-round C-Mag 5.56x45 G36 magazine</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_cmag_descr">
+		<text>100-round dual drum magazine compatible with G36 rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.</text>
+	</string>
+
+	<string id="st_mag_sig_5.56x45_cmag">
+		<text>100-round C-Mag 5.56x45 SIG magazine</text>
+	</string>
+	<string id="st_mag_sig_5.56x45_cmag_descr">
+		<text>100-round dual drum magazine compatible with SIG rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.</text>
+	</string>
+
+</string_table>

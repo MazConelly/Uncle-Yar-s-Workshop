@@ -3,7 +3,7 @@
 	<string id="st_wpn_vpo_136">
 		<text>VPO-136 Vepr-KM</text>
 	</string>
-	<string id="st_wpn_vpo_136">
+	<string id="st_wpn_vpo_136_s">
 		<text>VPO-136</text>
 	</string>
 	<string id="st_wpn_vpo_136_descr">
@@ -16,7 +16,7 @@
 	<string id="st_wpn_vpo_101">
 		<text>VPO-101 Vepr HUNTER</text>
 	</string>
-	<string id="st_wpn_vpo_101">
+	<string id="st_wpn_vpo_101_s">
 		<text>VPO-101</text>
 	</string>
 	<string id="st_wpn_vpo_101_descr">

@@ -1,0 +1,78 @@
+;------------------------------------------------------------------------------------------------
+[wpn_usms_liberty]:wpn_usms,wpn_fnp45_sounds
+$spawn				= "weapons\usms_liberty"
+parent_section		= wpn_usms_liberty
+
+icons_texture		= ui\pistol_icons
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 0
+inv_grid_y			= 5
+inv_name			= st_wpn_usms_liberty
+inv_name_short		= st_wpn_usms_liberty_s
+description			= st_wpn_usms_liberty_descr
+
+inv_weight			= 0.625
+cost				= 9270
+hud					= wpn_usms_liberty_hud
+visual				= dynamics\weapons\wpn_usms\wpn_usms_liberty_world.ogf
+
+; upgrades			= up_gr_firstab_glock17, up_gr_seconab_glock, up_gr_thirdab_glock, up_gr_fourtab_glock, up_gr_fifthab_glock17, up_gr_fifthcd_glock17
+; installed_upgrades	=
+; upgrade_scheme	= upgrade_scheme_beretta
+
+upgr_icon_path		= ui\pistol_icons
+upgr_icon_x			= 200
+upgr_icon_y			= 0
+upgr_icon_width		= 100
+upgr_icon_height	= 100
+
+fire_modes			= 1
+ammo_class			= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_elapsed		= 15
+ammo_mag_size		= 15
+
+scopes				= 
+
+silencer_name		= wpn_sil_45
+
+hit_impulse			= 40
+hit_power			= 0.55, 0.55, 0.55, 0.55
+fire_distance		= 300
+bullet_speed		= 260
+rpm					= 320
+rpm_empty_click		= 320
+
+script_binding		= hidebone_comp.bind
+
+;-----------------------------------SOUNDS---------------------------------------
+; Mtechnically already inherited from w_usms, but just in case wpn_fnp45_sounds overwrites anything
+
+snd_empty	= weapons\pdp\pdp_empty
+snd_draw	= weapons\pdp\pdp_draw
+snd_holster	= weapons\pdp\pdp_holster
+snd_bore	= weapons\pdp\pdp_inspect
+
+snd_reload			= weapons\pdp\pdp_reload
+snd_reload_empty	= weapons\pdp\pdp_reload_empty
+snd_reload_misfire	= weapons\pdp\pdp_unjam
+
+scripted_snd_ammo_check					= weapons\pdp\pdp_magcheck
+scripted_snd_ammo_check_empty			= weapons\pdp\pdp_magcheck
+scripted_snd_ammo_check_jammed			= weapons\pdp\pdp_magcheck
+scripted_snd_ammo_check_empty_jammed	= weapons\pdp\pdp_magcheck
+;scripted_snd_ammo_check_no_mag			= $no_sound
+
+scripted_snd_reload_misfire_empty	= weapons\pdp\pdp_unjam_empty
+
+scripted_snd_sprint2walk			= weapons\pdp\pdp_draw
+scripted_snd_walk2sprint			= weapons\pdp\pdp_holster
+
+; -----------------------------HUD SECTION--------------------------------------------
+[wpn_usms_liberty_hud]:wpn_usms_hud
+item_visual	= anomaly_weapons\wpn_usms\wpn_usms_liberty_hud.ogf
+
+aim_hud_offset_pos               = -0.050554, 0.029103, -0.043793
+aim_hud_offset_pos_16x9          = -0.050554, 0.029103, -0.043793
+aim_hud_offset_rot               = 0.00527, 0.009879, -0.08863
+aim_hud_offset_rot_16x9          = 0.00527, 0.009879, -0.08863

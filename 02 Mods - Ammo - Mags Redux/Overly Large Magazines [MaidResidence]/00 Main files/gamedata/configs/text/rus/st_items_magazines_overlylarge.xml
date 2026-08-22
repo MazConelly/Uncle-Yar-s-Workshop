@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_ak_5.45x39_drum_75">
+		<text>АК 5,45х39 барабанный магазин на 75 патронов</text>
+	</string>
+	<string id="st_mag_ak_5.45x39_drum_75_descr">
+		<text>Металлический магазин на 75 патронов под патрон 5,45х39.</text>
+	</string>
+
+	<string id="st_mag_ak_5.45x39_drum_100">
+		<text>АК 5,56х45 барабанный магазин на 100 патронов</text>
+	</string>
+	<string id="st_mag_ak_5.45x39_drum_100_descr">
+		<text>Металлический магазин на 100 патронов под патрон 5,56х45.</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39_drum_75">
+		<text>АК 7,62х39 барабанный магазин на 75 патронов</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_drum_75_descr">
+		<text>Металлический магазин на 75 патронов под патрон 7,62х39.</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39_drum_100">
+		<text>АК 7,62х39 барабанный магазин на 100 патронов</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_drum_100_descr">
+		<text>Металлический магазин на 100 патронов под патрон 7,62х39.</text>
+	</string>
+
+
+	<string id="st_mag_rpk_5.45x39_drum_95">
+		<text>РПК-16 5,45х39 барабанный магазин на 95 патронов</text>
+	</string>
+	<string id="st_mag_rpk_5.45x39_drum_95_descr">
+		<text>Магазин полимерный Ижмаш на 95 патронов под патрон 5,45х39.</text>
+	</string>
+	
+	<string id="st_mag_rpk_5.56x45_drum_95">
+		<text>РПК-16 5,56х45 барабанный магазин на 95 патронов</text>
+	</string>
+	<string id="st_mag_rpk_5.56x45_drum_95_descr">
+		<text>Полимерный магазин Ижмаш на 95 патронов под патрон 5,56х45.</text>
+	</string>
+
+
+	<string id="st_mag_rpk_7.62x39_drum_95">
+		<text>95-round drum 7.62x39 RPK magazine</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_95_descr">
+		<text>95-round polymer Izhmash magazine rechambered for 7.62x39 ammo.</text>
+	</string>
+
+
+	<string id="st_mag_hinge_7.62x51_drum">
+		<text>Барабанный магазин SA58 7,62x51 на 50 патронов</text>
+	</string>
+	<string id="st_mag_hinge_7.62x51_drum_descr">
+		<text>Магазин на 50 патронов 7,62х51.</text>
+	</string>
+	
+	<string id="st_mag_stanag_762x51_drum">
+		<text>Модифицированный барабанный магазин SA58 7,62x51 на 50 патронов</text>
+	</string>
+	<string id="st_mag_stanag_762x51_drum_descr">
+		<text>Магазин на 50 патронов, барабанный 7,62х51, модифицированный для винтовок SCAR.</text>
+	</string>
+
+
+	<string id="st_mag_nato_5.56x45_casket_80">
+		<text>5.56x45 STANAG 80-round magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_casket_80_descr">
+		<text>80-round metal high capacity magazine for 5.56x45 ammo.</text>
+	</string>
+
+	<string id="st_mag_aug_5.56x45_casket_80">
+		<text>Modified 5.56x45 AUG 80-round magazine</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_casket_80_descr">
+		<text>80-round metal high capacity magazine for 5.56x45 ammo, modified to fit AUG systems.</text>
+	</string>
+
+	<string id="st_mag_g36_5.56x45_casket_80">
+		<text>Modified 5.56x45 G36 80-round magazine</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_casket_80_descr">
+		<text>80-round metal high capacity magazine for 5.56x45 ammo, modified to fit G36 systems.</text>
+	</string>
+
+	<string id="st_mag_sig_5.56x45_casket_80">
+		<text>Modified 5.56x45 SIG 80-round magazine</text>
+	</string>
+	<string id="st_mag_sig_5.56x45_casket_80_descr">
+		<text>80-round metal high capacity magazine for 5.56x45 ammo, modified to fit SIG systems.</text>
+	</string>
+
+
+	<string id="st_mag_aug_5.56x45_short">
+		<text>STEYR AUG 10 round mag</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_short_descr">
+		<text>Proprietary 10-round (or 9+1) magazine for AUG rifles. Made of a translucent polymer. Made in Austria. \n
+		Not sure who has had interest in importing “California legal” magazines into the Zone but like anything gun related they will surely find a use here. On the plus side, they fit into small pockets.</text>
+	</string>
+
+
+	<string id="st_mag_pm_9x18_drum_84">
+		<text>Cамодельный барабанный магазин ПМ 9х18ПМ на 84 патрона</text>
+	</string>
+	<string id="st_mag_pm_9x18_drum_84_descr">
+		<text>Самодельный магазин ПМ на 84 патрона.</text>
+	</string>
+	
+	<string id="st_mag_pm_9x19_drum_84">
+		<text>Самодельный барабанный магазин ПМ 9х19ПМ на 84 патрона</text>
+	</string>
+	<string id="st_mag_pm_9x19_drum_84_descr">
+		<text>Самодельный магазин ПМ на 84 патрона.</text>
+	</string>
+
+
+	<string id="st_mag_glock_9x19_drum_50">
+		<text>Барабанный магазин Glock 9x19 на 50 патронов</text>
+	</string>
+	<string id="st_mag_glock_9x19_drum_50_descr">
+		<text>Магазин большой емкости для пистолетов семейства Glock, вмещающий до 50 патронов.</text>
+	</string>
+	
+	<string id="st_mag_glock_9x18_drum_50">
+		<text>Барабанный магазин Glock 9x18 на 50 патронов</text>
+	</string>
+	<string id="st_mag_glock_9x18_drum_50_descr">
+		<text>Магазин большой емкости для пистолетов семейства Glock, вмещающий до 50 патронов.</text>
+	</string>
+
+
+	<string id="st_mag_mp5_9x19_extended_40">
+		<text>Extended 9x19 MP5 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_9x19_extended_40_descr">
+		<text>Lightweight, impact resistant and highly reliable magazine compatible with all 9x19 mm HK MP5 permutations (and clones) taking standard MP5 magazines. Offers enhanced 40-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer-resin/granulate with clear windows on both sides allowing to see the rounds left. Made in Bosnia.</text>
+	</string>
+
+	<string id="st_mag_mp5_9x18_extended_40">
+		<text>Modified Extended 9x18 MP5 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_9x18_extended_40_descr">
+		<text>Lightweight, impact resistant and highly reliable magazine compatible with all 9x18 mm Zone modified HK MP5 permutations (and clones) taking standard MP5 magazines. Offers enhanced 40-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer-resin/granulate with clear windows on both sides allowing to see the rounds left. Made in Bosnia.</text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_extended_40">
+		<text>Modified Extended .45 ACP MP5 Magazine</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_extended_40_descr">
+		<text>Lightweight, impact resistant and highly reliable magazine compatible with the .45 ACP chambered MP5 Frasier. Offers enhanced 40-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer-resin/granulate with clear windows on both sides allowing to see the rounds left. Made in Bosnia.</text>
+	</string>
+
+
+	<string id="st_mag_mp5_9x19_drum_50">
+		<text>Барабанный магазин HK MP5 9x19 на 50 патронов</text>
+	</string>
+	<string id="st_mag_mp5_9x19_drum_50_descr">
+		<text>Магазин на 50 патронов 9x19 для MP5.</text>
+	</string>
+	
+	<string id="st_mag_mp5_9x18_drum_50">
+		<text>Барабанный магазин HK MP5 9x18 на 50 патронов</text>
+	</string>
+	<string id="st_mag_mp5_9x18_drum_50_descr">
+		<text>Магазин на 50 патронов 9x18 для MP5 с измененным патронником.</text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_drum_50">
+		<text>HK MP5 .45 ACP 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_drum_50_descr">
+		<text>Lightweight, impact resistant and highly reliable drum magazine compatible with the .45 ACP chambered MP5 Frasier. Offers enhanced 50-round capacity over default pattern HK 30-round magazines. Made of an advanced polymer with a clear window on the rear facing side, allowing to see the number of rounds left. Made in the USA.</text>
+	</string>
+
+
+	<string id="st_mag_mp7_9x19_extended_60">
+		<text>Магазин HK MP7 9x19 на 40 патронов</text>
+	</string>
+	<string id="st_mag_mp7_9x19_extended_60_descr">
+		<text>Магазин на 40 патронов 9x19 для MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_4.6x30_extended_60">
+		<text>HK MP7 4.6x30 extended magazine</text>
+	</string>
+	<string id="st_mag_mp7_4.6x30_extended_60_descr">
+		<text>60-round 4.6x30 extended magazine for MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_extended_60">
+		<text>Магазин HK MP7 9x18 на 30 патронов</text>
+	</string>
+	<string id="st_mag_mp7_9x18_extended_60_descr">
+		<text>Магазин на 30 патронов для MP7 перенастроен под патроны 9x18.</text>
+	</string>
+
+	<string id="st_mag_mp7_9x19_compact">
+		<text>Магазин HK MP7 9x19 на 20 патронов</text>
+	</string>
+	<string id="st_mag_mp7_9x19_compact_descr">
+		<text>Магазин на 20 патронов 9x19 для MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_4.6x30_compact">
+		<text>HK MP7 4.6x30 compact magazine</text>
+	</string>
+	<string id="st_mag_mp7_4.6x30_compact_descr">
+		<text>20-round 4.6x30 compact magazine for MP7.</text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_compact">
+		<text>Магазин HK MP7 9x18 на 20 патронов</text>
+	</string>
+	<string id="st_mag_mp7_9x18_compact_descr">
+		<text>Магазин на 20 патронов для MP7 перенастроен под патроны 9x18.</text>
+	</string>
+
+
+	<string id="st_mag_saiga12_12x70_drum">
+		<text>Магазин MaxRounds Powermag на 20 патронов</text>
+	</string>
+	<string id="st_mag_saiga12_12x70_drum_descr">
+		<text>Магазин MaxRounds Powermag на 20 патронов, совместимый с ружьем Сайга-12.</text>
+	</string>
+
+</string_table>

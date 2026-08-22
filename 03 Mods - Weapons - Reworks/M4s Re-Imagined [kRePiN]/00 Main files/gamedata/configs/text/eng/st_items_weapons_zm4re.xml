@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_m4">
+		<text>M4A1 RAS</text>
+	</string>
+	<string id="st_wpn_m4_descr">
+		<text>The M4 Carbine descends from a family of firearms tracing its lineage back to earlier carbine versions of the M16, all based on the original AR-15 made by ArmaLite. It is a shorter and lighter version of the M16 assault rifle, sharing 80% of its parts. The M4 fires 5.56x45mm NATO ammunition and are gas operated, air cooled, magazine fed, selective fire firearms with a 4 position telescoping stock. As with many carbines, the M4 is handy and more convenient to carry than a full length rifle. It has been adopted by United States Special Operations Command (USSOCOM) and is the preferred weapon of the U.S. Army Special Forces and Navy SEALs.\n\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45mm compatible suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_m4a1">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_descr">
+		<text>Ideal for CQC (Close Quarters Combat), the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. In military use, it has largely replaced the submachine guns firing pistol cartridges that are inadequate against modern body armour. The M4A1 is a modified variant of the M4 carbine able to fire automatic or semi-automatic.\n\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45mm compatible suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE</text>
+	</string>
+
+	<string id="st_wpn_m4a1_ax15">
+		<text>M4A1 Aeroknox AX-15</text>
+	</string>
+	<string id="st_wpn_m4a1_ax15_s">
+		<text>M4A1 AX-15</text>
+	</string>
+	<string id="st_wpn_m4a1_ax15_descr">
+		<text>The M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. This particular variant comes with a longer barrel, offering more accuracy than other options available, but has less recoil control.\n\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45mm compatible suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE</text>
+	</string>
+
+	<string id="st_wpn_m4a1_urx">
+		<text>M4A1 KAC URX</text>
+	</string>
+	<string id="st_wpn_m4a1_urx_s">
+		<text>M4A1 URX</text>
+	</string>
+	<string id="st_wpn_m4a1_urx_descr">
+		<text>Ideal for CQC (Close Quarters Combat), the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. This particular variant offers better recoil control but offers worse accuracy due to it's smaller barrel, however it excels in handling due to it's grip and and hanguard being more comfortable to handle.\n\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45mm compatible suppressor\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE</text>
+	</string>
+
+	<string id="st_wpn_m4a1_sai">
+		<text>M4A1 SAI QD</text>
+	</string>
+	<string id="st_wpn_m4a1_sai_s">
+		<text>M4A1 QD</text>
+	</string>
+	<string id="st_wpn_m4a1_sai_descr">
+		<text>the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. This varint of the M4A1 carbine is packed with customized parts to offer better combat capabilities in combat. Comes with a 60 rounder quad-stack magazine to rain more fire on the enemy, as well as a heavier muzzle break to offer better recoil control. Only higher ranking Freedom members have access to this piece of equipment.\n\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[ui_gray_3]REFLEX SIGHTS:\n
+		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, EOTech, Vortex UH1 reflex sights\n
+		%c[ui_gray_3]SCOPES:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG\n
+		%c[ui_gray_3]SILENCER:\n
+		%c[d_purple] • %c[ui_gray_2] Muzzle break INTEGRATED\n
+		%c[ui_gray_3]UNDER-BARREL GRENADE LAUNCHER:\n
+		%c[d_purple] • %c[ui_gray_2] NONE</text>
+	</string>
+</string_table>

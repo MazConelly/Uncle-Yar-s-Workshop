@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+ 	<string id="st_mag_nato_5.56x45_compact_m16a1_default">
+		<text>5.56x45 20-round STANAG Magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_compact_m16a1_default_descr">
+		<text>20-round STANAG magazine holding 5.56x45 rounds, usually issued with the M16A1. Small and easy to carry.</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_compact_m16a1_fast">
+		<text>Fast-loading 5.56x45 STANAG Magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_compact_m16a1_fast_descr">
+		<text>20-round STANAG magazine holding 5.56x45 rounds, intended mainly for the M16A1. Considerably lighter than its steel counterpart, the ergonomic design facilitates quick loading of cartridges.</text>
+	</string>
+
+
+ 	<string id="st_mag_nato_5.56x45_extended_45_default">
+		<text>5.56x45 45-round PMAG Magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_extended_45_default_descr">
+		<text>Modern PMAG-style magazine holding 45 rounds.</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_extended_45_fast">
+		<text>Fast-loading 5.56x45 45-round PMAG Magazine</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_extended_45_fast_descr">
+		<text>Modern PMAG-style magazine holding 45 rounds. Considerably lighter than its steel counterpart, the ergonomic design facilitates quick loading of cartridges.</text>
+	</string>
+
+</string_table>

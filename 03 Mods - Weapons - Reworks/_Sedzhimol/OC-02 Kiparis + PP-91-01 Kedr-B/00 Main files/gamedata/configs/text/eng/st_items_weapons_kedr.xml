@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_kedr">
+		<text>PP-91-01 "Kedr-B"</text>
+	</string>
+	<string id="st_wpn_kedr_descr">
+		<text>The Kedr submachine gun was developed in the early 1990s based on the experimental PP-71 designed by E. F. Dragunov, created in the 1970s for the Soviet Army. Since 1993, a new model designated Kedr (designed by Evgeny Dragunov) went into serial production and was primarily intended to arm special police units and internal troops of the Ministry of Internal Affairs of the Russian Federation. Based on the basic model, designers at the Izhevsk Mechanical Plant developed the PP-91-01 Kedr-B submachine gun with an integrated silencer. The silencer can be removed for ease of carrying.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm suppressor</text>
+	</string>
+
+</string_table>

@@ -4,7 +4,7 @@ https://www.moddb.com/mods/stalker-anomaly/addons/gt-urban-tactics/
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You still need the original mod. Disable the configs\items\settings\npc_loadouts and textures/ui folders.
+NOTE: You still need the original mod. Disable the configs and textures/ui folders.
 
 ----------------------------------------------------------
 -Explanation:
@@ -23,6 +23,8 @@ Icons gathered into a single file. The icon for the explosive charge was too big
 
 
 Integration into:
+AlifePlus. This support is experimental.
+	With AP, veterans are expected to trade grenades, buying one and selling excedents of 3, but rookies won't trade them in either way.
 Lootboxes
 
 ----------------------------------------------------------

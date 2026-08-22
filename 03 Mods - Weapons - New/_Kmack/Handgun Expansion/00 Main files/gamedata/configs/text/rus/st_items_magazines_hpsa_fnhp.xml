@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_hpsa_hpfn_9x19_fmj">
+		<text>Стандартный 9x19 FN High Power магазин</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x19_fmj_descr">
+		<text>Стандартный магазин для пистолета FN High Power. Несмотря на схожий внешний вид, из-за модификаций, позволяющих увеличить емкость, магазины для High Power несовместимы с оригинальным Hi-Power и наоборот.</text>
+	</string>
+
+	<string id="st_mag_hpsa_hpfn_9x18_fmj">
+		<text>Модифицированный 9x18 FN High Power магазин</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x18_fmj_descr">
+		<text>
+		Модифицированный магазин для пистолета FN High Power, переделанный под патрон 9х18. Несмотря на схожий внешний вид, из-за модификаций, позволяющих увеличить емкость, магазины для High Power несовместимы с оригинальным Hi-Power и наоборот.
+		</text>
+	</string>
+
+
+	<string id="st_mag_hpsa_hpfn_9x19_default_13">
+		<text>13-round Standard 9x19 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x19_default_13_descr">
+		<text>Стандартный магазин для пистолета FN High Power. Несмотря на схожий внешний вид, из-за модификаций, позволяющих увеличить емкость, магазины для High Power несовместимы с оригинальным Hi-Power и наоборот.</text>
+	</string>
+
+	<string id="st_mag_hpsa_hpfn_9x18_alt_13">
+		<text>13-round Modified 9x18 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x18_alt_13_descr">
+		<text>Стандартный магазин для пистолета FN High Power. Несмотря на схожий внешний вид, из-за модификаций, позволяющих увеличить емкость, магазины для High Power несовместимы с оригинальным Hi-Power и наоборот.</text>
+	</string>
+
+
+	<string id="st_mag_hpsa_hpfn_9x19_extended_32">
+		<text>32-round Extended 9x19 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x19_extended_32_descr">
+		<text>Стандартный магазин для пистолета FN High Power. Несмотря на схожий внешний вид, из-за модификаций, позволяющих увеличить емкость, магазины для High Power несовместимы с оригинальным Hi-Power и наоборот.</text>
+	</string>
+
+	<string id="st_mag_hpsa_hpfn_9x18_extended_32">
+		<text>32-round Modified 9x18 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_hpfn_9x18_extended_32_descr">
+		<text>Стандартный магазин для пистолета FN High Power. Несмотря на схожий внешний вид, из-за модификаций, позволяющих увеличить емкость, магазины для High Power несовместимы с оригинальным Hi-Power и наоборот.</text>
+	</string>
+
+</string_table>

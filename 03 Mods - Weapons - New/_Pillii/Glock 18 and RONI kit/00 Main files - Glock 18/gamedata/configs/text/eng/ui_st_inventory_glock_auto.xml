@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 
-	<string id="st_wpn_glock_18">
+	<string id="st_wpn_glock18">
 		<text>Glock 18 Gen4</text>
 	</string>
-	<string id="st_wpn_glock_18_s">
+	<string id="st_wpn_glock18_s">
 		<text>Glock 18</text>
 	</string>
-	<string id="st_wpn_glock_18_descr">
+	<string id="st_wpn_glock18_descr">
 		<text>The Glock 18 is one of the most famous variants of the Glock 17. This handgun offers a really high RoF in exchange for precision and handling. \n
 		%c[d_purple] - %c[ui_gray_2] Tritium sights\n
 		%c[d_purple] - %c[ui_gray_2] GemTech suppressor (after upgrades)\n

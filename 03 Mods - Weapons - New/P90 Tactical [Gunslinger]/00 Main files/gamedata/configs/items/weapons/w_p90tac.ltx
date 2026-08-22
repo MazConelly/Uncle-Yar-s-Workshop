@@ -29,7 +29,7 @@ description					= st_wpn_p90tac_descr
 
 kind						= w_smg ;w_pistol
 inv_weight					= 2.78
-cost						= 45000
+cost						= 45000 ; 65000
 repair_type					= pistol
 weapon_class				= assault_rifle
 
@@ -113,7 +113,7 @@ zoom_rotate_time			= 0.25
 reload_dof					= 0.0, 0.5, 5, 2
 control_inertion_factor		= 1.0f
 crosshair_inertion			= 4.5
-fire_dispersion_base		= 0.3
+fire_dispersion_base		= 0.3 ; 0.35
 fire_dispersion_condition_factor= 0.001
 
 misfire_probability			= 0.005
@@ -127,8 +127,8 @@ condition_shot_dec			= 0.0007
 
 cam_return					= 0
 cam_relax_speed				= 12
-cam_dispersion			= 0.36
-cam_dispersion_frac		= 0.9
+cam_dispersion				= 0.36 ; 0.41
+cam_dispersion_frac			= 0.9 ; 1.0
 cam_dispersion_inc			= 0.0575
 cam_max_angle				= 36.0
 cam_max_angle_horz			= 36.0
@@ -189,15 +189,15 @@ hands_position_16x9		= 0.000839, 0.008128, -0.077964
 hands_orientation		= -0.55, 0.74, 0.6
 hands_orientation_16x9	= -0.55, 0.74, 0.6
 
+aim_hud_offset_pos			= 0.000272, 0.000221, -0.066792	; -0.000201, -0.008014, -0.066792
+aim_hud_offset_pos_16x9		= 0.000272, 0.000221, -0.066792	; -0.000201, -0.008014, -0.066792
+aim_hud_offset_rot			= 0.03151, -0.012193, 0.004		; 0.005, -0.0105, 0.004
+aim_hud_offset_rot_16x9		= 0.03151, -0.012193, 0.004		; 0.005, -0.0105, 0.004
+
 aim_hud_offset_alt_pos		= -0.03233, -0.013564, -0.071488
 aim_hud_offset_alt_pos_16x9	= -0.03233, -0.013564, -0.071488
 aim_hud_offset_alt_rot		= 0.008025, -0.008266, 0.797861
 aim_hud_offset_alt_rot_16x9	= 0.008025, -0.008266, 0.797861
-
-aim_hud_offset_pos			= 0.000272, 0.000221, -0.066792
-aim_hud_offset_pos_16x9		= 0.000272, 0.000221, -0.066792
-aim_hud_offset_rot			= 0.03151, -0.012193, 0.004
-aim_hud_offset_rot_16x9		= 0.03151, -0.012193, 0.004
 
 lowered_hud_offset_pos		= 0.100344, 0.002276, 0
 lowered_hud_offset_pos_16x9	= 0.100344, 0.002276, 0

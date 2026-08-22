@@ -23,6 +23,7 @@ Mags Redux support:
 added a 30 round magazine (cheaper, fast loading, small sized), and assigned it as the default magazine instead of the 50 round casket.
 
 Integrated into:
+Armor Modkits addon. To upgrade from the basic to the Tactical version with the universal use kits.
 Enhanced Recoil - Gold Edition
 FireModeCheck
 GBOOBS

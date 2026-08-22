@@ -11,7 +11,12 @@ NOTE: You still need the original mod. Disable the configs folder.
 
 Optimization and un-DLTX'fying of the grenade file. Nothing vital, hopefully more efficient.
 Short names.
+One texture file was a png disguised as a dds.
 Icon file trimmed.
+
+Integration into:
+AlifePlus. This support is experimental.
+	With AP, veterans are expected to trade grenades, buying one and selling excedents of 3, but rookies won't trade them in either way.
 
 ----------------------------------------------------------
 -Patches:

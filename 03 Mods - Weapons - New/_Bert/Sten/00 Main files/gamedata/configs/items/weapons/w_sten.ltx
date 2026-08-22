@@ -1,0 +1,341 @@
+[wpn_sten]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\sten"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_sten
+
+class								= WP_LR300
+slot								= 2
+animation_slot						= 8
+ef_main_weapon_type					= 2
+ef_weapon_type						= 6
+hand_dependence						= 1
+single_handed						= 0
+
+default_to_ruck						= false
+sprint_allowed						= true
+
+icons_texture						= ui\ui_icon_sten_bert
+inv_grid_width						= 5
+inv_grid_height						= 2
+inv_grid_x							= 0
+inv_grid_y							= 0
+inv_name							= st_wpn_sten
+inv_name_short						= st_wpn_sten_s
+description							= st_wpn_sten_descr
+
+kind								= w_smg ;w_pistol
+inv_weight							= 2.7
+cost								= 10000
+repair_type							= pistol
+weapon_class						= assault_rifle
+
+hud									= wpn_sten_hud
+visual								= dynamics\weapons\wpn_sten\wpn_sten_world.ogf
+orientation							= -2.625257, -8.653336, -0.033008
+position							= -0.063526, 0.029364, 0.240563
+fire_point							= 0.057905, 0.003757, 0.261868
+fire_point2							= 0, 0, 0
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_orientation					= -0.956867, -12.840964, 7.241397
+strap_position						= -0.213928, -0.149261, 0.21028
+ph_mass								= 3
+
+flame_particles						= weapons\generic_weapon03
+smoke_particles						= weapons\generic_shoot_00
+grenade_flame_particles				= weapons\generic_weapon01
+
+shell_point							= 0, 0, 0
+shell_dir							= 0, 0, 0
+shell_particles						= 
+
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgrades							= up_gr_firstab_mp5, up_gr_seconab_mp5, up_gr_thirdab_mp5, up_gr_fourtab_mp5
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_mp5
+upgr_icon_path						= ui\ui_icon_sten_bert
+upgr_icon_x							= 250
+upgr_icon_y							= 0
+upgr_icon_width						= 250
+upgr_icon_height					= 150
+
+fire_modes							= 1, -1
+ammo_class							= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed						= 32
+ammo_mag_size						= 32
+startup_ammo						= 96
+
+scope_status						= 0
+scope_zoom_factor					= 0
+
+silencer_name						= wpn_sil_sten
+silencer_status						= 2
+silencer_x							= 200
+silencer_y							= 0
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= weapons\generic_shoot_00
+
+grenade_class						= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name				= wpn_addon_grenade_launcher
+grenade_launcher_status				= 0
+grenade_launcher_x					= 126
+grenade_launcher_y					= 24
+launch_speed						= 0
+
+hit_impulse							= 24
+hit_power							= 0.47, 0.47, 0.47, 0.47
+hit_type							= fire_wound
+fire_distance						= 400
+bullet_speed						= 402
+rpm									= 540
+rpm_empty_click						= 200
+ap_modifier							= 1.1
+
+use_aim_bullet						= false
+time_to_aim							= 0.0 ;	3.0
+zoom_dof							= 0.5, 1.0, 180
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0.0, 0.5, 5, 2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 3.8
+fire_dispersion_base				= 0.74
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability					= 0.005
+misfire_start_condition				= 0.7 ;	0.8
+misfire_start_prob					= 0.005
+misfire_end_condition				= 0.1
+misfire_end_prob					= 0.09
+
+condition_queue_shot_dec			= 0.0017
+condition_shot_dec					= 0.0017
+
+cam_return							= 0
+cam_relax_speed						= 12
+cam_dispersion						= 0.34
+cam_dispersion_frac					= 1.1
+cam_dispersion_inc					= 0.0475
+cam_max_angle						= 39.0
+cam_max_angle_horz					= 39.0
+cam_step_angle_horz					= 1.22
+zoom_cam_relax_speed				= 3
+zoom_cam_dispersion					= 0.36
+zoom_cam_dispersion_frac			= 1.0
+zoom_cam_dispersion_inc				= 0.0325
+zoom_cam_max_angle					= 35.0
+zoom_cam_max_angle_horz				= 35.0
+zoom_cam_step_angle_horz			= 2.54
+
+PDM_disp_accel_factor				= 1.155
+PDM_disp_base						= 1.0
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 1.15
+
+cam_relax_speed_ai					= 120.75
+zoom_cam_relax_speed_ai				= 120.75
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
+
+kill_msg_x							= 72
+kill_msg_y							= 82
+kill_msg_width						= 56
+kill_msg_height						= 23
+
+snd_draw								= weapons\sten\sten_draw
+snd_holster								= weapons\sten\sten_hide
+snd_shoot								= wpn_sten_snd_shoot
+snd_shoot_actor							= wpn_sten_snd_shoot_actor
+snd_silncer_shot						= wpn_sten_snd_silenced
+snd_silncer_shot_actor					= wpn_sten_snd_silenced_actor
+snd_empty								= weapons\sten\sten_empty
+snd_reload								= weapons\sten\sten_reload
+snd_reload_empty						= weapons\sten\sten_reload_empty
+snd_reload_misfire						= $no_sound
+snd_switch_mode							= weapons\sten\sten_firemode
+scripted_snd_bore						= weapons\sten\sten_inspect
+scripted_snd_bore_empty					= weapons\sten\sten_inspect
+scripted_snd_reload_misfire				= weapons\sten\sten_unjam
+scripted_snd_ammo_check					= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_ammo1			= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_ammo2			= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_ammo3			= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_ammo4			= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_aim				= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_empty_aim		= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_empty			= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_jammed			= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_jammed_ammo1	= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_jammed_ammo2	= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_jammed_ammo3	= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_jammed_ammo4	= weapons\sten\sten_magcheck
+scripted_snd_ammo_check_empty_jammed	= weapons\sten\sten_magcheck
+scripted_snd_reload_misfire_empty		= weapons\sten\sten_unjam_empty
+scripted_snd_sprint2walk				= weapons\sten\sten_sprint2walk
+scripted_snd_walk2sprint				= weapons\sten\sten_walk2sprint
+
+[wpn_sten_hud]:hud_base
+item_visual					= dynamics\weapons\wpn_sten\wpn_sten_hud.ogf
+attach_place_idx			= 0
+zoom_hide_crosshair			= true
+
+item_position				= 0, 0, 0
+item_orientation			= 0, 0, 0
+
+aim_hud_offset_pos			= -0.08074, 0.0426, -0.016169
+aim_hud_offset_pos_16x9		= -0.08074, 0.0426, -0.016169
+aim_hud_offset_rot			= 0.010877, 0.02233, -0.074044
+aim_hud_offset_rot_16x9		= 0.010877, 0.02233, -0.074044
+
+hands_orientation			= 0.77612, 0.515403, -0.001712
+hands_orientation_16x9		= 0.77612, 0.515403, -0.001712
+hands_position				= 0.021852, 0.000564, 0.040963
+hands_position_16x9			= 0.021852, 0.000564, 0.040963
+
+lowered_hud_offset_pos		= 0.029897, 0.018339, -0.013649
+lowered_hud_offset_pos_16x9	= 0.029897, 0.018339, -0.013649
+lowered_hud_offset_rot		= 0.146752, -0.485236, 0.00199
+lowered_hud_offset_rot_16x9	= 0.146752, -0.485236, 0.00199
+
+;------------------------------------------------------------------------------------
+;DRAW
+anm_show								= hand_sten_draw, idle
+anm_show_empty							= hand_sten_draw, idle_empty
+anm_show_jammed							= hand_sten_draw, idle_jammed
+anm_show_jammed_empty					= hand_sten_draw, idle_empty
+
+;------------------------------------------------------------------------------------
+;HIDE
+anm_hide								= hand_sten_hide, idle
+anm_hide_empty							= hand_sten_hide, idle_empty
+anm_hide_jammed							= hand_sten_hide, idle_jammed
+anm_hide_jammed_empty					= hand_sten_hide, idle_empty
+
+;------------------------------------------------------------------------------------
+;IDLE
+anm_idle								= hand_sten_idle, idle
+anm_idle_empty							= hand_sten_idle, idle_empty
+anm_idle_jammed							= hand_sten_idle, idle_jammed
+anm_idle_jammed_empty					= hand_sten_idle, idle_empty
+
+;------------------------------------------------------------------------------------
+;IDLE AIM
+anm_idle_aim							= hand_sten_idle_aim, idle
+anm_idle_aim_empty						= hand_sten_idle_aim, idle_empty
+anm_idle_aim_jammed						= hand_sten_idle_aim, idle_jammed
+anm_idle_aim_jammed_empty				= hand_sten_idle_aim, idle_empty
+
+;------------------------------------------------------------------------------------
+;WALK
+anm_idle_moving							= hand_sten_walk, idle
+anm_idle_moving_empty					= hand_sten_walk, idle_empty
+anm_idle_moving_jammed					= hand_sten_walk, idle_jammed
+anm_idle_moving_jammed_empty			= hand_sten_walk, idle_empty
+
+;------------------------------------------------------------------------------------
+;WALK AIM
+anm_idle_aim_moving						= hand_sten_walk, idle
+anm_idle_aim_moving_empty				= hand_sten_walk, idle_empty
+anm_idle_aim_moving_jammed				= hand_sten_walk, idle_jammed
+anm_idle_aim_moving_jammed_empty		= hand_sten_walk, idle_empty
+
+;------------------------------------------------------------------------------------
+;CROUCH
+anm_idle_moving_crouch					= hand_sten_walk, idle, 0.75
+anm_idle_moving_crouch_empty			= hand_sten_walk, idle_empty, 0.75
+anm_idle_moving_crouch_jammed			= hand_sten_walk, idle_jammed, 0.75
+anm_idle_moving_crouch_jammed_empty		= hand_sten_walk, idle_empty, 0.75
+
+;------------------------------------------------------------------------------------
+;CROUCH AIM
+anm_idle_aim_moving_crouch				= hand_sten_walk, idle, 0.75
+anm_idle_aim_moving_crouch_empty		= hand_sten_walk, idle_empty, 0.75
+anm_idle_aim_moving_crouch_jammed		= hand_sten_walk, idle_jammed_3, 0.75
+anm_idle_aim_moving_crouch_jammed_empty	= hand_sten_walk, idle_empty, 0.75
+
+;------------------------------------------------------------------------------------
+;SPRINT
+anm_idle_sprint							= hand_sten_sprint, idle
+anm_idle_sprint_empty					= hand_sten_sprint, idle_empty
+anm_idle_sprint_jammed					= hand_sten_sprint, idle_jammed
+anm_idle_sprint_jammed_empty			= hand_sten_sprint, idle_empty
+
+;------------------------------------------------------------------------------------
+;RELOAD
+anm_reload								= hand_sten_reload, sten_reload
+anm_reload_ammo1						= hand_sten_reload, sten_reload_0
+anm_reload_ammo2						= hand_sten_reload, sten_reload_1
+anm_reload_ammo3						= hand_sten_reload, sten_reload_2
+anm_reload_ammo4						= hand_sten_reload, sten_reload_3
+anm_reload_empty						= hand_sten_reload_empty, sten_reload_empty
+
+;------------------------------------------------------------------------------------
+;FIRE
+anm_shots								= hand_sten_fire01, sten_fire_1
+anm_shots_variant1						= hand_sten_fire02, sten_fire_2
+anm_shots_variant2						= hand_sten_fire03, sten_fire_3
+anm_shots_jammed						= hand_sten_fire_jammed, idle_jammed
+anm_shots_jammed_empty					= hand_sten_fire_jammed, idle_empty
+anm_shot_l								= hand_sten_fire01, sten_fire_last
+
+;------------------------------------------------------------------------------------
+;INSPECT
+anm_bore								= hand_sten_inspect, idle
+anm_bore_empty							= hand_sten_inspect, idle_empty
+
+;------------------------------------------------------------------------------------
+;FIREMODE
+anm_switch_mode							= hand_sten_firemode, sten_firemode
+anm_switch_mode_empty					= hand_sten_firemode, sten_firemode_empty
+anm_switch_mode_jammed					= hand_sten_firemode, sten_firemode_jammed
+anm_switch_mode_jammed_empty			= hand_sten_firemode, sten_firemode_empty
+
+;------------------------------------------------------------------------------------
+;UNJAM
+anm_reload_misfire						= hand_sten_unjam, sten_unjam
+anm_reload_misfire_empty				= hand_sten_unjam_empty, sten_unjam_empty
+
+;------------------------------------------------------------------------------------
+;MAGCHECK
+anm_ammo_check							= hand_sten_magcheck, sten_magcheck
+anm_ammo_check_ammo1					= hand_sten_magcheck, sten_magcheck_0
+anm_ammo_check_ammo2					= hand_sten_magcheck, sten_magcheck_1
+anm_ammo_check_ammo3					= hand_sten_magcheck, sten_magcheck_2
+anm_ammo_check_ammo4					= hand_sten_magcheck, sten_magcheck_3
+anm_ammo_check_empty					= hand_sten_magcheck, sten_magcheck_empty
+anm_ammo_check_jammed					= hand_sten_magcheck, sten_magcheck_jammed
+anm_ammo_check_jammed_ammo1				= hand_sten_magcheck, sten_magcheck_0_jammed
+anm_ammo_check_jammed_ammo2				= hand_sten_magcheck, sten_magcheck_1_jammed
+anm_ammo_check_jammed_ammo3				= hand_sten_magcheck, sten_magcheck_2_jammed
+anm_ammo_check_jammed_ammo4				= hand_sten_magcheck, sten_magcheck_3_jammed
+anm_ammo_check_empty_jammed				= hand_sten_magcheck, sten_magcheck_empty
+
+fire_bone								= muzzle
+fire_bone2								= wpn_body
+fire_point								= 0, 0, 0
+fire_point2								= 0, 0, 0
+
+freelook_z_offset_mul					= 0.3
+
+;---------------------------------------------------------------------------------------------------------------------------

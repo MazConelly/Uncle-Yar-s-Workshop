@@ -1,0 +1,86 @@
+;First we patch the ammo
+
+![ammo_50_bmg]
+cost				= 8000
+box_size			= 10
+
+k_disp				= 1.0
+k_impulse			= 1.0
+k_ap				= 0.6
+tracer_color_ID		= 2
+wm_size				= 0.1
+k_air_resistance	= 0.1
+tier				= 4
+
+![ammo_50_bmg_bad]
+cost				= 4300
+box_size			= 10
+
+k_disp				= 0.95
+k_impulse			= 0.98
+k_ap				= 0.58
+tracer_color_ID		= 2
+wm_size				= 0.1
+k_air_resistance	= 0.1
+tier				= 4
+
+; Actually not used, not even by AB, and in fact blacklisted in the game from the debug menu when the other two aren't.
+; ![ammo_50_bmg_verybad]
+; cost				= 1000
+; box_size			= 10
+
+; k_disp				= 0.95
+; k_impulse			= 0.95
+; k_ap				= 0.55
+; tracer_color_ID		= 2
+; wm_size				= 0.1
+; k_air_resistance	= 0.1
+; tier				= 4
+
+; Then the vanilla M82
+![wpn_m82]
+ammo_class		= ammo_50_bmg, ammo_50_bmg_bad
+
+hit_power		= 3.0
+hit_impulse		= 100
+fire_distance	= 1900
+
+
+;Now guns from mods
+![wpn_50bmg_deagle]
+ammo_class		= ammo_50_bmg, ammo_50_bmg_bad
+
+hit_power		= 2.0
+hit_impulse		= 50
+fire_distance	= 500
+bullet_speed	= 700
+
+![wpn_50bmg_deagle_tac]
+ammo_class		= ammo_50_bmg, ammo_50_bmg_bad
+
+hit_power		= 2.0
+hit_impulse		= 50
+fire_distance	= 500
+bullet_speed	= 700
+
+![wpn_gm6]
+ammo_class		= ammo_50_bmg, ammo_50_bmg_bad
+
+hit_power		= 3.0
+hit_impulse		= 100
+fire_distance	= 2000
+bullet_speed	= 900
+
+![wpn_m82a2]
+ammo_class		= ammo_50_bmg, ammo_50_bmg_bad
+
+hit_power		= 3.0
+hit_impulse		= 100
+fire_distance	= 1900
+
+![wpn_xm500]
+ammo_class		= ammo_50_bmg, ammo_50_bmg_bad
+
+hit_power		= 3.0
+hit_impulse		= 100
+fire_distance	= 1900

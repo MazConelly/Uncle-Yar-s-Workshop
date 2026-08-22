@@ -18,7 +18,6 @@ Freedom won't get the Commando.
 The Army ignores the Felin set and the Commando.
 The flea market will only sell the basic F1 and G2 rifles.
 Spirit is a barman with only one supply level, dunno why the mods gives him anything and in the wrong level... but I've fixed it, though only for the F1.
-Disabled the trade file for Duty, as it doesn't fit their theme (the Army still has a pass, WP weaponry or not, if only to have samples).
 
 You can drag the Felin scope to the F1 Felin to attach it, or drag a swiss knife or multitool on it to separate them (you will only get the unscoped F1 Felin).
 

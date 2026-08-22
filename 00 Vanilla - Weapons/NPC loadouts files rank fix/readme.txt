@@ -3,11 +3,10 @@ NPC loadouts files rank fix
 
 ----------------------------------------------------------
 -Compatibility:
-Place the main files early in your load order, but after BaS Lite if you use it.
-
+Place the main files late in your load order.
 Let the expansion and patches win all conflicts, including the the DLTX distribution patches in Uncle Yar's Workshop or Basic Trader Profile Expansion.
 
-Incompatible with NPC loadout overhauls unless they're patched for it.
+Incompatible with other NPC loadout overhauls, unless they're patched for it.
 
 Mods adding new guns may want to observe the new sections in case patching is needed.
 
@@ -15,7 +14,8 @@ Mods adding new guns may want to observe the new sections in case patching is ne
 -Explanation:
 The base vanilla files for NPC loadouts have a couple of problems, I think. They're supposed to provide a pool of weapons based on faction rank of an NPC (novice, experienced, veteran, master) and whether they're main or secondary weapons.
 
-However for many rookie ranks many secondary guns like pistols were treated like main weapons, the secondary weapon pool unused. It also means that any mod trying to add weapons and isn't aware of this problem might end up not doing anything. Now, rookies will have proper access to both main and secondary weapons, and mods may add their weapons properly.
+However for many rookie ranks many secondary guns like pistols were treated like main weapons, the secondary weapon pool unused. It also means that any mod trying to add weapons and isn't aware of this problem might end up not doing anything. This *can* make sense if the faction is piss poor, however, there're better ways to try and show that.
+Now, rookies will have proper access to both main and secondary weapons, and mods may add their weapons properly.
 
 Some factions share the same rank pool for rookies and experienced, mainly Mercs and ISG. I made an experienced pool for each and copypasted there the best guns from the rookie pool. Mods that look for such a experienced pool will now work correctly, though not other pools that vanilla doesn't use. If recommend pairing this with the weapon mods fixes also included in this patch pack.
 Ecologist masters will now use the same pool of secondary weapons that eco mercs and ecologist experts use, instead of the dinky novice pool.
@@ -27,14 +27,10 @@ Also added "extra" sections to most faction ranks that lacked them. This makes e
 The odd ranks (trainee, professional, expert, legend) are barely used most of the time. Some mods try to add weapons to them, and fail because of this. I've added them properly to most factions, so those mods don't fail in adding their guns. Other than that, they just inherit the data of the previous rank. Maybe later updates will see more done to them.
 
 
-Optional files for Weighted NPC Random Loadouts are available. These will trim the entries and assign a given weight to each weapon.
-
-
-Proper loadout overhauls may not be compatible with these changes.
+Proper loadout overhauls may not be compatible with these changes. Extensive patching may be needed.
 
 ----------------------------------------------------------
 -Patches:
-Mods adding new guns may not work correctly without observing the new changes.
 
 
 GRENATA expansion
@@ -86,7 +82,7 @@ Lower ranks will have modest odds of having the M24. Veterans and masters may ca
 No one will carry the cluster, as its throw range is too short for the AI to use without killing themselves.
 
 Urban Tactics
-Veterans get a 50% chance for veterans to get the RDG-2 or the M18 (faction leaning depending), and masters a 75%.
+Veterans get a 50% chance to get the RDG-2 or the M18 (faction leaning depending), and masters a 75%.
 
 ----------------------------------------------------------
 -Known issues:

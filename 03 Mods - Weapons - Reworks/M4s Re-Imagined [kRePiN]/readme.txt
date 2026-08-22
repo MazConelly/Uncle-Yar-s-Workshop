@@ -65,5 +65,9 @@ Similar to the main files, if you only want the new variants, remove the files:
 mod_system_z_k_m4a1_mas.ltx
 mod_system_z_k_m4ras_mas.ltx
 
+Modular Attachment System - Vortex sight
+Converts the new Vortex sight to MAS.
+Placed here temporarily until I can be bothered to update MASCARA, or Krepin takes it to update the mod.
+
 ----------------------------------------------------------
 -Known issues:

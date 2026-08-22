@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
+
 	<string id="st_wpn_k50m">
 		<text>K-50M</text>
 	</string>
@@ -13,4 +14,5 @@
 	<string id="st_mag_k50m_descr">
 		<text>Long, curved magazine with 35 rounds of 7.62x25mm Tokarev, made for the PPSh-41 and its Variants, like the K-50M.</text>
 	</string>
+
 </string_table>

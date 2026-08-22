@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_rem7615">
+		<text>Remington 7615</text>
+	</string>
+	<string id="st_wpn_rem7615_descr">
+		<text>The Remington Model 7600 is a series of pump-action centerfire rifles made by Remington Arms. The Model 7600 is a progression from the original Model 760 pump-action rifle which Remington produced from 1952 to 1981. The Model 7615P comes in .223 Remington caliber, uses standard M16/AR-15 style STANAG magazines and has a 16,5" barrel. Just like the Model 7600P, the Model 7615P is designed to be a low-profile, user-friendly firearm for police officers to use alongside the Remington Model 870 shotgun. \n \n
+		%c[ui_gray_2]Addons: \n
+		%c[d_purple] - %c[ui_gray_2] Most of the sights for the Picatinny/Weaver system\n \n</text>
+	</string>
+</string_table>

@@ -1,29 +1,53 @@
 ;PS5
-[dolg_beta_outfit]:dolg_outfit
-$spawn			= "outfit\dolg_beta_outfit"
-actor_visual	= actors\stalker_dolg\stalker_dolg_gas_old.ogf
-npc_visual		= actors\stalker_dolg\stalker_dolg_gas_old.ogf
+[dolg_beta_outfit]:outfit_base
+$spawn						= "outfit\dolg_beta_outfit"
+class						= EQU_STLK
+ef_equipment_type			= 3
+visual						= dynamics\outfit\dolg_outfit
+actor_visual				= actors\stalker_dolg\stalker_dolg_gas_old.ogf
+npc_visual					= actors\stalker_dolg\stalker_dolg_gas_old.ogf
+player_hud_section			= actor_hud_duty_ps5m
+character_portrait			= ui_inGame2_Dolg_1_mask
+full_icon_name				= npc_icon_dolg_outfit
+full_scale_icon				= 8, 11
 
-inv_name		= dolg_beta_outfit_name
-inv_name_short	= dolg_beta_outfit_name_S
-description		= dolg_beta_outfit_description
-icons_texture	= ui\ui_icon_chokoladka
-inv_grid_width	= 2
-inv_grid_height	= 3
-inv_grid_x		= 12
-inv_grid_y		= 0
+inv_name					= dolg_beta_outfit_name
+inv_name_short				= dolg_beta_outfit_name_S
+description					= dolg_beta_outfit_description
+icons_texture				= ui\ui_icon_chokoladka
+inv_grid_x					= 12
+inv_grid_y					= 0
+inv_grid_width				= 2
+inv_grid_height				= 3
+upgr_icon_x					= 0
+upgr_icon_y					= 160
+upgr_icon_width				= 304
+upgr_icon_height			= 136
+upgrades					= up_gr_firstab_ps5_1, up_gr_seconab_ps5_1, up_gr_thirdab_ps5_1
+installed_upgrades			=
+upgrade_scheme				= up_scheme_ps5_1
 
-cost				= 62978
-inv_weight			= 21
+community					= dolg
+kind						= o_medium
+cost						= 62978
+inv_weight					= 21
 additional_inventory_weight	= 12
 additional_inventory_weight2= 12
-artefact_count		= 1
-;repair_part_bonus	= 0.19
-hit_fraction_actor	= 0.55
+artefact_count				= 1
+immunities_sect				= sect_dolg_outfit_immunities
+repair_type					= outfit_medium
+;repair_part_bonus			= 0.19
+hit_fraction_actor			= 0.55
+bones_koeff_protection		= actor_armor_duty_suit
+control_inertion_factor		= 1.27
+power_loss					= 0.05
 
-burn_protection			= 0.1
-shock_protection		= 0.59
-strike_protection		= 0.6
-explosion_protection	= 0.60
-wound_protection		= 0.56
-fire_wound_protection	= 0.45
+burn_protection				= 0.1
+shock_protection			= 0.59
+radiation_protection		= 0.0035
+chemical_burn_protection	= 0.022
+telepatic_protection		= 0
+strike_protection			= 0.6
+explosion_protection		= 0.60
+wound_protection			= 0.56
+fire_wound_protection		= 0.45

@@ -3,11 +3,13 @@ RPD Custom [ATHI]
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You still need the original mod. Let this overwrite it.
+NOTE: You still need the original mod. Disable its configs folder.
+
+This mod requires NickolasNikova's RPD Reanimation and will not work with other RPD reworks.
 
 ----------------------------------------------------------
 -Explanation:
-The weapon now inherits from the vanilla RPD (so that changes made upstream affects it. But a .mohidden copy of the file without the inheritance is available in the same folder (gamedat/configs/items/weapons).
+The weapon now inherits from the vanilla RPD (so that changes made upstream affects it. But a .mohidden copy of the file without the inheritance is available in the same folder (gamedata/configs/items/weapons).
 Trader distribution. Duty, Sin, Loris and Owl will sell it.
 Icon files trimmed.
 

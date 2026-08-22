@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_sil_grot">
+		<text>Глушитель Steel Pegasus L Air</text>
+	</string>
+	<string id="st_addon_sil_grot_descr">
+		<text>Титановый глушитель украинского производства от компании STEEL.</text>
+	</string>
+
+</string_table>

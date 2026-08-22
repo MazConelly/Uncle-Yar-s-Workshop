@@ -4,9 +4,10 @@ https://www.moddb.com/mods/stalker-anomaly/addons/the-auto-mag
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You still need the original mod. Disable the original configs folder.
+NOTE: You still need the original mod. Disable the gamedata/configs folder.
 
-You can still use its included patches, except the Mags Redux one.
+You can still use its included patches.
+You may install the Mags Redux patch, but also disable its gamedata/configs folder.
 
 ----------------------------------------------------------
 -Explanation:
@@ -14,6 +15,7 @@ You can still use its included patches, except the Mags Redux one.
 Mags Redux patch integrated.
 
 Integrated into:
+Armor Modkits addon. Allows you to use a modkit to upgrade the normal Auto Mag to the carbine.
 Lootboxes
 PDA Interactive
 Weapon Parts Overhaul
@@ -23,8 +25,6 @@ Given the intended rarity, Grok's Stash Overhaul support seemed too much. Lootbo
 ----------------------------------------------------------
 -Patches:
 
-Armor Modkits addon
-This patch allows you to use a modkit to upgrade the normal Auto Mag to the carbine.
 
 ----------------------------------------------------------
 -Known issues:

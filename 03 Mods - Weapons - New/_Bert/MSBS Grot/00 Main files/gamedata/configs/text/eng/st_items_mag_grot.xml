@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_grot">
+		<text>Polymer MSBS Grot Magazine</text>
+	</string>
+	<string id="st_mag_grot_descr">
+		<text>30-round 5.56x45 polymer magazine for MSBS Grot.</text>
+	</string>
+
+</string_table>

@@ -19,7 +19,11 @@ The belt slots changes are included, but disabled due to uncertainty of intentio
 ----------------------------------------------------------
 -Patches:
 
-Separated Helmets 1.5.2
+Separated Helmets
+Compatible with either Vintar0's original, Laconeko's 1.5.2 update, or MazConnelly's 1.5.3 update.
+
+Separated Helmets and Backpacks 1.5.3
+Additional option, in case you use the Separated Backpacks option in MazConnelly's 1.5.3 update.
 
 ----------------------------------------------------------
 -Known issues:

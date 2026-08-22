@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_sil_grot">
+		<text>Steel Pegasus L Air Suppressor</text>
+	</string>
+	<string id="st_addon_sil_grot_descr">
+		<text>Ukrainian titanium made suppressor manufactured by the company STEEL.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_grot">
+		<text>MSBS Grot C16A2</text>
+	</string>
+	<string id="st_wpn_grot_s">
+		<text>Grot C16A2</text>
+	</string>
+	<string id="st_wpn_grot_descr">
+		<text>The MSBS Grot is a family of selective fire modular assault rifles capable of semi-automatic, 3-round burst and fully automatic fire, with a cyclic rate of fire of around 700–900 rounds per minute, and available in both standard (Grot C) and bullpup (Grot B) designs. It was developed and manufactured by FB Radom since 2007, currently in service with the Polish Territorial Defence Forces, and scheduled to replace the FB Beryl as the primary infantry weapon and service rifle of the Polish Armed Forces.\n
+		This particular variant, the C16A2, comes equipped with a 16-inch barrel and when compared to its older iterations: a longer handguard, reinforced firing pin, improved pistol grip and stock.\n
+		Looks like the previous owner attatched a foregrip and a laser device to it as well.</text>
+	</string>
+
+</string_table>

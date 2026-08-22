@@ -1,0 +1,57 @@
+;Exoskeleton
+[exo_fang_outfit]:outfit_base,outfit_restrictions_3
+$spawn                        = "outfit\exo_fang_outfit"
+class                         = E_STLK
+ef_equipment_type             = 5
+visual                        = dynamics\outfit\exo_outfit
+actor_visual                  = actors\stalker_neutral\stalker_neutral_4.ogf
+npc_visual                    = actors\stalker_neutral\stalker_neutral_4.ogf
+player_hud_section            = actor_hud_exo
+character_portrait            = ui_inGame2_neutral_4
+full_icon_name                = npc_icon_exo_outfit
+full_scale_icon               = 2, 11
+
+inv_name						= exo_fang_outfit_name
+inv_name_short					= exo_fang_outfit_name
+description						= exo_fang_outfit_description
+icons_texture					= ui\ui_icon_to_outfits
+inv_grid_x						= 6
+inv_grid_y						= 3
+upgr_icon_x                   = 332
+upgr_icon_y                   = 447
+upgr_icon_width               = 306
+upgr_icon_height              = 165
+upgrades                      = up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1, up_gr_fifthab_exo_1
+installed_upgrades            =
+upgrade_scheme                = up_scheme_exo_1
+
+; community                     = stalker
+kind                          = o_heavy
+cost							= 301500
+inv_weight						= 41
+additional_inventory_weight		= 145
+additional_inventory_weight2	= 145
+artefact_count					= 3
+immunities_sect					= sect_exo_fang_outfit_immunities
+repair_type                   = outfit_exo
+;repair_part_bonus             = 0.45
+hit_fraction_actor            = 0.2
+bones_koeff_protection			= actor_armor_military_exo
+control_inertion_factor       = 1.76
+power_loss                    = 0.1
+sprint_allowed					= true
+
+burn_protection					= 0.73
+shock_protection				= 0.9500
+radiation_protection			= 0.04500
+chemical_burn_protection		= 0.0550
+telepatic_protection			= 0.1050
+strike_protection				= 0.60
+explosion_protection			= 0.98
+wound_protection				= 0.70
+fire_wound_protection			= 0.95
+
+[sect_exo_fang_outfit_immunities]:sect_exo_outfit_immunities
+burn_immunity					= 0.025
+chemical_burn_immunity			= 0.009
+explosion_immunity				= 0.008

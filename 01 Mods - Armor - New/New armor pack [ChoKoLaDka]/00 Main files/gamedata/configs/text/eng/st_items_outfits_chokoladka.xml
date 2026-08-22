@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="novice_gray_outfit_name">
+		<text>Grey jacket</text>
+	</string>
+	<string id="novice_gray_outfit_description">
+		<text>%c[ui_gray_1]A warm grey anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among naive or inexperienced stalkers, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
+	</string>
+
+	<string id="novice_uzor_outfit_name">
+		<text>Plaid Jacket</text>
+	</string>
+	<string id="novice_uzor_outfit_description">
+		<text>%c[ui_gray_1]A warm plaid anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among naive or inexperienced stalkers, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
+	</string>
+
+	<string id="novice_army_afganka_outfit_name">
+		<text>Afghan</text>
+	</string>
+	<string id="novice_army_afganka_outfit_description">
+		<text>%c[ui_gray_1]A warm leather anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among military privates, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
+	</string>
+
+	<string id="novice_ecolog_scien_outfit_name">
+		<text>Lab Assistant's clothing</text>
+	</string>
+	<string id="novice_ecolog_scien_outfit_description">
+		<text>%c[ui_gray_1]Uniform worn by laboratory assistants of scientists during exits to the Zone. Not much different from a regular jacket, except that it protects better from fire, burns and chemical burns. Very comfortable.\n \n</text>
+	</string>
+
+	<string id="army_2_outfit_name">
+		<text>PSZ-7 battle armour</text>
+	</string>
+	<string id="army_2_outfit_name_s">
+		<text>PSZ-7</text>
+	</string>
+	<string id="army_2_outfit_description">
+		<text>The Army bulletproof vest (PSZ-7 series) is the standard equipment of soldiers from the regular army. The bulletproof vest is designed to provide a basic level of protection against bullets and blows that may occur during combat operations against lightly armed opponents, in general, the protective characteristics are low and the bulletproof vest does not provide protection from abnormal phenomena that are common in the Zone.\n \n
+		</text>
+	</string>
+
+	<string id="army_3_outfit_name">
+		<text>Berill-4S armoured suit</text>
+	</string>
+	<string id="army_3_outfit_name_s">
+		<text>Berill-4S</text>
+	</string>
+	<string id="army_3_outfit_description">
+		<text>According to the developers, this bulletproof vest was supposed to become special forces equipment. For the full name of the equipment: "Berill-4 Special Forces Modification". But after the Berill-5M armored suit entered service, all these overalls began to be used by ordinary troops. It is used only on the territory of the South, because it does not sufficiently protect against abnormal effects. Protects in a better way than a simple army bulletproof vest. The main trump card of this equipment is lightness. You can run great in it. Thanks to this, the special forces celebrated the victory over stalkers more than once.\n \n
+		</text>
+	</string>
+
+	<string id="army_general_outfit_name">
+		<text>Berill-4O armoured suit</text>
+	</string>
+	<string id="army_general_outfit_name_s">
+		<text>Berill-4O</text>
+	</string>
+	<string id="army_general_outfit_description">
+		<text>An everyday officer uniform. For actual combat, officers are issue different equipment, but this is stil decent for the South of the Zone. Good bulletproof vest, comfortable pockets, built-in walkie-talkie... But the protection against anomalies is lacking.\n \n
+		</text>
+	</string>
+
+	<string id="specops_bandit_raider_outfit_name">
+		<text>Raider armoured suit</text>
+	</string>
+	<string id="specops_bandit_raider_outfit_description">
+		<text>%c[ui_gray_1]A set of PS5 series body armour with beryllium sputter, acquired through shady means by the Zone's Bandits. Although the suit shows visible signs of irreparable wear and tear, it's still an excellent choice for battle when both protection and mobility is needed. Not really recommended for use near anomalies, however.\n \n
+		</text>
+	</string>
+
+	<string id="light_security_outfit_name">
+		<text>Lightweight Stalker Jumpsuit</text>
+	</string>
+	<string id="light_security_outfit_description">
+		<text>%c[ui_gray_1]A lightweight version of the stalker jumpsuit. It has a lightweight Kevlar body armor, reinforced with armor plates made of particularly durable high-alloy steel, so that with less weight it protects well from small arms. Barely protects against radiation and anomalies. Inexpensive, but not for sale in any place. How I got into the Zone is unknown. Used by security at the Bar.\n \n
+		</text>
+	</string>
+
+	<string id="merc_demon_outfit_name">
+		<text>"Demon" guard jumpsuit</text>
+	</string>
+	<string id="merc_demon_outfit_description">
+		<text>%c[ui_gray_1]An alternative version of the coverall used by mercenaries. The "Demon" has been optimized to provide high mobility, good thermal protection, as well as the possibility of fixing additional modules. The price of such changes was the reduced protective characteristics of the suit as a whole. Nevertheless, it can perfectly manifest itself in operations where mobility and stealth are important, and therefore it is used mainly by scouts and killers who operate in the least irradiated areas of the Zone.\n \n
+		</text>
+	</string>
+
+	<string id="guard_outfit_name">
+		<text>Guard jumpsuit</text>
+	</string>
+	<string id="guard_outfit_description">
+		<text>%c[ui_gray_1]A lightweight jumpsuit used by unaligned guards, which is based on samples of special forces equipment of Western armies. Due to the special processing of the fabric, the stability of the armor is enhanced with the physical displacement of the plates, but when compared with the standard equipment of the special forces, it loses heavily to the latter in terms of protective parameters. In addition, the jumpsuit was not designed taking into account the abnormal activity in the Zone.\n \n
+		</text>
+	</string>
+
+	<string id="army_mirotvorec_outfit_name">
+		<text>Peacemaker jumpsuit</text>
+	</string>
+	<string id="army_mirotvorec_outfit_description">
+		<text>%c[ui_gray_1]Standard equipment of NATO soldiers in the Zone, the built-in bulletproof vest is able to stop pistol rounds and protect from shrapnel, but the main advantage is excellent protection from claws and fangs, and decent protection against radiation and acid. Unfortunately, it cannot carry artefacts or containers for them.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_beta_outfit_name">
+		<text>PS5-M "Beta" universal protection</text>
+	</string>
+	<string id="dolg_beta_outfit_name_s">
+		<text>PS5-M Beta</text>
+	</string>
+	<string id="dolg_beta_outfit_description">
+		<text>%c[ui_gray_1]An outdated model of the Duty PS5-M outfit, and no longer produced due to too much weight and worse mobility, although it provides better protection.\n \n
+		</text>
+	</string>
+
+	<string id="monolith_2_outfit_name">
+		<text>Heavy Monolith jumpsuit</text>
+	</string>
+	<string id="monolith_2_outfit_description">
+		<text>%c[ui_gray_1]A mysterious outfit associated with the Monolith faction. It consists of an environmental bodysuit that provides more than adequate chemical and radiological protection, underneath a ballistic vest capable of stopping weak pistol rounds. Its anomaly protection, however, is subpar. Previously of unknown origin, scores of these suits were found in containers and lockers underneath the X18 facility in Dark Valley. Although the stalkers who found this cache have since all mysteriously disappeared, this discovery has nonetheless launched thousands of conspiracy theories among stalkers of other factions, the premise of many claiming that these suits predate the creation of the Zone itself.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_veteran1_outfit_name">
+		<text>"Veteran-1" stalker suit</text>
+	</string>
+	<string id="stalker_veteran1_outfit_name_s">
+		<text>Veteran-1</text>
+	</string>
+	<string id="stalker_veteran1_outfit_description">
+		<text>%c[ui_gray_1]A Zone-assembled suit that has been handmade by local craftsmen as a matter of survival. With an effective combination of a lightweight army bulletproof vest and a jumpsuit made of rubberized fabric, and reinforced with built-in Kevlar plates, it provides better protection against weak small arms than standard Sunrise stalker suits, if insufficient for deep raids and dangerous operations.\n \n
+		</text>
+	</string>
+
+	<string id="specops_gray_outfit_name">
+		<text>Berill-5M "Grayness" armoured suit</text>
+	</string>
+	<string id="specops_gray_outfit_name_s">
+		<text>Berill-5M Grayness</text>
+	</string>
+	<string id="specops_gray_outfit_description">
+		<text>%c[ui_gray_1]This item comprises military PS5 series body armour with beryllium sputter modified for use in the Zone. Designed for intense rapid-insertion assault operations, this outfit is standard issue for most Spetsnaz operators in the Zone, but requires a high quality respirator to counteract its weaknesses against radiation and anomalies. Occasionally, this suit will be sold to ordinary stalkers in exchange for various "favours".\n
+		This particular variant has been designed for night operations in areas with high background radiation and anomalous activity.\n
+		</text>
+	</string>
+
+	<string id="cs_scientific_outfit_good_2_name">
+		<text>CS-4a "Vys" Pathfinder</text>
+	</string>
+	<string id="cs_scientific_outfit_good_2_description">
+		<text>%c[ui_gray_1]An unofficial version of the SEVA scientific suit that has been extensively improved by Novikov, Clear Sky's resident technician. While a little more flammable than the typical SEVA, and thus a poor choice for thermal anomalies, it provides beyond excellent anomaly protection in all other cases on top of being extremely comfortable to move around in, and as such is in great demand among Clear Sky's more serious researchers.\n
+		This particular model has improved protection from radiation, though the ballistic protection is still lacking.\n \n
+		</text>
+	</string>
+
+	<string id="cs_extraexoseva_skydome_outfit_name">
+		<text>CBSE "Sky Dome"</text>
+	</string>
+	<string id="looted_cs_extraexoseva_skydome_outfit_name">
+		<text>Looted CBSE "Sky Dome"</text>
+	</string>
+	<string id="cs_extraexoseva_skydome_outfit_description">
+		<text>%c[ui_gray_1]One of the best works of the Clear Sky technicians. After numerous experiments with various modifications, they managed to create a truly powerful armored suit, but the high cost of maintenance only allows its use to the best Clear Sky members.\n \n
+		</text>
+	</string>
+
+	<string id="dolg_exolight_debtor_outfit_name">
+		<text>PSZ-10d Debtor battlesuit</text>
+	</string>
+	<string id="dolg_exolight_debtor_outfit_name_s">
+		<text>PSZ-10d Debtor</text>
+	</string>
+	<string id="dolg_exolight_debtor_outfit_description">
+		<text>The "underwear" of an exoskeleton, sometimes mistakenly known as the "Radsuit". This outfit provides almost all the protection one can expect from a full exoskeleton, but due to being stripped of its servos and batteries, it provides none of the strength enhancement. On the positive side, this means the suit is now easier to maintain and, unlike a full exoskeleton, does not prevent the wearer from sprinting. This suit is typically found in the hands of elite Duty warriors, especially those assigned to guard VIPs or launch exceedingly dangerous raids.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_exolight_pacifist_outfit_name">
+		<text>Peacemaker of Freedom</text>
+	</string>
+	<string id="svoboda_exolight_pacifist_outfit_description">
+		<text>The "underwear" of an exoskeleton, sometimes mistakenly known as the "Radsuit". This outfit provides almost all the protection one can expect from a full exoskeleton, but due to being stripped of its servos and batteries, it provides none of the strength enhancement. On the positive side, this means the suit is now easier to maintain and, unlike a full exoskeleton, does not prevent the wearer from sprinting. Only the most respected members of Freedom will ever be found wearing a suit like this, and even then only in the most dire of need.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_light_2_outfit_name">
+		<text>Veto of Freedom</text>
+	</string>
+	<string id="svoboda_light_2_outfit_description">
+		<text>%c[ui_gray_1]This comfortable stalker bodysuit is made by Freedom craftsmen. The suit’s fabric is treated with Horizon, a special solution developed by the faction by trial and error, to increase resistance to chemical anomalies. One can only guess what the side effects might be.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_germo_outfit_name">
+		<text>Thermal stalker suit</text>
+	</string>
+	<string id="stalker_germo_outfit_description">
+		<text>%c[ui_gray_1]An artisanal modification of a conventional suit, supplemented with anti-radiation protection and cylinders from a scientific protective suit. Apparently, the stalkers did not have enough money for scientific and they began to modify their own, increasing its protection from PSI.\n \n
+		</text>
+	</string>
+
+	<string id="stalker_sanitar_outfit_name">
+		<text>"Dungeon Assistant" stalker suit</text>
+	</string>
+	<string id="stalker_sanitar_outfit_description">
+		<text>%c[ui_gray_1]A popular outfit for many stalker diggers. It consists of a light army bulletproof vest and some materials for protection from radiation. There is a flashlight and a high-quality gas mask. Not a bad choice for stalkers who have money. There is one container for artifacts. The combination of medium cost and medium protection is suitable for experienced stalkers and rich beginners.\n \n
+		</text>
+	</string>
+
+	<string id="army_vdv_outfit_name">
+		<text>Airborne uniform</text>
+	</string>
+	<string id="army_vdv_outfit_description">
+		<text>%c[ui_gray_1]Intended for Air Force soldiers and paratroopers for landings on the North of the Zone, where Berill is not enough. Well balanced.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_light_grom_outfit_name">
+		<text>Thunder of Freedom</text>
+	</string>
+	<string id="svoboda_light_grom_outfit_description">
+		<text>%c[ui_gray_1]A creation of the armorer Razamas. A mixture of several jumpsuits that are almost impossible to install. Chain mail was added to protect against fangs. However, the speed of movement was noticeably reduced. Approximately, this is how they move in the exoskeleton of Freedom. Therefore, carriers usually work with the support of people with lighter overalls. Holds an automatic bullet well. There are three containers for comfortable movement of artifacts.\n \n
+		</text>
+	</string>
+
+	<string id="svoboda_exolight_veter_outfit_name">
+		<text>Gust of Freedom</text>
+	</string>
+	<string id="svoboda_exolight_veter_outfit_description">
+		<text>%c[ui_gray_1]The so-called "light" exoskeleton of Freedom. This suit consists of a "Guardian of Freedom" suit reinforced with a chain mail bulletproof vest with a gas mask and a muscle amplifier with servomotors. A great option for those who are equally important for carrying capacity and maneuverability, i.e. it is the "golden mean". The running function is enabled.\n \n
+		</text>
+	</string>
+
+	<string id="military_spektr_outfit_name">
+		<text>Skat-9 "Spectrum" armoured suit</text>
+	</string>
+	<string id="military_spektr_outfit_name_s">
+		<text>Skat-9 Spectrum</text>
+	</string>
+	<string id="military_spektr_outfit_description">
+		<text>%c[ui_gray_1]A modified Skat-9 outfit intended for conducting combat operations in anomalous areas.\n \n
+		</text>
+	</string>
+
+</string_table>

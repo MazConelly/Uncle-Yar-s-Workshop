@@ -10,7 +10,7 @@ inv_weight				= 0.26
 cost					= 1000
 box_size				= 1
 
-icons_texture			= ui\actor_items\ui_icons_urban_tactics
+icons_texture			= ui\ui_icons_urban_tactics
 inv_grid_height			= 1
 inv_grid_width			= 1
 inv_grid_x				= 1
@@ -26,16 +26,19 @@ wm_size					= 0.05
 fake_grenade_name		= wpn_fake_missile_flare_vgop
 ammo_grenade_vel		= 60
 
+inv_grid_scale			= 1
+
 [ammo_flare_grenade_m662]:ammo_m209
 visual					= dynamics\weapons\wpn_ammo\ammo_m662.ogf
 inv_name				= ammo_flare_grenade_m662
 inv_name_short			= ammo_flare_grenade_m662
 description				= ammo_flare_grenade_m662_descr
+
 inv_weight				= 0.2
 cost					= 1000
 box_size				= 1
 
-icons_texture			= ui\actor_items\ui_icons_urban_tactics
+icons_texture			= ui\ui_icons_urban_tactics
 inv_grid_height			= 1
 inv_grid_width			= 1
 inv_grid_x				= 0
@@ -50,6 +53,8 @@ tracer					= off
 wm_size					= 0.05
 fake_grenade_name		= wpn_fake_missile_flare_m662
 ammo_grenade_vel		= 60
+
+inv_grid_scale			= 1
 
 ;====================================================================================================
 ; Fake	Rocket
@@ -86,7 +91,7 @@ on_explode				= bind_flare.on_explode
 on_explode_spawn		= flare_object_grenade_m662
 
 ;====================================================================================================
-; Script	object
+; Script object
 ;====================================================================================================
 [flare_object_base]
 GroupControlSection		= spawn_group

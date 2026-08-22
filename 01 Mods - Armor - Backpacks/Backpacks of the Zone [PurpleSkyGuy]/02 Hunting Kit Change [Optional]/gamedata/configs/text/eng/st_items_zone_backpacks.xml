@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_kit_new_hunt">
+		<text>Hunter's Gear</text>
+	</string>
+	<string id="st_kit_new_hunt_descr">
+		<text>A whole bag full of hooks, knives and other equipment used for skinning and gutting animals and mutants. Few stalkers carry professional equipment for mutant hunting. That is probably the reason why so many Zoners suffer from indigestion after eating mutant meat. Thanks to the variety of tools.\n \n
+%c[ui_gray_3]PROPERTIES:\n
+%c[d_blue] • %c[ui_gray_2] everyday item\n
+%c[d_orange] • %c[ui_gray_2] possession increases number of body parts obtained from mutants\n
+		</text>
+	</string>
+	<string id="st_zone_backpack_name">
+		<text>Canvas Backpack</text>
+	</string>
+	<string id="st_zone_backpack_descr">
+		<text>canvas backpacks are usually used by freeriders. Ordinary people may find it useful while carrying small loads for activities. For a novice tourist, this will be the best choice. Designed for 1-2 day hikes.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+
+	<string id="st_zone_backpack2_name">
+		<text>Military Rucksack</text>
+	</string>
+	<string id="st_zone_backpack2_descr">
+		<text>A military rucksack is designed to carry essential supplies and equipment during military operations, which often occurs in conditions of difficult and unpredictable terrain. The choice of the required volume is determined by your tasks - in what conditions, how much equipment you take with you.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+	
+	<string id="st_zone_backpack3_name">
+		<text>Tactical Rucksack</text>
+	</string>
+	<string id="st_zone_backpack3_descr">
+		<text>A Tactical Rucksack is designed for when you dont know when your coming back. The choice of the required volume is determined by your tasks - how much time you will spend on an autonomous journey.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+	
+	<string id="st_zone_backpack4_name">
+		<text> Assault Backpack</text>
+	</string>
+	<string id="st_zone_backpack4_descr">
+		<text>An zone backpack is designed to carry heavy loads over long distances. The choice of the required volume is determined by your tasks - in what conditions, how much equipment you take with you.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+
+	<string id="st_zone_backpack5_name">
+		<text>Heavy-Assault Backpack</text>
+	</string>
+	<string id="st_zone_backpack5_descr">
+		<text>A heavy-assault backpack is designed to carry heavy loads of assortments of ammo. The choice of the required volume is determined by your tasks - in what conditions, how much equipment you take with you.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+
+	<string id="st_zone_backpack6_name">
+		<text>Tactical Hiking Backpack</text>
+	</string>
+	<string id="st_zone_backpack6_descr">
+		<text>A tactical hiking backpack is designed to carry heavy loads over long distances, which often occurs in conditions of difficult terrain, unpredictable weather and increased fatigue. The choice of the required volume is determined by your tasks - in what conditions, how much equipment you take with you.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+	
+	<string id="st_zone_backpack7_name">
+		<text>6sh118 "BOSS" Backpack</text>
+	</string>
+	<string id="st_zone_backpack7_descr">
+		<text>The 6Sh118 backpack is part of the 2nd generation "Ratnik" gear kit for combat. The 6Sh118 is a modernization of the 6B38 Permyachka model backpack. The 6Sh118 "BOSS" backpack is designed to carry fire support equipment, weapons, ammunition, elements of mountain equipment, as well as the personal belongings of individual soldiers. The backpack can be used during combat operations, long hikes, and raid events. Makes a perfect bacpack for loot runs. If you have the strength.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] • %c[ui_gray_2] widespread use\n
+%c[d_blue] • %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] • %c[ui_gray_2] can be used as a stash\n
+		</text>
+			</string>
+</string_table>

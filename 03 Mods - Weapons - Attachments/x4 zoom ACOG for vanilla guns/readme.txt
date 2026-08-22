@@ -4,7 +4,7 @@ x4 zoom ACOG for vanilla guns
 ----------------------------------------------------------
 -Compatibility:
 
-2D Scope Overhaul: Redundant with the module in this package.
+2D Scope Overhaul: Redundant with it and the module in this package.
 
 ----------------------------------------------------------
 -Explanation:

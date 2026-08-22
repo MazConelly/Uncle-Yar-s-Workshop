@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_walther_ppq5_40">
+		<text>Walther PPQ Q5 Match - .40 S&amp;W</text>
+	</string>
+	<string id="st_wpn_walther_ppq5_40_descr">
+		<text>The Walther PPQ Q5 Match is a precision-engineered 9mm competition pistol known for its excellent ergonomics, crisp trigger, and accuracy. It likely found its way into the Zone through military or private contractor use, black market trade, or as part of experimental loadouts tested in the lawless and dangerous environment of the Zone.\n
+		This particular model is chambered for .40 S&amp;W.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W compatible suppressor</text>
+	</string>
+
+	<string id="st_wpn_hpsa_hpfn">
+		<text>FN High Power - .40 S&amp;W</text>
+	</string>
+	<string id="st_wpn_hpsa_hpfn_40_descr">
+		<text>The Browning Hi-Power is a single-action, semi-automatic pistol available in the 9x19mm Parabellum and .40 S&W calibers. It was based on a design by American firearms inventor John Browning, and completed by Dieudonne Saive at FN Herstal. Browning died in 1926, several years before the design was finalized. FN Herstal named it the "High Power" in allusion to the 13-round magazine capacity, almost twice that of other designs at the time, such as the Walther P38 or Colt M1911.\n \n
+		This particular model is chambered for .40 S&amp;W.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .40 S&amp;W compatible suppressor</text>
+	</string>
+
+</string_table>

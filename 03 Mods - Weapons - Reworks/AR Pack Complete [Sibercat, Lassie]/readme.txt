@@ -26,6 +26,7 @@ Integrated into:
 FireModeCheck
 Interactive PDA
 Lootboxes
+Shader Based 2D Scopes
 Urban Tactics
 Weapon Parts OVerhaul
 

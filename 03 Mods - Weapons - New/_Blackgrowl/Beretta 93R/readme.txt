@@ -4,8 +4,10 @@ https://www.moddb.com/mods/stalker-anomaly/addons/beretta93r
 
 ----------------------------------------------------------
 -Compatibility:
+NOTE: You still need the original mod. Disable the gamedata/configs folder.
 
-Let this overwrite the original files.
+You can still use its included patches.
+You may install the Mags Redux patch, but also disable its gamedata/configs folder.
 
 ----------------------------------------------------------
 -Explanation:

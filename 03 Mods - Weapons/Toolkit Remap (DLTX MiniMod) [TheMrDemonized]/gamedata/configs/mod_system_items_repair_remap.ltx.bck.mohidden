@@ -1,0 +1,325 @@
+; repair item remap
+![cleaning_kit_s]
+description		= st_cleaning_kit_s_new_descr
+inv_name		= st_cleaning_kit_s_new
+inv_name_short	= st_cleaning_kit_s_new
+![cleaning_kit_r5]
+description		= st_cleaning_kit_r5_new_descr
+inv_name		= st_cleaning_kit_r5_new
+inv_name_short	= st_cleaning_kit_r5_new
+![cleaning_kit_r7]
+description		= st_cleaning_kit_r7_new_descr
+inv_name		= st_cleaning_kit_r7_new
+inv_name_short	= st_cleaning_kit_r7_new
+![toolkit_s]
+description		= st_toolkit_s_new_descr
+inv_name		= st_toolkit_s_new
+inv_name_short	= st_toolkit_s_new
+![toolkit_r5]
+description		= st_toolkit_r5_new_descr
+inv_name		= st_toolkit_r5_new
+inv_name_short	= st_toolkit_r5_new
+![toolkit_r7]
+description		= st_toolkit_r7_new_descr
+inv_name		= st_toolkit_r7_new
+inv_name_short	= st_toolkit_r7_new
+
+; new shotgun class weapons
+![wpn_arisaka]
+repair_type	= shotgun
+![wpn_bar_j]
+repair_type	= shotgun
+![wpn_c96]
+repair_type	= shotgun
+![wpn_dp27]
+repair_type	= shotgun
+![wpn_dp28]
+repair_type	= shotgun
+![wpn_eft_mts_255]
+repair_type	= shotgun
+![wpn_mts_255_eft]
+repair_type	= shotgun
+![wpn_fg42]
+repair_type	= shotgun
+![wpn_garand]
+repair_type	= shotgun
+![wpn_garand_j]
+repair_type	= shotgun
+![wpn_g43]
+repair_type	= shotgun
+![wpn_k98]
+repair_type	= shotgun
+![wpn_k98_mod]
+repair_type	= shotgun
+![wpn_kar98_retrotac]
+repair_type	= shotgun
+![wpn_karabiner98k]
+repair_type	= shotgun
+![wpn_kp31]
+repair_type	= shotgun
+![wpn_lewd_stg44]
+repair_type	= shotgun
+![wpn_stg44_lewd]
+repair_type	= shotgun
+![wpn_m14]
+repair_type	= shotgun
+![wpn_m14_dmr]
+repair_type	= shotgun
+![wpn_m21]
+repair_type	= shotgun
+![wpn_m1carbine]
+repair_type	= shotgun
+![wpn_m1carbine_j]
+repair_type	= shotgun
+![wpn_m1paratrooper_j]
+repair_type	= shotgun
+![wpn_m1903]
+repair_type	= shotgun
+![wpn_m1928]
+repair_type	= shotgun
+; ![wpn_mini14]
+; repair_type	= shotgun
+![wpn_mp40]
+repair_type	= shotgun
+![wpn_mosin]
+repair_type	= shotgun
+![wpn_mosin_short]
+repair_type	= shotgun
+![wpn_p08]
+repair_type	= shotgun
+![wpn_ppsh41]
+repair_type	= shotgun
+![wpn_ppsh41_rednew]
+repair_type	= shotgun
+![wpn_ppsh41_woodnew]
+repair_type	= shotgun
+![wpn_ppshstick]
+repair_type	= shotgun
+![wpn_ppsh_bas]
+repair_type	= shotgun
+![wpn_ppsh_bas_uptacppsh]
+repair_type	= shotgun
+![wpn_sks]
+repair_type	= shotgun
+![wpn_sks_b]
+repair_type	= shotgun
+![wpn_sks_modern]
+repair_type	= shotgun
+![wpn_sks_molot]
+repair_type	= shotgun
+![wpn_sks_short]
+repair_type	= shotgun
+![wpn_sks_tac]
+repair_type	= shotgun
+![wpn_svt40]
+repair_type	= shotgun
+![wpn_svt40_modern]
+repair_type	= shotgun
+![wpn_svt_short]
+repair_type	= shotgun
+![wpn_sten]
+repair_type	= shotgun
+![wpn_type63]
+repair_type	= shotgun
+![wpn_toz106]
+repair_type	= shotgun
+![wpn_toz106_m1]
+repair_type	= shotgun
+![wpn_uboinik]
+repair_type	= shotgun
+![wpn_thompson_m1a1]
+repair_type	= shotgun
+![wpn_thompson_1921]
+repair_type	= shotgun
+![wpn_type64]
+repair_type	= shotgun
+![wpn_win1886]
+repair_type	= shotgun
+![wpn_winchester1892]
+repair_type	= shotgun
+
+; ; new r5
+![wpn_ace52]
+repair_type	= rifle_5
+![wpn_ak]
+repair_type	= rifle_5
+![wpn_ak47_cheeki]
+repair_type	= rifle_5
+![wpn_akm]
+repair_type	= rifle_5
+![wpn_akm_bas]
+repair_type	= rifle_5
+![wpn_akms_bas]
+repair_type	= rifle_5
+![wpn_akvs]
+repair_type	= rifle_5
+![wpn_akvs2]
+repair_type	= rifle_5
+![wpn_ak101_sp]
+repair_type	= rifle_5
+![wpn_ak103]
+repair_type	= rifle_5
+![wpn_ak103_bp]
+repair_type	= rifle_5
+![wpn_ak103_camo]
+repair_type	= rifle_5
+![wpn_ak104]
+repair_type	= rifle_5
+![wpn_ak104_alfa]
+repair_type	= rifle_5
+![wpn_amb17_rwap]
+repair_type	= rifle_5
+![wpn_arbiter_bushmaster]
+repair_type	= rifle_5
+![wpn_arbiter_defender]
+repair_type	= rifle_5
+![wpn_benelli_m1014]
+repair_type	= rifle_5
+![wpn_benelli_m4]
+repair_type	= rifle_5
+![wpn_beretta_1301]
+repair_type	= rifle_5
+![wpn_fal_sa58_osw]
+repair_type	= rifle_5
+![wpn_garand_tac]
+repair_type	= rifle_5
+![wpn_groza_custom]
+repair_type	= rifle_5
+![wpn_groza_duty]
+repair_type	= rifle_5
+![wpn_hcar]
+repair_type	= rifle_5
+![wpn_hk433]
+repair_type	= rifle_5
+![wpn_hk433_n]
+repair_type	= rifle_5
+![wpn_hk433_a]
+repair_type	= rifle_5
+![wpn_hk51]
+repair_type	= rifle_5
+![wpn_igi_ks23_ecolog]
+repair_type	= rifle_5
+![wpn_ithacam37]
+repair_type	= rifle_5
+![wpn_kilo141]
+repair_type	= rifle_5
+![wpn_ks23]
+repair_type	= rifle_5
+![wpn_ks23_ecolog]
+repair_type	= rifle_5
+![wpn_m4_pdw]
+repair_type	= rifle_5
+![wpn_m4_pdw_sup]
+repair_type	= rifle_5
+![wpn_marlin_tracker]
+repair_type	= rifle_5
+![wpn_mk47]
+repair_type	= rifle_5
+![wpn_mp153]
+repair_type	= rifle_5
+![wpn_mp153_bas]
+repair_type	= rifle_5
+![wpn_mp153_m1]
+repair_type	= rifle_5
+![wpn_mp155]
+repair_type	= rifle_5
+![wpn_ots12]
+repair_type	= rifle_5
+![wpn_ots12v2]
+repair_type	= rifle_5
+![wpn_ots12v2s]
+repair_type	= rifle_5
+![wpn_raptr]
+repair_type	= rifle_5
+![wpn_remington700]
+repair_type	= rifle_5
+![wpn_rspartan]
+repair_type	= rifle_5
+![wpn_sa58_new]
+repair_type	= rifle_5
+![wpn_scar_siber]
+repair_type	= rifle_5
+![wpn_scar_siber_black]
+repair_type	= rifle_5
+![wpn_scar_siber]
+repair_type	= rifle_5
+![wpn_scar_siber_black]
+repair_type	= rifle_5
+![wpn_scar_siber_m1]
+repair_type	= rifle_5
+![wpn_scar_siber_m1_black]
+repair_type	= rifle_5
+![wpn_scar_siber_m2]
+repair_type	= rifle_5
+![wpn_scar_siber_m2_custom]
+repair_type	= rifle_5
+![wpn_spas12_slug]
+repair_type	= rifle_5
+![wpn_spas12]
+repair_type	= rifle_5
+![wpn_sg510]
+repair_type	= rifle_5
+![wpn_tiss]
+repair_type	= rifle_5
+![wpn_trophy_ak]
+repair_type	= rifle_5
+![wpn_ak_trophy]
+repair_type	= rifle_5
+![wpn_vepr_ar]
+repair_type	= rifle_5
+![wpn_zm92]
+repair_type	= rifle_5
+
+ ; new r7
+![wpn_aa12]
+repair_type	= rifle_7
+![wpn_aek]
+repair_type	= rifle_7
+![wpn_fn2000]
+repair_type	= rifle_7
+![wpn_fn2000_gl]
+repair_type	= rifle_7
+![wpn_gen12_rwap]
+repair_type	= rifle_7
+![wpn_gungnir]
+repair_type	= rifle_7
+![wpn_ksg12]
+repair_type	= rifle_7
+![wpn_minigun9j]
+repair_type	= rifle_7
+![wpn_protecta]
+repair_type	= rifle_7
+![wpn_protecta_aim]
+repair_type	= rifle_7
+![wpn_protecta_camo]
+repair_type	= rifle_7
+![wpn_protecta_custom]
+repair_type	= rifle_7
+![wpn_protecta_nimble]
+repair_type	= rifle_7
+![wpn_psg1]
+repair_type	= rifle_7
+; ![wpn_rpk74_16]
+; repair_type	= rifle_7
+![wpn_saiga12s]
+repair_type	= rifle_7
+![wpn_saiga12s_isg]
+repair_type	= rifle_7
+![wpn_saiga12s_m1]
+repair_type	= rifle_7
+![wpn_saiga12s_m2]
+repair_type	= rifle_7
+; ![wpn_saiga20s]
+; repair_type	= rifle_7
+![wpn_saiga_bp]
+repair_type	= rifle_7
+![wpn_vepr]
+repair_type	= rifle_7
+![wpn_vepr12_drum]
+repair_type	= rifle_7
+![wpn_m249]
+repair_type	= rifle_7
+![wpn_usas12]
+repair_type	= rifle_7
+![wpn_vr80]
+repair_type	= rifle_7

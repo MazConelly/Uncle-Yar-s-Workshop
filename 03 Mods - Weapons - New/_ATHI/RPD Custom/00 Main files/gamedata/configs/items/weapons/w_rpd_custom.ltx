@@ -1,38 +1,169 @@
 ;------------------------------------------------------------------------------------------------
-[wpn_rpd_custom]:wpn_rpd
-$spawn				= "weapons\rpd_custom"
-parent_section		= wpn_rpd_custom
+[wpn_rpd_custom]:identity_immunities,weapon_probability,default_weapon_params,wpn_rpd_sounds
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\rpd_custom"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_rpd_custom
 
-bullet_bones		= plr_1,plr_2,plr_3,plr_4,plr_5,plr_6,plr_7,plr_8,plr_9,plr_10,plr_11,plr_12,plr_13,plr_14
+class								= WP_AK74
+slot								= 2
+animation_slot						= 2
+ef_main_weapon_type					= 2
+ef_weapon_type						= 8
+hand_dependence						= 1
+single_handed						= 0
 
-icons_texture		= ui\ui_icon_rpd_custom
-inv_grid_height		= 2
-inv_grid_width		= 5
-inv_grid_x			= 0
-inv_grid_y			= 0
-inv_name			= st_wpn_rpd_custom
-inv_name_short		= st_wpn_rpd_custom
-description			= st_wpn_rpd_custom_descr
+default_to_ruck						= false
+sprint_allowed						= true
 
-inv_weight			= 5.9
+bullet_bones						= plr_1,plr_2,plr_3,plr_4,plr_5,plr_6,plr_7,plr_8,plr_9,plr_10,plr_11,plr_12,plr_13,plr_14
 
-hud					= wpn_rpd_custom_hud
-visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_world.ogf
-position			= -0.022733, -0.031362, 0.003318
-fire_point			= 0.003728, 0.083219, 0.572714
-strap_orientation	= -2.093618, -10.250986, 110.7344
-strap_position		= -0.259793, -0.139514, 0.189407
+icons_texture						= ui\ui_icon_rpd_custom
+inv_grid_height						= 2
+inv_grid_width						= 5
+inv_grid_x							= 0
+inv_grid_y							= 0
+inv_name							= st_wpn_rpd_custom
+inv_name_short						= st_wpn_rpd_custom
+description							= st_wpn_rpd_custom_descr
 
-ammo_elapsed		= 125
-ammo_mag_size		= 125
+kind								= w_rifle
+inv_weight							= 5.9
+cost								= 24580
+repair_type							= rifle_7
+weapon_class						= assault_rifle
 
-scopes				= acog, eot, specter, c-more, ac10632, e0t2, ekp8_18, march_f_shorty, march_f_shorty_alt, monstrum, trihawk, t12, ps320, vulcan, c79, p1x42, 1p87, pk6, echo1
+hud									= wpn_rpd_custom_hud
+visual								= anomaly_weapons\wpn_rpd_custom\wpn_rpd_world.ogf
+position							= -0.022733, -0.031362, 0.003318
+orientation							= 0, -2, 0
+fire_point							= 0.003728, 0.083219, 0.572714
+fire_point2							= 0, 0.097, 0.722
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_orientation					= -2.093618, -10.250986, 110.7344
+strap_position						= -0.259793, -0.139514, 0.189407
+ph_mass								= 4
 
-silencer_name		= wpn_sil_pbs1
-silencer_status		= 2
-silencer_x			= 245
-silencer_y			= 6
-rpm					= 750
+flame_particles						= weapons\generic_weapon05
+smoke_particles						= weapons\generic_shoot_00
+grenade_flame_particles				= weapons\generic_weapon01
+
+shell_point							= -0.02,0.167,0.082
+shell_dir							= 0, 0, 0.4
+shell_particles						= weapons\762x39
+
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgrades							= up_gr_firstab_pkm, up_gr_seconab_pkm, up_gr_thirdab_pkm, up_gr_fourtab_pkm, up_gr_fifthab_pkm
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_pkm
+upgr_icon_x							= 0
+upgr_icon_y							= 1900
+upgr_icon_width						= 300
+upgr_icon_height					= 100
+
+fire_modes							= 1, -1
+ammo_class							= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+ammo_elapsed						= 125
+ammo_mag_size						= 125
+startup_ammo						= 90
+
+scopes								= acog, eot, specter, c-more, ac10632, e0t2, ekp8_18, march_f_shorty, march_f_shorty_alt, monstrum, trihawk, t12, ps320, vulcan, c79, p1x42, 1p87, pk6, echo1
+scope_status						= 0
+scope_zoom_factor					= 0
+
+silencer_name						= wpn_sil_pbs1
+silencer_status						= 2
+silencer_x							= 245
+silencer_y							= 6
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= weapons\generic_shoot_00
+
+grenade_class						= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name				= wpn_addon_grenade_launcher
+grenade_launcher_status				= 0
+grenade_launcher_x					= 120
+grenade_launcher_y					= 9
+launch_speed						= 0
+
+hit_impulse							= 25
+hit_power							= 0.59, 0.59, 0.59, 0.59
+hit_type							= fire_wound
+fire_distance						= 900
+bullet_speed						= 730
+rpm									= 750
+rpm_empty_click						= 200
+
+use_aim_bullet						= false
+time_to_aim							= 0.0 ;  3.0
+zoom_dof							= 0.5, 1.0, 180
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0.0, 0.5, 5, 2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 8.4
+fire_dispersion_base				= 0.38
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability					= 0.005
+misfire_start_condition				= 0.7 ;  0.75
+misfire_start_prob					= 0.007
+misfire_end_condition				= 0.09
+misfire_end_prob					= 0.11
+
+condition_queue_shot_dec			= 0.0008
+condition_shot_dec					= 0.0008
+
+cam_return							= 0
+cam_relax_speed						= 10
+cam_dispersion						= 0.762
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.0725
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 1.38
+zoom_cam_relax_speed				= 10
+zoom_cam_dispersion					= 0.732
+zoom_cam_dispersion_frac			= 0.7
+zoom_cam_dispersion_inc				= 0.0625
+zoom_cam_max_angle					= 50.0
+zoom_cam_max_angle_horz				= 50.0
+zoom_cam_step_angle_horz			= 1.28
+
+PDM_disp_accel_factor				= 2.5
+PDM_disp_base						= 1.15
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 2.5
+
+cam_relax_speed_ai					= 360
+zoom_cam_relax_speed_ai				= 360
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
+
+kill_msg_x		= 0
+kill_msg_y		= 28
+kill_msg_width	= 84
+kill_msg_height	= 28
 
 snd_reload							= weapons\librarian_rpd\reload
 snd_reload_empty					= weapons\librarian_rpd\reload_empty
@@ -48,8 +179,13 @@ lewd_lens_hide_bone		= lens
 lewd_lens_hide_delays	= 0.1,0
 lewd_lens_hide_aim_mode	= true, false, false
 
-[wpn_rpd_custom_hud]:wpn_rpd_hud
-item_visual		= anomaly_weapons\wpn_rpd_custom\wpn_rpd_hud.ogf
+[wpn_rpd_custom_hud]:hud_base
+item_visual			= anomaly_weapons\wpn_rpd_custom\wpn_rpd_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
 
 hands_orientation		= 0.549146, 0.421533, 0.059202
 hands_orientation_16x9	= 0.549146, 0.421533, 0.059202
@@ -70,6 +206,14 @@ aim_hud_offset_alt_pos		= -0.126449, -0.101251, 0
 aim_hud_offset_alt_pos_16x9	= -0.126449, -0.101251, 0
 aim_hud_offset_alt_rot		= 0.006253, 0.017063, 0.75
 aim_hud_offset_alt_rot_16x9	= 0.006253, 0.017063, 0.75
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
 
 anm_hide					= rpd_hand_holster, rpd_idle
 anm_idle					= rpd_hand_idle, rpd_idle
@@ -101,11 +245,15 @@ anm_shots_aim_l						= rpd_hand_shoot_aim, rpd_shoot_last
 anm_reload_misfire_empty			= rpd_hand_unjam_empty, rpd_unjam_charge_empty
 
 shell_bone	= kntl
+shell_dir	= 0, 1, 0
+shell_point	= 0.028, 0.078, 0.113
 
 fire_bone	= muzzle
 fire_bone2	= muzzle
 fire_point	= 0.001, 0, -0.17
 fire_point2	= 0, 0, 0
+
+freelook_z_offset_mul	= 0.55
 
 ;=====================================================sights==================================================
 [wpn_rpd_custom_ac10632]:wpn_rpd_custom
@@ -233,11 +381,9 @@ aim_hud_offset_pos		= -0.095262, 0.013643, -0.08
 aim_hud_offset_pos_16x9	= -0.095262, 0.013643, -0.08
 aim_hud_offset_rot		= 0.01452, 0.005856, 0
 aim_hud_offset_rot_16x9	= 0.01452, 0.005856, 0
-
 ;-----------------------------------------------------------------SCOPES-------------------------------------------------------------
 [wpn_rpd_custom_specter]:wpn_rpd_custom
 hud				= wpn_rpd_custom_specter_hud
-
 visual			= anomaly_weapons\wpn_rpd_custom\wpn_rpd_acog_world.ogf
 
 1icon_layer		= specter_x
@@ -260,7 +406,6 @@ aim_hud_offset_rot_16x9	= 0.011427, 0.00589, 0.002272
 ;---------------------------------------------------------------------------------
 [wpn_rpd_custom_acog]:wpn_rpd_custom
 hud				= wpn_rpd_custom_acog_hud
-
 visual			= anomaly_weapons\wpn_rpd_custom\wpn_rpd_acog_world.ogf
 
 1icon_layer		= acog_x
@@ -298,7 +443,6 @@ aim_hud_offset_pos		= -0.095446, 0.00124, -0.154375
 aim_hud_offset_pos_16x9	= -0.095446, 0.00124, -0.154375
 aim_hud_offset_rot		= 0.011482, 0.005672, 0.002272
 aim_hud_offset_rot_16x9	= 0.011482, 0.005672, 0.002272
-
 ;-------------------------------------------------------------------------------
 [wpn_rpd_custom_march_f_shorty_alt]:wpn_rpd_custom
 hud				= wpn_rpd_custom_march_f_shorty_alt_hud
@@ -324,7 +468,6 @@ aim_hud_offset_alt_pos		= -0.10154, -0.082143, 0
 aim_hud_offset_alt_pos_16x9	= -0.10154, -0.082143, 0
 aim_hud_offset_alt_rot		= 0.006892, 0.011032, 0.78
 aim_hud_offset_alt_rot_16x9	= 0.006892, 0.011032, 0.78
-
 ;-------------------------------------------------------------------------------------------
 [wpn_rpd_custom_monstrum]:wpn_rpd_custom
 hud				= wpn_rpd_custom_monstrum_hud

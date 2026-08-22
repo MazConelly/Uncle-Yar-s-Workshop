@@ -5,7 +5,7 @@
 		<text>MAT-49</text>
 	</string>
 	<string id="st_wpn_mat49_descr">
-		<text>The MAT-49 is developed by French arms factory Manufacture Nationale d'Armes de Tulle, MAT for short, in 1947 and put to global use in 1949, it saw use until 1973. The gun uses 9x19mm, with some small modifications needed to make it shoot 7.62x25mm Tokarev. One of the benefits from this gun is on how easy it is to make it compact, making carrying it a breeze, as well as the very low weight and the incredible reliability despite the simpler design. Rather rare in The Zone, and although there are other better and more modern 9x19 submachine guns available, you can't go wrong with this one.</text>
+		<text>The MAT-49 is developed by French arms factory Manufacture Nationale d'Armes de Tulle, MAT for short, in 1947 and put to global use in 1949, it saw use until 1973. The gun uses 9x19mm, with some small modifications needed to make it shoot 7.62x25mm Tokarev. One of the benefits from this gun is on how easy it is to make it compact, making carrying it a breeze, as well as the very low weight and the incredible reliability despite the simpler design. Rather rare in the Zone, and although there are other better and more modern 9x19 submachine guns available, you can't go wrong with this one.</text>
 	</string>
 
 	<string id="st_up_mat49_tokarev">
@@ -27,4 +27,5 @@
 	<string id="st_mag_mat49_762_descr">
 		<text>Long, straight magazine with 35 rounds of 7.62x25mm Tokarev, made for the MAT-49 M.</text>
 	</string>
+
 </string_table>

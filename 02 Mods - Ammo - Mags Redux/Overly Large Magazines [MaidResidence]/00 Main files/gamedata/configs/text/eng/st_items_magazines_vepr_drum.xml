@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_vepr_12x70_drum">
+		<text>MaxRounds Powermag 20-round magazine</text>
+	</string>
+	<string id="st_mag_vepr_12x70_drum_descr">
+		<text>MaxRounds Powermag 20-round magazine, compatible with the Vepr-12 shotgun.</text>
+	</string>
+
+</string_table>
